@@ -14,24 +14,24 @@ Here are the hackathons, categorized based on their status. If you know of any t
 
 | Hackathon Name  | Location  | Date  | Registration | Deadline | Topic(s)  | Notes | URL  |
 |-----------------|-----------|-------|--------------|----------|-----------|-------|------|
-| Start Hack      | St. Gallen, Switzerland | Mar, 2025  | Early Dec, 2024 | TBA      |  |  | [startglobal.org](https://www.startglobal.org/start-hack/home) |
-| HackaTUM        | Munich, Germany         | Nov 22-24, 2024 | TBA   | TBA      |  |  | [hack.tum.de](https://hack.tum.de/) |
-| Encode London   | London, United Kingdom  | Oct 25-27, 2024 | Live  | TBA      |  |  | [encode.club](https://www.encode.club/encodelondon-24) |
-| NNE AI & ML Hackathon | Copenhagen, Denmark | Oct 15-18, 2024 | Live  | Oct 6, 2024 | AI |  | [nne.com](https://www.nne.com/hackathon-2024) |
+| **Start Hack**      | St. Gallen, Switzerland | Mar, 2025  | Early Dec, 2024 | TBA      |  |  | [startglobal.org](https://www.startglobal.org/start-hack/home) |
+| **HackaTUM**        | Munich, Germany         | Nov 22-24, 2024 | TBA   | TBA      |  |  | [hack.tum.de](https://hack.tum.de/) |
+| **Encode London**   | London, United Kingdom  | Oct 25-27, 2024 | Live  | TBA      |  |  | [encode.club](https://www.encode.club/encodelondon-24) |
+| **NNE AI & ML Hackathon** | Copenhagen, Denmark | Oct 15-18, 2024 | Live  | Oct 6, 2024 | AI |  | [nne.com](https://www.nne.com/hackathon-2024) |
 
 ### 🔵 Future Estimations
 
 | Hackathon Name  | Location  | Estimated Date | Topic(s) | Notes | URL  |
 |-----------------|-----------|----------------|----------|-------|------|
-| HackZurich      | Zurich, Switzerland | Mid Sep, 2025 |  | Onsite | [hackzurich.com](https://hackzurich.com/) |
-| ICHack UK       | London, United Kingdom  | Early Feb, 2025 |  | Onsite | [ichack.org](https://ichack.org/) |
+| **HackZurich**      | Zurich, Switzerland | Mid Sep, 2025 |  | Onsite | [hackzurich.com](https://hackzurich.com/) |
+| **ICHack UK**       | London, United Kingdom  | Early Feb, 2025 |  | Onsite | [ichack.org](https://ichack.org/) |
 
 ### 🔴 Past Hackathons
 
 | Hackathon Name  | Location  | Date           | Topic(s)  | Notes | URL  |
 |-----------------|-----------|----------------|-----------|-------|------|
-| Mistral AI Fine-tuning Hackathon | Online          | Jun 5 - 30, 2024 | AI |  | [mistral.ai](https://mistral.ai/news/2024-ft-hackathon/) |
-| ICHack UK       | London, United Kingdom  | Feb 3-4, 2024 |  |  | [ichack.org](https://ichack.org/) |
+| **Mistral AI Fine-tuning Hackathon** | Online          | Jun 5 - 30, 2024 | AI |  | [mistral.ai](https://mistral.ai/news/2024-ft-hackathon/) |
+| **ICHack UK**       | London, United Kingdom  | Feb 3-4, 2024 |  |  | [ichack.org](https://ichack.org/) |
 
 ---
 

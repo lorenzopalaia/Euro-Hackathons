@@ -17,8 +17,8 @@ Here is a list of upcoming hackathons across Europe. If you know of any that are
 | Encode London | London, United Kingdom | Oct 25-27 | Live |  | [encode.club](https://www.encode.club/encodelondon-24) |
 | NNE AI & ML Hackathon | Copenhagen, Denmark | Oct 15-18, 2024 | Live | Oct 6, 2024 | [nne.com](https://www.nne.com/hackathon-2024) |
 | Mistral AI Fine-tuning Hackathon | Online | Jun 5 - 30, 2024 | Closed |  | [mistral.ai](https://mistral.ai/news/2024-ft-hackathon/) |
-| HackZurich | Zurich, Switzerland |  |  |  | [hackzurich.com](https://hackzurich.com/) |
 | ICHack UK | London, United Kingdom | Feb 3-4, 2024 | Closed |  | [ichack.org](https://ichack.org/) |
+| HackZurich | Zurich, Switzerland |  |  |  | [hackzurich.com](https://hackzurich.com/) |
 
 ---
 

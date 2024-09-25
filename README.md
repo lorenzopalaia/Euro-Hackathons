@@ -15,7 +15,7 @@ Here is a list of upcoming hackathons across Europe. If you know of any that are
 | Start Hack | St. Gallen, Switzerland | Mar, 2025 | Early Dec, 2024 |  | [startglobal.org](https://www.startglobal.org/start-hack/home) |
 | HackaTUM | Munich, Germany | Nov 22-24, 2024 | TBA |  | [hack.tum.de](https://hack.tum.de/) |
 | Encode London | London, United Kingdom | Oct 25-27 | Live |  | [encode.club](https://www.encode.club/encodelondon-24) |
-| NNE/DTU RoboTech Challenge | Copenhagen, Denmark |  |  |  | [nne.com](https://www.nne.com/about-us/events-and-courses/all-events/nnedtu-robotech-challenge/) |
+| NNE AI & ML Hackathon | Copenhagen, Denmark | Oct 15-18, 2024 | Live | Oct 6, 2024 | [nne.com](https://www.nne.com/hackathon-2024) |
 | Mistral AI Fine-tuning Hackathon | Online | Jun 5 - 30, 2024 |  |  | [mistral.ai](https://mistral.ai/news/2024-ft-hackathon/) |
 | HackZurich | Zurich, Switzerland |  |  |  | [hackzurich.com](https://hackzurich.com/) |
 | ICHack UK | London, United Kingdom | Feb 3-4, 2024 |  |  | [ichack.org](https://ichack.org/) |

@@ -14,10 +14,14 @@ Here are the hackathons, categorized based on their status. If you know of any t
 
 | Hackathon Name  | Location  | Date  | Registration | Deadline | Topic(s)  | Notes | URL  |
 |-----------------|-----------|-------|--------------|----------|-----------|-------|------|
-| **Start Hack**      | St. Gallen, Switzerland | Mar, 2025  | Early Dec, 2024 | TBA      |  |  | [startglobal.org](https://www.startglobal.org/start-hack/home) |
-| **HackaTUM**        | Munich, Germany         | Nov 22-24, 2024 | TBA   | TBA      |  |  | [hack.tum.de](https://hack.tum.de/) |
-| **Encode London**   | London, United Kingdom  | Oct 25-27, 2024 | Live  | TBA      |  |  | [encode.club](https://www.encode.club/encodelondon-24) |
+| **Start Hack**      | St. Gallen, Switzerland | Mar, 2025  | Early Dec, 2024 |  |  |  | [startglobal.org](https://www.startglobal.org/start-hack/home) |
+| **HackaTUM**        | Munich, Germany         | Nov 22-24, 2024 | TBA   |  |  |  | [hack.tum.de](https://hack.tum.de/) |
+| **Encode London**   | London, United Kingdom  | Oct 25-27, 2024 | Live  |  |  |  | [encode.club](https://www.encode.club/encodelondon-24) |
+| HacktoberFest | Camerino, IT | Oct 16, 2024 | Live |  |  |  | [eventbrite.com](https://www.eventbrite.com/e/hacktoberfest-2024-tickets-1028950678177?aff=ebdssbdestsearch&keep_tld=1) |
 | **NNE AI & ML Hackathon** | Copenhagen, Denmark | Oct 15-18, 2024 | Live  | Oct 6, 2024 | AI |  | [nne.com](https://www.nne.com/hackathon-2024) |
+| IATA ONE Record Hackathon | Istanbul, TU | Oct 5-6 | Closed | Sep 20, 2024 |  |  | [devpost.com](https://onerecord-ist.devpost.com/?ref_feature=challenge&ref_medium=discover) |
+| IdeaHack! | Vallendar, DE | Oct 3-4, 2024 | Live |  |  |  | [businessmeetstech.de](https://www.businessmeetstech.de/) |
+| UniHack | Timisoara, RO | Nov 7-10, 2024 | Live |  |  |  | [unihack.eu](https://unihack.eu/) |
 
 ### 🔵 Future Estimations
 

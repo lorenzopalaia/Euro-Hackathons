@@ -16,12 +16,11 @@ Here are the hackathons, categorized based on their status. If you know of any t
 |-----------------|-----------|-------|--------------|----------|-----------|-------|------|
 | **Start Hack**      | St. Gallen, Switzerland | Mar, 2025  | Early Dec, 2024 |  |  |  | [startglobal.org](https://www.startglobal.org/start-hack/home) |
 | **HackaTUM**        | Munich, Germany         | Nov 22-24, 2024 | TBA   |  |  |  | [hack.tum.de](https://hack.tum.de/) |
+| UniHack | Timisoara, RO | Nov 7-10, 2024 | Live |  |  |  | [unihack.eu](https://unihack.eu/) |
 | **Encode London**   | London, United Kingdom  | Oct 25-27, 2024 | Live  |  |  |  | [encode.club](https://www.encode.club/encodelondon-24) |
 | HacktoberFest | Camerino, IT | Oct 16, 2024 | Live |  |  |  | [eventbrite.com](https://www.eventbrite.com/e/hacktoberfest-2024-tickets-1028950678177?aff=ebdssbdestsearch&keep_tld=1) |
 | **NNE AI & ML Hackathon** | Copenhagen, Denmark | Oct 15-18, 2024 | Live  | Oct 6, 2024 | AI |  | [nne.com](https://www.nne.com/hackathon-2024) |
-| IATA ONE Record Hackathon | Istanbul, TU | Oct 5-6 | Closed | Sep 20, 2024 |  |  | [devpost.com](https://onerecord-ist.devpost.com/?ref_feature=challenge&ref_medium=discover) |
-| IdeaHack! | Vallendar, DE | Oct 3-4, 2024 | Live |  |  |  | [businessmeetstech.de](https://www.businessmeetstech.de/) |
-| UniHack | Timisoara, RO | Nov 7-10, 2024 | Live |  |  |  | [unihack.eu](https://unihack.eu/) |
+| **Mistral AI x Alan Healthcare** | Paris, FR | Oct 12-13, 2024 | Live |  | AI |  | [partiful.com](https://partiful.com/e/ysBoxA0GtDFiYMSka0o7) |
 
 ### 🔵 Future Estimations
 
@@ -34,6 +33,8 @@ Here are the hackathons, categorized based on their status. If you know of any t
 
 | Hackathon Name  | Location  | Date           | Topic(s)  | Notes | URL  |
 |-----------------|-----------|----------------|-----------|-------|------|
+| IATA ONE Record Hackathon | Istanbul, TU | Oct 5-6 |  |  | [devpost.com](https://onerecord-ist.devpost.com/?ref_feature=challenge&ref_medium=discover) |
+| IdeaHack! | Vallendar, DE | Oct 3-4, 2024 |  |  | [businessmeetstech.de](https://www.businessmeetstech.de/) |
 | **Mistral AI Fine-tuning Hackathon** | Online          | Jun 5 - 30, 2024 | AI |  | [mistral.ai](https://mistral.ai/news/2024-ft-hackathon/) |
 | **ICHack UK**       | London, United Kingdom  | Feb 3-4, 2024 |  |  | [ichack.org](https://ichack.org/) |
 

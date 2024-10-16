@@ -18,6 +18,7 @@ Here are the hackathons, categorized based on their status. If you know of any t
 | **LauzHack** | Lausanne, Switzerland | Nov 30 - Dec 1, 2024 | | | | | [lauzhack.com](https://lauzhack.com/) |
 | **HackaTUM**        | Munich, Germany         | Nov 22-24, 2024 | TBA   |  |  |  | [hack.tum.de](https://hack.tum.de/) |
 | **Neodata Hackatania 2** | Catania, IT | Nov 15-18, 2024 |  |  |  |  | [devpost.com](https://hackatania-2.devpost.com/) |
+| **Junction 2024** | Helsinki, FI | Nov 8-10, 2024 | Closed | Oct 15, 2024 |  |  | [junction.com](https://www.junction2024.com/) |
 | **UniHack** | Timisoara, RO | Nov 7-10, 2024 | Live |  |  |  | [unihack.eu](https://unihack.eu/) |
 | **Bio x AI** | London, UK | Nov 2-3, 2024 | Live | Oct 25, 2024 |  |  | [lu.ma](https://lu.ma/nqem2kcg) |
 | **Hack Day** | Cambridge, UK | Oct 27, 2024 | Live |  |  |  | [lu.ma](https://lu.ma/o07b5s8m) |

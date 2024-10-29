@@ -38,6 +38,7 @@ Here are the hackathons, categorized based on their status. If you know of any t
 |-----------------|-----------|----------------|----------|-------|------|
 | **HackZurich**      | Zurich, CH | Mid Sep, 2025 |  | Onsite | [hackzurich.com](https://hackzurich.com/) |
 | **ICHack UK**       | London, UK  | Early Feb, 2025 |  | Onsite | [ichack.org](https://ichack.org/) |
+| **Hack The North**   | Canada     | Sep , 2025      | Onsite (they offer refund for travel) |  [hackthenorth.com](https://hackthenorth.com/) |
 
 ### 🔴 Past Hackathons
 

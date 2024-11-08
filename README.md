@@ -17,20 +17,12 @@ Here are the hackathons, categorized based on their status. If you know of any t
 | **Start Hack** | St. Gallen, CH | Mar, 2025  | Early Dec, 2024 |  |  |  | [startglobal.org](https://www.startglobal.org/start-hack/home) |
 | **Master Dev France** | Paris, FC | Mar 12, 2025 | Live | Jan 31, 2024 |  |  | [dev.events](https://dev.events/conferences/master-dev-de-france-hv4nlmbu) |
 | **LauzHack** | Lausanne, CH | Nov 30 - Dec 1, 2024 | | | | | [lauzhack.com](https://lauzhack.com/) |
+| **Hack.Commit.Push** | Lucerne, CH | Nov 23, 2024 | Live |  | Open Source |  | [dev.events](https://dev.events/conferences/hack-commit-push-dzq1ba1) |
 | **HackaTUM** | Munich, DE | Nov 22-24, 2024 | TBA   |  |  |  | [hack.tum.de](https://hack.tum.de/) |
 | **Odoo Hackathon** | Ramillies, BE | Nov 22-24, 2024 | Closed |  |  |  | [dev.events](https://dev.events/conferences/odoo-hackathon-hrkv-dq1) |
 | **HackSheffield** | Sheffield, UK | Nov 16-17, 2024 |  |  |  |  | [hacksheffield.uk](https://hacksheffield.uk/) |
 | **Neodata Hackatania 2** | Catania, IT | Nov 15-18, 2024 |  |  |  |  | [devpost.com](https://hackatania-2.devpost.com/) |
 | **The Raccoons Hackathon** | Riga, LV | Nov 15-17, 2024 |  |  |  |  | [dev.events](https://dev.events/conferences/the-raccoons-hackathon-2024-yhvrwzdy) |
-| **GreatUniHack** | Manchester, UK | Nov 9-10, 2024 | Closed |  |  |  | [greatunihack.com](https://greatunihack.com/) |
-| **Junction 2024** | Helsinki, FI | Nov 8-10, 2024 | Closed | Oct 15, 2024 |  |  | [junction.com](https://www.junction2024.com/) |
-| **UniHack** | Timisoara, RO | Nov 7-10, 2024 | Live |  |  |  | [unihack.eu](https://unihack.eu/) |
-| **DurHack** | Durham, UK | Nov 2-3, 2024 | Live |  |  |  | [durhack.com](https://durhack.com/) |
-| **Bio x AI** | London, UK | Nov 2-3, 2024 | Live | Oct 25, 2024 |  |  | [lu.ma](https://lu.ma/nqem2kcg) |
-| **Hack Day** | Cambridge, UK | Oct 27, 2024 | Live |  |  |  | [lu.ma](https://lu.ma/o07b5s8m) |
-| **HackNotts** | Nottingham, UK | Oct 26-27, 2024 |  |  |  |  | [hacknotts.com](https://www.hacknotts.com/) |
-| **Cloudflight Coding Contest** | Košice, SK | Oct 25, 2024 |  |  |  |  | [codingcontest.org](https://register.codingcontest.org/listing/44-2024-10-25) |
-| **Encode London**   | London, UK  | Oct 25-27, 2024 | Live  |  |  |  | [encode.club](https://www.encode.club/encodelondon-24) |
 
 ### 🔵 Future Estimations
 
@@ -43,6 +35,15 @@ Here are the hackathons, categorized based on their status. If you know of any t
 
 | Hackathon Name  | Location  | Date           | Topic(s)  | Notes | URL  |
 |-----------------|-----------|----------------|-----------|-------|------|
+| **GreatUniHack** | Manchester, UK | Nov 9-10, 2024 | Closed |  |  |  | [greatunihack.com](https://greatunihack.com/) |
+| **Junction 2024** | Helsinki, FI | Nov 8-10, 2024 |  |  | [junction.com](https://www.junction2024.com/) |
+| **UniHack** | Timisoara, RO | Nov 7-10, 2024 |  |  | [unihack.eu](https://unihack.eu/) |
+| **DurHack** | Durham, UK | Nov 2-3, 2024 |  |  | [durhack.com](https://durhack.com/) |
+| **Bio x AI** | London, UK | Nov 2-3, 2024 |  |  | [lu.ma](https://lu.ma/nqem2kcg) |
+| **Hack Day** | Cambridge, UK | Oct 27, 2024 |  |  | [lu.ma](https://lu.ma/o07b5s8m) |
+| **HackNotts** | Nottingham, UK | Oct 26-27, 2024 |  |  | [hacknotts.com](https://www.hacknotts.com/) |
+| **Cloudflight Coding Contest** | Košice, SK | Oct 25, 2024 |  |  | [codingcontest.org](https://register.codingcontest.org/listing/44-2024-10-25) |
+| **Encode London**   | London, UK  | Oct 25-27, 2024 |  |  | [encode.club](https://www.encode.club/encodelondon-24) |
 | **HacktoberFest** | Camerino, IT | Oct 16, 2024 |  |  | [eventbrite.com](https://www.eventbrite.com/e/hacktoberfest-2024-tickets-1028950678177?aff=ebdssbdestsearch&keep_tld=1) |
 | **NNE AI & ML Hackathon** | Copenhagen, DE | Oct 15-18, 2024 |  |  | [nne.com](https://www.nne.com/hackathon-2024) |
 | **Mistral AI x Alan Healthcare** | Paris, FR | Oct 12-13, 2024 | AI |  | [partiful.com](https://partiful.com/e/ysBoxA0GtDFiYMSka0o7) |

@@ -23,6 +23,9 @@ Here are the hackathons, categorized based on their status. If you know of any t
 | **HackSheffield** | Sheffield, UK | Nov 16-17, 2024 |  |  |  |  | [hacksheffield.uk](https://hacksheffield.uk/) |
 | **Neodata Hackatania 2** | Catania, IT | Nov 15-18, 2024 |  |  |  |  | [devpost.com](https://hackatania-2.devpost.com/) |
 | **The Raccoons Hackathon** | Riga, LV | Nov 15-17, 2024 |  |  |  |  | [dev.events](https://dev.events/conferences/the-raccoons-hackathon-2024-yhvrwzdy) |
+| **Llama Impact Hackathon** | London, UK | Nov 16-17, 2024 |  |  |  |  | [partiful.com](https://partiful.com/e/1QAQBvswoEIgsWmUIiDY?) <br> [lama Impact Grant program!](https://www.llama.com/llama-impact-grants/) |
+| **Pisa Quantum Fest** | Pisa, IT | Nov 21-22, 2024 |  |  |  |  | [lu.ma](https://lu.ma/g0fjf4mb) |
+| **Consumer AI Edge Hackathon** | Paris, FR | Nov 22-23, 2024 |  |  |  |  | [pisa-quantum-festival](https://pisa-quantum-festival.github.io/) |
 
 ### 🔵 Future Estimations
 

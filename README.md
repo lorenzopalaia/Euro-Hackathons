@@ -17,6 +17,7 @@ Here are the hackathons, categorized based on their status. If you know of any t
 | **Start Hack** | St. Gallen, CH | Mar, 2025  | Early Dec, 2024 |  |  |  | [startglobal.org](https://www.startglobal.org/start-hack/home) |
 | **Master Dev France** | Paris, FC | Mar 12, 2025 | Live | Jan 31, 2024 |  |  | [dev.events](https://dev.events/conferences/master-dev-de-france-hv4nlmbu) |
 | **LauzHack** | Lausanne, CH | Nov 30 - Dec 1, 2024 | | | | | [lauzhack.com](https://lauzhack.com/) |
+| **Llama Impact Hackathon Rome** | Rome, IT | Nov 29 - Dec1, 2024 | Live/Online |  |  |  | [lablab.ai](https://lablab.ai/event/llama-impact-hackathon-rome) |
 | **Hack.Commit.Push** | Lucerne, CH | Nov 23, 2024 | Live |  | Open Source |  | [dev.events](https://dev.events/conferences/hack-commit-push-dzq1ba1) |
 | **HackaTUM** | Munich, DE | Nov 22-24, 2024 | TBA   |  |  |  | [hack.tum.de](https://hack.tum.de/) |
 | **Odoo Hackathon** | Ramillies, BE | Nov 22-24, 2024 | Closed |  |  |  | [dev.events](https://dev.events/conferences/odoo-hackathon-hrkv-dq1) |

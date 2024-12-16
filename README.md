@@ -1,13 +1,16 @@
 ![Hackathon Logo](https://user-images.githubusercontent.com/36594527/117592199-10730800-b17b-11eb-84f8-4ffcae8116d4.png)
 
 # <p align="center">🚀 EURO HACKATHONS</p>
-### <p align="center">⚠️ Website coming soon...</p>
+### <p align="center">🌐 Website is now live! Visit us at [eurohackathons.lorenzopalaia.it](https://eurohackathons.lorenzopalaia.it)</p>
+
+> ⚠️ **Note:** The main support will now be provided on our [website](https://eurohackathons.lorenzopalaia.it). Support on this repository is not guaranteed.
 
 Welcome to **EURO HACKATHONS**! This repository provides an up-to-date list of hackathons happening across Europe. Whether you're a seasoned hacker or a beginner looking for your first hackathon, you'll find all the information you need here! 🎉
 
 ---
 
 ## 🗺️ Hackathons in Europe
+
 
 Here are the hackathons, categorized based on their status. If you know of any that are missing, feel free to contribute! 🙌
 

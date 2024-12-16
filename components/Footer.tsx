@@ -10,10 +10,6 @@ const footerData = {
       title: "Resources",
       links: [
         {
-          href: "https://eurohackathons.lorenzopalaia.it/",
-          label: "Euro Hackathons",
-        },
-        {
           href: "https://github.com/lorenzopalaia/euro-hackathons",
           label: "Github",
         },
@@ -21,10 +17,7 @@ const footerData = {
     },
     {
       title: "Follow us",
-      links: [
-        { href: "https://github.com/lorenzopalaia", label: "Github" },
-        { href: "", label: "Discord" },
-      ],
+      links: [{ href: "https://github.com/lorenzopalaia", label: "Github" }],
     },
     {
       title: "Legal",

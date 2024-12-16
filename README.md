@@ -15,16 +15,11 @@ Here are the hackathons, categorized based on their status. If you know of any t
 
 | Hackathon Name  | Location  | Date  | Registration | Deadline | Topic(s)  | Notes | URL  |
 |-----------------|-----------|-------|--------------|----------|-----------|-------|------|
-| **Start Hack** | St. Gallen, CH | Mar, 2025  | Early Dec, 2024 |  |  |  | [startglobal.org](https://www.startglobal.org/start-hack/home) |
+| **Start Hack** | St. Gallen, CH | Mar 19 - 21, 2025  | Early Dec, 2024 |  |  |  | [startglobal.org](https://www.startglobal.org/start-hack/home) |
 | **Master Dev France** | Paris, FC | Mar 12, 2025 | Live | Jan 31, 2024 |  |  | [dev.events](https://dev.events/conferences/master-dev-de-france-hv4nlmbu) |
-| **IATA ONE Record Hackathon** | Feb 24 - 25, 2025 | Dublin, IE |  |  |  |  | [onerecord-dub.devpost.com](https://onerecord-dub.devpost.com/) |
+| **IATA ONE Record Hackathon** | Dublin, IE | Feb 24 - 25, 2025 |  |  |  |  | [onerecord-dub.devpost.com](https://onerecord-dub.devpost.com/) |
+| **Hackapizza** | Milan, IT | Jan 18 - 19, 2025 | Live |  |  |  | [hackathon.datapizza.com](https://hackathon.datapizza.com/) |
 | **Data-Driven VC Hackathon** | Paris, FR | Jan 15, 2025 | Live |  |  |  | [lu.ma](https://lu.ma/v6gmtjf0) |
-| **Berlin Builders x Buena Hackathon** | Berlin, DE | Dec 14, 2024 |  |  |  |  | [lu.ma](https://lu.ma/18z0thox) |
-| **AI Hack Night** | Berlin, DE | Dec 12, 2024 |  |  |  |  | [lu.ma](https://lu.ma/hacknight-berlin-12-12-24) |
-| **AI with MATLAB** | Thessaloniki, GR | Dec 10, 2024 |  |  |  |  | [aristotle-hackathon.devpost.com](https://aristotle-hackathon.devpost.com/) |
-| **Hack START Munich** | Munich, DE | Dec 7 - 8, 2024 |  |  |  |  | [lu.ma](https://lu.ma/75nme2q3) |
-| **Bio x AI Hack** | Paris, FR | Dec 7, 2024 |  |  |  |  | [lu.ma](https://lu.ma/nmqgrfws) |
-| **CODE HackDay** | Berlin, DE | Dec 6, 2024 |  |  |  |  | [lu.ma](https://lu.ma/32h2czrx) |
 
 ### 🔵 Future Estimations
 
@@ -37,6 +32,12 @@ Here are the hackathons, categorized based on their status. If you know of any t
 
 | Hackathon Name  | Location  | Date           | Topic(s)  | Notes | URL  |
 |-----------------|-----------|----------------|-----------|-------|------|
+| **Berlin Builders x Buena Hackathon** | Berlin, DE | Dec 14, 2024 |  |  | [lu.ma](https://lu.ma/18z0thox) |
+| **AI Hack Night** | Berlin, DE | Dec 12, 2024 |  |  | [lu.ma](https://lu.ma/hacknight-berlin-12-12-24) |
+| **AI with MATLAB** | Thessaloniki, GR | Dec 10, 2024 |  |  | [aristotle-hackathon.devpost.com](https://aristotle-hackathon.devpost.com/) |
+| **Hack START Munich** | Munich, DE | Dec 7 - 8, 2024 |  |  | [lu.ma](https://lu.ma/75nme2q3) |
+| **Bio x AI Hack** | Paris, FR | Dec 7, 2024 |  |  | [lu.ma](https://lu.ma/nmqgrfws) |
+| **CODE HackDay** | Berlin, DE | Dec 6, 2024 |  |  | [lu.ma](https://lu.ma/32h2czrx) |
 | **LauzHack** | Lausanne, CH | Nov 30 - Dec 1, 2024 |  |  | [lauzhack.com](https://lauzhack.com/) |
 | **Llama Impact Hackathon** | Rome, IT | Nov 29 - Dec 1, 2024 | AI | Hybrid | [lablab.ai](https://lablab.ai/event/llama-impact-hackathon-rome) |
 | **Hack.Commit.Push** | Lucerne, CH | Nov 23, 2024 | Open Source |  | [dev.events](https://dev.events/conferences/hack-commit-push-dzq1ba1) |

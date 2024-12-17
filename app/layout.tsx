@@ -20,7 +20,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Euro Hackathons",
-  description: "Find your next hackathon 🚀",
+  description: "Find your next hackathon 🇪🇺🚀",
 };
 
 export default function RootLayout({

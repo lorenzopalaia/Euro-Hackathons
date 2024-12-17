@@ -7,7 +7,7 @@ function Heading() {
   return (
     <div className="text-center">
       <h1 className="text-balance text-5xl font-semibold tracking-tight sm:text-7xl">
-        Find your next <UnderlinedText>hackathon</UnderlinedText> 🚀
+        Find your next <UnderlinedText>hackathon</UnderlinedText> 🇪🇺🚀
       </h1>
     </div>
   );
@@ -17,8 +17,10 @@ function Description() {
   return (
     <>
       <p className="mt-8 text-pretty text-lg font-medium text-muted-foreground sm:text-xl/8">
-        The best hackathons in Europe, all in one place. Discover events,
-        connect with other participants, and showcase your skills.
+        The best hackathons in{" "}
+        <span className="font-bold text-foreground">Europe</span>, all in one
+        place. Discover events, connect with other participants, and showcase
+        your skills.
       </p>
       <p className="mt-8 text-pretty text-lg font-medium text-muted-foreground sm:text-xl/8">
         If you know of any upcoming hackathons that are not listed, feel free to

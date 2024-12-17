@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | Euro Hackathons",
-  description: "Find your next hackathon 🚀",
+  description: "Find your next hackathon 🇪🇺🚀",
 };
 
 export default function PrivacyLayout({

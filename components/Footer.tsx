@@ -11,13 +11,15 @@ const footerData = {
       links: [
         {
           href: "https://github.com/lorenzopalaia/euro-hackathons",
-          label: "Github",
+          label: "GitHub",
         },
       ],
     },
     {
       title: "Follow us",
-      links: [{ href: "https://github.com/lorenzopalaia", label: "Github" }],
+      links: [
+        { href: "https://github.com/lorenzopalaia", label: "Lorenzo Palaia" },
+      ],
     },
     {
       title: "Legal",
@@ -78,16 +80,16 @@ export default function Footer() {
             href="https://eurohackathons.lorenzopalaia.it/"
             className="hover:underline"
           >
-            Euro Hackathons™
-          </Link>{" "}
-          - All Rights Reserved.
+            Euro Hackathons
+          </Link>
+          ™ - All Rights Reserved.
         </span>
         <div className="mt-4 flex sm:mt-0 sm:justify-center">
           {footerData.socialLinks.map((social) => (
             <Link
               key={social.label}
               href={social.href}
-              className="ms-5 text-muted-foreground hover:text-primary"
+              className="ms-5 text-muted-foreground hover:text-foreground"
             >
               <social.icon />
               <span className="sr-only">{social.label}</span>

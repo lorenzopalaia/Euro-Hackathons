@@ -76,7 +76,7 @@ export default function Terms() {
             We reserve the right to request that you remove all links or any
             particular link to our website. You approve to immediately remove
             all links to our website upon request. We also reserve the right to
-            amend these terms and conditions and it’s linking policy at any
+            amend these terms and conditions and it&apos;s linking policy at any
             time. By continuously linking to our website, you agree to be bound
             to and follow these linking terms and conditions.
           </p>

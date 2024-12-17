@@ -20,8 +20,8 @@ export default function Privacy() {
           </p>
           <h2 className="title">What Information We Collect</h2>
           <p>
-            Since you can add hackathons without registering, we don't collect
-            much personal information.
+            Since you can add hackathons without registering, we don&apos;t
+            collect much personal information.
           </p>
           <h3>1. Contact Info</h3>
           <p>
@@ -30,7 +30,7 @@ export default function Privacy() {
             you—no funny business.
           </p>
           <h2 className="title">How We Use the Info</h2>
-          <p>Here's what we might do with any information we collect:</p>
+          <p>Here&apos;s what we might do with any information we collect:</p>
           <ul className="list-disc">
             <li>Ensure the site is running smoothly</li>
             <li>Improve the website based on feedback you might share</li>
@@ -39,28 +39,30 @@ export default function Privacy() {
           </ul>
           <h2 className="title">Sharing Your Info</h2>
           <p>
-            We don't sell, trade, or rent your personal info. If you shared
-            something sensitive by accident, feel free to reach out, and we'll
-            help you remove it.
+            We don&apos;t sell, trade, or rent your personal info. If you shared
+            something sensitive by accident, feel free to reach out, and
+            we&apos;ll help you remove it.
           </p>
           <h2 className="title">Security</h2>
           <p>
-            We'll do our best to keep any info you share safe, but let's be
-            real—no system is foolproof. While we'll take reasonable steps to
-            protect your info, we can't promise 100% security.
+            We&apos;ll do our best to keep any info you share safe, but
+            let&apos;s be real—no system is foolproof. While we&apos;ll take
+            reasonable steps to protect your info, we can&apos;t promise 100%
+            security.
           </p>
           <h2 className="title">Policy Updates</h2>
           <p>
             This policy is current as of <b>{lastUpdated}</b>. If we make any
-            changes, we'll update it here, so you're always in the loop. Feel
-            free to check back occasionally, but don't worry—we're not making
-            any big changes without letting you know.
+            changes, we&apos;ll update it here, so you&apos;re always in the
+            loop. Feel free to check back occasionally, but don&apos;t
+            worry—we&apos;re not making any big changes without letting you
+            know.
           </p>
           <h2 className="title">Got Questions?</h2>
           <p>
             If you have any questions, concerns, or just want to say hi, drop us
-            an email at <Link href={`mailto:${email}`}>{email}</Link>. We'd love
-            to hear from you!
+            an email at <Link href={`mailto:${email}`}>{email}</Link>. We&apos;d
+            love to hear from you!
           </p>
         </div>
       </article>

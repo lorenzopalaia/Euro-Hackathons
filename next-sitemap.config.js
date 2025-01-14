@@ -1,0 +1,22 @@
+module.exports = {
+  siteUrl: process.env.SITE_URL || 'https://eurohackathons.lorenzopalaia.it/',
+  generateRobotsTxt: true,
+  exclude: [
+    "/twitter-image.*",
+    "/opengraph-image.*",
+    "/icon.*",
+    "/apple-icon.*",
+    "/sitemap.xml",
+    "/robots.txt",
+    "/api/*",
+    "/_next/*",
+    "/_error",
+    "/404",
+    "/500",
+    "/_app",
+    "/_document",
+    "/_error",
+    "/dashboard",
+    "/login",
+  ],
+}

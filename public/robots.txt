@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://eurohackathons.lorenzopalaia.it/
+
+# Sitemaps
+Sitemap: https://eurohackathons.lorenzopalaia.it/sitemap.xml

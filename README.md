@@ -21,10 +21,10 @@ Here are the hackathons, categorized based on their status. If you know of any t
 | **Start Hack**                | St. Gallen, CH | Mar 19 - 21, 2025 |              |              |          |       | [startglobal.org](https://www.startglobal.org/start-hack/home)             |
 | **Master Dev France**         | Paris, FC      | Mar 12, 2025      | Live         | Jan 31, 2024 |          |       | [dev.events](https://dev.events/conferences/master-dev-de-france-hv4nlmbu) |
 | **IATA ONE Record Hackathon** | Dublin, IE     | Feb 24 - 25, 2025 |              |              |          |       | [onerecord-dub.devpost.com](https://onerecord-dub.devpost.com/)            |
-| **IC Hack UK**                | London, GB     | Feb 1 - 2, 2025   |              |              |          |       | [ichack.org](https://ichack.org/)                                          |
+| **HackSussex 2025**           | Brighton, GB   | Feb 22 - 23, 2025 |              |              |          |       | [hacksussex](https://www.hacksussex.com/events/hackathon)                  |
 | **LeedsHack 25**              | Leeds, GB      | Feb 8 - 9, 2025   |              |              |          |       | [leedshack](https://luucompsoc.co.uk/leedshack)                            |
 | **Royal Hackaway v8**         | Egham, GB      | Feb 8 - 9, 2025   |              |              |          |       | [royalhackaway](https://www.royalhackaway.com/)                            |
-| **HackSussex 2025**           | Brighton, GB   | Feb 22 - 23, 2025 |              |              |          |       | [hacksussex](https://www.hacksussex.com/events/hackathon)                  |
+| **IC Hack UK**                | London, GB     | Feb 1 - 2, 2025   |              |              |          |       | [ichack.org](https://ichack.org/)                                          |
 
 Se hai bisogno di ulteriori modifiche o dettagli, fammi sapere!
 

@@ -14,7 +14,7 @@ import {
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 import { createClient } from "@/utils/supabase/server";
-import { KeyRound } from "lucide-react";
+import { KeyRound, Github } from "lucide-react";
 
 function getInitials(name: string) {
   const names = name.split(" ");
@@ -71,6 +71,14 @@ export default async function Header() {
               </Button>
             </Link>
           )}
+          <Link
+            href="https://github.com/lorenzopalaia/euro-hackathons"
+            target="_blank"
+          >
+            <Button variant="outline">
+              <Github />
+            </Button>
+          </Link>
           <ThemeToggle />
         </div>
       </div>

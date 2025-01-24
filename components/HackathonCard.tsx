@@ -10,6 +10,7 @@ import Link from "next/link";
 import PulseDot from "@/components/PulseDot";
 
 import { calculateTimeLeft, formatDate } from "@/utils/datetime";
+import { capitalize } from "@/utils/string";
 
 const colorClasses = {
   upcoming: {
@@ -72,7 +73,7 @@ function HackathonDetails({
           )}
           <span className="flex items-center gap-2 text-muted-foreground">
             <Globe />
-            {hackathon.mode}
+            {capitalize(hackathon.mode)}
           </span>
         </div>
         {hackathon.prize && (
@@ -112,7 +113,7 @@ function HackathonDetails({
         {hackathon.topic && (
           <div className="flex items-center gap-2 text-muted-foreground">
             <Tag />
-            <Badge className="bg-sky-200 capitalize text-sky-800 hover:bg-sky-200 hover:text-xky-800">
+            <Badge className="hover:text-xky-800 bg-sky-200 capitalize text-sky-800 hover:bg-sky-200">
               {hackathon.topic}
             </Badge>
           </div>

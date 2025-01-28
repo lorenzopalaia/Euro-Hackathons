@@ -6,7 +6,7 @@ const lastUpdated = "Dec 2024";
 export default function Terms() {
   return (
     <main className="container mx-auto max-w-2xl space-y-16 px-4">
-      <article className="prose dark:prose-invert mt-8 pb-16">
+      <article className="prose mt-8 pb-16 dark:prose-invert">
         <h1 className="title text-5xl">Terms & Conditions</h1>
         <p>Last Updated: {lastUpdated}</p>
         <div className="space-y-4">

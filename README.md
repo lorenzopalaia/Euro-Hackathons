@@ -37,42 +37,42 @@ Se hai bisogno di ulteriori modifiche o dettagli, fammi sapere!
 
 ### 🔴 Past Hackathons
 
-| Hackathon Name                           | Location       | Date              | Topic(s) | Notes    | URL                                                                                   |
-| ---------------------------------------- | -------------- | ----------------- | -------- | -------- | ------------------------------------------------------------------------------------- |
-| **Hackapizza**                           | Milan, IT      | Jan 18 - 19, 2025 | Live     |          | [hackathon.datapizza.com](https://hackathon.datapizza.com/)                          |
-| **Berlin Builders x Buena Hackathon**    | Berlin, DE     | Dec 14, 2024      |          |          | [lu.ma](https://lu.ma/18z0thox)                                                      |
-| **Data-Driven VC Hackathon**             | Paris, FR      | Jan 15, 2025      | Live     |          | [lu.ma](https://lu.ma/v6gmtjf0)                                                      |
-| **AI Hack Night**                        | Berlin, DE     | Dec 12, 2024      |          |          | [lu.ma](https://lu.ma/hacknight-berlin-12-12-24)                                     |
-| **AI with MATLAB**                       | Thessaloniki, GR | Dec 10, 2024      |          |          | [aristotle-hackathon.devpost.com](https://aristotle-hackathon.devpost.com/)          |
-| **Hack START Munich**                    | Munich, DE     | Dec 7 - 8, 2024   |          |          | [lu.ma](https://lu.ma/75nme2q3)                                                      |
-| **Bio x AI Hack**                        | Paris, FR      | Dec 7, 2024       |          |          | [lu.ma](https://lu.ma/nmqgrfws)                                                      |
-| **CODE HackDay**                         | Berlin, DE     | Dec 6, 2024       |          |          | [lu.ma](https://lu.ma/32h2czrx)                                                      |
-| **LauzHack**                             | Lausanne, CH   | Nov 30 - Dec 1, 2024 |       |          | [lauzhack.com](https://lauzhack.com/)                                                |
-| **Llama Impact Hackathon**               | Rome, IT       | Nov 29 - Dec 1, 2024 | AI    | Hybrid   | [lablab.ai](https://lablab.ai/event/llama-impact-hackathon-rome)                     |
-| **Hack.Commit.Push**                     | Lucerne, CH    | Nov 23, 2024      | Open Source |       | [dev.events](https://dev.events/conferences/hack-commit-push-dzq1ba1)               |
-| **HackaTUM**                             | Munich, DE     | Nov 22-24, 2024   |          |          | [hack.tum.de](https://hack.tum.de/)                                                  |
-| **Odoo Hackathon**                       | Ramillies, BE  | Nov 22-24, 2024   |          |          | [dev.events](https://dev.events/conferences/odoo-hackathon-hrkv-dq1)                 |
-| **Consumer AI Edge Hackathon**           | Paris, FR      | Nov 22-23, 2024   |          |          | [lu.ma](https://lu.ma/g0fjf4mb)                                                      |
-| **Pisa Quantum Fest**                    | Pisa, IT       | Nov 21-22, 2024   |          |          | [pisa-quantum-festival.github.io](https://pisa-quantum-festival.github.io/)          |
-| **Llama Impact Hackathon**               | London, UK     | Nov 16-17, 2024   | AI       |          | [partiful.com](https://partiful.com/e/1QAQBvswoEIgsWmUIiDY?)                         |
-| **HackSheffield**                        | Sheffield, UK  | Nov 16-17, 2024   |          |          | [hacksheffield.uk](https://hacksheffield.uk/)                                        |
-| **Neodata Hackatania 2**                 | Catania, IT    | Nov 15-18, 2024   |          |          | [devpost.com](https://hackatania-2.devpost.com/)                                     |
-| **The Raccoons Hackathon**               | Riga, LV       | Nov 15-17, 2024   |          |          | [dev.events](https://dev.events/conferences/the-raccoons-hackathon-2024-yhvrwzdy)    |
-| **GreatUniHack**                         | Manchester, UK | Nov 9-10, 2024    |          |          | [greatunihack.com](https://greatunihack.com/)                                        |
-| **Junction 2024**                        | Helsinki, FI   | Nov 8-10, 2024    |          |          | [junction.com](https://www.junction2024.com/)                                        |
-| **UniHack**                              | Timisoara, RO  | Nov 7-10, 2024    |          |          | [unihack.eu](https://unihack.eu/)                                                    |
-| **DurHack**                              | Durham, UK     | Nov 2-3, 2024     |          |          | [durhack.com](https://durhack.com/)                                                  |
-| **Bio x AI**                             | London, UK     | Nov 2-3, 2024     |          |          | [lu.ma](https://lu.ma/nqem2kcg)                                                      |
-| **Hack Day**                             | Cambridge, UK  | Oct 27, 2024      |          |          | [lu.ma](https://lu.ma/o07b5s8m)                                                      |
-| **HackNotts**                            | Nottingham, UK | Oct 26-27, 2024   |          |          | [hacknotts.com](https://www.hacknotts.com/)                                          |
-| **Cloudflight Coding Contest**           | Košice, SK     | Oct 25, 2024      |          |          | [codingcontest.org](https://register.codingcontest.org/listing/44-2024-10-25)        |
-| **Encode London**                        | London, UK     | Oct 25-27, 2024   |          |          | [encode.club](https://www.encode.club/encodelondon-24)                               |
-| **HacktoberFest**                        | Camerino, IT   | Oct 16, 2024      |          |          | [eventbrite.com](https://www.eventbrite.com/e/hacktoberfest-2024-tickets-1028950678177?aff=ebdssbdestsearch&keep_tld=1) |
-| **NNE AI & ML Hackathon**                | Copenhagen, DE | Oct 15-18, 2024   |          |          | [nne.com](https://www.nne.com/hackathon-2024)                                        |
-| **Mistral AI x Alan Healthcare**         | Paris, FR      | Oct 12-13, 2024   | AI       |          | [partiful.com](https://partiful.com/e/ysBoxA0GtDFiYMSka0o7)                          |
-| **IATA ONE Record Hackathon**            | Istanbul, TU   | Oct 5-6, 2024     |          |          | [devpost.com](https://onerecord-ist.devpost.com/?ref_feature=challenge&ref_medium=discover) |
-| **IdeaHack!**                            | Vallendar, DE  | Oct 3-4, 2024     |          |          | [businessmeetstech.de](https://www.businessmeetstech.de/)                            |
-| **ICHack UK**                            | London, UK     | Feb 3-4, 2024     |          |          | [ichack.org](https://ichack.org/)                                                    |
+| Hackathon Name                        | Location         | Date                 | Topic(s)    | Notes  | URL                                                                                                                     |
+| ------------------------------------- | ---------------- | -------------------- | ----------- | ------ | ----------------------------------------------------------------------------------------------------------------------- |
+| **Hackapizza**                        | Milan, IT        | Jan 18 - 19, 2025    | Live        |        | [hackathon.datapizza.com](https://hackathon.datapizza.com/)                                                             |
+| **Berlin Builders x Buena Hackathon** | Berlin, DE       | Dec 14, 2024         |             |        | [lu.ma](https://lu.ma/18z0thox)                                                                                         |
+| **Data-Driven VC Hackathon**          | Paris, FR        | Jan 15, 2025         | Live        |        | [lu.ma](https://lu.ma/v6gmtjf0)                                                                                         |
+| **AI Hack Night**                     | Berlin, DE       | Dec 12, 2024         |             |        | [lu.ma](https://lu.ma/hacknight-berlin-12-12-24)                                                                        |
+| **AI with MATLAB**                    | Thessaloniki, GR | Dec 10, 2024         |             |        | [aristotle-hackathon.devpost.com](https://aristotle-hackathon.devpost.com/)                                             |
+| **Hack START Munich**                 | Munich, DE       | Dec 7 - 8, 2024      |             |        | [lu.ma](https://lu.ma/75nme2q3)                                                                                         |
+| **Bio x AI Hack**                     | Paris, FR        | Dec 7, 2024          |             |        | [lu.ma](https://lu.ma/nmqgrfws)                                                                                         |
+| **CODE HackDay**                      | Berlin, DE       | Dec 6, 2024          |             |        | [lu.ma](https://lu.ma/32h2czrx)                                                                                         |
+| **LauzHack**                          | Lausanne, CH     | Nov 30 - Dec 1, 2024 |             |        | [lauzhack.com](https://lauzhack.com/)                                                                                   |
+| **Llama Impact Hackathon**            | Rome, IT         | Nov 29 - Dec 1, 2024 | AI          | Hybrid | [lablab.ai](https://lablab.ai/event/llama-impact-hackathon-rome)                                                        |
+| **Hack.Commit.Push**                  | Lucerne, CH      | Nov 23, 2024         | Open Source |        | [dev.events](https://dev.events/conferences/hack-commit-push-dzq1ba1)                                                   |
+| **HackaTUM**                          | Munich, DE       | Nov 22-24, 2024      |             |        | [hack.tum.de](https://hack.tum.de/)                                                                                     |
+| **Odoo Hackathon**                    | Ramillies, BE    | Nov 22-24, 2024      |             |        | [dev.events](https://dev.events/conferences/odoo-hackathon-hrkv-dq1)                                                    |
+| **Consumer AI Edge Hackathon**        | Paris, FR        | Nov 22-23, 2024      |             |        | [lu.ma](https://lu.ma/g0fjf4mb)                                                                                         |
+| **Pisa Quantum Fest**                 | Pisa, IT         | Nov 21-22, 2024      |             |        | [pisa-quantum-festival.github.io](https://pisa-quantum-festival.github.io/)                                             |
+| **Llama Impact Hackathon**            | London, UK       | Nov 16-17, 2024      | AI          |        | [partiful.com](https://partiful.com/e/1QAQBvswoEIgsWmUIiDY?)                                                            |
+| **HackSheffield**                     | Sheffield, UK    | Nov 16-17, 2024      |             |        | [hacksheffield.uk](https://hacksheffield.uk/)                                                                           |
+| **Neodata Hackatania 2**              | Catania, IT      | Nov 15-18, 2024      |             |        | [devpost.com](https://hackatania-2.devpost.com/)                                                                        |
+| **The Raccoons Hackathon**            | Riga, LV         | Nov 15-17, 2024      |             |        | [dev.events](https://dev.events/conferences/the-raccoons-hackathon-2024-yhvrwzdy)                                       |
+| **GreatUniHack**                      | Manchester, UK   | Nov 9-10, 2024       |             |        | [greatunihack.com](https://greatunihack.com/)                                                                           |
+| **Junction 2024**                     | Helsinki, FI     | Nov 8-10, 2024       |             |        | [junction.com](https://www.junction2024.com/)                                                                           |
+| **UniHack**                           | Timisoara, RO    | Nov 7-10, 2024       |             |        | [unihack.eu](https://unihack.eu/)                                                                                       |
+| **DurHack**                           | Durham, UK       | Nov 2-3, 2024        |             |        | [durhack.com](https://durhack.com/)                                                                                     |
+| **Bio x AI**                          | London, UK       | Nov 2-3, 2024        |             |        | [lu.ma](https://lu.ma/nqem2kcg)                                                                                         |
+| **Hack Day**                          | Cambridge, UK    | Oct 27, 2024         |             |        | [lu.ma](https://lu.ma/o07b5s8m)                                                                                         |
+| **HackNotts**                         | Nottingham, UK   | Oct 26-27, 2024      |             |        | [hacknotts.com](https://www.hacknotts.com/)                                                                             |
+| **Cloudflight Coding Contest**        | Košice, SK       | Oct 25, 2024         |             |        | [codingcontest.org](https://register.codingcontest.org/listing/44-2024-10-25)                                           |
+| **Encode London**                     | London, UK       | Oct 25-27, 2024      |             |        | [encode.club](https://www.encode.club/encodelondon-24)                                                                  |
+| **HacktoberFest**                     | Camerino, IT     | Oct 16, 2024         |             |        | [eventbrite.com](https://www.eventbrite.com/e/hacktoberfest-2024-tickets-1028950678177?aff=ebdssbdestsearch&keep_tld=1) |
+| **NNE AI & ML Hackathon**             | Copenhagen, DE   | Oct 15-18, 2024      |             |        | [nne.com](https://www.nne.com/hackathon-2024)                                                                           |
+| **Mistral AI x Alan Healthcare**      | Paris, FR        | Oct 12-13, 2024      | AI          |        | [partiful.com](https://partiful.com/e/ysBoxA0GtDFiYMSka0o7)                                                             |
+| **IATA ONE Record Hackathon**         | Istanbul, TU     | Oct 5-6, 2024        |             |        | [devpost.com](https://onerecord-ist.devpost.com/?ref_feature=challenge&ref_medium=discover)                             |
+| **IdeaHack!**                         | Vallendar, DE    | Oct 3-4, 2024        |             |        | [businessmeetstech.de](https://www.businessmeetstech.de/)                                                               |
+| **ICHack UK**                         | London, UK       | Feb 3-4, 2024        |             |        | [ichack.org](https://ichack.org/)                                                                                       |
 
 ---
 

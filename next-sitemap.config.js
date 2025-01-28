@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://eurohackathons.lorenzopalaia.it/',
+  siteUrl: process.env.SITE_URL || "https://eurohackathons.lorenzopalaia.it/",
   generateRobotsTxt: true,
   exclude: [
     "/twitter-image.*",
@@ -19,4 +19,4 @@ module.exports = {
     "/dashboard",
     "/login",
   ],
-}
+};

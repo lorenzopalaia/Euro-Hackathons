@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "prebuild": "prettier --write .",
     "dev": "next dev --turbopack",
     "build": "next build",
     "postbuild": "next-sitemap",
@@ -11,7 +12,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@discordjs/rest": "^2.2.0",
+    "@discordjs/rest": "^2.4.2",
     "@hookform/resolvers": "^3.10.0",
     "@radix-ui/react-accordion": "^1.2.2",
     "@radix-ui/react-avatar": "^1.1.2",

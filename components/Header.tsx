@@ -65,7 +65,7 @@ export default async function Header() {
             </DropdownMenu>
           ) : (
             <Link href="/login">
-              <Button className="text-sm font-semibold">
+              <Button className="cursor-pointer text-sm font-semibold">
                 Login
                 <KeyRound size={16} />
               </Button>
@@ -75,7 +75,7 @@ export default async function Header() {
             href="https://github.com/lorenzopalaia/euro-hackathons"
             target="_blank"
           >
-            <Button variant="outline">
+            <Button variant="outline" className="cursor-pointer">
               <Github />
             </Button>
           </Link>

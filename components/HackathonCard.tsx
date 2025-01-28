@@ -48,7 +48,7 @@ function HackathonDetails({
       {hackathon.featured && type === "upcoming" ? (
         <div className="bg-foreground">
           <div className="flex h-full w-full items-center justify-center">
-            <p className="rotate-180 font-bold text-background [writing-mode:vertical-lr]">
+            <p className="text-background rotate-180 font-bold [writing-mode:vertical-lr]">
               FEATURED
             </p>
           </div>
@@ -71,7 +71,7 @@ function HackathonDetails({
               {calculateTimeLeft(hackathon.start_date)}
             </Badge>
           )}
-          <span className="flex items-center gap-2 text-muted-foreground">
+          <span className="text-muted-foreground flex items-center gap-2">
             <Globe />
             {capitalize(hackathon.mode)}
           </span>
@@ -89,14 +89,14 @@ function HackathonDetails({
         )}
       </div>
       <div className="w-2/5 space-y-4 p-4">
-        <div className="flex items-center gap-2 text-muted-foreground">
+        <div className="text-muted-foreground flex items-center gap-2">
           <MapPin />
           <p>
             {hackathon.city}, {hackathon.country}
           </p>
         </div>
         {hackathon.sponsor && (
-          <div className="flex items-center gap-2 text-muted-foreground">
+          <div className="text-muted-foreground flex items-center gap-2">
             <Flag />
             <Badge
               variant="outline"
@@ -106,14 +106,14 @@ function HackathonDetails({
             </Badge>
           </div>
         )}
-        <div className="flex items-center gap-2 text-muted-foreground">
+        <div className="text-muted-foreground flex items-center gap-2">
           <Calendar />
           <p>{formatDate(hackathon.start_date, hackathon.end_date, type)}</p>
         </div>
         {hackathon.topic && (
-          <div className="flex items-center gap-2 text-muted-foreground">
+          <div className="text-muted-foreground flex items-center gap-2">
             <Tag />
-            <Badge className="hover:text-xky-800 bg-sky-200 capitalize text-sky-800 hover:bg-sky-200">
+            <Badge className="hover:text-xky-800 bg-sky-200 text-sky-800 capitalize hover:bg-sky-200">
               {hackathon.topic}
             </Badge>
           </div>

@@ -9,7 +9,7 @@ export default function UnderlinedText({
 }) {
   return (
     <span
-      className={`relative mx-1 inline-block bg-gradient-to-r from-[#ff80b5] to-[#9089fc] bg-clip-text stroke-current font-extrabold text-transparent`}
+      className={`relative mx-1 inline-block bg-linear-to-r from-[#ff80b5] to-[#9089fc] bg-clip-text stroke-current font-extrabold text-transparent`}
     >
       {children}
       <svg

@@ -48,7 +48,7 @@ export default function Footer() {
             className="flex items-center gap-2"
           >
             <Image src="/logo.png" alt="Logo" width={48} height={48} />
-            <span className="self-center whitespace-nowrap text-2xl font-semibold">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap">
               Euro Hackathons
             </span>
           </Link>
@@ -59,7 +59,7 @@ export default function Footer() {
               <h2 className="mb-6 text-sm font-semibold uppercase">
                 {section.title}
               </h2>
-              <ul className="font-medium text-muted-foreground">
+              <ul className="text-muted-foreground font-medium">
                 {section.links.map((link) => (
                   <li key={link.label} className="mb-4">
                     <Link href={link.href} className="hover:underline">
@@ -72,7 +72,7 @@ export default function Footer() {
           ))}
         </div>
       </div>
-      <hr className="my-6 border-muted-foreground/50 sm:mx-auto lg:my-8" />
+      <hr className="border-muted-foreground/50 my-6 sm:mx-auto lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
         <span className="text-sm sm:text-center">
           © {new Date().getFullYear()}{" "}
@@ -89,7 +89,7 @@ export default function Footer() {
             <Link
               key={social.label}
               href={social.href}
-              className="ms-5 text-muted-foreground hover:text-foreground"
+              className="text-muted-foreground hover:text-foreground ms-5"
             >
               <social.icon />
               <span className="sr-only">{social.label}</span>

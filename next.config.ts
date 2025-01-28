@@ -36,10 +36,6 @@ const nextConfig: NextConfig = {
             value:
               "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'",
           },
-          {
-            key: "Content-Security-Policy",
-            value: `default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; media-src 'self'; object-src 'none'; frame-src 'none'; worker-src 'none'; child-src 'none'; form-action 'self'; frame-ancestors 'none'; base-uri 'self'; manifest-src 'self';`,
-          },
         ],
       },
       {

@@ -23,8 +23,7 @@ Here are the hackathons, categorized based on their status. If you know of any t
 | **AI for Connectivity Hackathon II: Building Resilient Networks** | Barcelona, ES  | Feb 28 - Mar 2, 2025 |              |              |          |       | [lablab.ai](https://lablab.ai/event/ai-for-connectivity-hackathon-building-resilient-networks) |
 | **IATA ONE Record Hackathon**                                     | Dublin, IE     | Feb 24 - 25, 2025    |              |              |          |       | [onerecord-dub.devpost.com](https://onerecord-dub.devpost.com/)                                |
 | **HackSussex 2025**                                               | Brighton, GB   | Feb 22 - 23, 2025    |              |              |          |       | [hacksussex.com](https://www.hacksussex.com/events/hackathon)                                  |
-| **LeedsHack 25**                                                  | Leeds, GB      | Feb 8 - 9, 2025      |              |              |          |       | [luucompsoc.co.uk](https://luucompsoc.co.uk/leedshack)                                         |
-| **Royal Hackaway v8**                                             | Egham, GB      | Feb 8 - 9, 2025      |              |              |          |       | [royalhackaway.com](https://www.royalhackaway.com/)                                            |
+| **Astobn Hack**                                                   | Birmingham, GB | Feb 22 - 23, 2025    |              |              |          |       | [astonhack.co.uk](https://astonhack.co.uk/)                                                    |
 
 Se hai bisogno di ulteriori modifiche o dettagli, fammi sapere!
 
@@ -39,6 +38,8 @@ Se hai bisogno di ulteriori modifiche o dettagli, fammi sapere!
 
 | Hackathon Name                        | Location         | Date                 | Topic(s)    | Notes  | URL                                                                                                                     |
 | ------------------------------------- | ---------------- | -------------------- | ----------- | ------ | ----------------------------------------------------------------------------------------------------------------------- |
+| **LeedsHack 25**                      | Leeds, GB        | Feb 8 - 9, 2025      |             |        | [luucompsoc.co.uk](https://luucompsoc.co.uk/leedshack)                                                                  |
+| **Royal Hackaway v8**                 | Egham, GB        | Feb 8 - 9, 2025      |             |        | [royalhackaway.com](https://www.royalhackaway.com/)                                                                     |
 | **IC Hack UK**                        | London, GB       | Feb 1 - 2, 2025      |             |        | [ichack.org](https://ichack.org/)                                                                                       |
 | **Hackapizza**                        | Milan, IT        | Jan 18 - 19, 2025    | Live        |        | [hackathon.datapizza.com](https://hackathon.datapizza.com/)                                                             |
 | **Berlin Builders x Buena Hackathon** | Berlin, DE       | Dec 14, 2024         |             |        | [lu.ma](https://lu.ma/18z0thox)                                                                                         |

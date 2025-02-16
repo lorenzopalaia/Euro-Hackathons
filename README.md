@@ -2,10 +2,6 @@
 
 # <p align="center">🇪🇺🚀 EURO HACKATHONS</p>
 
-### <p align="center">🌐 Website is now live! Visit us at [eurohackathons.lorenzopalaia.it](https://eurohackathons.lorenzopalaia.it)</p>
-
-> ⚠️ **Note:** The main support will now be provided on our [website](https://eurohackathons.lorenzopalaia.it). Support on this repository is not guaranteed.
-
 Welcome to **EURO HACKATHONS**! This repository provides an up-to-date list of hackathons happening across Europe. Whether you're a seasoned hacker or a beginner looking for your first hackathon, you'll find all the information you need here! 🎉
 
 ---
@@ -23,7 +19,7 @@ Here are the hackathons, categorized based on their status. If you know of any t
 | **AI for Connectivity Hackathon II: Building Resilient Networks** | Barcelona, ES  | Feb 28 - Mar 2, 2025 |              |              |          |       | [lablab.ai](https://lablab.ai/event/ai-for-connectivity-hackathon-building-resilient-networks) |
 | **IATA ONE Record Hackathon**                                     | Dublin, IE     | Feb 24 - 25, 2025    |              |              |          |       | [onerecord-dub.devpost.com](https://onerecord-dub.devpost.com/)                                |
 | **HackSussex 2025**                                               | Brighton, GB   | Feb 22 - 23, 2025    |              |              |          |       | [hacksussex.com](https://www.hacksussex.com/events/hackathon)                                  |
-| **Astobn Hack**                                                   | Birmingham, GB | Feb 22 - 23, 2025    |              |              |          |       | [astonhack.co.uk](https://astonhack.co.uk/)                                                    |
+| **Aston Hack**                                                    | Birmingham, GB | Feb 22 - 23, 2025    |              |              |          |       | [astonhack.co.uk](https://astonhack.co.uk/)                                                    |
 
 Se hai bisogno di ulteriori modifiche o dettagli, fammi sapere!
 

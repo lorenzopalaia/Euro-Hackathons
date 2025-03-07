@@ -12,17 +12,17 @@ Here are the hackathons, categorized based on their status. If you know of any t
 
 ### 🟢 Upcoming Hackathons
 
-| Hackathon Name               | Location       | Date              | Registration | Deadline     | Topic(s) | Notes | URL                                                                        |
-| ---------------------------- | -------------- | ----------------- | ------------ | ------------ | -------- | ----- | -------------------------------------------------------------------------- |
-| **ImpactHack 2025**          | Glasgow, GB    | Nov 22 - 23, 2025 |              |              |          |       | [impact-hack.com](https://impact-hack.com/)                                |
-| **HackUPC 2025**             | Barcelona, ES  | May 2 - 4, 2025   |              |              |          |       | [hackupc.com](https://hackupc.com/)                                        |
-| **DragonHack**               | Ljubljana, SI  | Apr 12 - 13, 2025 |              |              |          |       | [dragonhack.si](https://dragonhack.si/)                                    |
-| **HackHPI 2025**             | Potsdam, DE    | Mar 21 - 22, 2025 |              |              |          |       | [hackhpi.org](https://hackhpi.org/)                                        |
-| **Start Hack**               | St. Gallen, CH | Mar 19 - 21, 2025 |              |              |          |       | [startglobal.org](https://www.startglobal.org/start-hack/home)             |
-| **HackParty 2025**           | Rome, IT       | Mar 14, 2025      |              |              |          |       | [picampus.it](https://picampus.it/events/hackparty-2025/)                  |
-| **Master Dev France**        | Paris, FC      | Mar 12, 2025      | Live         | Jan 31, 2024 |          |       | [dev.events](https://dev.events/conferences/master-dev-de-france-hv4nlmbu) |
-| **Quackathon**               | Dundee, GB     | Mar 8 - 9, 2025   | Live         |              |          |       | [ducs.dev](https://ducs.dev/)                                              |
-| **European Builders League** | Milan, IT      | Mar 8 - 9, 2025   |              |              |          |       | [lu.ma](https://lu.ma/milan-ebl)                                           |
+| Hackathon Name               | Location       | Date              | Registration | Deadline | Topic(s) | Notes | URL                                                                        |
+| ---------------------------- | -------------- | ----------------- | ------------ | -------- | -------- | ----- | -------------------------------------------------------------------------- |
+| **ImpactHack 2025**          | Glasgow, GB    | Nov 22 - 23, 2025 |              |          |          |       | [impact-hack.com](https://impact-hack.com/)                                |
+| **HackUPC 2025**             | Barcelona, ES  | May 2 - 4, 2025   |              |          |          |       | [hackupc.com](https://hackupc.com/)                                        |
+| **DragonHack**               | Ljubljana, SI  | Apr 12 - 13, 2025 |              |          |          |       | [dragonhack.si](https://dragonhack.si/)                                    |
+| **HackHPI 2025**             | Potsdam, DE    | Mar 21 - 22, 2025 |              |          |          |       | [hackhpi.org](https://hackhpi.org/)                                        |
+| **Start Hack**               | St. Gallen, CH | Mar 19 - 21, 2025 |              |          |          |       | [startglobal.org](https://www.startglobal.org/start-hack/home)             |
+| **HackParty 2025**           | Rome, IT       | Mar 14, 2025      |              |          |          |       | [picampus.it](https://picampus.it/events/hackparty-2025/)                  |
+| **Master Dev France**        | Paris, FC      | Mar 12, 2025      |              |          |          |       | [dev.events](https://dev.events/conferences/master-dev-de-france-hv4nlmbu) |
+| **Quackathon**               | Dundee, GB     | Mar 8 - 9, 2025   |              |          |          |       | [ducs.dev](https://ducs.dev/)                                              |
+| **European Builders League** | Milan, IT      | Mar 8 - 9, 2025   |              |          |          |       | [lu.ma](https://lu.ma/milan-ebl)                                           |
 
 Se hai bisogno di ulteriori modifiche o dettagli, fammi sapere!
 

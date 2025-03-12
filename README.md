@@ -12,17 +12,20 @@ Here are the hackathons, categorized based on their status. If you know of any t
 
 ### 🟢 Upcoming Hackathons
 
-| Hackathon Name               | Location       | Date              | Registration | Deadline | Topic(s) | Notes | URL                                                                        |
-| ---------------------------- | -------------- | ----------------- | ------------ | -------- | -------- | ----- | -------------------------------------------------------------------------- |
-| **ImpactHack 2025**          | Glasgow, GB    | Nov 22 - 23, 2025 |              |          |          |       | [impact-hack.com](https://impact-hack.com/)                                |
-| **HackUPC 2025**             | Barcelona, ES  | May 2 - 4, 2025   |              |          |          |       | [hackupc.com](https://hackupc.com/)                                        |
-| **DragonHack**               | Ljubljana, SI  | Apr 12 - 13, 2025 |              |          |          |       | [dragonhack.si](https://dragonhack.si/)                                    |
-| **HackHPI 2025**             | Potsdam, DE    | Mar 21 - 22, 2025 |              |          |          |       | [hackhpi.org](https://hackhpi.org/)                                        |
-| **Start Hack**               | St. Gallen, CH | Mar 19 - 21, 2025 |              |          |          |       | [startglobal.org](https://www.startglobal.org/start-hack/home)             |
-| **HackParty 2025**           | Rome, IT       | Mar 14, 2025      |              |          |          |       | [picampus.it](https://picampus.it/events/hackparty-2025/)                  |
-| **Master Dev France**        | Paris, FC      | Mar 12, 2025      |              |          |          |       | [dev.events](https://dev.events/conferences/master-dev-de-france-hv4nlmbu) |
-| **Quackathon**               | Dundee, GB     | Mar 8 - 9, 2025   |              |          |          |       | [ducs.dev](https://ducs.dev/)                                              |
-| **European Builders League** | Milan, IT      | Mar 8 - 9, 2025   |              |          |          |       | [lu.ma](https://lu.ma/milan-ebl)                                           |
+| Hackathon Name                      | Location       | Date              | Registration | Deadline | Topic(s) | Notes | URL                                                            |
+| ----------------------------------- | -------------- | ----------------- | ------------ | -------- | -------- | ----- | -------------------------------------------------------------- |
+| **ImpactHack 2025**                 | Glasgow, GB    | Nov 22 - 23, 2025 |              |          |          |       | [impact-hack.com](https://impact-hack.com/)                    |
+| **HackUPC 2025**                    | Barcelona, ES  | May 2 - 4, 2025   |              |          |          |       | [hackupc.com](https://hackupc.com/)                            |
+| **DragonHack**                      | Ljubljana, SI  | Apr 12 - 13, 2025 |              |          |          |       | [dragonhack.si](https://dragonhack.si/)                        |
+| **Delft Hackathon**                 | Amsterdam, NL  | Apr 5, 2025       |              |          |          |       | [lu.ma](https://lu.ma/delft-ebl)                               |
+| **AI for Change Hackathon**         | Stockholm, SE  | Apr 2, 2025       |              |          |          |       | [lu.ma](https://lu.ma/ctqhbtil)                                |
+| **European Defense Tech Hackathon** | Amsterdam, NL  | Mar 29 - 30, 2025 |              |          |          |       | [lu.ma](https://lu.ma/wl9nwnq2)                                |
+| **EU Startup Policy Hackathon**     | Brussels, BE   | Mar 28, 2025      |              |          |          |       | [lu.ma](https://lu.ma/fulj9bp7)                                |
+| **birmingHack**                     | Birmingham, GB | Mar 22 - 23, 2025 |              |          |          |       | [birminghack.com](https://birminghack.com/)                    |
+| **HackHPI 2025**                    | Potsdam, DE    | Mar 21 - 22, 2025 |              |          |          |       | [hackhpi.org](https://hackhpi.org/)                            |
+| **Start Hack**                      | St. Gallen, CH | Mar 19 - 21, 2025 |              |          |          |       | [startglobal.org](https://www.startglobal.org/start-hack/home) |
+| **CODE HackDay**                    | Berlin, DE     | Mar 15, 2025      |              |          |          |       | [lu.ma](https://lu.ma/obori6kd)                                |
+| **HackParty 2025**                  | Rome, IT       | Mar 14, 2025      |              |          |          |       | [picampus.it](https://picampus.it/events/hackparty-2025/)      |
 
 Se hai bisogno di ulteriori modifiche o dettagli, fammi sapere!
 
@@ -37,6 +40,9 @@ Se hai bisogno di ulteriori modifiche o dettagli, fammi sapere!
 
 | Hackathon Name                                                    | Location         | Date                 | Topic(s)    | Notes  | URL                                                                                                                     |
 | ----------------------------------------------------------------- | ---------------- | -------------------- | ----------- | ------ | ----------------------------------------------------------------------------------------------------------------------- |
+| **Master Dev France**                                             | Paris, FC        | Mar 12, 2025         |             |        | [dev.events](https://dev.events/conferences/master-dev-de-france-hv4nlmbu)                                              |
+| **Quackathon**                                                    | Dundee, GB       | Mar 8 - 9, 2025      |             |        | [ducs.dev](https://ducs.dev/)                                                                                           |
+| **European Builders League**                                      | Milan, IT        | Mar 8 - 9, 2025      |             |        | [lu.ma](https://lu.ma/milan-ebl)                                                                                        |
 | **DUWiT Hacks**                                                   | Durham, GB       | Mar 1 - 2, 2025      |             |        | [duwithacks.com](https://duwithacks.com/)                                                                               |
 | **AI for Connectivity Hackathon II: Building Resilient Networks** | Barcelona, ES    | Feb 28 - Mar 2, 2025 |             |        | [lablab.ai](https://lablab.ai/event/ai-for-connectivity-hackathon-building-resilient-networks)                          |
 | **IATA ONE Record Hackathon**                                     | Dublin, IE       | Feb 24 - 25, 2025    |             |        | [onerecord-dub.devpost.com](https://onerecord-dub.devpost.com/)                                                         |

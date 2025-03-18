@@ -20,7 +20,7 @@ Here are the hackathons, categorized based on their status. If you know of any t
 | **DragonHack**                      | Ljubljana, SI  | Apr 12 - 13, 2025 |          |       | [dragonhack.si](https://dragonhack.si/)                                                         |
 | **Q-Hack 2025**                     | Mannheim, DE   | Apr 23 - 24, 2025 |          |       | [q-hack-2025.devpost.com](https://q-hack-2025.devpost.com/)                                     |
 | **Mistral AI Robotics Hackathon**   | Paris, FR      | Apr 11, 2025      |          |       | [lu.ma](https://lu.ma/roboticshack)                                                             |
-| \*\*WebVM: The hackathon II         | Leeds, UK      | Apr 7 - 14, 2025  |          |       | [webvm-hackathon.devpost.com](https://webvm-hackathon.devpost.com/)                             |
+| **WebVM: The hackathon II**         | Leeds, UK      | Apr 7 - 14, 2025  |          |       | [webvm-hackathon.devpost.com](https://webvm-hackathon.devpost.com/)                             |
 | **Delft Hackathon**                 | Amsterdam, NL  | Apr 5, 2025       |          |       | [lu.ma](https://lu.ma/delft-ebl)                                                                |
 | **Damm x EHub Hackathon**           | Barcelona, ES  | Apr 4, 2025       |          |       | [lu.ma](https://lu.ma/7d29o3hp)                                                                 |
 | **Dark Patterns AI Hackathon**      | Zurich, CH     | Apr 4 - 6, 2025   |          |       | [lu.ma](https://lu.ma/yf9l20g2)                                                                 |

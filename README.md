@@ -15,6 +15,7 @@ Here are the hackathons, categorized based on their status. If you know of any t
 | Hackathon Name                         | Location      | Date              | Topic(s) | Notes | URL                                                                                             |
 | -------------------------------------- | ------------- | ----------------- | -------- | ----- | ----------------------------------------------------------------------------------------------- |
 | **ImpactHack 2025**                    | Glasgow, GB   | Nov 22 - 23, 2025 |          |       | [impact-hack.com](https://impact-hack.com/)                                                     |
+| **GDG AI Hack 2025**                   | Milan, IT     | May 10 - 11, 2025 |          |       | [gdgaihack.com](https://www.gdgaihack.com/)                                                     |
 | **2025 London Defence Tech Hackathon** | London, GB    | May 10 - 11, 2025 |          |       | [lu.ma](https://lu.ma/5obp6mve)                                                                 |
 | **HackUPC 2025**                       | Barcelona, ES | May 2 - 4, 2025   |          |       | [hackupc.com](https://hackupc.com/)                                                             |
 | **MathWorks Hackathon**                | Eindhoven, NL | Apr 23, 2025      |          |       | [mathworks-hackathon-microgrid.devpost.com](https://mathworks-hackathon-microgrid.devpost.com/) |

@@ -15,20 +15,23 @@ Here are the hackathons, categorized based on their status. If you know of any t
 | Hackathon Name                         | Location      | Date              | Topic(s) | Notes | URL                                                                                             |
 | -------------------------------------- | ------------- | ----------------- | -------- | ----- | ----------------------------------------------------------------------------------------------- |
 | **ImpactHack 2025**                    | Glasgow, GB   | Nov 22 - 23, 2025 |          |       | [impact-hack.com](https://impact-hack.com/)                                                     |
-| **GDG AI Hack 2025**                   | Milan, IT     | May 10 - 11, 2025 |          |       | [gdgaihack.com](https://www.gdgaihack.com/)                                                     |
+| **GDG AI Hack 2025**                   | Milan, IT     | May 10 - 11, 2025 | AI       |       | [gdgaihack.com](https://www.gdgaihack.com/)                                                     |
 | **2025 London Defence Tech Hackathon** | London, GB    | May 10 - 11, 2025 |          |       | [lu.ma](https://lu.ma/5obp6mve)                                                                 |
+| **AI with MATLAB**                     | Athens, GR    | May 6, 2025       | AI       |       | [ai-with-matlab-west-attica.devpost.com](https://ai-with-matlab-west-attica.devpost.com/)       |
 | **HackUPC 2025**                       | Barcelona, ES | May 2 - 4, 2025   |          |       | [hackupc.com](https://hackupc.com/)                                                             |
 | **MathWorks Hackathon**                | Eindhoven, NL | Apr 23, 2025      |          |       | [mathworks-hackathon-microgrid.devpost.com](https://mathworks-hackathon-microgrid.devpost.com/) |
 | **DragonHack**                         | Ljubljana, SI | Apr 12 - 13, 2025 |          |       | [dragonhack.si](https://dragonhack.si/)                                                         |
+| **AI Hackathon**                       | Zurich, CH    | Apr 11, 2025      | AI       |       | [lu.ma](https://lu.ma/9cnht5pc)                                                                 |
+| **AI for Change Hackathon**            | Stockholm, SE | Apr 24, 2025      | AI       |       | [lu.ma](https://lu.ma/ctqhbtil)                                                                 |
 | **Q-Hack 2025**                        | Mannheim, DE  | Apr 23 - 24, 2025 |          |       | [q-hack-2025.devpost.com](https://q-hack-2025.devpost.com/)                                     |
-| **Mistral AI Robotics Hackathon**      | Paris, FR     | Apr 11, 2025      |          |       | [lu.ma](https://lu.ma/roboticshack)                                                             |
+| **Mistral AI Robotics Hackathon**      | Paris, FR     | Apr 11, 2025      | AI       |       | [lu.ma](https://lu.ma/roboticshack)                                                             |
 | **Brainhack Rome 2025**                | Rome, IT      | Apr 8 - 11, 2025  |          |       | [brainhackrome.github.io](https://brainhackrome.github.io/)                                     |
 | **WebVM: The hackathon II**            | Leeds, GB     | Apr 7 - 14, 2025  |          |       | [webvm-hackathon.devpost.com](https://webvm-hackathon.devpost.com/)                             |
+| **{Tech: Berlin} AI Hackathon #3**     | Berlin, DE    | Apr 5 - 6, 2025   | AI       |       | [lu.ma](https://lu.ma/tech-berlin)                                                              |
+| **Hackathon: from LLMs to AGENTIC AI** | Paris, FR     | Apr 5 - 6, 2025   | AI       |       | [lu.ma](https://lu.ma/shun5uky)                                                                 |
 | **Delft Hackathon**                    | Amsterdam, NL | Apr 5, 2025       |          |       | [lu.ma](https://lu.ma/delft-ebl)                                                                |
 | **Damm x EHub Hackathon**              | Barcelona, ES | Apr 4, 2025       |          |       | [lu.ma](https://lu.ma/7d29o3hp)                                                                 |
-| **Dark Patterns AI Hackathon**         | Zurich, CH    | Apr 4 - 6, 2025   |          |       | [lu.ma](https://lu.ma/yf9l20g2)                                                                 |
-| **AI for Change Hackathon**            | Stockholm, SE | Apr 2, 2025       |          |       | [lu.ma](https://lu.ma/ctqhbtil)                                                                 |
-| **European Defense Tech Hackathon**    | Amsterdam, NL | Mar 29 - 30, 2025 |          |       | [lu.ma](https://lu.ma/wl9nwnq2)                                                                 |
+| **Dark Patterns AI Hackathon**         | Zurich, CH    | Apr 4 - 6, 2025   | AI       |       | [lu.ma](https://lu.ma/yf9l20g2)                                                                 |
 
 ### 🔵 Future Estimations
 
@@ -41,6 +44,8 @@ Here are the hackathons, categorized based on their status. If you know of any t
 
 | Hackathon Name                                                    | Location         | Date                 | Topic(s)    | Notes  | URL                                                                                                                     |
 | ----------------------------------------------------------------- | ---------------- | -------------------- | ----------- | ------ | ----------------------------------------------------------------------------------------------------------------------- |
+| **AI for Change Hackathon**                                       | Stockholm, SE    | Apr 2, 2025          |             |        | [lu.ma](https://lu.ma/ctqhbtil)                                                                                         |
+| **European Defense Tech Hackathon**                               | Amsterdam, NL    | Mar 29 - 30, 2025    |             |        | [lu.ma](https://lu.ma/wl9nwnq2)                                                                                         |
 | **EU Startup Policy Hackathon**                                   | Brussels, BE     | Mar 28, 2025         |             |        | [lu.ma](https://lu.ma/fulj9bp7)                                                                                         |
 | **birmingHack**                                                   | Birmingham, GB   | Mar 22 - 23, 2025    |             |        | [birminghack.com](https://birminghack.com/)                                                                             |
 | **Hack of Tomorrow**                                              | Poznan, PL       | Mar 22 - 23, 2025    |             |        | [hack-of-tomorrow.devpost.com](https://hack-of-tomorrow.devpost.com/)                                                   |

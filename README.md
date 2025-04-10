@@ -13,7 +13,7 @@ need here! 🎉
 Here are the hackathons, categorized based on their status. If you know of any that are missing, feel free to
 contribute! 🙌
 
-### 🟢 Upcoming Hackathons
+<h3>🟢 Upcoming Hackathons</h3>
 
 | Hackathon Name                         | Location      | Date              | Topic(s) | Notes | URL                                                                                             |
 | -------------------------------------- | ------------- | ----------------- | -------- | ----- | ----------------------------------------------------------------------------------------------- |
@@ -29,14 +29,18 @@ contribute! 🙌
 | **Q-Hack 2025**                        | Mannheim, DE  | Apr 23 - 24, 2025 |          |       | [q-hack-2025.devpost.com](https://q-hack-2025.devpost.com/)                                     |
 | **Mistral AI Robotics Hackathon**      | Paris, FR     | Apr 11, 2025      | AI       |       | [lu.ma](https://lu.ma/roboticshack)                                                             |
 
-### 🔵 Future Estimations
+<details>
+<summary><h3 style="display:inline-block">🔵 Future Estimations</h3></summary>
 
 | Hackathon Name | Location   | Estimated Date  | Topic(s) | Notes  | URL                                       |
 | -------------- | ---------- | --------------- | -------- | ------ | ----------------------------------------- |
 | **HackZurich** | Zurich, CH | Mid Sep, 2025   |          | Onsite | [hackzurich.com](https://hackzurich.com/) |
 | **ICHack UK**  | London, GB | Early Feb, 2026 |          | Onsite | [ichack.org](https://ichack.org/)         |
 
-### 🔴 Past Hackathons
+</details>
+
+<details>
+<summary><h3 style="display:inline-block">🔴 Past Hackathons</h3></summary>
 
 | Hackathon Name                                                    | Location         | Date                 | Topic(s)    | Notes  | URL                                                                                                                     |
 | ----------------------------------------------------------------- | ---------------- | -------------------- | ----------- | ------ | ----------------------------------------------------------------------------------------------------------------------- |
@@ -104,6 +108,8 @@ contribute! 🙌
 | **Encode London**                                                 | London, GB       | Oct 25-27, 2024      |             |        | [encode.club](https://www.encode.club/encodelondon-24)                                                                  |
 | **NNE AI & ML Hackathon**                                         | Copenhagen, DE   | Oct 15-18, 2024      |             |        | [nne.com](https://www.nne.com/hackathon-2024)                                                                           |
 | **Mistral AI x Alan Healthcare**                                  | Paris, FR        | Oct 12-13, 2024      | AI          |        | [partiful.com](https://partiful.com/e/ysBoxA0GtDFiYMSka0o7)                                                             |
+
+</details>
 
 ---
 

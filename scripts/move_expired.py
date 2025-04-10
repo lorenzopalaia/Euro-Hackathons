@@ -17,9 +17,9 @@ def move_expired():
 
     # Find the upcoming and past hackathons sections
     upcoming_section_match = re.search(
-        r'### 🟢 Upcoming Hackathons\n\n(.*?)(?=\n### 🔵)', content, re.DOTALL)
+        r'<h3>🟢 Upcoming Hackathons</h3>\n\n(.*?)(?=\n<details>)', content, re.DOTALL)
     past_section_match = re.search(
-        r'### 🔴 Past Hackathons\n\n(.*?)(?=\n---|$)', content, re.DOTALL)
+        r'<details>\n<summary><h3 style="display:inline-block">🔴 Past Hackathons</h3></summary>\n\n(.*?)(?=\n</details>)', content, re.DOTALL)
 
     if not upcoming_section_match or not past_section_match:
         print("Unable to find the required sections in README.")
@@ -184,11 +184,11 @@ def move_expired():
         sorted_past_hackathons = [row for _, row in dated_rows]
 
         # Rebuild the "Upcoming Hackathons" section
-        new_upcoming_section = "### 🟢 Upcoming Hackathons\n\n" + \
+        new_upcoming_section = "<h3>🟢 Upcoming Hackathons</h3>\n\n" + \
             "\n".join(header + current_hackathons) + "\n"
 
         # Rebuild the "Past Hackathons" section
-        new_past_section = "### 🔴 Past Hackathons\n\n" + \
+        new_past_section = "<details>\n<summary><h3 style=\"display:inline-block\">🔴 Past Hackathons</h3></summary>\n\n" + \
             "\n".join(past_header + sorted_past_hackathons) + "\n"
 
         # Update the file content

@@ -1,0 +1,57 @@
+name: Move Expired Hackathons
+
+on:
+  schedule:
+    # Runs every day at 00:00 UTC
+    - cron: "0 0 * * *"
+  # Allows for manual workflow runs
+  workflow_dispatch:
+
+jobs:
+  move-expired-hackathons:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install python-dateutil
+
+      - name: Move expired hackathons to past section
+        run: |
+          python scripts/move_expired.py
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+
+      - name: Install Prettier
+        run: |
+          npm install --global prettier
+
+      - name: Format README with Prettier
+        run: |
+          prettier --write "README.md"
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add README.md
+          git commit -m "🔄 Moved expired hackathons to Past section [Automated]"
+          git push

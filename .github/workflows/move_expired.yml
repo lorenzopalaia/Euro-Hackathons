@@ -45,11 +45,7 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          if git diff --quiet; then
-            echo "changes=false" >> $GITHUB_OUTPUT
-          else
-            echo "changes=true" >> $GITHUB_OUTPUT
-          fi
+          git diff --exit-code || echo "changes=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push if changes
         if: steps.git-check.outputs.changes == 'true'

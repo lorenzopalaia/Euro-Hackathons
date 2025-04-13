@@ -23,7 +23,6 @@ contribute! 🙌
 | **AI with MATLAB**                     | Athens, GR    | May 6, 2025       | AI       |       | [ai-with-matlab-west-attica.devpost.com](https://ai-with-matlab-west-attica.devpost.com/)       |
 | **HackUPC 2025**                       | Barcelona, ES | May 2 - 4, 2025   |          |       | [hackupc.com](https://hackupc.com/)                                                             |
 | **MathWorks Hackathon**                | Eindhoven, NL | Apr 23, 2025      |          |       | [mathworks-hackathon-microgrid.devpost.com](https://mathworks-hackathon-microgrid.devpost.com/) |
-| **DragonHack**                         | Ljubljana, SI | Apr 12 - 13, 2025 |          |       | [dragonhack.si](https://dragonhack.si/)                                                         |
 | **AI for Change Hackathon**            | Stockholm, SE | Apr 24, 2025      | AI       |       | [lu.ma](https://lu.ma/ctqhbtil)                                                                 |
 | **Q-Hack 2025**                        | Mannheim, DE  | Apr 23 - 24, 2025 |          |       | [q-hack-2025.devpost.com](https://q-hack-2025.devpost.com/)                                     |
 
@@ -83,6 +82,7 @@ contribute! 🙌
 | **ICHack UK**                                                     | London, GB       | Feb 3-4, 2024        |             |        | [ichack.org](https://ichack.org/)                                                                                       |
 | **DurHack**                                                       | Durham, GB       | Nov 2-3, 2024        |             |        | [durhack.com](https://durhack.com/)                                                                                     |
 | **Bio x AI**                                                      | London, GB       | Nov 2-3, 2024        |             |        | [lu.ma](https://lu.ma/nqem2kcg)                                                                                         |
+| **DragonHack**                                                    | Ljubljana, SI    | Apr 12 - 13, 2025    |             |        | [dragonhack.si](https://dragonhack.si/)                                                                                 |
 | **WebVM: The hackathon II**                                       | Leeds, GB        | Apr 7 - 14, 2025     |             |        | [webvm-hackathon.devpost.com](https://webvm-hackathon.devpost.com/)                                                     |
 | **European Defense Tech Hackathon**                               | Amsterdam, NL    | Mar 29 - 30, 2025    |             |        | [lu.ma](https://lu.ma/wl9nwnq2)                                                                                         |
 | **birmingHack**                                                   | Birmingham, GB   | Mar 22 - 23, 2025    |             |        | [birminghack.com](https://birminghack.com/)                                                                             |

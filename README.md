@@ -19,7 +19,7 @@ contribute! 🙌
 | ---------------------------------------------- | ------------- | --------------- | -------- | ----- | ----------------------------------------------------------------------------------------------- |
 | **ImpactHack 2025**                            | Glasgow, GB   | Nov 22-23, 2025 |          |       | [impact-hack.com](https://impact-hack.com/)                                                     |
 | **GDG AI Hack 2025**                           | Milan, IT     | May 10-11, 2025 | AI       |       | [gdgaihack.com](https://www.gdgaihack.com/)                                                     |
-| \*\*European Builders League: Madrid Hackathon | Madrid, ES    | May 10, 2025    |          |       | [lu.ma](https://lu.ma/madrid-ebl)                                                               |
+| **European Builders League: Madrid Hackathon** | Madrid, ES    | May 10, 2025    |          |       | [lu.ma](https://lu.ma/madrid-ebl)                                                               |
 | **2025 London Defence Tech Hackathon**         | London, GB    | May 10-11, 2025 |          |       | [lu.ma](https://lu.ma/5obp6mve)                                                                 |
 | **AI with MATLAB**                             | Athens, GR    | May 6, 2025     | AI       |       | [ai-with-matlab-west-attica.devpost.com](https://ai-with-matlab-west-attica.devpost.com/)       |
 | **HackUPC 2025**                               | Barcelona, ES | May 2-4, 2025   |          |       | [hackupc.com](https://hackupc.com/)                                                             |

@@ -19,14 +19,13 @@ contribute! 🙌
 | ---------------------------------------------- | ------------- | --------------- | -------- | ----- | ----------------------------------------------------------------------------------------------- |
 | **ImpactHack 2025**                            | Glasgow, GB   | Nov 22-23, 2025 |          |       | [impact-hack.com](https://impact-hack.com/)                                                     |
 | **GDG AI Hack 2025**                           | Milan, IT     | May 10-11, 2025 | AI       |       | [gdgaihack.com](https://www.gdgaihack.com/)                                                     |
-| **European Builders League: Madrid Hackathon** | Madrid, ES    | May 10, 2025    |          |       | [lu.ma](https://lu.ma/madrid-ebl)                                                               |
 | **2025 London Defence Tech Hackathon**         | London, GB    | May 10-11, 2025 |          |       | [lu.ma](https://lu.ma/5obp6mve)                                                                 |
+| **European Builders League: Madrid Hackathon** | Madrid, ES    | May 10, 2025    |          |       | [lu.ma](https://lu.ma/madrid-ebl)                                                               |
 | **AI with MATLAB**                             | Athens, GR    | May 6, 2025     | AI       |       | [ai-with-matlab-west-attica.devpost.com](https://ai-with-matlab-west-attica.devpost.com/)       |
 | **HackUPC 2025**                               | Barcelona, ES | May 2-4, 2025   |          |       | [hackupc.com](https://hackupc.com/)                                                             |
 | **AI for Change Hackathon**                    | Stockholm, SE | Apr 24, 2025    | AI       |       | [lu.ma](https://lu.ma/ctqhbtil)                                                                 |
 | **Q-Hack 2025**                                | Mannheim, DE  | Apr 23-24, 2025 |          |       | [q-hack-2025.devpost.com](https://q-hack-2025.devpost.com/)                                     |
 | **MathWorks Hackathon**                        | Eindhoven, NL | Apr 23, 2025    |          |       | [mathworks-hackathon-microgrid.devpost.com](https://mathworks-hackathon-microgrid.devpost.com/) |
-| **Permanance Hackathon Solana Colosseum**      | Paris, FR     | Apr 19-20, 2025 |          |       | [lu.ma](https://lu.ma/oml1y5zs)                                                                 |
 
 <details>
 <summary><h3 style="display:inline-block">🔵 Future Estimations</h3></summary>
@@ -43,6 +42,7 @@ contribute! 🙌
 
 | Hackathon Name                                                    | Location         | Date               | Topic(s)    | Notes  | URL                                                                                                                     |
 | ----------------------------------------------------------------- | ---------------- | ------------------ | ----------- | ------ | ----------------------------------------------------------------------------------------------------------------------- |
+| **Permanance Hackathon Solana Colosseum**                         | Paris, FR        | Apr 19-20, 2025    |             |        | [lu.ma](https://lu.ma/oml1y5zs)                                                                                         |
 | **DragonHack**                                                    | Ljubljana, SI    | Apr 12-13, 2025    |             |        | [dragonhack.si](https://dragonhack.si/)                                                                                 |
 | **AI Hackathon**                                                  | Zurich, CH       | Apr 11, 2025       | AI          |        | [lu.ma](https://lu.ma/9cnht5pc)                                                                                         |
 | **Mistral AI Robotics Hackathon**                                 | Paris, FR        | Apr 11, 2025       | AI          |        | [lu.ma](https://lu.ma/roboticshack)                                                                                     |

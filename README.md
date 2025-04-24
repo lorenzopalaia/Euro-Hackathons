@@ -15,42 +15,40 @@ contribute! 🙌
 
 <h3>🟢 Upcoming Hackathons</h3>
 
-| Hackathon Name                                        | Location       | Date               | Topic(s) | Notes | URL                                                                                             |
-| ----------------------------------------------------- | -------------- | ------------------ | -------- | ----- | ----------------------------------------------------------------------------------------------- |
-| **ImpactHack 2025**                                   | Glasgow, GB    | Nov 22-23, 2025    |          |       | [impact-hack.com](https://impact-hack.com/)                                                     |
-| **Encode London Research Conference and Hackathon**   | London, GB     | Oct 24-26, 2025    |          |       | [lu.ma](https://lu.ma/Encode-London-25)                                                         |
-| **ETHSofia Conference and Hackathon 2025**            | Sofia, BG      | Sep 23, 2025       |          |       | [lu.ma](https://lu.ma/v830crl0)                                                                 |
-| **CheerpJ: The Hackathon**                            | Leeds, GB      | Sep 1-Oct 32, 2025 |          |       | [cheerpj-the-hackathon.devpost.com](https://cheerpj-the-hackathon.devpost.com/)                 |
-| **ZK HACK BERLIN Hackathon**                          | Berlin, DE     | Jun 20-22, 2025    |          |       | [lu.ma](https://lu.ma/cwj5kakg)                                                                 |
-| **European Defense Tech Hackathon – Prague**          | Prague, CZ     | Jun 6, 2025        |          |       | [lu.ma](https://lu.ma/edth-2025-prague)                                                         |
-| **Hardcore AI Hackathon 2025**                        | Berlin, DE     | May 30-Jun 1, 2025 | AI       |       | [lu.ma](https://lu.ma/hardcore-ai)                                                              |
-| **{Tech: Paris} AI Hackathon**                        | Paris, FR      | May 24-25, 2025    | AI       |       | [lu.ma](https://lu.ma/paris-hackathon)                                                          |
-| **Avalanche Summit London Hackathon**                 | London, GB     | May 23-25, 2025    |          |       | [lu.ma](https://lu.ma/avalanchesummitlondonhackathon)                                           |
-| **ETHBratislava - Conference & Hackathon**            | Bratislava, SK | May 23-24, 2025    |          |       | [lu.ma](https://lu.ma/ncaua5gh)                                                                 |
-| **Hackaburg 2025**                                    | Regensburg, DE | May 22-24, 2025    |          |       | [hackaburg-2025.devpost.com](https://hackaburg-2025.devpost.com/)                               |
-| **UX in Motion Hackathon**                            | Oxford, GB     | May 17, 2025       |          |       | [lu.ma](https://lu.ma/howjgtpo)                                                                 |
-| **Legal Frontier Hackathon: AI & Beyond**             | Amsterdam, NL  | May 16-18, 2025    | AI       |       | [lu.ma](https://lu.ma/3zq3hk2j)                                                                 |
-| **Cybersecurity Startup Hackathon - UPV edition**     | València, ES   | May 16, 2025       |          |       | [lu.ma](https://lu.ma/cybersecurity-startup-hackathon-upv-edition)                              |
-| **GDG AI Hack 2025**                                  | Milan, IT      | May 10-11, 2025    | AI       |       | [gdgaihack.com](https://www.gdgaihack.com/)                                                     |
-| **2025 London Defence Tech Hackathon**                | London, GB     | May 10-11, 2025    |          |       | [lu.ma](https://lu.ma/5obp6mve)                                                                 |
-| **European Builders League: Copenhagen Hackathon**    | Copenhagen, DK | May 10-11, 2025    |          |       | [lu.ma](https://lu.ma/copenhagen-ebl)                                                           |
-| **European Builders League: Madrid Hackathon**        | Madrid, ES     | May 10, 2025       |          |       | [lu.ma](https://lu.ma/madrid-ebl)                                                               |
-| **Granola x Vercel Hackathon**                        | London, GB     | May 10, 2025       |          |       | [lu.ma](https://lu.ma/hjhzhd0j)                                                                 |
-| **Agentic Hackathon II**                              | Antwerp, BE    | May 10, 2025       |          |       | [lu.ma](https://lu.ma/kwqe0h72)                                                                 |
-| **AI Hackathon**                                      | Vilnius, LT    | May 9-11, 2025     | AI       |       | [lu.ma](https://lu.ma/w5hudoyd)                                                                 |
-| **AI with MATLAB**                                    | Athens, GR     | May 6, 2025        | AI       |       | [ai-with-matlab-west-attica.devpost.com](https://ai-with-matlab-west-attica.devpost.com/)       |
-| **European Defense Tech Hackathon – Vilnius**         | Vilnius, LT    | May 4-6, 2025      |          |       | [lu.ma](https://lu.ma/edth-2025-vilnius)                                                        |
-| **Breakout Hackathon Mixer**                          | Berlin, DE     | May 3, 2025        |          |       | [lu.ma](https://lu.ma/breakoutmixer)                                                            |
-| **HackUPC 2025**                                      | Barcelona, ES  | May 2-4, 2025      |          |       | [hackupc.com](https://hackupc.com/)                                                             |
-| **Solana Buildstation Belgrade @ Breakout Hackathon** | Belgrade, RS   | Apr 28-May 9, 2025 |          |       | [lu.ma](https://lu.ma/6xz4ybas)                                                                 |
-| **Web3 Hackathon - Bursa**                            | Bursa, TR      | Apr 26-27, 2025    |          |       | [lu.ma](https://lu.ma/9wp2ivxh)                                                                 |
-| **Pre-YC S25 AI Hackathon by Restack**                | Berlin, DE     | Apr 26-27, 2025    | AI       |       | [lu.ma](https://lu.ma/pyivp5k1)                                                                 |
-| **Hack Nights in Shieffild x iForge**                 | Shieffild, GB  | Apr 26, 2025       |          |       | [iforge-hn25.devpost.com](https://iforge-hn25.devpost.com/)                                     |
-| **YFN Hackathon {Berlin} 2025**                       | Berlin, DE     | Apr 25, 2025       |          |       | [lu.ma](https://lu.ma/xy44qoqc)                                                                 |
-| **The Vibe Coders Prague - Hackathon vol.3**          | Prague, CZ     | Apr 25, 2025       |          |       | [lu.ma](https://lu.ma/s5rtkrde)                                                                 |
-| **AI for Change Hackathon - by Tilda**                | Stockholm, SE  | Apr 24, 2025       | AI       |       | [lu.ma](https://lu.ma/ctqhbtil)                                                                 |
-| **Q-Hack 2025**                                       | Mannheim, DE   | Apr 23-24, 2025    |          |       | [q-hack-2025.devpost.com](https://q-hack-2025.devpost.com/)                                     |
-| **MathWorks Hackathon**                               | Eindhoven, NL  | Apr 23, 2025       |          |       | [mathworks-hackathon-microgrid.devpost.com](https://mathworks-hackathon-microgrid.devpost.com/) |
+| Hackathon Name                                        | Location       | Date               | Topic(s) | Notes | URL                                                                                       |
+| ----------------------------------------------------- | -------------- | ------------------ | -------- | ----- | ----------------------------------------------------------------------------------------- |
+| **ImpactHack 2025**                                   | Glasgow, GB    | Nov 22-23, 2025    |          |       | [impact-hack.com](https://impact-hack.com/)                                               |
+| **Encode London Research Conference and Hackathon**   | London, GB     | Oct 24-26, 2025    |          |       | [lu.ma](https://lu.ma/Encode-London-25)                                                   |
+| **ETHSofia Conference and Hackathon 2025**            | Sofia, BG      | Sep 23, 2025       |          |       | [lu.ma](https://lu.ma/v830crl0)                                                           |
+| **ZK HACK BERLIN Hackathon**                          | Berlin, DE     | Jun 20-22, 2025    |          |       | [lu.ma](https://lu.ma/cwj5kakg)                                                           |
+| **European Defense Tech Hackathon – Prague**          | Prague, CZ     | Jun 6, 2025        |          |       | [lu.ma](https://lu.ma/edth-2025-prague)                                                   |
+| **Hardcore AI Hackathon 2025**                        | Berlin, DE     | May 30-Jun 1, 2025 | AI       |       | [lu.ma](https://lu.ma/hardcore-ai)                                                        |
+| **{Tech: Paris} AI Hackathon**                        | Paris, FR      | May 24-25, 2025    | AI       |       | [lu.ma](https://lu.ma/paris-hackathon)                                                    |
+| **Avalanche Summit London Hackathon**                 | London, GB     | May 23-25, 2025    |          |       | [lu.ma](https://lu.ma/avalanchesummitlondonhackathon)                                     |
+| **ETHBratislava - Conference & Hackathon**            | Bratislava, SK | May 23-24, 2025    |          |       | [lu.ma](https://lu.ma/ncaua5gh)                                                           |
+| **Hackaburg 2025**                                    | Regensburg, DE | May 22-24, 2025    |          |       | [hackaburg-2025.devpost.com](https://hackaburg-2025.devpost.com/)                         |
+| **UX in Motion Hackathon**                            | Oxford, GB     | May 17, 2025       |          |       | [lu.ma](https://lu.ma/howjgtpo)                                                           |
+| **Legal Frontier Hackathon: AI & Beyond**             | Amsterdam, NL  | May 16-18, 2025    | AI       |       | [lu.ma](https://lu.ma/3zq3hk2j)                                                           |
+| **Cybersecurity Startup Hackathon - UPV edition**     | València, ES   | May 16, 2025       |          |       | [lu.ma](https://lu.ma/cybersecurity-startup-hackathon-upv-edition)                        |
+| **GDG AI Hack 2025**                                  | Milan, IT      | May 10-11, 2025    | AI       |       | [gdgaihack.com](https://www.gdgaihack.com/)                                               |
+| **2025 London Defence Tech Hackathon**                | London, GB     | May 10-11, 2025    |          |       | [lu.ma](https://lu.ma/5obp6mve)                                                           |
+| **European Builders League: Copenhagen Hackathon**    | Copenhagen, DK | May 10-11, 2025    |          |       | [lu.ma](https://lu.ma/copenhagen-ebl)                                                     |
+| **European Builders League: Madrid Hackathon**        | Madrid, ES     | May 10, 2025       |          |       | [lu.ma](https://lu.ma/madrid-ebl)                                                         |
+| **Granola x Vercel Hackathon**                        | London, GB     | May 10, 2025       |          |       | [lu.ma](https://lu.ma/hjhzhd0j)                                                           |
+| **Agentic Hackathon II**                              | Antwerp, BE    | May 10, 2025       |          |       | [lu.ma](https://lu.ma/kwqe0h72)                                                           |
+| **AI Hackathon**                                      | Vilnius, LT    | May 9-11, 2025     | AI       |       | [lu.ma](https://lu.ma/w5hudoyd)                                                           |
+| **AI with MATLAB**                                    | Athens, GR     | May 6, 2025        | AI       |       | [ai-with-matlab-west-attica.devpost.com](https://ai-with-matlab-west-attica.devpost.com/) |
+| **European Defense Tech Hackathon – Vilnius**         | Vilnius, LT    | May 4-6, 2025      |          |       | [lu.ma](https://lu.ma/edth-2025-vilnius)                                                  |
+| **Breakout Hackathon Mixer**                          | Berlin, DE     | May 3, 2025        |          |       | [lu.ma](https://lu.ma/breakoutmixer)                                                      |
+| **HackUPC 2025**                                      | Barcelona, ES  | May 2-4, 2025      |          |       | [hackupc.com](https://hackupc.com/)                                                       |
+| **Solana Buildstation Belgrade @ Breakout Hackathon** | Belgrade, RS   | Apr 28-May 9, 2025 |          |       | [lu.ma](https://lu.ma/6xz4ybas)                                                           |
+| **Web3 Hackathon - Bursa**                            | Bursa, TR      | Apr 26-27, 2025    |          |       | [lu.ma](https://lu.ma/9wp2ivxh)                                                           |
+| **Pre-YC S25 AI Hackathon by Restack**                | Berlin, DE     | Apr 26-27, 2025    | AI       |       | [lu.ma](https://lu.ma/pyivp5k1)                                                           |
+| **Hack Nights in Shieffild x iForge**                 | Shieffild, GB  | Apr 26, 2025       |          |       | [iforge-hn25.devpost.com](https://iforge-hn25.devpost.com/)                               |
+| **YFN Hackathon {Berlin} 2025**                       | Berlin, DE     | Apr 25, 2025       |          |       | [lu.ma](https://lu.ma/xy44qoqc)                                                           |
+| **The Vibe Coders Prague - Hackathon vol.3**          | Prague, CZ     | Apr 25, 2025       |          |       | [lu.ma](https://lu.ma/s5rtkrde)                                                           |
+| **AI for Change Hackathon - by Tilda**                | Stockholm, SE  | Apr 24, 2025       | AI       |       | [lu.ma](https://lu.ma/ctqhbtil)                                                           |
+| **CheerpJ: The Hackathon**                            | Leeds, GB      | Sep 1-Oct 32, 2025 |          |       | [cheerpj-the-hackathon.devpost.com](https://cheerpj-the-hackathon.devpost.com/)           |
 
 <details>
 <summary><h3 style="display:inline-block">🔵 Future Estimations</h3></summary>
@@ -67,6 +65,8 @@ contribute! 🙌
 
 | Hackathon Name                                                    | Location         | Date               | Topic(s)    | Notes  | URL                                                                                                                     |
 | ----------------------------------------------------------------- | ---------------- | ------------------ | ----------- | ------ | ----------------------------------------------------------------------------------------------------------------------- |
+| **Q-Hack 2025**                                                   | Mannheim, DE     | Apr 23-24, 2025    |             |        | [q-hack-2025.devpost.com](https://q-hack-2025.devpost.com/)                                                             |
+| **MathWorks Hackathon**                                           | Eindhoven, NL    | Apr 23, 2025       |             |        | [mathworks-hackathon-microgrid.devpost.com](https://mathworks-hackathon-microgrid.devpost.com/)                         |
 | **Permanance Hackathon Solana Colosseum**                         | Paris, FR        | Apr 19-20, 2025    |             |        | [lu.ma](https://lu.ma/oml1y5zs)                                                                                         |
 | **DragonHack**                                                    | Ljubljana, SI    | Apr 12-13, 2025    |             |        | [dragonhack.si](https://dragonhack.si/)                                                                                 |
 | **AI Hackathon**                                                  | Zurich, CH       | Apr 11, 2025       | AI          |        | [lu.ma](https://lu.ma/9cnht5pc)                                                                                         |

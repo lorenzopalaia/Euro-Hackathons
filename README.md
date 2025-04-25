@@ -47,7 +47,6 @@ contribute! 🙌
 | **Hack Nights in Shieffild x iForge**                 | Shieffild, GB  | Apr 26, 2025       |          |       | [iforge-hn25.devpost.com](https://iforge-hn25.devpost.com/)                               |
 | **YFN Hackathon {Berlin} 2025**                       | Berlin, DE     | Apr 25, 2025       |          |       | [lu.ma](https://lu.ma/xy44qoqc)                                                           |
 | **The Vibe Coders Prague - Hackathon vol.3**          | Prague, CZ     | Apr 25, 2025       |          |       | [lu.ma](https://lu.ma/s5rtkrde)                                                           |
-| **AI for Change Hackathon - by Tilda**                | Stockholm, SE  | Apr 24, 2025       | AI       |       | [lu.ma](https://lu.ma/ctqhbtil)                                                           |
 | **CheerpJ: The Hackathon**                            | Leeds, GB      | Sep 1-Oct 32, 2025 |          |       | [cheerpj-the-hackathon.devpost.com](https://cheerpj-the-hackathon.devpost.com/)           |
 
 <details>
@@ -65,6 +64,7 @@ contribute! 🙌
 
 | Hackathon Name                                                    | Location         | Date               | Topic(s)    | Notes  | URL                                                                                                                     |
 | ----------------------------------------------------------------- | ---------------- | ------------------ | ----------- | ------ | ----------------------------------------------------------------------------------------------------------------------- |
+| **AI for Change Hackathon - by Tilda**                            | Stockholm, SE    | Apr 24, 2025       | AI          |        | [lu.ma](https://lu.ma/ctqhbtil)                                                                                         |
 | **Q-Hack 2025**                                                   | Mannheim, DE     | Apr 23-24, 2025    |             |        | [q-hack-2025.devpost.com](https://q-hack-2025.devpost.com/)                                                             |
 | **MathWorks Hackathon**                                           | Eindhoven, NL    | Apr 23, 2025       |             |        | [mathworks-hackathon-microgrid.devpost.com](https://mathworks-hackathon-microgrid.devpost.com/)                         |
 | **Permanance Hackathon Solana Colosseum**                         | Paris, FR        | Apr 19-20, 2025    |             |        | [lu.ma](https://lu.ma/oml1y5zs)                                                                                         |

@@ -42,9 +42,6 @@ contribute! 🙌
 | **Breakout Hackathon Mixer**                          | Berlin, DE     | May 3, 2025        |          |       | [lu.ma](https://lu.ma/breakoutmixer)                                                      |
 | **HackUPC 2025**                                      | Barcelona, ES  | May 2-4, 2025      |          |       | [hackupc.com](https://hackupc.com/)                                                       |
 | **Solana Buildstation Belgrade @ Breakout Hackathon** | Belgrade, RS   | Apr 28-May 9, 2025 |          |       | [lu.ma](https://lu.ma/6xz4ybas)                                                           |
-| **Web3 Hackathon - Bursa**                            | Bursa, TR      | Apr 26-27, 2025    |          |       | [lu.ma](https://lu.ma/9wp2ivxh)                                                           |
-| **Pre-YC S25 AI Hackathon by Restack**                | Berlin, DE     | Apr 26-27, 2025    | AI       |       | [lu.ma](https://lu.ma/pyivp5k1)                                                           |
-| **Hack Nights in Shieffild x iForge**                 | Shieffild, GB  | Apr 26, 2025       |          |       | [iforge-hn25.devpost.com](https://iforge-hn25.devpost.com/)                               |
 | **CheerpJ: The Hackathon**                            | Leeds, GB      | Sep 1-Oct 32, 2025 |          |       | [cheerpj-the-hackathon.devpost.com](https://cheerpj-the-hackathon.devpost.com/)           |
 
 <details>
@@ -62,6 +59,9 @@ contribute! 🙌
 
 | Hackathon Name                                                    | Location         | Date               | Topic(s)    | Notes  | URL                                                                                                                     |
 | ----------------------------------------------------------------- | ---------------- | ------------------ | ----------- | ------ | ----------------------------------------------------------------------------------------------------------------------- |
+| **Web3 Hackathon - Bursa**                                        | Bursa, TR        | Apr 26-27, 2025    |             |        | [lu.ma](https://lu.ma/9wp2ivxh)                                                                                         |
+| **Pre-YC S25 AI Hackathon by Restack**                            | Berlin, DE       | Apr 26-27, 2025    | AI          |        | [lu.ma](https://lu.ma/pyivp5k1)                                                                                         |
+| **Hack Nights in Shieffild x iForge**                             | Shieffild, GB    | Apr 26, 2025       |             |        | [iforge-hn25.devpost.com](https://iforge-hn25.devpost.com/)                                                             |
 | **YFN Hackathon {Berlin} 2025**                                   | Berlin, DE       | Apr 25, 2025       |             |        | [lu.ma](https://lu.ma/xy44qoqc)                                                                                         |
 | **The Vibe Coders Prague - Hackathon vol.3**                      | Prague, CZ       | Apr 25, 2025       |             |        | [lu.ma](https://lu.ma/s5rtkrde)                                                                                         |
 | **AI for Change Hackathon - by Tilda**                            | Stockholm, SE    | Apr 24, 2025       | AI          |        | [lu.ma](https://lu.ma/ctqhbtil)                                                                                         |

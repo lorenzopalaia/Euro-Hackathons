@@ -39,7 +39,6 @@ contribute! 🙌
 | **AI Hackathon**                                    | Vilnius, LT    | May 9-11, 2025     | AI       |       | [lu.ma](https://lu.ma/w5hudoyd)                                                           |
 | **AI with MATLAB**                                  | Athens, GR     | May 6, 2025        | AI       |       | [ai-with-matlab-west-attica.devpost.com](https://ai-with-matlab-west-attica.devpost.com/) |
 | **European Defense Tech Hackathon – Vilnius**       | Vilnius, LT    | May 4-6, 2025      |          |       | [lu.ma](https://lu.ma/edth-2025-vilnius)                                                  |
-| **Breakout Hackathon Mixer**                        | Berlin, DE     | May 3, 2025        |          |       | [lu.ma](https://lu.ma/breakoutmixer)                                                      |
 | **CheerpJ: The Hackathon**                          | Leeds, GB      | Sep 1-Oct 32, 2025 |          |       | [cheerpj-the-hackathon.devpost.com](https://cheerpj-the-hackathon.devpost.com/)           |
 
 <details>
@@ -57,6 +56,7 @@ contribute! 🙌
 
 | Hackathon Name                                                    | Location         | Date               | Topic(s)    | Notes  | URL                                                                                                                     |
 | ----------------------------------------------------------------- | ---------------- | ------------------ | ----------- | ------ | ----------------------------------------------------------------------------------------------------------------------- |
+| **Breakout Hackathon Mixer**                                      | Berlin, DE       | May 3, 2025        |             |        | [lu.ma](https://lu.ma/breakoutmixer)                                                                                    |
 | **HackUPC 2025**                                                  | Barcelona, ES    | May 2-4, 2025      |             |        | [hackupc.com](https://hackupc.com/)                                                                                     |
 | **Solana Buildstation Belgrade @ Breakout Hackathon**             | Belgrade, RS     | Apr 28-May 9, 2025 |             |        | [lu.ma](https://lu.ma/6xz4ybas)                                                                                         |
 | **Web3 Hackathon - Bursa**                                        | Bursa, TR        | Apr 26-27, 2025    |             |        | [lu.ma](https://lu.ma/9wp2ivxh)                                                                                         |

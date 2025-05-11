@@ -30,12 +30,6 @@ contribute! 🙌
 | **UX in Motion Hackathon**                          | Oxford, GB     | May 17, 2025       |          |       | [lu.ma](https://lu.ma/howjgtpo)                                                 |
 | **Legal Frontier Hackathon: AI & Beyond**           | Amsterdam, NL  | May 16-18, 2025    | AI       |       | [lu.ma](https://lu.ma/3zq3hk2j)                                                 |
 | **Cybersecurity Startup Hackathon - UPV edition**   | València, ES   | May 16, 2025       |          |       | [lu.ma](https://lu.ma/cybersecurity-startup-hackathon-upv-edition)              |
-| **GDG AI Hack 2025**                                | Milan, IT      | May 10-11, 2025    | AI       |       | [gdgaihack.com](https://www.gdgaihack.com/)                                     |
-| **2025 London Defence Tech Hackathon**              | London, GB     | May 10-11, 2025    |          |       | [lu.ma](https://lu.ma/5obp6mve)                                                 |
-| **European Builders League: Copenhagen Hackathon**  | Copenhagen, DK | May 10-11, 2025    |          |       | [lu.ma](https://lu.ma/copenhagen-ebl)                                           |
-| **European Builders League: Madrid Hackathon**      | Madrid, ES     | May 10, 2025       |          |       | [lu.ma](https://lu.ma/madrid-ebl)                                               |
-| **Granola x Vercel Hackathon**                      | London, GB     | May 10, 2025       |          |       | [lu.ma](https://lu.ma/hjhzhd0j)                                                 |
-| **Agentic Hackathon II**                            | Antwerp, BE    | May 10, 2025       |          |       | [lu.ma](https://lu.ma/kwqe0h72)                                                 |
 | **CheerpJ: The Hackathon**                          | Leeds, GB      | Sep 1-Oct 32, 2025 |          |       | [cheerpj-the-hackathon.devpost.com](https://cheerpj-the-hackathon.devpost.com/) |
 
 <details>
@@ -53,6 +47,12 @@ contribute! 🙌
 
 | Hackathon Name                                                    | Location         | Date               | Topic(s)    | Notes  | URL                                                                                                                     |
 | ----------------------------------------------------------------- | ---------------- | ------------------ | ----------- | ------ | ----------------------------------------------------------------------------------------------------------------------- |
+| **GDG AI Hack 2025**                                              | Milan, IT        | May 10-11, 2025    | AI          |        | [gdgaihack.com](https://www.gdgaihack.com/)                                                                             |
+| **2025 London Defence Tech Hackathon**                            | London, GB       | May 10-11, 2025    |             |        | [lu.ma](https://lu.ma/5obp6mve)                                                                                         |
+| **European Builders League: Copenhagen Hackathon**                | Copenhagen, DK   | May 10-11, 2025    |             |        | [lu.ma](https://lu.ma/copenhagen-ebl)                                                                                   |
+| **European Builders League: Madrid Hackathon**                    | Madrid, ES       | May 10, 2025       |             |        | [lu.ma](https://lu.ma/madrid-ebl)                                                                                       |
+| **Granola x Vercel Hackathon**                                    | London, GB       | May 10, 2025       |             |        | [lu.ma](https://lu.ma/hjhzhd0j)                                                                                         |
+| **Agentic Hackathon II**                                          | Antwerp, BE      | May 10, 2025       |             |        | [lu.ma](https://lu.ma/kwqe0h72)                                                                                         |
 | **AI Hackathon**                                                  | Vilnius, LT      | May 9-11, 2025     | AI          |        | [lu.ma](https://lu.ma/w5hudoyd)                                                                                         |
 | **AI with MATLAB**                                                | Athens, GR       | May 6, 2025        | AI          |        | [ai-with-matlab-west-attica.devpost.com](https://ai-with-matlab-west-attica.devpost.com/)                               |
 | **European Defense Tech Hackathon – Vilnius**                     | Vilnius, LT      | May 4-6, 2025      |             |        | [lu.ma](https://lu.ma/edth-2025-vilnius)                                                                                |

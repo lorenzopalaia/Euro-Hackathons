@@ -27,7 +27,6 @@ contribute! 🙌
 | **Avalanche Summit London Hackathon**               | London, GB     | May 23-25, 2025    |          |       | [lu.ma](https://lu.ma/avalanchesummitlondonhackathon)                           |
 | **ETHBratislava - Conference & Hackathon**          | Bratislava, SK | May 23-24, 2025    |          |       | [lu.ma](https://lu.ma/ncaua5gh)                                                 |
 | **Hackaburg 2025**                                  | Regensburg, DE | May 22-24, 2025    |          |       | [hackaburg-2025.devpost.com](https://hackaburg-2025.devpost.com/)               |
-| **UX in Motion Hackathon**                          | Oxford, GB     | May 17, 2025       |          |       | [lu.ma](https://lu.ma/howjgtpo)                                                 |
 | **CheerpJ: The Hackathon**                          | Leeds, GB      | Sep 1-Oct 32, 2025 |          |       | [cheerpj-the-hackathon.devpost.com](https://cheerpj-the-hackathon.devpost.com/) |
 
 <details>
@@ -45,6 +44,7 @@ contribute! 🙌
 
 | Hackathon Name                                                    | Location         | Date               | Topic(s)    | Notes  | URL                                                                                                                     |
 | ----------------------------------------------------------------- | ---------------- | ------------------ | ----------- | ------ | ----------------------------------------------------------------------------------------------------------------------- |
+| **UX in Motion Hackathon**                                        | Oxford, GB       | May 17, 2025       |             |        | [lu.ma](https://lu.ma/howjgtpo)                                                                                         |
 | **Legal Frontier Hackathon: AI & Beyond**                         | Amsterdam, NL    | May 16-18, 2025    | AI          |        | [lu.ma](https://lu.ma/3zq3hk2j)                                                                                         |
 | **Cybersecurity Startup Hackathon - UPV edition**                 | València, ES     | May 16, 2025       |             |        | [lu.ma](https://lu.ma/cybersecurity-startup-hackathon-upv-edition)                                                      |
 | **GDG AI Hack 2025**                                              | Milan, IT        | May 10-11, 2025    | AI          |        | [gdgaihack.com](https://www.gdgaihack.com/)                                                                             |

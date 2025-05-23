@@ -41,7 +41,6 @@ contribute! 🙌
 | **One day of building - CODE x Kombo Hackathon**                       | Berlin, DE     | May 24, 2025       |          |       | [lu.ma](https://lu.ma/f4zjdxja)                                                 |
 | **Avalanche Summit London Hackathon**                                  | London, GB     | May 23-25, 2025    | Crypto   |       | [lu.ma](https://lu.ma/avalanchesummitlondonhackathon)                           |
 | **ETHBratislava - Conference & Hackathon**                             | Bratislava, SK | May 23-24, 2025    |          |       | [lu.ma](https://lu.ma/ncaua5gh)                                                 |
-| **Hackaburg 2025**                                                     | Regensburg, DE | May 22-24, 2025    |          |       | [hackaburg-2025.devpost.com](https://hackaburg-2025.devpost.com/)               |
 
 <details>
 <summary><h3 style="display:inline-block">🔵 Future Estimations</h3></summary>
@@ -58,6 +57,7 @@ contribute! 🙌
 
 | Hackathon Name                                                    | Location         | Date               | Topic(s)    | Notes  | URL                                                                                                                     |
 | ----------------------------------------------------------------- | ---------------- | ------------------ | ----------- | ------ | ----------------------------------------------------------------------------------------------------------------------- |
+| **Hackaburg 2025**                                                | Regensburg, DE   | May 22-24, 2025    |             |        | [hackaburg-2025.devpost.com](https://hackaburg-2025.devpost.com/)                                                       |
 | **UX in Motion Hackathon**                                        | Oxford, GB       | May 17, 2025       |             |        | [lu.ma](https://lu.ma/howjgtpo)                                                                                         |
 | **Legal Frontier Hackathon: AI & Beyond**                         | Amsterdam, NL    | May 16-18, 2025    | AI          |        | [lu.ma](https://lu.ma/3zq3hk2j)                                                                                         |
 | **Cybersecurity Startup Hackathon - UPV edition**                 | València, ES     | May 16, 2025       |             |        | [lu.ma](https://lu.ma/cybersecurity-startup-hackathon-upv-edition)                                                      |

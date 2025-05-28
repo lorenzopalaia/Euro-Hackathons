@@ -37,7 +37,6 @@ contribute! 🙌
 | **AI for Longevity Talks and Hackathon**                               | London, GB    | May 30-Jun 1, 2025 | AI       |       | [lu.ma](https://lu.ma/0cqssciw)                                                 |
 | **Hardcore AI Hackathon 2025**                                         | Berlin, DE    | May 30-Jun 1, 2025 | AI       |       | [lu.ma](https://lu.ma/hardcore-ai)                                              |
 | **World's Largest Hackathon [Zürich Meetup]**                          | Zürich, CH    | May 30, 2025       |          |       | [lu.ma](https://lu.ma/WLH-connect-02)                                           |
-| **computational optics + AI hackathon 🇨🇭**                             | Lausanne, CH  | May 27-31, 2025    | AI       |       | [lu.ma](https://lu.ma/fugvly1b)                                                 |
 
 <details>
 <summary><h3 style="display:inline-block">🔵 Future Estimations</h3></summary>
@@ -54,6 +53,7 @@ contribute! 🙌
 
 | Hackathon Name                                                    | Location         | Date               | Topic(s)    | Notes  | URL                                                                                                                     |
 | ----------------------------------------------------------------- | ---------------- | ------------------ | ----------- | ------ | ----------------------------------------------------------------------------------------------------------------------- |
+| **computational optics + AI hackathon 🇨🇭**                        | Lausanne, CH     | May 27-31, 2025    | AI          |        | [lu.ma](https://lu.ma/fugvly1b)                                                                                         |
 | **AI Hackathon @ Mashup**                                         | Malmo, SE        | May 26-27, 2025    | AI          |        | [lu.ma](https://lu.ma/mashuphackathon)                                                                                  |
 | **{Tech: Paris} AI Hackathon**                                    | Paris, FR        | May 24-25, 2025    | AI          |        | [lu.ma](https://lu.ma/paris-hackathon)                                                                                  |
 | **One day of building - CODE x Kombo Hackathon**                  | Berlin, DE       | May 24, 2025       |             |        | [lu.ma](https://lu.ma/f4zjdxja)                                                                                         |

@@ -33,10 +33,6 @@ contribute! 🙌
 | **European Defense Tech Hackathon – Prague**                           | Prague, CZ    | Jun 6, 2025        |          |       | [lu.ma](https://lu.ma/edth-2025-prague)                                         |
 | **Hackathons as a Learning Experience**                                | Rotterdam, NL | Jun 3, 2025        |          |       | [lu.ma](https://lu.ma/6gpyn5wg)                                                 |
 | **SoTA Weather Control & Geo-engineering Hackathon**                   | London, GB    | May 31-Jun 1, 2025 |          |       | [lu.ma](https://lu.ma/e1zf6atn)                                                 |
-| **VEED x fal.ai GEN AI HACKATHON**                                     | London, GB    | May 30-Jun 1, 2025 | AI       |       | [lu.ma](https://lu.ma/989p71d2)                                                 |
-| **AI for Longevity Talks and Hackathon**                               | London, GB    | May 30-Jun 1, 2025 | AI       |       | [lu.ma](https://lu.ma/0cqssciw)                                                 |
-| **Hardcore AI Hackathon 2025**                                         | Berlin, DE    | May 30-Jun 1, 2025 | AI       |       | [lu.ma](https://lu.ma/hardcore-ai)                                              |
-| **World's Largest Hackathon [Zürich Meetup]**                          | Zürich, CH    | May 30, 2025       |          |       | [lu.ma](https://lu.ma/WLH-connect-02)                                           |
 
 <details>
 <summary><h3 style="display:inline-block">🔵 Future Estimations</h3></summary>
@@ -53,6 +49,10 @@ contribute! 🙌
 
 | Hackathon Name                                                    | Location         | Date               | Topic(s)    | Notes  | URL                                                                                                                     |
 | ----------------------------------------------------------------- | ---------------- | ------------------ | ----------- | ------ | ----------------------------------------------------------------------------------------------------------------------- |
+| **VEED x fal.ai GEN AI HACKATHON**                                | London, GB       | May 30-Jun 1, 2025 | AI          |        | [lu.ma](https://lu.ma/989p71d2)                                                                                         |
+| **AI for Longevity Talks and Hackathon**                          | London, GB       | May 30-Jun 1, 2025 | AI          |        | [lu.ma](https://lu.ma/0cqssciw)                                                                                         |
+| **Hardcore AI Hackathon 2025**                                    | Berlin, DE       | May 30-Jun 1, 2025 | AI          |        | [lu.ma](https://lu.ma/hardcore-ai)                                                                                      |
+| **World's Largest Hackathon [Zürich Meetup]**                     | Zürich, CH       | May 30, 2025       |             |        | [lu.ma](https://lu.ma/WLH-connect-02)                                                                                   |
 | **computational optics + AI hackathon 🇨🇭**                        | Lausanne, CH     | May 27-31, 2025    | AI          |        | [lu.ma](https://lu.ma/fugvly1b)                                                                                         |
 | **AI Hackathon @ Mashup**                                         | Malmo, SE        | May 26-27, 2025    | AI          |        | [lu.ma](https://lu.ma/mashuphackathon)                                                                                  |
 | **{Tech: Paris} AI Hackathon**                                    | Paris, FR        | May 24-25, 2025    | AI          |        | [lu.ma](https://lu.ma/paris-hackathon)                                                                                  |

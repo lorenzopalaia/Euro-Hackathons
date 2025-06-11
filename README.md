@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 11 June 2025 at 19:00_
+_Last updated: 11 June 2025 at 19:32_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -260,6 +260,6 @@ Special thanks to:
 
 **Made with ❤️ for the European hacking community**
 
-_Last system update: 2025-06-11T18:00:46.666Z_
+_Last system update: 2025-06-11T18:32:09.148Z_
 
 </div>

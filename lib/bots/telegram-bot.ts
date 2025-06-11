@@ -28,19 +28,21 @@ export class TelegramBot {
   private formatMessage(hackathon: Hackathon): string {
     const date = this.formatDate(hackathon);
     const topics = hackathon.topics?.length
-      ? `\n🏷️ *Topics:* ${hackathon.topics.join(", ")}`
+      ? `\n🏷️ *Topics:* ${this.escapeMarkdownV2(hackathon.topics.join(", "))}`
       : "";
 
-    return `🚀 *New European Hackathon!*
+    return `🚀 *New European Hackathon\\!*
+  
+  📝 *Name:* ${this.escapeMarkdownV2(hackathon.name)}
+  📍 *Location:* ${this.escapeMarkdownV2(hackathon.location)}
+  📅 *Date:* ${this.escapeMarkdownV2(date)}${topics}
+  
+  🔗 [Join here](${hackathon.url})`;
+  }
 
-📝 *Name:* ${hackathon.name.replace(/[_*[\]()~`>#+\-=|{}.!\\]/g, "\\$&")}
-📍 *Location:* ${hackathon.location.replace(
-      /[_*[\]()~`>#+\-=|{}.!\\]/g,
-      "\\$&",
-    )}
-📅 *Date:* ${date}${topics}
-
-🔗 [Join here](${hackathon.url})`;
+  private escapeMarkdownV2(text: string): string {
+    // Escape tutti i caratteri speciali di MarkdownV2
+    return text.replace(/[_*[\]()~`>#+\-=|{}.!\\]/g, "\\$&");
   }
 
   private formatDate(hackathon: Hackathon): string {

@@ -14,15 +14,15 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 11 June 2025 at 21:47_
+_Last updated: 11 June 2025 at 22:47_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                                                                               | Location                 | Date                      | Topics       | URL                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ------------------------- | ------------ | ----------------------------------------------------- |
 | Munich AI Robotics Hackathon: Guests & Partners                                                                              | Garching bei München, DE | 13 Jun-15, 2025           | AI           | [Link](https://lu.ma/nuupusag)                        |
-| Munich AI Robotics Hackathon                                                                                                 | Garching bei München, DE | 13 Jun-15, 2025           | AI           | [Link](https://lu.ma/nr4bt93o)                        |
 | World's Largest Hackathon [Zürich Meetup]                                                                                    | Zürich, CH               | 13 Jun 2025               |              | [Link](https://lu.ma/WLH-connect-04)                  |
+| Munich AI Robotics Hackathon                                                                                                 | Garching bei München, DE | 13 Jun-15, 2025           | AI           | [Link](https://lu.ma/nr4bt93o)                        |
 | Cardano Hackathon and Networking                                                                                             | Berlin, DE               | 13 Jun-14, 2025           | Crypto       | [Link](https://lu.ma/2q4mzhav)                        |
 | AI3 Mobile App 24-Hour Hackathon                                                                                             | N/A, N/A                 | 14 Jun-15, 2025           | AI           | [Link](https://lu.ma/AI3-Hackathon)                   |
 | Zero to Coder: AI-Powered Coding Workshop                                                                                    | London, GB               | 14 Jun 2025               | AI           | [Link](https://lu.ma/nunvlyco)                        |
@@ -260,6 +260,6 @@ Special thanks to:
 
 **Made with ❤️ for the European hacking community**
 
-_Last system update: 2025-06-11T20:47:49.979Z_
+_Last system update: 2025-06-11T21:47:23.096Z_
 
 </div>

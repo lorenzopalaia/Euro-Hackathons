@@ -122,9 +122,9 @@ GET /api/hackathons?status=past&limit=50&page=1
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 11 June 2025 at 17:57_
+_Last updated: 11 June 2025 at 18:21_
 
-  <!-- UPCOMING_TABLE_START -->
+<!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                                                                               | Location                 | Date                      | Topics       | URL                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ------------------------- | ------------ | ----------------------------------------------------- |
@@ -162,18 +162,18 @@ _Last updated: 11 June 2025 at 17:57_
 | European Defense Tech Hackathon – Berlin                                                                                     | Berlin, DE               | 13 Nov-16, 2025           |              | [Link](https://lu.ma/edth-2025-berlin)                |
 | ImpactHack 2025                                                                                                              | Glasgow, GB              | 22 Nov-23, 2025           |              | [Link](https://impact-hack.com/)                      |
 
-  <!-- UPCOMING_TABLE_END -->
+<!-- UPCOMING_TABLE_END -->
 
 ### 🔴 Recent Past Hackathons
 
 _Showing last 20 events_
 
-  <!-- PAST_TABLE_START -->
+<!-- PAST_TABLE_START -->
 
 | Hackathon Name | Location | Date | Topics | URL |
 | -------------- | -------- | ---- | ------ | --- |
 
-  <!-- PAST_TABLE_END -->
+<!-- PAST_TABLE_END -->
 
 ## 🤝 How to Contribute
 
@@ -255,9 +255,9 @@ Special thanks to:
 ---
 
   <div align="center">
-  
-  **Made with ❤️ for the European hacking community**
-  
-  _Last system update: 2025-06-11T16:57:55.984Z_
-  
+
+**Made with ❤️ for the European hacking community**
+
+_Last system update: 2025-06-11T17:21:46.608Z_
+
   </div>

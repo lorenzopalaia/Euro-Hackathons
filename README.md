@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 11 June 2025 at 23:21_
+_Last updated: 11 June 2025 at 23:34_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -27,9 +27,9 @@ _Last updated: 11 June 2025 at 23:21_
 | AI3 Mobile App 24-Hour Hackathon                                                                                             | N/A, N/A                 | 14 Jun-15, 2025           | AI           | [Link](https://lu.ma/AI3-Hackathon)                   |
 | Zero to Coder: AI-Powered Coding Workshop                                                                                    | London, GB               | 14 Jun 2025               | AI           | [Link](https://lu.ma/nunvlyco)                        |
 | Aaltoes x LeRobot Robotics Hackathon                                                                                         | Espoo, FI                | 14 Jun-15, 2025           | AI, Robotics | [Link](https://lu.ma/lkx6o0sn)                        |
-| Hackathon: AI in Consumer                                                                                                    | Berlin, DE               | 14 Jun-15, 2025           | AI           | [Link](https://lu.ma/knowunity-hack)                  |
 | Hackathon - Side Quest                                                                                                       | Jönköping, SE            | 14 Jun 2025               |              | [Link](https://lu.ma/6iajrer2)                        |
 | {Tech: Karlsruhe} AI Hackathon                                                                                               | Karlsruhe, DE            | 14 Jun-15, 2025           | AI           | [Link](https://lu.ma/karlsruhe)                       |
+| Hackathon: AI in Consumer                                                                                                    | Berlin, DE               | 14 Jun-15, 2025           | AI           | [Link](https://lu.ma/knowunity-hack)                  |
 | SoTA Embodied Intelligence Hackathon                                                                                         | London, GB               | 14 Jun-15, 2025           |              | [Link](https://lu.ma/9slgjcs5)                        |
 | LeRobot Hackathon via Hugging Face                                                                                           | Cambridge, GB            | 14 Jun-15, 2025           | AI, Robotics | [Link](https://lu.ma/yxenskjf)                        |
 | Agents Hackathon - Hugging Face, Anthropic & Unaite                                                                          | Paris, FR                | 15 Jun 2025               | AI           | [Link](https://lu.ma/qpimrbx3)                        |
@@ -44,6 +44,7 @@ _Last updated: 11 June 2025 at 23:21_
 | 🌍 Build a Voice-Controlled AI Agent with n8n, Vapi & Perplexity with Some Vibe Coding (No Coding or AI Background Required) | Berlin, DE               | 21 Jun 2025               | AI           | [Link](https://lu.ma/0omrcinz)                        |
 | Prague's Biggest Vibe Coding Hackathon - SteerCode                                                                           | Prague, CZ               | 21 Jun 2025               |              | [Link](https://lu.ma/w4b4krmy)                        |
 | 🧠 Hackathon Thiga – IA, Pizza & Champagne 🍕🍾                                                                              | Paris, FR                | 24 Jun 2025               |              | [Link](https://lu.ma/siu1xlzn)                        |
+| 🇫🇷 Oz Builder Day: 24-Hour AI x Web3 Hackathon                                                                               | Valbonne, FR             | 27 Jun-28, 2025           | AI, Web3     | [Link](https://lu.ma/OzBuilderDay)                    |
 | Demo Day: Oz Hackathon Showcase                                                                                              | Paris, FR                | 28 Jun 2025               |              | [Link](https://lu.ma/OZDemoDay)                       |
 | Raise Your Hack                                                                                                              | Paris, FR                | 4 Jul-9, 2025             |              | [Link](https://lablab.ai/event/raise-your-hack)       |
 | Sui Hackathon Wroclaw                                                                                                        | Wrocław, PL              | 11 Jul-13, 2025           |              | [Link](https://lu.ma/ve8e4w28)                        |
@@ -181,10 +182,10 @@ Our modern infrastructure includes:
 
 Our system tracks:
 
-- 📊 **33+** hackathons discovered and tracked
+- 📊 **34+** hackathons discovered and tracked
 - 🌍 **11** European countries covered
 - 🔄 **4** different data sources monitored
-- 🤖 **99+** notifications sent across all platforms
+- 🤖 **102+** notifications sent across all platforms
 
 ---
 
@@ -260,6 +261,6 @@ Special thanks to:
 
 **Made with ❤️ for the European hacking community**
 
-_Last system update: 2025-06-11T22:21:21.401Z_
+_Last system update: 2025-06-11T22:34:31.340Z_
 
 </div>

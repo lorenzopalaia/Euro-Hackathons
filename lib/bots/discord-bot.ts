@@ -1,5 +1,5 @@
 import { Client, GatewayIntentBits, EmbedBuilder } from "discord.js";
-import { Hackathon } from "../database.types";
+import { Hackathon } from "@/types/hackathon";
 
 export class DiscordBot {
   private client: Client;

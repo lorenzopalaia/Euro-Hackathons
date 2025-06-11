@@ -1,5 +1,5 @@
 import { supabase } from "@/lib/supabase";
-import { Hackathon } from "@/lib/database.types";
+import { Hackathon } from "@/types/hackathon";
 import { promises as fs } from "fs";
 import { join } from "path";
 

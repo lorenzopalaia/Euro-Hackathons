@@ -1,5 +1,5 @@
 import { TwitterApi } from "twitter-api-v2";
-import { Hackathon } from "../database.types";
+import { Hackathon } from "@/types/hackathon";
 
 export class TwitterBot {
   private client: TwitterApi;

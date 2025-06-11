@@ -1,4 +1,4 @@
-import { Hackathon } from "../database.types";
+import { Hackathon } from "@/types/hackathon";
 
 export class TelegramBot {
   private token: string;

@@ -57,5 +57,3 @@ export interface Database {
     };
   };
 }
-
-export type Hackathon = Database["public"]["Tables"]["hackathons"]["Row"];

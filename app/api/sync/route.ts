@@ -5,7 +5,7 @@ import { DiscordBot } from "@/lib/bots/discord-bot";
 import { TelegramBot } from "@/lib/bots/telegram-bot";
 import { TwitterBot } from "@/lib/bots/twitter-bot";
 import { ReadmeUpdater } from "@/lib/services/readme-updater";
-import { Hackathon } from "@/lib/database.types";
+import { Hackathon } from "@/types/hackathon";
 
 export async function POST(request: Request) {
   try {

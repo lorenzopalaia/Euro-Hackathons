@@ -1,4 +1,4 @@
-import { BaseParser, ParsedHackathon } from "./base-parser";
+import { BaseParser, ParsedHackathon } from "@/lib/parsers/base-parser";
 
 interface LumaGeoInfo {
   city?: string;

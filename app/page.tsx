@@ -4,7 +4,7 @@ import HackathonList from "@/components/hackathon-list";
 import Sidebar from "@/components/sidebar";
 import { Separator } from "@/components/ui/separator";
 import { useEffect, useState, useMemo } from "react";
-import { Hackathon } from "@/lib/database.types";
+import { Hackathon } from "@/types/hackathon";
 
 export default function Home() {
   const [upcoming, setUpcoming] = useState<Hackathon[]>([]);

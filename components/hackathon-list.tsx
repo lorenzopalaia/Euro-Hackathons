@@ -16,7 +16,7 @@ import {
   Tag,
   FileText,
 } from "lucide-react";
-import { Hackathon } from "@/lib/database.types";
+import { Hackathon } from "@/types/hackathon";
 import Link from "next/link";
 import { useFilters } from "@/contexts/filter-context";
 import { emojiFlag } from "@/lib/emoji-flag";

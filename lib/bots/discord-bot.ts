@@ -20,7 +20,7 @@ export class DiscordBot {
       await this.client.login(process.env.DISCORD_BOT_TOKEN!);
       this.isInitialized = true;
 
-      // Aspetta che il client sia ready
+      // Wait for client to be ready
       await new Promise((resolve) => {
         this.client.once("ready", resolve);
       });
@@ -46,7 +46,7 @@ export class DiscordBot {
 
       for (const hackathon of hackathons) {
         const embed = new EmbedBuilder()
-          .setTitle(`🚀 Nuovo Hackathon: ${hackathon.name}`)
+          .setTitle(`🚀 New Hackathon: ${hackathon.name}`)
           .setColor(0x00ae86)
           .addFields(
             { name: "📍 Location", value: hackathon.location, inline: true },
@@ -57,7 +57,7 @@ export class DiscordBot {
             },
             {
               name: "🔗 URL",
-              value: `[Partecipa qui](${hackathon.url})`,
+              value: `[Join here](${hackathon.url})`,
               inline: false,
             }
           )
@@ -86,11 +86,11 @@ export class DiscordBot {
     const end = hackathon.date_end ? new Date(hackathon.date_end) : null;
 
     if (!end || start.toDateString() === end.toDateString()) {
-      return start.toLocaleDateString("it-IT");
+      return start.toLocaleDateString("en-GB");
     }
 
-    return `${start.toLocaleDateString("it-IT")} - ${end.toLocaleDateString(
-      "it-IT"
+    return `${start.toLocaleDateString("en-GB")} - ${end.toLocaleDateString(
+      "en-GB"
     )}`;
   }
 

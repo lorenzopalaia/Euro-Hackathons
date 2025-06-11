@@ -26,7 +26,14 @@ import {
 import { Calendar } from "@/components/ui/calendar";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import { CalendarIcon, X, Filter, Check, ChevronsUpDown } from "lucide-react";
+import {
+  CalendarIcon,
+  X,
+  Filter,
+  Check,
+  ChevronsUpDown,
+  Bell,
+} from "lucide-react";
 import { FaDiscord, FaTelegram, FaXTwitter } from "react-icons/fa6";
 import Link from "next/link";
 import { format } from "date-fns";
@@ -63,12 +70,12 @@ export default function Sidebar({
 
   return (
     <aside className="w-80 border-r bg-card p-6 space-y-8">
-      {/* Filtri */}
+      {/* Filters */}
       <div className="space-y-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Filter className="h-4 w-4" />
-            <h2 className="font-semibold">Filtri</h2>
+            <h2 className="font-semibold">Filters</h2>
           </div>
           {hasActiveFilters && (
             <Button variant="ghost" size="sm" onClick={clearFilters}>
@@ -77,12 +84,12 @@ export default function Sidebar({
           )}
         </div>
 
-        {/* Ricerca */}
+        {/* Search */}
         <div className="space-y-2">
-          <Label htmlFor="search">Cerca</Label>
+          <Label htmlFor="search">Search</Label>
           <Input
             id="search"
-            placeholder="Nome hackathon..."
+            placeholder="Hackathon name..."
             value={filters.search}
             onChange={(e) => updateFilter("search", e.target.value)}
           />
@@ -90,7 +97,7 @@ export default function Sidebar({
 
         {/* Status */}
         <div className="space-y-2">
-          <Label>Stato</Label>
+          <Label>Status</Label>
           <Select
             value={filters.status}
             onValueChange={(value: "upcoming" | "past") =>
@@ -109,7 +116,7 @@ export default function Sidebar({
 
         {/* Location Combobox */}
         <div className="space-y-2">
-          <Label>Località</Label>
+          <Label>Location</Label>
           <Popover>
             <PopoverTrigger asChild>
               <Button
@@ -117,15 +124,15 @@ export default function Sidebar({
                 role="combobox"
                 className="w-full justify-between"
               >
-                {filters.location || "Seleziona località..."}
+                {filters.location || "Select location..."}
                 <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
               </Button>
             </PopoverTrigger>
             <PopoverContent className="w-full p-0">
               <Command>
-                <CommandInput placeholder="Cerca località..." />
+                <CommandInput placeholder="Search location..." />
                 <CommandList>
-                  <CommandEmpty>Nessuna località trovata.</CommandEmpty>
+                  <CommandEmpty>No location found.</CommandEmpty>
                   <CommandGroup>
                     <CommandItem onSelect={() => updateFilter("location", "")}>
                       <Check
@@ -134,7 +141,7 @@ export default function Sidebar({
                           !filters.location ? "opacity-100" : "opacity-0"
                         )}
                       />
-                      Tutte
+                      All
                     </CommandItem>
                     {uniqueLocations.map((location) => (
                       <CommandItem
@@ -171,16 +178,16 @@ export default function Sidebar({
                 className="w-full justify-between"
               >
                 {filters.topics.length > 0
-                  ? `${filters.topics.length} selezionati`
-                  : "Seleziona topics..."}
+                  ? `${filters.topics.length} selected`
+                  : "Select topics..."}
                 <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
               </Button>
             </PopoverTrigger>
             <PopoverContent className="w-full p-0">
               <Command>
-                <CommandInput placeholder="Cerca topic..." />
+                <CommandInput placeholder="Search topic..." />
                 <CommandList>
-                  <CommandEmpty>Nessun topic trovato.</CommandEmpty>
+                  <CommandEmpty>No topic found.</CommandEmpty>
                   <CommandGroup>
                     {uniqueTopics.map((topic) => (
                       <CommandItem
@@ -206,7 +213,7 @@ export default function Sidebar({
             </PopoverContent>
           </Popover>
 
-          {/* Topics selezionati */}
+          {/* Selected Topics */}
           {filters.topics.length > 0 && (
             <div className="flex flex-wrap gap-1 mt-2">
               {filters.topics.map((topic) => (
@@ -226,7 +233,7 @@ export default function Sidebar({
 
         {/* Date Range */}
         <div className="space-y-2">
-          <Label>Date</Label>
+          <Label>Dates</Label>
           <Popover>
             <PopoverTrigger asChild>
               <Button
@@ -246,7 +253,7 @@ export default function Sidebar({
                     })
                   )
                 ) : (
-                  "Seleziona"
+                  "Select dates"
                 )}
               </Button>
             </PopoverTrigger>
@@ -267,9 +274,12 @@ export default function Sidebar({
 
       <Separator />
 
-      {/* Bot e Notifiche */}
+      {/* Bots and Notifications */}
       <div className="space-y-4">
-        <h2 className="font-semibold">Notifiche</h2>
+        <div className="flex items-center gap-2">
+          <Bell className="h-4 w-4" />
+          <h2 className="font-semibold">Notifications</h2>
+        </div>
         <div className="space-y-2">
           <Button
             asChild

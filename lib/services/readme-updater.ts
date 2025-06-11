@@ -1,4 +1,4 @@
-import { supabaseAdmin } from "@/lib/supabase";
+import { supabase } from "@/lib/supabase";
 import { Hackathon } from "@/lib/database.types";
 import { promises as fs } from "fs";
 import { join } from "path";
@@ -67,14 +67,14 @@ export class ReadmeUpdater {
 
   private async fetchData() {
     // Ottieni hackathons upcoming
-    const { data: upcoming } = await supabaseAdmin
+    const { data: upcoming } = await supabase
       .from("hackathons")
       .select("*")
       .eq("status", "upcoming")
       .order("date_start", { ascending: true });
 
     // Ottieni hackathons passati
-    const { data: past } = await supabaseAdmin
+    const { data: past } = await supabase
       .from("hackathons")
       .select("*")
       .eq("status", "past")
@@ -82,11 +82,11 @@ export class ReadmeUpdater {
       .limit(50);
 
     // Calcola statistiche
-    const { count: totalCount } = await supabaseAdmin
+    const { count: totalCount } = await supabase
       .from("hackathons")
       .select("*", { count: "exact", head: true });
 
-    const { data: countriesData } = await supabaseAdmin
+    const { data: countriesData } = await supabase
       .from("hackathons")
       .select("country_code")
       .not("country_code", "is", null);
@@ -95,7 +95,7 @@ export class ReadmeUpdater {
       countriesData?.map((h) => h.country_code).filter(Boolean) || []
     ).size;
 
-    const { data: sourcesData } = await supabaseAdmin
+    const { data: sourcesData } = await supabase
       .from("hackathons")
       .select("source");
 

@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-import { supabaseAdmin } from "@/lib/supabase";
-import { LumaScraper } from "@/lib/scrapers/luma-scraper";
+import { supabase } from "@/lib/supabase";
+import { LumaParser } from "@/lib/parsers/luma-parser";
 import { DiscordBot } from "@/lib/bots/discord-bot";
 import { TelegramBot } from "@/lib/bots/telegram-bot";
 import { TwitterBot } from "@/lib/bots/twitter-bot";
@@ -17,25 +17,25 @@ export async function POST(request: Request) {
 
     console.log("Starting hackathon sync...");
 
-    // Scraping
-    const scraper = new LumaScraper();
-    const scrapedHackathons = await scraper.scrape();
+    // Parsing
+    const parser = new LumaParser();
+    const parsedHackathons = await parser.parse();
 
-    console.log(`Scraped ${scrapedHackathons.length} hackathons`);
+    console.log(`Parsed ${parsedHackathons.length} hackathons`);
 
     // Inserimento nel database
     const newHackathons: Hackathon[] = [];
 
-    for (const hackathon of scrapedHackathons) {
+    for (const hackathon of parsedHackathons) {
       try {
-        const { data: existing } = await supabaseAdmin
+        const { data: existing } = await supabase
           .from("hackathons")
           .select("id")
           .eq("url", hackathon.url)
           .single();
 
         if (!existing) {
-          const { data: inserted, error } = await supabaseAdmin
+          const { data: inserted, error } = await supabase
             .from("hackathons")
             .insert({
               name: hackathon.name,
@@ -68,7 +68,7 @@ export async function POST(request: Request) {
 
     // Aggiorna stati degli hackathons (da upcoming a past)
     try {
-      await supabaseAdmin.rpc("update_hackathon_statuses");
+      await supabase.rpc("update_hackathon_statuses");
     } catch (error) {
       console.error("Error updating hackathon statuses:", error);
     }
@@ -107,7 +107,7 @@ export async function POST(request: Request) {
       // Marca come notificati solo se almeno una notifica è andata a buon fine
       if (notificationErrors.length < 3) {
         try {
-          await supabaseAdmin
+          await supabase
             .from("hackathons")
             .update({ notified: true })
             .in(
@@ -133,7 +133,7 @@ export async function POST(request: Request) {
 
     return NextResponse.json({
       success: true,
-      scraped: scrapedHackathons.length,
+      parsed: parsedHackathons.length,
       inserted: newHackathons.length,
       readmeUpdated,
       notificationErrors:

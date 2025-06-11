@@ -1,4 +1,4 @@
-import { BaseScraper, ScrapedHackathon } from "./base-scraper";
+import { BaseParser, ParsedHackathon } from "./base-parser";
 
 interface LumaGeoInfo {
   city?: string;
@@ -23,7 +23,7 @@ interface LumaApiResponse {
   next_cursor?: string;
 }
 
-export class LumaScraper extends BaseScraper {
+export class LumaParser extends BaseParser {
   private readonly slugs = ["ai", "crypto", "hackathon"];
   private readonly bounds = {
     south: 34.800556,
@@ -32,8 +32,8 @@ export class LumaScraper extends BaseScraper {
     east: 69.033333,
   };
 
-  async scrape(): Promise<ScrapedHackathon[]> {
-    const allHackathons: ScrapedHackathon[] = [];
+  async parse(): Promise<ParsedHackathon[]> {
+    const allHackathons: ParsedHackathon[] = [];
 
     for (const slug of this.slugs) {
       try {
@@ -41,7 +41,7 @@ export class LumaScraper extends BaseScraper {
         const hackathons = this.filterHackathons(events);
         allHackathons.push(...hackathons);
       } catch (error) {
-        console.error(`Error scraping slug ${slug}:`, error);
+        console.error(`Error parsing slug ${slug}:`, error);
       }
     }
 
@@ -81,7 +81,7 @@ export class LumaScraper extends BaseScraper {
     return allEvents;
   }
 
-  private filterHackathons(events: LumaEventEntry[]): ScrapedHackathon[] {
+  private filterHackathons(events: LumaEventEntry[]): ParsedHackathon[] {
     return events
       .filter((entry) => {
         const name = entry.event?.name?.toLowerCase() || "";
@@ -92,10 +92,10 @@ export class LumaScraper extends BaseScraper {
         );
       })
       .map((entry) => this.mapEventToHackathon(entry))
-      .filter((hackathon) => hackathon !== null) as ScrapedHackathon[];
+      .filter((hackathon) => hackathon !== null) as ParsedHackathon[];
   }
 
-  private mapEventToHackathon(entry: LumaEventEntry): ScrapedHackathon | null {
+  private mapEventToHackathon(entry: LumaEventEntry): ParsedHackathon | null {
     try {
       const event = entry.event;
       const geo = event.geo_address_info || {};
@@ -141,8 +141,8 @@ export class LumaScraper extends BaseScraper {
   }
 
   private deduplicateHackathons(
-    hackathons: ScrapedHackathon[]
-  ): ScrapedHackathon[] {
+    hackathons: ParsedHackathon[]
+  ): ParsedHackathon[] {
     const seen = new Set<string>();
     return hackathons.filter((hackathon) => {
       const key = `${hackathon.name}-${hackathon.date_start.toISOString()}`;

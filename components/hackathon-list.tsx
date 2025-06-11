@@ -196,7 +196,7 @@ export default function HackathonList() {
       <CardFooter>
         <Button asChild className="w-full">
           <Link href={hackathon.url} target="_blank" rel="noopener noreferrer">
-            Partecipa <ExternalLink className="h-4 w-4 ml-1" />
+            Join <ExternalLink className="h-4 w-4 ml-1" />
           </Link>
         </Button>
       </CardFooter>
@@ -219,7 +219,7 @@ export default function HackathonList() {
         </h2>
         <p className="text-muted-foreground">
           {currentHackathons.length} hackathon
-          {currentHackathons.length !== 1 ? "s" : ""} trovati
+          {currentHackathons.length !== 1 ? "s" : ""} found
         </p>
       </div>
 

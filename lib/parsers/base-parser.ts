@@ -1,4 +1,4 @@
-export interface ScrapedHackathon {
+export interface ParsedHackathon {
   name: string;
   location: string;
   city?: string;
@@ -11,8 +11,8 @@ export interface ScrapedHackathon {
   source: string;
 }
 
-export abstract class BaseScraper {
-  abstract scrape(): Promise<ScrapedHackathon[]>;
+export abstract class BaseParser {
+  abstract parse(): Promise<ParsedHackathon[]>;
 
   protected formatDate(
     start_date_str: string,

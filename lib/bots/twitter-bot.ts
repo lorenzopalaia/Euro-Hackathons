@@ -37,12 +37,12 @@ export class TwitterBot {
       ? `in ${hackathon.city}`
       : hackathon.location;
 
-    return `🚀 Nuovo Hackathon Europeo!
+    return `🚀 New European Hackathon!
 
 ${hackathon.name} ${location}
 📅 ${date}
 
-Partecipa: ${hackathon.url}
+Join: ${hackathon.url}
 
 #Hackathon #Europe${topics} #Coding #Tech`;
   }
@@ -52,11 +52,11 @@ Partecipa: ${hackathon.url}
     const end = hackathon.date_end ? new Date(hackathon.date_end) : null;
 
     if (!end || start.toDateString() === end.toDateString()) {
-      return start.toLocaleDateString("it-IT");
+      return start.toLocaleDateString("en-GB");
     }
 
-    return `${start.toLocaleDateString("it-IT")} - ${end.toLocaleDateString(
-      "it-IT"
+    return `${start.toLocaleDateString("en-GB")} - ${end.toLocaleDateString(
+      "en-GB"
     )}`;
   }
 }

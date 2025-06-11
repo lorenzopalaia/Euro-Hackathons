@@ -31,16 +31,16 @@ export class TelegramBot {
       ? `\n🏷️ *Topics:* ${hackathon.topics.join(", ")}`
       : "";
 
-    return `🚀 *Nuovo Hackathon Europeo!*
+    return `🚀 *New European Hackathon!*
 
-📝 *Nome:* ${hackathon.name.replace(/[_*[\]()~`>#+\-=|{}.!\\]/g, "\\$&")}
+📝 *Name:* ${hackathon.name.replace(/[_*[\]()~`>#+\-=|{}.!\\]/g, "\\$&")}
 📍 *Location:* ${hackathon.location.replace(
       /[_*[\]()~`>#+\-=|{}.!\\]/g,
       "\\$&"
     )}
 📅 *Date:* ${date}${topics}
 
-🔗 [Partecipa qui](${hackathon.url})`;
+🔗 [Join here](${hackathon.url})`;
   }
 
   private formatDate(hackathon: Hackathon): string {
@@ -48,11 +48,11 @@ export class TelegramBot {
     const end = hackathon.date_end ? new Date(hackathon.date_end) : null;
 
     if (!end || start.toDateString() === end.toDateString()) {
-      return start.toLocaleDateString("it-IT");
+      return start.toLocaleDateString("en-GB");
     }
 
-    return `${start.toLocaleDateString("it-IT")} - ${end.toLocaleDateString(
-      "it-IT"
+    return `${start.toLocaleDateString("en-GB")} - ${end.toLocaleDateString(
+      "en-GB"
     )}`;
   }
 

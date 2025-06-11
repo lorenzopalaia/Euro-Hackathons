@@ -2,7 +2,7 @@
 
 # <p align="center">🇪🇺🚀 EURO HACKATHONS</p>
 
-Welcome to **EURO HACKATHONS**! This repository provides a comprehensive, **automatically updated** list of hackathons happening across Europe. Our intelligent system continuously scrapes multiple sources and keeps everything synchronized in real-time.
+Welcome to **EURO HACKATHONS**! This repository provides a comprehensive, **automatically updated** list of hackathons happening across Europe.
 
 Whether you're a seasoned hacker or a beginner looking for your first hackathon, you'll find all the information you need here! 🎉
 
@@ -16,7 +16,6 @@ This repository has been completely **modernized** with:
 - 🤖 **Multi-Platform Notifications**: Get notified instantly via Discord, Telegram, and Twitter
 - 🌐 **Live Web Interface**: Browse hackathons on our modern Next.js website
 - 📊 **Smart Data Management**: Everything is stored and managed via Supabase database
-- 🔍 **Intelligent Scraping**: Multiple sources including Luma, Devpost, and more
 - 📱 **RESTful API**: Access hackathon data programmatically
 
 ---
@@ -73,7 +72,6 @@ Our modern infrastructure includes:
 - **Frontend**: Next.js 14 with App Router, Tailwind CSS, shadcn/ui
 - **Backend**: Next.js API Routes with TypeScript
 - **Database**: Supabase (PostgreSQL) with Row Level Security
-- **Scraping**: Automated scrapers for multiple platforms
 - **Notifications**: Discord.js, Telegram Bot API, Twitter API v2
 - **Deployment**: Vercel with automated CI/CD
 - **Monitoring**: Real-time sync every 2 hours via cron jobs
@@ -140,44 +138,32 @@ _Showing last 20 events_
 
 <!-- PAST_HACKATHONS_PLACEHOLDER -->
 
----
-
-## 🔄 How It Works
-
-1. **🕷️ Automated Scraping**: Every 2 hours, our scrapers check multiple sources (Luma, Devpost, etc.)
-2. **🔍 Smart Filtering**: AI-powered filtering identifies genuine European hackathons
-3. **💾 Database Sync**: New events are automatically added to our Supabase database
-4. **🤖 Instant Notifications**: Bots immediately notify all platforms about new discoveries
-5. **📱 Real-time Updates**: Website and API are instantly updated with fresh data
-
----
-
 ## 🤝 How to Contribute
 
 While our system is automated, we welcome community contributions:
 
 ### Reporting Missing Hackathons
 
-If you know of a hackathon that our scrapers missed:
+If you know of a hackathon that we missed:
 
 1. **Open an Issue** with the hackathon details
 2. Include: Name, Location, Date, URL, and Topics
-3. Our team will add it manually and improve our scrapers
+3. Our team will add it manually
 
 ### Suggesting Data Sources
 
-Know of a platform we should scrape?
+Know of a platform we should monitor?
 
 1. **Open an Issue** with the platform URL
 2. Describe the type of events they host
-3. We'll evaluate and potentially add it to our scrapers
+3. We'll evaluate and potentially add it to our data sources
 
 ### Code Contributions
 
 Want to improve the system?
 
 1. **Fork** this repository
-2. Work on features like new scrapers, UI improvements, or bot enhancements
+2. Work on features like new data sources, UI improvements, or notification enhancements
 3. **Submit a Pull Request** with detailed description
 
 ---

@@ -2,7 +2,7 @@ name: Auto Update Hackathons
 
 on:
   schedule:
-    - cron: "0 8,20 * * *" # Daily at 8 AM and 8 PM London time (GMT)
+    - cron: "0 10,22 * * *" # Daily at 10 AM and 10 PM London time (GMT)
   workflow_dispatch: # Consente trigger manuale
 
 jobs:

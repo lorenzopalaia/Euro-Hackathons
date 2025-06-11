@@ -105,10 +105,7 @@ export async function POST(request: Request) {
       const twitterBot = new TwitterBot();
 
       const notifications = await Promise.allSettled([
-        discordBot
-          .initialize()
-          .then(() => discordBot.notifyNewHackathons(newHackathons))
-          .finally(() => discordBot.destroy()),
+        discordBot.notifyNewHackathons(newHackathons),
         telegramBot.notifyNewHackathons(newHackathons),
         twitterBot.notifyNewHackathons(newHackathons),
       ]);

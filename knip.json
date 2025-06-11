@@ -10,7 +10,6 @@
   "project": ["**/*.{js,ts,tsx}", "!node_modules/**", "!.next/**"],
   "ignore": ["components/ui/**", "repo_assets/**", "public/**"],
   "ignoreDependencies": [
-    "zlib-sync",
     "eslint",
     "eslint-config-next",
     "tailwindcss",

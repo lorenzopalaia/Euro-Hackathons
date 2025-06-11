@@ -23,7 +23,6 @@
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
     "date-fns": "^4.1.0",
-    "discord.js": "^14.19.3",
     "lucide-react": "^0.514.0",
     "next": "15.3.3",
     "react": "^19.1.0",
@@ -31,8 +30,7 @@
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
     "tailwind-merge": "^3.3.1",
-    "twitter-api-v2": "^1.23.2",
-    "zlib-sync": "^0.1.10"
+    "twitter-api-v2": "^1.23.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",

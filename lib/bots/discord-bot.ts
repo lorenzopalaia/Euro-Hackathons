@@ -46,7 +46,7 @@ export class DiscordBot {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
-            content: `🔗 Register: ${hackathon.url}`, // URL nel messaggio principale
+            content: `🔗 Join: ${hackathon.url}`, // URL nel messaggio principale
             embeds: [embed],
           }),
         });

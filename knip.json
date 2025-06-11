@@ -1,0 +1,27 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "entry": [
+    "app/**/*.{js,ts,tsx}",
+    "lib/**/*.ts",
+    "types/**/*.ts",
+    "contexts/**/*.tsx",
+    "components/**/*.tsx"
+  ],
+  "project": ["**/*.{js,ts,tsx}", "!node_modules/**", "!.next/**"],
+  "ignore": ["components/ui/**", "repo_assets/**", "public/**"],
+  "ignoreDependencies": [
+    "zlib-sync",
+    "eslint",
+    "eslint-config-next",
+    "tailwindcss",
+    "tw-animate-css",
+    "postcss"
+  ],
+  "ignoreBinaries": ["knip"],
+  "next": true,
+  "postcss": true,
+  "prettier": true,
+  "typescript": true,
+  "eslint": true,
+  "tailwind": true
+}

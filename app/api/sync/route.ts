@@ -97,7 +97,7 @@ export async function POST(request: Request) {
 
     if (newHackathons.length > 0 && !insertionError) {
       console.log(
-        `Sending notifications for ${newHackathons.length} new hackathons...`,
+        `Sending notifications for ${newHackathons.length} new hackathons...`
       );
 
       const discordBot = new DiscordBot();
@@ -126,7 +126,7 @@ export async function POST(request: Request) {
             .update({ notified: true })
             .in(
               "id",
-              newHackathons.map((h) => h.id),
+              newHackathons.map((h) => h.id)
             );
           notificationsSent = true;
           console.log("Hackathons marked as notified");
@@ -154,11 +154,10 @@ export async function POST(request: Request) {
 
         const owner = process.env.GITHUB_REPO_OWNER;
         const repo = process.env.GITHUB_REPO_NAME;
-        const branch = process.env.GITHUB_BRANCH;
 
-        if (!owner || !repo || !branch) {
+        if (!owner || !repo) {
           throw new Error(
-            "GitHub repository configuration is missing in environment variables",
+            "GitHub repository configuration is missing in environment variables"
           );
         }
 
@@ -171,13 +170,12 @@ export async function POST(request: Request) {
           owner,
           repo,
           path: "README.md",
-          ref: branch,
         });
 
         if ("content" in currentFile) {
           const currentContent = Buffer.from(
             currentFile.content,
-            "base64",
+            "base64"
           ).toString("utf-8");
 
           // Solo se il contenuto è diverso, aggiorna
@@ -190,7 +188,6 @@ export async function POST(request: Request) {
                 "🔄 Auto-update README with latest hackathons [Automated]",
               content: Buffer.from(newReadmeContent).toString("base64"),
               sha: currentFile.sha,
-              branch,
             });
 
             readmeUpdated = true;
@@ -236,7 +233,7 @@ export async function POST(request: Request) {
         error: "Internal server error",
         details: error instanceof Error ? error.message : "Unknown error",
       },
-      { status: 500 },
+      { status: 500 }
     );
   }
 }

@@ -152,23 +152,14 @@ export async function POST(request: Request) {
           auth: process.env.GITHUB_TOKEN,
         });
 
-        const owner = process.env.GITHUB_REPO_OWNER;
-        const repo = process.env.GITHUB_REPO_NAME;
-
-        if (!owner || !repo) {
-          throw new Error(
-            "GitHub repository configuration is missing in environment variables"
-          );
-        }
-
         // Genera il nuovo contenuto del README
         const readmeUpdater = new ReadmeUpdater();
         const newReadmeContent = await readmeUpdater.generateReadmeContent();
 
         // Ottieni il file corrente
         const { data: currentFile } = await octokit.rest.repos.getContent({
-          owner,
-          repo,
+          owner: "lorenzopalaia",
+          repo: "Euro-Hackathons",
           path: "README.md",
         });
 
@@ -181,8 +172,8 @@ export async function POST(request: Request) {
           // Solo se il contenuto è diverso, aggiorna
           if (currentContent !== newReadmeContent) {
             await octokit.rest.repos.createOrUpdateFileContents({
-              owner,
-              repo,
+              owner: "lorenzopalaia",
+              repo: "Euro-Hackathons",
               path: "README.md",
               message:
                 "🔄 Auto-update README with latest hackathons [Automated]",

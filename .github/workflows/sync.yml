@@ -37,7 +37,7 @@ jobs:
           echo "Triggering sync endpoint..."
 
           response=$(curl -s -w "%{http_code}" -o response.json -X POST \
-            "${{ secrets.NEXT_PUBLIC_SITE_URL }}/api/sync" \
+            "$https://euro-hackathons.vercel.app/api/sync" \
             -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
             -H "Content-Type: application/json")
 

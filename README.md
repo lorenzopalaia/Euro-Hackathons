@@ -110,7 +110,7 @@ Join our Discord server to get instant notifications:
 
 ### Telegram Bot
 
-Follow our Telegram channel for mobile notifications:
+Follow our Telegram channel [@eurohackathons](https://t.me/eurohackathons) for mobile notifications:
 
 - 📱 **Mobile-friendly** notifications
 - 🚀 **Instant updates** as soon as hackathons are found

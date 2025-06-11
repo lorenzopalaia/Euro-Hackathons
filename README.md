@@ -122,7 +122,7 @@ GET /api/hackathons?status=past&limit=50&page=1
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 11 June 2025 at 18:21_
+_Last updated: 11 June 2025 at 18:36_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -258,6 +258,6 @@ Special thanks to:
 
 **Made with ❤️ for the European hacking community**
 
-_Last system update: 2025-06-11T17:21:46.608Z_
+_Last system update: 2025-06-11T17:36:54.729Z_
 
   </div>

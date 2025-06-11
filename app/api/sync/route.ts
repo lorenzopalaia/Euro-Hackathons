@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { Octokit } from "@octokit/rest";
-import { supabase } from "@/lib/supabase";
+import { supabaseAdmin } from "@/lib/supabase";
 import { LumaParser } from "@/lib/parsers/luma-parser";
 import { DiscordBot } from "@/lib/bots/discord-bot";
 import { TelegramBot } from "@/lib/bots/telegram-bot";
@@ -25,57 +25,77 @@ export async function POST(request: Request) {
 
     // 2. Inserimento nel database
     const newHackathons: Hackathon[] = [];
+    let insertionError: string | null = null;
 
-    for (const hackathon of parsedHackathons) {
-      try {
-        const { data: existing } = await supabase
-          .from("hackathons")
-          .select("id")
-          .eq("url", hackathon.url)
-          .single();
-
-        if (!existing) {
-          const { data: inserted, error } = await supabase
+    try {
+      for (const hackathon of parsedHackathons) {
+        try {
+          const { data: existing } = await supabaseAdmin
             .from("hackathons")
-            .insert({
-              name: hackathon.name,
-              location: hackathon.location,
-              city: hackathon.city,
-              country_code: hackathon.country_code,
-              date_start: hackathon.date_start.toISOString().split("T")[0],
-              date_end: hackathon.date_end?.toISOString().split("T")[0],
-              topics: hackathon.topics,
-              notes: hackathon.notes,
-              url: hackathon.url,
-              source: hackathon.source,
-              notified: false,
-            })
-            .select()
+            .select("id")
+            .eq("url", hackathon.url)
             .single();
 
-          if (inserted && !error) {
-            newHackathons.push(inserted);
-          } else if (error) {
-            console.error("Error inserting hackathon:", error);
+          if (!existing) {
+            const { data: inserted, error } = await supabaseAdmin
+              .from("hackathons")
+              .insert({
+                name: hackathon.name,
+                location: hackathon.location,
+                city: hackathon.city,
+                country_code: hackathon.country_code,
+                date_start: hackathon.date_start.toISOString().split("T")[0],
+                date_end: hackathon.date_end?.toISOString().split("T")[0],
+                topics: hackathon.topics,
+                notes: hackathon.notes,
+                url: hackathon.url,
+                source: hackathon.source,
+                notified: false,
+              })
+              .select()
+              .single();
+
+            if (inserted && !error) {
+              newHackathons.push(inserted);
+            } else if (error) {
+              console.error("Error inserting hackathon:", error);
+              throw error;
+            }
           }
+        } catch (error) {
+          console.error("Error processing hackathon:", hackathon.name, error);
+          throw error;
         }
-      } catch (error) {
-        console.error("Error processing hackathon:", hackathon.name, error);
       }
+      console.log(`Inserted ${newHackathons.length} new hackathons`);
+    } catch (error) {
+      insertionError =
+        error instanceof Error ? error.message : "Database insertion failed";
+      console.error("Database insertion failed:", error);
     }
 
-    console.log(`Inserted ${newHackathons.length} new hackathons`);
-
     // 3. Aggiorna stati degli hackathons (da upcoming a past)
+    let statusUpdateError: string | null = null;
+    let statusesUpdated = false;
+
     try {
-      await supabase.rpc("update_hackathon_statuses");
+      await supabaseAdmin.rpc("update_hackathon_statuses");
+      statusesUpdated = true;
+      console.log("Hackathon statuses updated successfully");
     } catch (error) {
+      statusUpdateError =
+        error instanceof Error ? error.message : "Status update failed";
       console.error("Error updating hackathon statuses:", error);
     }
 
-    // 4. Invia notifiche per i nuovi hackathons
+    // Determina se c'è stata qualche modifica ai dati
+    const dataChanged = newHackathons.length > 0 || statusesUpdated;
+
+    // 4. Invia notifiche SOLO se ci sono nuovi hackathons
     const notificationErrors: string[] = [];
-    if (newHackathons.length > 0) {
+    let notificationsSent = false;
+
+    if (newHackathons.length > 0 && !insertionError) {
       console.log(
         `Sending notifications for ${newHackathons.length} new hackathons...`,
       );
@@ -104,80 +124,102 @@ export async function POST(request: Request) {
       // Marca come notificati solo se almeno una notifica è andata a buon fine
       if (notificationErrors.length < 3) {
         try {
-          await supabase
+          await supabaseAdmin
             .from("hackathons")
             .update({ notified: true })
             .in(
               "id",
               newHackathons.map((h) => h.id),
             );
+          notificationsSent = true;
           console.log("Hackathons marked as notified");
         } catch (error) {
           console.error("Error updating notification status:", error);
         }
       }
+    } else if (newHackathons.length > 0 && insertionError) {
+      console.log("Skipping notifications due to database insertion errors");
+    } else {
+      console.log("No new hackathons to notify");
     }
 
-    // 5. Aggiorna il README via GitHub API
+    // 5. Aggiorna il README SOLO se i dati sono cambiati
     let readmeUpdated = false;
     let readmeError: string | null = null;
 
-    try {
-      console.log("Updating README via GitHub API...");
+    if (dataChanged) {
+      try {
+        console.log("Data changed, updating README via GitHub API...");
 
-      const octokit = new Octokit({
-        auth: process.env.GITHUB_TOKEN,
-      });
+        const octokit = new Octokit({
+          auth: process.env.GITHUB_TOKEN,
+        });
 
-      const owner = process.env.GITHUB_REPO_OWNER || "lorenzopalaia";
-      const repo = process.env.GITHUB_REPO_NAME || "Euro-Hackathons";
-      const branch = process.env.GITHUB_BRANCH || "v2";
+        const owner = process.env.GITHUB_REPO_OWNER || "lorenzopalaia";
+        const repo = process.env.GITHUB_REPO_NAME || "Euro-Hackathons";
+        const branch = process.env.GITHUB_BRANCH || "v2";
 
-      // Genera il nuovo contenuto del README
-      const readmeUpdater = new ReadmeUpdater();
-      const newReadmeContent = await readmeUpdater.generateReadmeContent();
+        // Genera il nuovo contenuto del README
+        const readmeUpdater = new ReadmeUpdater();
+        const newReadmeContent = await readmeUpdater.generateReadmeContent();
 
-      // Ottieni il file corrente
-      const { data: currentFile } = await octokit.rest.repos.getContent({
-        owner,
-        repo,
-        path: "README.md",
-        ref: branch,
-      });
+        // Ottieni il file corrente
+        const { data: currentFile } = await octokit.rest.repos.getContent({
+          owner,
+          repo,
+          path: "README.md",
+          ref: branch,
+        });
 
-      if ("content" in currentFile) {
-        const currentContent = Buffer.from(
-          currentFile.content,
-          "base64",
-        ).toString("utf-8");
+        if ("content" in currentFile) {
+          const currentContent = Buffer.from(
+            currentFile.content,
+            "base64",
+          ).toString("utf-8");
 
-        // Solo se il contenuto è diverso, aggiorna
-        if (currentContent !== newReadmeContent) {
-          await octokit.rest.repos.createOrUpdateFileContents({
-            owner,
-            repo,
-            path: "README.md",
-            message: "🔄 Auto-update README with latest hackathons [Automated]",
-            content: Buffer.from(newReadmeContent).toString("base64"),
-            sha: currentFile.sha,
-            branch,
-          });
+          // Solo se il contenuto è diverso, aggiorna
+          if (currentContent !== newReadmeContent) {
+            await octokit.rest.repos.createOrUpdateFileContents({
+              owner,
+              repo,
+              path: "README.md",
+              message:
+                "🔄 Auto-update README with latest hackathons [Automated]",
+              content: Buffer.from(newReadmeContent).toString("base64"),
+              sha: currentFile.sha,
+              branch,
+            });
 
-          readmeUpdated = true;
-          console.log("README updated successfully via GitHub API");
-        } else {
-          console.log("README content unchanged, skipping update");
+            readmeUpdated = true;
+            console.log("README updated successfully via GitHub API");
+          } else {
+            console.log("README content unchanged, skipping update");
+          }
         }
+      } catch (error) {
+        console.error("Error updating README:", error);
+        readmeError = error instanceof Error ? error.message : "Unknown error";
       }
-    } catch (error) {
-      console.error("Error updating README:", error);
-      readmeError = error instanceof Error ? error.message : "Unknown error";
+    } else {
+      console.log("No data changes detected, skipping README update");
     }
 
+    // Determina lo stato di successo generale
+    const hasErrors =
+      insertionError ||
+      statusUpdateError ||
+      readmeError ||
+      notificationErrors.length > 0;
+
     return NextResponse.json({
-      success: true,
+      success: !hasErrors,
       parsed: parsedHackathons.length,
       inserted: newHackathons.length,
+      dataChanged,
+      insertionError,
+      statusUpdateError,
+      statusesUpdated,
+      notificationsSent,
       readmeUpdated,
       readmeError,
       notificationErrors:

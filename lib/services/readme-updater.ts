@@ -26,8 +26,8 @@ export class ReadmeUpdater {
       const updatedContent = template
         .replace(
           "{LAST_UPDATE_DATE}",
-          new Date().toLocaleString("en-US", {
-            timeZone: "Europe/Rome",
+          new Date().toLocaleString("en-GB", {
+            timeZone: "Europe/London",
             year: "numeric",
             month: "long",
             day: "numeric",
@@ -146,22 +146,22 @@ export class ReadmeUpdater {
     };
 
     if (!end || start.toDateString() === end.toDateString()) {
-      return start.toLocaleDateString("en-US", formatOptions);
+      return start.toLocaleDateString("en-GB", formatOptions);
     }
 
     if (
       start.getFullYear() === end.getFullYear() &&
       start.getMonth() === end.getMonth()
     ) {
-      return `${start.toLocaleDateString("en-US", {
+      return `${start.toLocaleDateString("en-GB", {
         month: "short",
         day: "numeric",
       })}-${end.getDate()}, ${start.getFullYear()}`;
     }
 
     return `${start.toLocaleDateString(
-      "en-US",
+      "en-GB",
       formatOptions
-    )} - ${end.toLocaleDateString("en-US", formatOptions)}`;
+    )} - ${end.toLocaleDateString("en-GB", formatOptions)}`;
   }
 }

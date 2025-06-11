@@ -2,6 +2,7 @@
 
 import HackathonList from "@/components/hackathon-list";
 import Sidebar from "@/components/sidebar";
+import { Separator } from "@/components/ui/separator";
 import { useEffect, useState, useMemo } from "react";
 import { Hackathon } from "@/lib/database.types";
 
@@ -49,13 +50,12 @@ export default function Home() {
   return (
     <div className="flex min-h-screen">
       <Sidebar uniqueLocations={uniqueLocations} uniqueTopics={uniqueTopics} />
-      <main className="flex-1 p-8">
-        <div className="mb-12">
-          <h1 className="text-3xl font-bold mb-3">Euro Hackathons</h1>
-          <p className="text-muted-foreground">
-            Your comprehensive list of hackathons happening across Europe
-          </p>
-        </div>
+      <main className="flex-1 p-8 md:ml-0 ml-16">
+        <h1 className="text-3xl font-bold mb-3">Euro Hackathons</h1>
+        <p className="text-muted-foreground">
+          Your comprehensive list of hackathons happening across Europe
+        </p>
+        <Separator className="my-6" />
         <HackathonList />
       </main>
     </div>

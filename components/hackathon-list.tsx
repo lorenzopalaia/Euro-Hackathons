@@ -228,7 +228,7 @@ export default function HackathonList() {
           Nessun hackathon trovato
         </p>
       ) : (
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-6">
           {currentHackathons.map((hackathon) => (
             <HackathonCard key={hackathon.id} hackathon={hackathon} />
           ))}

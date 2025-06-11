@@ -33,6 +33,7 @@ import {
   Check,
   ChevronsUpDown,
   Bell,
+  Menu,
 } from "lucide-react";
 import { FaDiscord, FaTelegram, FaXTwitter } from "react-icons/fa6";
 import Link from "next/link";
@@ -53,6 +54,7 @@ export default function Sidebar({
 }: SidebarProps) {
   const { filters, updateFilter, clearFilters } = useFilters();
   const [topicOpen, setTopicOpen] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   const toggleTopic = (topic: string) => {
     const newTopics = filters.topics.includes(topic)
@@ -68,8 +70,41 @@ export default function Sidebar({
     filters.dateRange?.from ||
     filters.dateRange?.to;
 
-  return (
-    <aside className="w-80 border-r bg-card p-6 space-y-8">
+  // Mobile collapsed sidebar
+  const MobileCollapsedSidebar = () => (
+    <aside className="md:hidden fixed left-0 top-0 h-full w-16 border-r bg-card z-40 flex flex-col items-center py-6 space-y-4">
+      <Button
+        variant="ghost"
+        size="sm"
+        onClick={() => setMobileOpen(true)}
+        className="w-10 h-10 p-0"
+      >
+        <Menu className="h-5 w-5" />
+      </Button>
+
+      <div className="flex flex-col space-y-2">
+        <Button asChild variant="ghost" size="sm" className="w-10 h-10 p-0">
+          <Link href="#">
+            <FaDiscord className="h-4 w-4" />
+          </Link>
+        </Button>
+        <Button asChild variant="ghost" size="sm" className="w-10 h-10 p-0">
+          <Link href="#">
+            <FaTelegram className="h-4 w-4" />
+          </Link>
+        </Button>
+        <Button asChild variant="ghost" size="sm" className="w-10 h-10 p-0">
+          <Link href="#">
+            <FaXTwitter className="h-4 w-4" />
+          </Link>
+        </Button>
+      </div>
+    </aside>
+  );
+
+  // Full sidebar content
+  const SidebarContent = () => (
+    <>
       {/* Filters */}
       <div className="space-y-6">
         <div className="flex items-center justify-between">
@@ -77,11 +112,22 @@ export default function Sidebar({
             <Filter className="h-4 w-4" />
             <h2 className="font-semibold">Filters</h2>
           </div>
-          {hasActiveFilters && (
-            <Button variant="ghost" size="sm" onClick={clearFilters}>
+          <div className="flex items-center gap-2">
+            {hasActiveFilters && (
+              <Button variant="ghost" size="sm" onClick={clearFilters}>
+                <X className="h-4 w-4" />
+              </Button>
+            )}
+            {/* Close button for mobile */}
+            <Button
+              variant="ghost"
+              size="sm"
+              className="md:hidden"
+              onClick={() => setMobileOpen(false)}
+            >
               <X className="h-4 w-4" />
             </Button>
-          )}
+          </div>
         </div>
 
         {/* Search */}
@@ -264,7 +310,7 @@ export default function Sidebar({
                 defaultMonth={filters.dateRange?.from}
                 selected={filters.dateRange}
                 onSelect={(range) => updateFilter("dateRange", range)}
-                numberOfMonths={2}
+                numberOfMonths={1}
                 locale={it}
               />
             </PopoverContent>
@@ -315,6 +361,36 @@ export default function Sidebar({
           </Button>
         </div>
       </div>
-    </aside>
+    </>
+  );
+
+  // ...existing code...
+
+  return (
+    <>
+      {/* Mobile collapsed sidebar */}
+      <MobileCollapsedSidebar />
+
+      {/* Desktop sidebar */}
+      <aside className="hidden md:flex w-60 border-r bg-card p-6 space-y-8 flex-col">
+        <SidebarContent />
+      </aside>
+
+      {/* Mobile overlay sidebar */}
+      {mobileOpen && (
+        <>
+          {/* Backdrop */}
+          <div
+            className="md:hidden fixed inset-0 bg-black/50 z-50 animate-in fade-in duration-500"
+            onClick={() => setMobileOpen(false)}
+          />
+
+          {/* Sidebar */}
+          <aside className="md:hidden fixed left-0 top-0 h-full w-80 border-r bg-card p-6 space-y-8 z-50 overflow-y-auto animate-in slide-in-from-left duration-500">
+            <SidebarContent />
+          </aside>
+        </>
+      )}
+    </>
   );
 }

@@ -1,6 +1,6 @@
 import { supabase } from "@/lib/supabase";
 import { Hackathon } from "@/types/hackathon";
-import { MarkdownFormatter } from "../markdown-formatter";
+import { MarkdownFormatter } from "@/lib/markdown-formatter";
 import fs from "fs";
 import path from "path";
 
@@ -30,7 +30,7 @@ ${this.generateHackathonTable(past.slice(0, 20))}`
           : `| Hackathon Name | Location | Date | Topics | URL |
 | -------------- | -------- | ---- | ------ | --- |`;
 
-      // 🎯 LEGGI IL TEMPLATE DAL README.md ESISTENTE
+      // Leggi il template dal README.md esistente
       const template = await this.getTemplateFromReadme();
 
       // Sostituisci i placeholder
@@ -82,134 +82,58 @@ ${pastTableContent}
    * Legge il README.md esistente e crea un template pulito
    */
   private async getTemplateFromReadme(): Promise<string> {
-    try {
-      const readmePath = path.join(process.cwd(), "README.md");
+    const readmePath = path.join(process.cwd(), "README.md");
+    const readmeContent = fs.readFileSync(readmePath, "utf-8");
 
-      // Verifica se il file esiste
-      if (!fs.existsSync(readmePath)) {
-        console.warn("README.md not found, using fallback template");
-        return this.getFallbackTemplate();
-      }
-
-      const readmeContent = fs.readFileSync(readmePath, "utf-8");
-
-      // Pulisci le tabelle esistenti mantenendo solo l'header e i delimitatori
-      const template = readmeContent
-        .replace(
-          /<!-- UPCOMING_TABLE_START -->[\s\S]*?<!-- UPCOMING_TABLE_END -->/,
-          `<!-- UPCOMING_TABLE_START -->
+    // Pulisci le tabelle esistenti mantenendo solo l'header e i delimitatori
+    const template = readmeContent
+      .replace(
+        /<!-- UPCOMING_TABLE_START -->[\s\S]*?<!-- UPCOMING_TABLE_END -->/,
+        `<!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name | Location | Date | Topics | URL |
 | -------------- | -------- | ---- | ------ | --- |
 {UPCOMING_PLACEHOLDER}
 
 <!-- UPCOMING_TABLE_END -->`,
-        )
-        .replace(
-          /<!-- PAST_TABLE_START -->[\s\S]*?<!-- PAST_TABLE_END -->/,
-          `<!-- PAST_TABLE_START -->
+      )
+      .replace(
+        /<!-- PAST_TABLE_START -->[\s\S]*?<!-- PAST_TABLE_END -->/,
+        `<!-- PAST_TABLE_START -->
 
 | Hackathon Name | Location | Date | Topics | URL |
 | -------------- | -------- | ---- | ------ | --- |
 {PAST_PLACEHOLDER}
 
 <!-- PAST_TABLE_END -->`,
-        )
-        // Sostituisci i valori hardcoded con placeholder dinamici
-        .replace(/_Last updated: [^_]*_/, "_Last updated: {LAST_UPDATE_DATE}_")
-        .replace(
-          /- 📊 \*\*\d+\+?\*\* hackathons discovered and tracked/,
-          "- 📊 **{TOTAL_HACKATHONS}+** hackathons discovered and tracked",
-        )
-        .replace(
-          /- 🌍 \*\*\d+\*\* European countries covered/,
-          "- 🌍 **{COUNTRIES_COUNT}** European countries covered",
-        )
-        .replace(
-          /- 🔄 \*\*\d+\*\* different data sources monitored/,
-          "- 🔄 **{SOURCES_COUNT}** different data sources monitored",
-        )
-        .replace(
-          /- 🤖 \*\*\d+\+?\*\* notifications sent across all platforms/,
-          "- 🤖 **{NOTIFICATIONS_SENT}+** notifications sent across all platforms",
-        )
-        .replace(
-          /_Last system update: [^_]*_/,
-          "_Last system update: {LAST_SYSTEM_UPDATE}_",
-        );
+      )
+      // Sostituisci i valori hardcoded con placeholder dinamici
+      .replace(/_Last updated: [^_]*_/, "_Last updated: {LAST_UPDATE_DATE}_")
+      .replace(
+        /- 📊 \*\*\d+\+?\*\* hackathons discovered and tracked/,
+        "- 📊 **{TOTAL_HACKATHONS}+** hackathons discovered and tracked",
+      )
+      .replace(
+        /- 🌍 \*\*\d+\*\* European countries covered/,
+        "- 🌍 **{COUNTRIES_COUNT}** European countries covered",
+      )
+      .replace(
+        /- 🔄 \*\*\d+\*\* different data sources monitored/,
+        "- 🔄 **{SOURCES_COUNT}** different data sources monitored",
+      )
+      .replace(
+        /- 🤖 \*\*\d+\+?\*\* notifications sent across all platforms/,
+        "- 🤖 **{NOTIFICATIONS_SENT}+** notifications sent across all platforms",
+      )
+      .replace(
+        /_Last system update: [^_]*_/,
+        "_Last system update: {LAST_SYSTEM_UPDATE}_",
+      );
 
-      console.log("Template created from existing README.md");
-      return template;
-    } catch (error) {
-      console.error("Error reading README.md:", error);
-      console.log("Falling back to hardcoded template");
-      return this.getFallbackTemplate();
-    }
+    console.log("Template created from existing README.md");
+    return template;
   }
 
-  /**
-   * Template di fallback in caso il README.md non sia leggibile
-   */
-  private getFallbackTemplate(): string {
-    return `![Hackathon Logo](https://user-images.githubusercontent.com/36594527/117592199-10730800-b17b-11eb-84f8-4ffcae8116d4.png)
-
-# <p align="center">🇪🇺🚀 EURO HACKATHONS</p>
-
-Welcome to **EURO HACKATHONS**! This repository provides a comprehensive, **automatically updated** list of hackathons happening across Europe.
-
-Whether you're a seasoned hacker or a beginner looking for your first hackathon, you'll find all the information you need here! 🎉
-
----
-
-## 🗺️ Current Hackathons
-
-> **Note**: This README is automatically updated every 2 hours. For the most current data and better browsing experience, visit our [live website](https://euro-hackathons.vercel.app).
-
-### 🟢 Upcoming Hackathons
-
-_Last updated: {LAST_UPDATE_DATE}_
-
-<!-- UPCOMING_TABLE_START -->
-
-| Hackathon Name | Location | Date | Topics | URL |
-| -------------- | -------- | ---- | ------ | --- |
-{UPCOMING_PLACEHOLDER}
-
-<!-- UPCOMING_TABLE_END -->
-
-### 🔴 Recent Past Hackathons
-
-_Showing last 20 events_
-
-<!-- PAST_TABLE_START -->
-
-| Hackathon Name | Location | Date | Topics | URL |
-| -------------- | -------- | ---- | ------ | --- |
-{PAST_PLACEHOLDER}
-
-<!-- PAST_TABLE_END -->
-
-## 📈 Statistics
-
-Our system tracks:
-
-- 📊 **{TOTAL_HACKATHONS}+** hackathons discovered and tracked
-- 🌍 **{COUNTRIES_COUNT}** European countries covered
-- 🔄 **{SOURCES_COUNT}** different data sources monitored
-- 🤖 **{NOTIFICATIONS_SENT}+** notifications sent across all platforms
-
----
-
-  <div align="center">
-
-**Made with ❤️ for the European hacking community**
-
-_Last system update: {LAST_SYSTEM_UPDATE}_
-
-  </div>`;
-  }
-
-  // ...rest of the methods remain the same...
   private async fetchData() {
     // Ottieni hackathons upcoming
     const { data: upcoming } = await supabase

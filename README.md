@@ -8,117 +8,9 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ---
 
-## 🚀 What's New
+## ️ Current Hackathons
 
-This repository has been completely **modernized** with:
-
-- 🔄 **Automated Updates**: New hackathons are discovered and added every 2 hours
-- 🤖 **Multi-Platform Notifications**: Get notified instantly via Discord, Telegram, and Twitter
-- 🌐 **Live Web Interface**: Browse hackathons on our modern Next.js website
-- 📊 **Smart Data Management**: Everything is stored and managed via Supabase database
-- 📱 **RESTful API**: Access hackathon data programmatically
-
----
-
-## 🌐 Live Website
-
-Visit our **interactive website** for the best browsing experience:
-
-### **[📍 Euro-Hackathons.com](https://euro-hackathons.vercel.app)**
-
-The website features:
-
-- 📱 **Responsive Design**: Built with Next.js, Tailwind CSS, and shadcn/ui
-- 🔍 **Advanced Filtering**: Filter by status, location, topics, and dates
-- 📊 **Real-time Data**: Always up-to-date with the latest hackathons
-- 🎨 **Modern Interface**: Clean, fast, and user-friendly design
-
----
-
-## 🤖 Stay Notified
-
-Never miss a hackathon again! Our bots automatically notify you when new European hackathons are discovered:
-
-### Discord Bot
-
-Join our Discord server to get instant notifications:
-
-- 🔔 **Real-time alerts** for new hackathons
-- 📋 **Rich embeds** with all hackathon details
-- 🏷️ **Topic filtering** (AI, Crypto, Web3, etc.)
-
-### Telegram Bot
-
-Follow our Telegram channel for mobile notifications:
-
-- 📱 **Mobile-friendly** notifications
-- 🚀 **Instant updates** as soon as hackathons are found
-- 🔗 **Direct links** to registration pages
-
-### Twitter Updates
-
-Follow [@EuroHackathons](https://twitter.com/eurohackathons) for social updates:
-
-- 🐦 **Tweet notifications** for trending hackathons
-- 🏷️ **Hashtag organization** by topics and locations
-- 🔄 **Retweetable content** to spread the word
-
----
-
-## 🛠️ Technical Stack
-
-Our modern infrastructure includes:
-
-- **Frontend**: Next.js 14 with App Router, Tailwind CSS, shadcn/ui
-- **Backend**: Next.js API Routes with TypeScript
-- **Database**: Supabase (PostgreSQL) with Row Level Security
-- **Notifications**: Discord.js, Telegram Bot API, Twitter API v2
-- **Deployment**: Vercel with automated CI/CD
-- **Monitoring**: Real-time sync every 2 hours via cron jobs
-
----
-
-## 📊 API Access
-
-Access hackathon data programmatically via our REST API:
-
-### Endpoints
-
-```bash
-# Get upcoming hackathons
-GET /api/hackathons?status=upcoming&limit=50&page=1
-
-# Get past hackathons
-GET /api/hackathons?status=past&limit=50&page=1
-
-# Response format
-{
-  "data": [
-    {
-      "id": "uuid",
-      "name": "Hackathon Name",
-      "location": "City, Country",
-      "date_start": "2025-06-15",
-      "date_end": "2025-06-16",
-      "topics": ["AI", "Web3"],
-      "url": "https://...",
-      "status": "upcoming"
-    }
-  ],
-  "pagination": {
-    "page": 1,
-    "limit": 50,
-    "total": 150,
-    "totalPages": 3
-  }
-}
-```
-
----
-
-## 🗺️ Current Hackathons
-
-> **Note**: This README is automatically updated every 2 hours. For the most current data and better browsing experience, visit our [live website](https://euro-hackathons.vercel.app).
+> **Note**: This README is automatically updated every 12 hours. For the most current data and better browsing experience, visit our [live website](https://euro-hackathons.vercel.app).
 
 ### 🟢 Upcoming Hackathons
 
@@ -175,6 +67,139 @@ _Showing last 20 events_
 
 <!-- PAST_TABLE_END -->
 
+---
+
+## 🚀 What's New
+
+This repository has been completely **modernized** with:
+
+- 🔄 **Automated Updates**: New hackathons are discovered and added every 12 hours
+- 🤖 **Multi-Platform Notifications**: Get notified instantly via Discord, Telegram, and Twitter
+- 🌐 **Live Web Interface**: Browse hackathons on our modern Next.js website
+- 📊 **Smart Data Management**: Everything is stored and managed via Supabase database
+- 📱 **RESTful API**: Access hackathon data programmatically
+
+---
+
+## 🌐 Live Website
+
+Visit our **interactive website** for the best browsing experience:
+
+### **[📍 Euro-Hackathons.com](https://euro-hackathons.vercel.app)**
+
+The website features:
+
+- 📱 **Responsive Design**: Built with Next.js, Tailwind CSS, and shadcn/ui
+- 🔍 **Advanced Filtering**: Filter by status, location, topics, and dates
+- 📊 **Real-time Data**: Always up-to-date with the latest hackathons
+- 🎨 **Modern Interface**: Clean, fast, and user-friendly design
+
+---
+
+## 🤖 Stay Notified
+
+Never miss a hackathon again! Our bots automatically notify you when new European hackathons are discovered:
+
+### Discord Bot
+
+Join our Discord server to get instant notifications:
+
+- 🔔 **Real-time alerts** for new hackathons
+- 📋 **Rich embeds** with all hackathon details
+- 🏷️ **Topic filtering** (AI, Crypto, Web3, etc.)
+
+### Telegram Bot
+
+Follow our Telegram channel for mobile notifications:
+
+- 📱 **Mobile-friendly** notifications
+- 🚀 **Instant updates** as soon as hackathons are found
+- 🔗 **Direct links** to registration pages
+
+### Twitter Updates
+
+Follow [@EuroHackathons](https://twitter.com/eurohackathons) for social updates:
+
+- 🐦 **Tweet notifications** for trending hackathons
+- 🏷️ **Hashtag organization** by topics and locations
+- 🔄 **Retweetable content** to spread the word
+
+---
+
+## 📊 API Access
+
+Access hackathon data programmatically via our REST API:
+
+### Endpoints
+
+```bash
+# Get upcoming hackathons
+GET /api/hackathons?status=upcoming&limit=50&page=1
+
+# Get past hackathons
+GET /api/hackathons?status=past&limit=50&page=1
+
+# Response format
+{
+  "data": [
+    {
+      "id": "uuid",
+      "name": "Hackathon Name",
+      "location": "City, Country",
+      "date_start": "2025-06-15",
+      "date_end": "2025-06-16",
+      "topics": ["AI", "Web3"],
+      "url": "https://...",
+      "status": "upcoming"
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 50,
+    "total": 150,
+    "totalPages": 3
+  }
+}
+```
+
+---
+
+## 🛠️ Technical Stack
+
+Our modern infrastructure includes:
+
+- **Frontend**: Next.js 14 with App Router, Tailwind CSS, shadcn/ui
+- **Backend**: Next.js API Routes with TypeScript
+- **Database**: Supabase (PostgreSQL) with Row Level Security
+- **Notifications**: Discord.js, Telegram Bot API, Twitter API v2
+- **Deployment**: Vercel with automated CI/CD
+- **Monitoring**: Real-time sync every 12 hours via cron jobs
+
+---
+
+## 📈 Statistics
+
+Our system tracks:
+
+- 📊 **33+** hackathons discovered and tracked
+- 🌍 **11** European countries covered
+- 🔄 **4** different data sources monitored
+- 🤖 **99+** notifications sent across all platforms
+
+---
+
+## 🛡️ Data Quality
+
+We ensure high data quality through:
+
+- ✅ **Automated deduplication** to prevent duplicates
+- 🕐 **Date validation** and status management
+- 🌍 **Geographic filtering** to ensure European focus
+- 🔗 **Link verification** to ensure working URLs
+- 📝 **Content filtering** to identify genuine hackathons
+
+---
+
 ## 🤝 How to Contribute
 
 While our system is automated, we welcome community contributions:
@@ -205,29 +230,6 @@ Want to improve the system?
 
 ---
 
-## 📈 Statistics
-
-Our system tracks:
-
-- 📊 **33+** hackathons discovered and tracked
-- 🌍 **11** European countries covered
-- 🔄 **4** different data sources monitored
-- 🤖 **99+** notifications sent across all platforms
-
----
-
-## 🛡️ Data Quality
-
-We ensure high data quality through:
-
-- ✅ **Automated deduplication** to prevent duplicates
-- 🕐 **Date validation** and status management
-- 🌍 **Geographic filtering** to ensure European focus
-- 🔗 **Link verification** to ensure working URLs
-- 📝 **Content filtering** to identify genuine hackathons
-
----
-
 ## 💬 Community & Support
 
 - 💡 **Feature Requests**: Open an issue on GitHub
@@ -254,10 +256,10 @@ Special thanks to:
 
 ---
 
-  <div align="center">
+<div align="center">
 
 **Made with ❤️ for the European hacking community**
 
 _Last system update: 2025-06-11T17:36:54.729Z_
 
-  </div>
+</div>

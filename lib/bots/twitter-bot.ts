@@ -13,31 +13,17 @@ export class TwitterBot {
     });
   }
 
-  /**
-   * Notifies about new hackathons by posting tweets.
-   * @param hackathons - Array of Hackathon objects to post.
-   */
   async notifyNewHackathons(hackathons: Hackathon[]) {
     if (hackathons.length === 0) return;
-
-    console.log(`📝 Attempting to post ${hackathons.length} tweet(s)...`);
 
     for (const [index, hackathon] of hackathons.entries()) {
       const tweet = this.formatTweet(hackathon);
 
-      console.log(
-        `📤 [${index + 1}/${hackathons.length}] Posting tweet for: ${hackathon.name}`
-      );
-      console.log(`📏 Tweet length: ${tweet.length} characters`);
-      console.log(`📄 Tweet content:`, tweet);
-
       try {
-        const response = await this.client.v2.tweet(tweet);
-        console.log(`✅ Tweet posted successfully! ID: ${response.data.id}`);
+        await this.client.v2.tweet(tweet);
 
         // Rate limiting - aspetta tra i tweet
         if (index < hackathons.length - 1) {
-          console.log("⏳ Waiting 1 second before next tweet...");
           await new Promise((resolve) => setTimeout(resolve, 1000));
         }
       } catch (error: unknown) {

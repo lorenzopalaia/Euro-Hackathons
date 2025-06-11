@@ -1,6 +1,5 @@
 import { supabase } from "@/lib/supabase";
 import { Hackathon } from "@/types/hackathon";
-import { MarkdownFormatter } from "@/lib/markdown-formatter";
 
 export class ReadmeUpdater {
   /**
@@ -62,10 +61,9 @@ export class ReadmeUpdater {
   <!-- PAST_TABLE_END -->`,
         );
 
-      const formattedContent =
-        await MarkdownFormatter.formatMarkdown(updatedContent);
+      // TODO: format table with prettier (pay attention to .vscode/settings and .prettierignore)
 
-      return formattedContent;
+      return updatedContent;
     } catch (error) {
       console.error("Error generating README content:", error);
       throw error;

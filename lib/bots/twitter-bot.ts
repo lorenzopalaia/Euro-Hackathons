@@ -13,6 +13,10 @@ export class TwitterBot {
     });
   }
 
+  /**
+   * Notifies about new hackathons by posting tweets.
+   * @param hackathons - Array of Hackathon objects to post.
+   */
   async notifyNewHackathons(hackathons: Hackathon[]) {
     if (hackathons.length === 0) return;
 

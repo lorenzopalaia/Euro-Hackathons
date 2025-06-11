@@ -1,56 +1,63 @@
-import { Metadata } from "next";
-import HackathonList from "@/components/hackathon-list";
-import Link from "next/link";
-import { FaDiscord, FaTelegram, FaXTwitter } from "react-icons/fa6";
+"use client";
 
-export const metadata: Metadata = {
-  title: "🇪🇺🚀 Euro Hackathons",
-  description: "Comprehensive list of hackathons happening across Europe",
-};
+import HackathonList from "@/components/hackathon-list";
+import Sidebar from "@/components/sidebar";
+import { useEffect, useState, useMemo } from "react";
+import { Hackathon } from "@/lib/database.types";
 
 export default function Home() {
+  const [upcoming, setUpcoming] = useState<Hackathon[]>([]);
+  const [past, setPast] = useState<Hackathon[]>([]);
+
+  useEffect(() => {
+    fetchHackathons();
+  }, []);
+
+  const fetchHackathons = async () => {
+    try {
+      const [upcomingRes, pastRes] = await Promise.all([
+        fetch("/api/hackathons?status=upcoming&limit=100"),
+        fetch("/api/hackathons?status=past&limit=50"),
+      ]);
+
+      const upcomingData = await upcomingRes.json();
+      const pastData = await pastRes.json();
+
+      setUpcoming(upcomingData.data || []);
+      setPast(pastData.data || []);
+    } catch (error) {
+      console.error("Error fetching hackathons:", error);
+    }
+  };
+
+  const { uniqueLocations, uniqueTopics } = useMemo(() => {
+    const allHackathons = [...upcoming, ...past];
+
+    const locations = Array.from(
+      new Set(allHackathons.map((h) => h.location).filter(Boolean))
+    );
+    const topics = Array.from(
+      new Set(allHackathons.flatMap((h) => h.topics || []))
+    );
+
+    return {
+      uniqueLocations: locations.sort(),
+      uniqueTopics: topics.sort(),
+    };
+  }, [upcoming, past]);
+
   return (
-    <div className="container mx-auto px-4 py-8 max-w-4xl">
-      <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4">🇪🇺🚀 EURO HACKATHONS</h1>
-        <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-          Your comprehensive, up-to-date list of hackathons happening across
-          Europe. Whether you&apos;re a seasoned hacker or a beginner, find your
-          next coding adventure here!
-        </p>
-      </div>
-
-      <div className="mb-16 text-center">
-        <h2 className="text-2xl font-semibold mb-4">🤖 Stay Updated</h2>
-        <p className="text-muted-foreground mb-6">
-          Get notified about new hackathons automatically! Our system checks for
-          new events every 2 hours.
-        </p>
-        <div className="flex justify-center gap-4 flex-wrap">
-          <Link
-            href="#"
-            className="inline-flex items-center gap-2 px-4 py-2 bg-[#5865F2] text-white rounded-lg hover:bg-[#4752C4] transition-colors"
-          >
-            <FaDiscord size={20} />
-            Discord Bot
-          </Link>
-          <Link
-            href="#"
-            className="inline-flex items-center gap-2 px-4 py-2 bg-[#0088cc] text-white rounded-lg hover:bg-[#006699] transition-colors"
-          >
-            <FaTelegram size={20} />
-            Telegram Bot
-          </Link>
-          <Link
-            href="#"
-            className="inline-flex items-center gap-2 px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors"
-          >
-            <FaXTwitter size={20} />X Updates
-          </Link>
+    <div className="flex min-h-screen">
+      <Sidebar uniqueLocations={uniqueLocations} uniqueTopics={uniqueTopics} />
+      <main className="flex-1 p-8">
+        <div className="mb-12">
+          <h1 className="text-3xl font-bold mb-3">Euro Hackathons</h1>
+          <p className="text-muted-foreground">
+            Your comprehensive list of hackathons happening across Europe
+          </p>
         </div>
-      </div>
-
-      <HackathonList />
+        <HackathonList />
+      </main>
     </div>
   );
 }

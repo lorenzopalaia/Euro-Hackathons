@@ -19,6 +19,7 @@ import {
 import { Hackathon } from "@/lib/database.types";
 import Link from "next/link";
 import { useFilters } from "@/contexts/filter-context";
+import { emojiFlag } from "@/lib/emoji-flag";
 
 export default function HackathonList() {
   const [upcoming, setUpcoming] = useState<Hackathon[]>([]);
@@ -149,7 +150,8 @@ export default function HackathonList() {
               </div>
               <div className="flex items-center gap-1.5">
                 <MapPin className="h-4 w-4" />
-                <span>{hackathon.location}</span>
+                {emojiFlag(hackathon.location.split(",")[1]?.trim())}{" "}
+                {hackathon.location}
               </div>
             </div>
           </div>

@@ -34,11 +34,12 @@ import {
   ChevronsUpDown,
   Bell,
   Menu,
+  FilterX,
 } from "lucide-react";
 import { FaDiscord, FaTelegram, FaXTwitter } from "react-icons/fa6";
 import Link from "next/link";
 import { format } from "date-fns";
-import { it } from "date-fns/locale";
+import { enGB } from "date-fns/locale";
 import { useFilters } from "@/contexts/filter-context";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
@@ -114,8 +115,8 @@ export default function Sidebar({
           </div>
           <div className="flex items-center gap-2">
             {hasActiveFilters && (
-              <Button variant="ghost" size="sm" onClick={clearFilters}>
-                <X className="h-4 w-4" />
+              <Button variant="outline" size="sm" onClick={clearFilters}>
+                <FilterX className="h-4 w-4" />
               </Button>
             )}
             {/* Close button for mobile */}
@@ -290,12 +291,15 @@ export default function Sidebar({
                 {filters.dateRange?.from ? (
                   filters.dateRange.to ? (
                     <>
-                      {format(filters.dateRange.from, "dd MMM", { locale: it })}{" "}
-                      - {format(filters.dateRange.to, "dd MMM", { locale: it })}
+                      {format(filters.dateRange.from, "dd MMM", {
+                        locale: enGB,
+                      })}{" "}
+                      -{" "}
+                      {format(filters.dateRange.to, "dd MMM", { locale: enGB })}
                     </>
                   ) : (
                     format(filters.dateRange.from, "dd MMM yyyy", {
-                      locale: it,
+                      locale: enGB,
                     })
                   )
                 ) : (
@@ -311,7 +315,7 @@ export default function Sidebar({
                 selected={filters.dateRange}
                 onSelect={(range) => updateFilter("dateRange", range)}
                 numberOfMonths={1}
-                locale={it}
+                locale={enGB}
               />
             </PopoverContent>
           </Popover>

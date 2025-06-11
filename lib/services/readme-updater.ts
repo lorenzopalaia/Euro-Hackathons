@@ -1,5 +1,6 @@
 import { supabase } from "@/lib/supabase";
 import { Hackathon } from "@/types/hackathon";
+import { MarkdownFormatter } from "@/lib/markdown-formatter";
 
 export class ReadmeUpdater {
   /**
@@ -17,8 +18,7 @@ export class ReadmeUpdater {
   | -------------- | -------- | ---- | ------ | --- |
   ${this.generateHackathonTable(upcoming)}`
           : `| Hackathon Name | Location | Date | Topics | URL |
-  | -------------- | -------- | ---- | ------ | --- |
-  *No hackathons found*`;
+  | -------------- | -------- | ---- | ------ | --- |`;
 
       const pastTableContent =
         past.length > 0
@@ -26,8 +26,7 @@ export class ReadmeUpdater {
   | -------------- | -------- | ---- | ------ | --- |
   ${this.generateHackathonTable(past.slice(0, 20))}`
           : `| Hackathon Name | Location | Date | Topics | URL |
-  | -------------- | -------- | ---- | ------ | --- |
-  *No hackathons found*`;
+  | -------------- | -------- | ---- | ------ | --- |`;
 
       // Template del README
       const template = this.getReadmeTemplate();
@@ -63,7 +62,10 @@ export class ReadmeUpdater {
   <!-- PAST_TABLE_END -->`,
         );
 
-      return updatedContent;
+      const formattedContent =
+        await MarkdownFormatter.formatMarkdown(updatedContent);
+
+      return formattedContent;
     } catch (error) {
       console.error("Error generating README content:", error);
       throw error;

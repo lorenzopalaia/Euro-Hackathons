@@ -155,9 +155,15 @@ export async function POST(request: Request) {
           auth: process.env.GITHUB_TOKEN,
         });
 
-        const owner = process.env.GITHUB_REPO_OWNER || "lorenzopalaia";
-        const repo = process.env.GITHUB_REPO_NAME || "Euro-Hackathons";
-        const branch = process.env.GITHUB_BRANCH || "v2";
+        const owner = process.env.GITHUB_REPO_OWNER;
+        const repo = process.env.GITHUB_REPO_NAME;
+        const branch = process.env.GITHUB_BRANCH;
+
+        if (!owner || !repo || !branch) {
+          throw new Error(
+            "GitHub repository configuration is missing in environment variables",
+          );
+        }
 
         // Genera il nuovo contenuto del README
         const readmeUpdater = new ReadmeUpdater();

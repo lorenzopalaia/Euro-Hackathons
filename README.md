@@ -169,7 +169,6 @@
   <!-- PAST_TABLE_START -->
   | Hackathon Name | Location | Date | Topics | URL |
   | -------------- | -------- | ---- | ------ | --- |
-  *No hackathons found*
   <!-- PAST_TABLE_END -->
   
   ## 🤝 How to Contribute

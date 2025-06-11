@@ -17,7 +17,7 @@ jobs:
 
       - name: Trigger sync endpoint
         run: |
-          curl -X POST "${{ secrets.VERCEL_URL }}/api/sync" \
+          curl -X POST "${{ secrets.NEXT_PUBLIC_SITE_URL }}/api/sync" \
             -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
             -H "Content-Type: application/json"
 

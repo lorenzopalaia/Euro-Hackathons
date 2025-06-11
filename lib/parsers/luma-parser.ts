@@ -63,7 +63,7 @@ export class LumaParser extends BaseParser {
       });
 
       const response = await fetch(
-        `https://api.lu.ma/discover/category/get-events?${params}`,
+        `https://api.lu.ma/discover/category/get-events?${params}`
       );
 
       if (!response.ok) {
@@ -108,9 +108,14 @@ export class LumaParser extends BaseParser {
 
       if (dates.start < thirtyDaysAgo) return null;
 
+      const location =
+        geo.city && geo.country_code
+          ? `${geo.city}, ${geo.country_code}`
+          : "Remote";
+
       return {
         name: event.name.replace(/\|/g, "-"),
-        location: `${geo.city || "N/A"}, ${geo.country_code || "N/A"}`,
+        location,
         city: geo.city,
         country_code: geo.country_code,
         date_start: dates.start,
@@ -141,7 +146,7 @@ export class LumaParser extends BaseParser {
   }
 
   private deduplicateHackathons(
-    hackathons: ParsedHackathon[],
+    hackathons: ParsedHackathon[]
   ): ParsedHackathon[] {
     const seen = new Set<string>();
     return hackathons.filter((hackathon) => {

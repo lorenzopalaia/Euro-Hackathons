@@ -16,7 +16,7 @@ export abstract class BaseParser {
 
   protected formatDate(
     start_date_str: string,
-    end_date_str?: string
+    end_date_str?: string,
   ): { start: Date; end?: Date } {
     try {
       if (start_date_str === "N/A") throw new Error("Invalid start date");
@@ -31,10 +31,10 @@ export abstract class BaseParser {
     } catch (error) {
       console.error(
         `Error parsing dates: ${start_date_str}, ${end_date_str}`,
-        error
+        error,
       );
       throw new Error(
-        `Error parsing dates: ${start_date_str}, ${end_date_str}`
+        `Error parsing dates: ${start_date_str}, ${end_date_str}`,
       );
     }
   }

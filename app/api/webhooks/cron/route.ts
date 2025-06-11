@@ -34,7 +34,7 @@ export async function GET() {
         error: "Cron job failed",
         details: error instanceof Error ? error.message : "Unknown error",
       },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

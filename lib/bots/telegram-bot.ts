@@ -36,7 +36,7 @@ export class TelegramBot {
 📝 *Name:* ${hackathon.name.replace(/[_*[\]()~`>#+\-=|{}.!\\]/g, "\\$&")}
 📍 *Location:* ${hackathon.location.replace(
       /[_*[\]()~`>#+\-=|{}.!\\]/g,
-      "\\$&"
+      "\\$&",
     )}
 📅 *Date:* ${date}${topics}
 
@@ -52,7 +52,7 @@ export class TelegramBot {
     }
 
     return `${start.toLocaleDateString("en-GB")} - ${end.toLocaleDateString(
-      "en-GB"
+      "en-GB",
     )}`;
   }
 

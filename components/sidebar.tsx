@@ -73,28 +73,28 @@ export default function Sidebar({
 
   // Mobile collapsed sidebar
   const MobileCollapsedSidebar = () => (
-    <aside className="md:hidden fixed left-0 top-0 h-full w-16 border-r bg-card z-40 flex flex-col items-center py-6 space-y-4">
+    <aside className="bg-card fixed top-0 left-0 z-40 flex h-full w-16 flex-col items-center space-y-4 border-r py-6 md:hidden">
       <Button
         variant="ghost"
         size="sm"
         onClick={() => setMobileOpen(true)}
-        className="w-10 h-10 p-0"
+        className="h-10 w-10 p-0"
       >
         <Menu className="h-5 w-5" />
       </Button>
 
       <div className="flex flex-col space-y-2">
-        <Button asChild variant="ghost" size="sm" className="w-10 h-10 p-0">
+        <Button asChild variant="ghost" size="sm" className="h-10 w-10 p-0">
           <Link href="#">
             <FaDiscord className="h-4 w-4" />
           </Link>
         </Button>
-        <Button asChild variant="ghost" size="sm" className="w-10 h-10 p-0">
+        <Button asChild variant="ghost" size="sm" className="h-10 w-10 p-0">
           <Link href="#">
             <FaTelegram className="h-4 w-4" />
           </Link>
         </Button>
-        <Button asChild variant="ghost" size="sm" className="w-10 h-10 p-0">
+        <Button asChild variant="ghost" size="sm" className="h-10 w-10 p-0">
           <Link href="#">
             <FaXTwitter className="h-4 w-4" />
           </Link>
@@ -185,7 +185,7 @@ export default function Sidebar({
                       <Check
                         className={cn(
                           "mr-2 h-4 w-4",
-                          !filters.location ? "opacity-100" : "opacity-0"
+                          !filters.location ? "opacity-100" : "opacity-0",
                         )}
                       />
                       All
@@ -200,7 +200,7 @@ export default function Sidebar({
                             "mr-2 h-4 w-4",
                             filters.location === location
                               ? "opacity-100"
-                              : "opacity-0"
+                              : "opacity-0",
                           )}
                         />
                         {location}
@@ -248,7 +248,7 @@ export default function Sidebar({
                             "mr-2 h-4 w-4",
                             filters.topics.includes(topic)
                               ? "opacity-100"
-                              : "opacity-0"
+                              : "opacity-0",
                           )}
                         />
                         {topic}
@@ -262,12 +262,12 @@ export default function Sidebar({
 
           {/* Selected Topics */}
           {filters.topics.length > 0 && (
-            <div className="flex flex-wrap gap-1 mt-2">
+            <div className="mt-2 flex flex-wrap gap-1">
               {filters.topics.map((topic) => (
                 <Badge
                   key={topic}
                   variant="secondary"
-                  className="text-xs cursor-pointer"
+                  className="cursor-pointer text-xs"
                   onClick={() => toggleTopic(topic)}
                 >
                   {topic}
@@ -376,7 +376,7 @@ export default function Sidebar({
       <MobileCollapsedSidebar />
 
       {/* Desktop sidebar */}
-      <aside className="hidden md:flex w-60 border-r bg-card p-6 space-y-8 flex-col">
+      <aside className="bg-card hidden w-60 flex-col space-y-8 border-r p-6 md:flex">
         <SidebarContent />
       </aside>
 
@@ -385,12 +385,12 @@ export default function Sidebar({
         <>
           {/* Backdrop */}
           <div
-            className="md:hidden fixed inset-0 bg-black/50 z-50 animate-in fade-in duration-500"
+            className="animate-in fade-in fixed inset-0 z-50 bg-black/50 duration-500 md:hidden"
             onClick={() => setMobileOpen(false)}
           />
 
           {/* Sidebar */}
-          <aside className="md:hidden fixed left-0 top-0 h-full w-80 border-r bg-card p-6 space-y-8 z-50 overflow-y-auto animate-in slide-in-from-left duration-500">
+          <aside className="bg-card animate-in slide-in-from-left fixed top-0 left-0 z-50 h-full w-80 space-y-8 overflow-y-auto border-r p-6 duration-500 md:hidden">
             <SidebarContent />
           </aside>
         </>

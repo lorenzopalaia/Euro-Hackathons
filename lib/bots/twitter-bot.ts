@@ -56,7 +56,7 @@ Join: ${hackathon.url}
     }
 
     return `${start.toLocaleDateString("en-GB")} - ${end.toLocaleDateString(
-      "en-GB"
+      "en-GB",
     )}`;
   }
 }

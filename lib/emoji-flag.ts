@@ -259,7 +259,7 @@ export function emojiFlag(
     YT: "🇾🇹",
     ZA: "🇿🇦",
     ZM: "🇿🇲",
-  }
+  },
 ) {
   const arr = countryCode.split("-");
   return countryFlagData[(arr[1] || arr[0]).toUpperCase()] || fallback;

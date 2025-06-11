@@ -33,7 +33,7 @@ export class ReadmeUpdater {
             day: "numeric",
             hour: "2-digit",
             minute: "2-digit",
-          })
+          }),
         )
         .replace("{TOTAL_HACKATHONS}", stats.total.toString())
         .replace("{COUNTRIES_COUNT}", stats.countries.toString())
@@ -58,7 +58,7 @@ export class ReadmeUpdater {
     try {
       return await fs.readFile(
         join(process.cwd(), "README.template.md"),
-        "utf-8"
+        "utf-8",
       );
     } catch {
       return await fs.readFile(this.readmePath, "utf-8");
@@ -92,7 +92,7 @@ export class ReadmeUpdater {
       .not("country_code", "is", null);
 
     const uniqueCountries = new Set(
-      countriesData?.map((h) => h.country_code).filter(Boolean) || []
+      countriesData?.map((h) => h.country_code).filter(Boolean) || [],
     ).size;
 
     const { data: sourcesData } = await supabase
@@ -100,7 +100,7 @@ export class ReadmeUpdater {
       .select("source");
 
     const uniqueSources = new Set(
-      sourcesData?.map((h) => h.source).filter(Boolean) || []
+      sourcesData?.map((h) => h.source).filter(Boolean) || [],
     ).size;
 
     const stats = {
@@ -161,7 +161,7 @@ export class ReadmeUpdater {
 
     return `${start.toLocaleDateString(
       "en-GB",
-      formatOptions
+      formatOptions,
     )} - ${end.toLocaleDateString("en-GB", formatOptions)}`;
   }
 }

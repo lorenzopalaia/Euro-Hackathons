@@ -35,10 +35,10 @@ export default function Home() {
     const allHackathons = [...upcoming, ...past];
 
     const locations = Array.from(
-      new Set(allHackathons.map((h) => h.location).filter(Boolean))
+      new Set(allHackathons.map((h) => h.location).filter(Boolean)),
     );
     const topics = Array.from(
-      new Set(allHackathons.flatMap((h) => h.topics || []))
+      new Set(allHackathons.flatMap((h) => h.topics || [])),
     );
 
     return {
@@ -50,8 +50,8 @@ export default function Home() {
   return (
     <div className="flex min-h-screen">
       <Sidebar uniqueLocations={uniqueLocations} uniqueTopics={uniqueTopics} />
-      <main className="flex-1 p-8 md:ml-0 ml-16">
-        <h1 className="text-3xl font-bold mb-3">Euro Hackathons</h1>
+      <main className="ml-16 flex-1 p-8 md:ml-0">
+        <h1 className="mb-3 text-3xl font-bold">Euro Hackathons</h1>
         <p className="text-muted-foreground">
           Your comprehensive list of hackathons happening across Europe
         </p>

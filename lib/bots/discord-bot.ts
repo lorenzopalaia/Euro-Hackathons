@@ -59,7 +59,7 @@ export class DiscordBot {
               name: "🔗 URL",
               value: `[Join here](${hackathon.url})`,
               inline: false,
-            }
+            },
           )
           .setTimestamp();
 
@@ -90,7 +90,7 @@ export class DiscordBot {
     }
 
     return `${start.toLocaleDateString("en-GB")} - ${end.toLocaleDateString(
-      "en-GB"
+      "en-GB",
     )}`;
   }
 

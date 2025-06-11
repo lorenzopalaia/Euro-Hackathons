@@ -68,7 +68,7 @@ export default function HackathonList() {
         if (filters.topics.length > 0) {
           const hackathonTopics = hackathon.topics || [];
           const hasMatchingTopic = filters.topics.some((topic) =>
-            hackathonTopics.includes(topic)
+            hackathonTopics.includes(topic),
           );
           if (!hasMatchingTopic) {
             return false;
@@ -93,7 +93,7 @@ export default function HackathonList() {
         return true;
       });
     },
-    [filters]
+    [filters],
   );
 
   const currentHackathons = useMemo(() => {
@@ -132,19 +132,19 @@ export default function HackathonList() {
       {
         month: "short",
         year: "numeric",
-      }
+      },
     )}`;
   };
 
   const HackathonCard = ({ hackathon }: { hackathon: Hackathon }) => (
-    <Card className="hover:shadow-lg transition-all duration-200 border-border flex flex-col h-full">
+    <Card className="border-border flex h-full flex-col transition-all duration-200 hover:shadow-lg">
       <CardHeader className="pb-3">
-        <div className="flex justify-between items-start gap-4">
-          <div className="flex-1 min-w-0">
-            <h3 className="text-xl font-bold text-foreground mb-2 line-clamp-2">
+        <div className="flex items-start justify-between gap-4">
+          <div className="min-w-0 flex-1">
+            <h3 className="text-foreground mb-2 line-clamp-2 text-xl font-bold">
               {hackathon.name}
             </h3>
-            <div className="flex items-center gap-4 text-sm text-muted-foreground">
+            <div className="text-muted-foreground flex items-center gap-4 text-sm">
               <div className="flex items-center gap-1.5">
                 <CalendarIcon className="h-4 w-4" />
                 <span className="font-medium">{formatDate(hackathon)}</span>
@@ -159,12 +159,12 @@ export default function HackathonList() {
         </div>
       </CardHeader>
 
-      <CardContent className="pt-0 flex-1">
+      <CardContent className="flex-1 pt-0">
         {hackathon.topics && hackathon.topics.length > 0 && (
           <div className="mb-4">
             <div className="flex items-start gap-2">
-              <Tag className="h-4 w-4 text-muted-foreground mt-1 shrink-0" />
-              <div className="flex flex-wrap gap-1.5 min-w-0">
+              <Tag className="text-muted-foreground mt-1 h-4 w-4 shrink-0" />
+              <div className="flex min-w-0 flex-wrap gap-1.5">
                 {hackathon.topics.slice(0, 4).map((topic, index) => (
                   <Badge
                     key={`${topic}-${index}`}
@@ -186,9 +186,9 @@ export default function HackathonList() {
 
         {hackathon.notes && hackathon.notes.trim() && (
           <div className="flex items-start gap-2">
-            <FileText className="h-4 w-4 text-muted-foreground mt-1 shrink-0" />
+            <FileText className="text-muted-foreground mt-1 h-4 w-4 shrink-0" />
             <div className="min-w-0">
-              <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3">
+              <p className="text-muted-foreground line-clamp-3 text-sm leading-relaxed">
                 {hackathon.notes}
               </p>
             </div>
@@ -199,7 +199,7 @@ export default function HackathonList() {
       <CardFooter>
         <Button asChild className="w-full">
           <Link href={hackathon.url} target="_blank" rel="noopener noreferrer">
-            Join <ExternalLink className="h-4 w-4 ml-1" />
+            Join <ExternalLink className="ml-1 h-4 w-4" />
           </Link>
         </Button>
       </CardFooter>
@@ -210,12 +210,12 @@ export default function HackathonList() {
     return (
       <div className="w-full">
         <div className="mb-6">
-          <Skeleton className="h-7 w-48 mb-2" />
+          <Skeleton className="mb-2 h-7 w-48" />
           <Skeleton className="h-5 w-32" />
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
           {Array.from({ length: 8 }).map((_, i) => (
-            <Card key={i} className="flex flex-col h-full">
+            <Card key={i} className="flex h-full flex-col">
               <CardHeader className="pb-3">
                 <div className="space-y-2">
                   <Skeleton className="h-6 w-full" />
@@ -225,7 +225,7 @@ export default function HackathonList() {
                   </div>
                 </div>
               </CardHeader>
-              <CardContent className="pt-0 flex-1">
+              <CardContent className="flex-1 pt-0">
                 <div className="space-y-3">
                   <div className="flex gap-2">
                     <Skeleton className="h-4 w-4" />
@@ -237,7 +237,7 @@ export default function HackathonList() {
                   </div>
                   <div className="flex gap-2">
                     <Skeleton className="h-4 w-4" />
-                    <div className="space-y-2 flex-1">
+                    <div className="flex-1 space-y-2">
                       <Skeleton className="h-4 w-1/2" />
                     </div>
                   </div>
@@ -256,7 +256,7 @@ export default function HackathonList() {
   return (
     <div className="w-full">
       <div className="mb-6">
-        <h2 className="text-xl font-semibold mb-2">
+        <h2 className="mb-2 text-xl font-semibold">
           {filters.status === "upcoming" ? "Upcoming" : "Past"} Hackathons
         </h2>
         <p className="text-muted-foreground">
@@ -266,11 +266,11 @@ export default function HackathonList() {
       </div>
 
       {currentHackathons.length === 0 ? (
-        <p className="text-center text-muted-foreground py-8">
+        <p className="text-muted-foreground py-8 text-center">
           Nessun hackathon trovato
         </p>
       ) : (
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
           {currentHackathons.map((hackathon) => (
             <HackathonCard key={hackathon.id} hackathon={hackathon} />
           ))}

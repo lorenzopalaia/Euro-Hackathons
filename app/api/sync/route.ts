@@ -112,7 +112,7 @@ export async function POST(request: Request) {
             .update({ notified: true })
             .in(
               "id",
-              newHackathons.map((h) => h.id)
+              newHackathons.map((h) => h.id),
             );
         } catch (error) {
           console.error("Error updating notification status:", error);
@@ -146,7 +146,7 @@ export async function POST(request: Request) {
         error: "Internal server error",
         details: error instanceof Error ? error.message : "Unknown error",
       },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

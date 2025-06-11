@@ -2,11 +2,11 @@ import { Hackathon } from "@/types/hackathon";
 
 export class TelegramBot {
   private token: string;
-  private chatId: string;
+  private channelId: string; // Rinominato da chatId per chiarezza
 
   constructor() {
     this.token = process.env.TELEGRAM_BOT_TOKEN!;
-    this.chatId = process.env.TELEGRAM_CHAT_ID!;
+    this.channelId = process.env.TELEGRAM_CHANNEL_ID!; // ID del canale (negativo)
   }
 
   async notifyNewHackathons(hackathons: Hackathon[]) {
@@ -63,7 +63,7 @@ export class TelegramBot {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        chat_id: this.chatId,
+        chat_id: this.channelId, // Usa l'ID del canale
         text,
         parse_mode: "MarkdownV2",
         disable_web_page_preview: false,

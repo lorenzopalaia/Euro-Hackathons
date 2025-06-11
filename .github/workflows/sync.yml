@@ -2,7 +2,7 @@ name: Auto Update Hackathons
 
 on:
   schedule:
-    - cron: "0 */2 * * *" # Ogni 2 ore
+    - cron: "0 */12 * * *" # Ogni 2 ore
   workflow_dispatch: # Consente trigger manuale
 
 jobs:

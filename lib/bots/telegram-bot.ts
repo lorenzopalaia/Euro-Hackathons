@@ -31,13 +31,13 @@ export class TelegramBot {
       ? `\n🏷️ *Topics:* ${this.escapeMarkdownV2(hackathon.topics.join(", "))}`
       : "";
 
-    return `🚀 *New European Hackathon\\!*
-  
-  📝 *Name:* ${this.escapeMarkdownV2(hackathon.name)}
-  📍 *Location:* ${this.escapeMarkdownV2(hackathon.location)}
-  📅 *Date:* ${this.escapeMarkdownV2(date)}${topics}
-  
-  🔗 [Join here](${hackathon.url})`;
+    return `🚀 *New Hackathon\\!*
+
+📝 *Name:* ${this.escapeMarkdownV2(hackathon.name)}
+📍 *Location:* ${this.escapeMarkdownV2(hackathon.location)}
+📅 *Date:* ${this.escapeMarkdownV2(date)}${topics}
+
+🔗 [Join here](${hackathon.url})`;
   }
 
   private escapeMarkdownV2(text: string): string {

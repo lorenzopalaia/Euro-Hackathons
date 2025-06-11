@@ -37,7 +37,7 @@ export class TwitterBot {
       ? `in ${hackathon.city}`
       : hackathon.location;
 
-    return `🚀 New European Hackathon!
+    return `🚀 New Hackathon!
 
 ${hackathon.name} ${location}
 📅 ${date}

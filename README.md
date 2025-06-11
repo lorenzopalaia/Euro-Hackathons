@@ -122,36 +122,9 @@ GET /api/hackathons?status=past&limit=50&page=1
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 11 June 2025 at 16:17_
-
 | Hackathon Name | Location | Date | Topics | URL |
 | -------------- | -------- | ---- | ------ | --- |
-
-| World's Largest Hackathon [Zürich Meetup] | Zürich, CH | 13 Jun 2025 | AI | [Link](https://lu.ma/WLH-connect-04) |
-| Munich AI Robotics Hackathon | Munich, DE | 13 Jun-15, 2025 | AI | [Link](https://lu.ma/nr4bt93o) |
-| Cardano Hackathon and Networking | Berlin, DE | 13 Jun-14, 2025 | Crypto | [Link](https://lu.ma/2q4mzhav) |
-| Aaltoes x LeRobot Robotics Hackathon | Espoo, FI | 14 Jun-15, 2025 | AI, Robotics | [Link](https://lu.ma/lkx6o0sn) |
-| Hackathon - Side Quest | Jönköping, SE | 14 Jun 2025 |  | [Link](https://lu.ma/6iajrer2) |
-| {Tech: Karlsruhe} AI Hackathon | Karlsruhe, DE | 14 Jun-15, 2025 | AI | [Link](https://lu.ma/karlsruhe) |
-| Hackathon: AI in Consumer | Berlin, DE | 14 Jun-15, 2025 | AI | [Link](https://lu.ma/knowunity-hack) |
-| SoTA Embodied Intelligence Hackathon | London, GB | 14 Jun-15, 2025 |  | [Link](https://lu.ma/9slgjcs5) |
-| LeRobot Hackathon via Hugging Face | Cambridge, GB | 14 Jun-15, 2025 | AI, Robotics | [Link](https://lu.ma/yxenskjf) |
-| Agents Without Masters Hackathon with NEAR AI | Berlin, DE | 15 Jun-16, 2025 | AI | [Link](https://lu.ma/3fjkv8r4) |
-| Peace Tech Hackathon The Hague | Den Haag, NL | 16 Jun 2025 |  | [Link](https://lu.ma/jxqddrmu) |
-| Build & Sell #1 - The Entrepreneurs Hackathon | Berlin, DE | 18 Jun-20, 2025 | AI | [Link](https://lu.ma/build-and-sell) |
-| ZK HACK BERLIN Hackathon | Berlin, DE | 20 Jun-22, 2025 |  | [Link](https://lu.ma/cwj5kakg) |
-| World's Largest Hackathon [Zürich Meetup] | Zürich, CH | 20 Jun 2025 | AI | [Link](https://lu.ma/WLH-connect-05) |
-| Hacking Agents Hackathon London | London, GB | 20 Jun-21, 2025 |  | [Link](https://lu.ma/hacking-agents-hackathon-london) |
-| Prague's Biggest Vibe Coding Hackathon - SteerCode | Prague, CZ | 21 Jun 2025 |  | [Link](https://lu.ma/w4b4krmy) |
-| Demo Day: Oz Hackathon Showcase | Paris, FR | 28 Jun 2025 |  | [Link](https://lu.ma/OZDemoDay) |
-| Raise Your Hack | Paris, FR | 4 Jul-9, 2025 |  | [Link](https://lablab.ai/event/raise-your-hack) |
-| Sui Hackathon Wroclaw | Wrocław, PL | 11 Jul-13, 2025 |  | [Link](https://lu.ma/ve8e4w28) |
-| CheerpJ: The Hackathon | Leeds, GB | 1 Sept 2025 - 31 Oct 2025 |  | [Link](https://cheerpj-the-hackathon.devpost.com/) |
-| ETHSofia Conference and Hackathon 2025 | Sofia, BG | 24 Sept 2025 |  | [Link](https://lu.ma/v830crl0) |
-| European Defense Tech Hackathon – London | London, GB | 25 Sept-28, 2025 |  | [Link](https://lu.ma/edth-2025-london) |
-| Encode London Research Conference and Hackathon | London, GB | 24 Oct-26, 2025 |  | [Link](https://lu.ma/Encode-London-25) |
-| European Defense Tech Hackathon – Berlin | Berlin, DE | 13 Nov-16, 2025 |  | [Link](https://lu.ma/edth-2025-berlin) |
-| ImpactHack 2025 | Glasgow, GB | 22 Nov-23, 2025 |  | [Link](https://impact-hack.com/) |
+<!-- UPCOMING_HACKATHONS_PLACEHOLDER -->
 
 ### 🔴 Recent Past Hackathons
 
@@ -159,8 +132,7 @@ _Showing last 20 events_
 
 | Hackathon Name | Location | Date | Topics | URL |
 | -------------- | -------- | ---- | ------ | --- |
-
-*No hackathons found*
+<!-- PAST_HACKATHONS_PLACEHOLDER -->
 
 ## 🤝 How to Contribute
 

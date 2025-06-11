@@ -36,15 +36,15 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
-    "@tailwindcss/postcss": "^4.1.8",
+    "@tailwindcss/postcss": "^4.1.9",
     "@types/node": "^24",
-    "@types/react": "^19.1.7",
+    "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "eslint": "^9.28.0",
     "eslint-config-next": "15.3.3",
     "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.12",
-    "tailwindcss": "^4.1.8",
+    "tailwindcss": "^4.1.9",
     "tw-animate-css": "^1.3.4",
     "typescript": "^5.8.3"
   }

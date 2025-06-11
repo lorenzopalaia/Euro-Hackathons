@@ -8,6 +8,7 @@ import {
   CardHeader,
   CardFooter,
 } from "@/components/ui/card";
+import { Skeleton } from "@/components/ui/skeleton";
 import { Button } from "@/components/ui/button";
 import {
   ExternalLink,
@@ -207,8 +208,47 @@ export default function HackathonList() {
 
   if (loading) {
     return (
-      <div className="flex justify-center items-center min-h-64">
-        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
+      <div className="w-full">
+        <div className="mb-6">
+          <Skeleton className="h-7 w-48 mb-2" />
+          <Skeleton className="h-5 w-32" />
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-6">
+          {Array.from({ length: 8 }).map((_, i) => (
+            <Card key={i} className="flex flex-col h-full">
+              <CardHeader className="pb-3">
+                <div className="space-y-2">
+                  <Skeleton className="h-6 w-full" />
+                  <div className="flex gap-4">
+                    <Skeleton className="h-4 w-1/4" />
+                    <Skeleton className="h-4 w-1/4" />
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent className="pt-0 flex-1">
+                <div className="space-y-3">
+                  <div className="flex gap-2">
+                    <Skeleton className="h-4 w-4" />
+                    <div className="flex gap-1.5">
+                      <Skeleton className="h-5 w-12" />
+                      <Skeleton className="h-5 w-12" />
+                      <Skeleton className="h-5 w-12" />
+                    </div>
+                  </div>
+                  <div className="flex gap-2">
+                    <Skeleton className="h-4 w-4" />
+                    <div className="space-y-2 flex-1">
+                      <Skeleton className="h-4 w-1/2" />
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+              <CardFooter>
+                <Skeleton className="h-9 w-full" />
+              </CardFooter>
+            </Card>
+          ))}
+        </div>
       </div>
     );
   }

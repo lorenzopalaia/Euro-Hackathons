@@ -1,0 +1,43 @@
+name: Auto Update Hackathons
+
+on:
+  schedule:
+    - cron: "0 */2 * * *" # Ogni 2 ore
+  workflow_dispatch: # Consente trigger manuale
+
+jobs:
+  sync-hackathons:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger sync endpoint
+        id: sync
+        run: |
+          echo "Triggering sync endpoint..."
+
+          response=$(curl -s -w "%{http_code}" -o response.json -X POST \
+            "${{ secrets.NEXT_PUBLIC_SITE_URL }}/api/sync" \
+            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
+            -H "Content-Type: application/json")
+
+          echo "HTTP Status: $response"
+          echo "Response:"
+          cat response.json
+
+          if [ "$response" -eq 200 ]; then
+            echo "Sync completed successfully"
+            echo "success=true" >> $GITHUB_OUTPUT
+          else
+            echo "Sync failed with status $response"
+            echo "success=false" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+
+      - name: Log sync results
+        if: always()
+        run: |
+          echo "Sync job completed"
+          if [ -f response.json ]; then
+            echo "Final response:"
+            cat response.json
+          fi

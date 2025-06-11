@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { Octokit } from "@octokit/rest";
 import { supabase } from "@/lib/supabase";
 import { LumaParser } from "@/lib/parsers/luma-parser";
 import { DiscordBot } from "@/lib/bots/discord-bot";
@@ -17,13 +18,12 @@ export async function POST(request: Request) {
 
     console.log("Starting hackathon sync...");
 
-    // Parsing
+    // 1. Parsing dei nuovi hackathons
     const parser = new LumaParser();
     const parsedHackathons = await parser.parse();
-
     console.log(`Parsed ${parsedHackathons.length} hackathons`);
 
-    // Inserimento nel database
+    // 2. Inserimento nel database
     const newHackathons: Hackathon[] = [];
 
     for (const hackathon of parsedHackathons) {
@@ -66,25 +66,29 @@ export async function POST(request: Request) {
 
     console.log(`Inserted ${newHackathons.length} new hackathons`);
 
-    // Aggiorna stati degli hackathons (da upcoming a past)
+    // 3. Aggiorna stati degli hackathons (da upcoming a past)
     try {
       await supabase.rpc("update_hackathon_statuses");
     } catch (error) {
       console.error("Error updating hackathon statuses:", error);
     }
 
-    // Notifiche
+    // 4. Invia notifiche per i nuovi hackathons
     const notificationErrors: string[] = [];
     if (newHackathons.length > 0) {
+      console.log(
+        `Sending notifications for ${newHackathons.length} new hackathons...`,
+      );
+
       const discordBot = new DiscordBot();
       const telegramBot = new TelegramBot();
       const twitterBot = new TwitterBot();
 
-      // Invia notifiche con gestione errori individuale
       const notifications = await Promise.allSettled([
         discordBot
           .initialize()
-          .then(() => discordBot.notifyNewHackathons(newHackathons)),
+          .then(() => discordBot.notifyNewHackathons(newHackathons))
+          .finally(() => discordBot.destroy()),
         telegramBot.notifyNewHackathons(newHackathons),
         twitterBot.notifyNewHackathons(newHackathons),
       ]);
@@ -97,13 +101,6 @@ export async function POST(request: Request) {
         }
       });
 
-      // Cleanup Discord bot
-      try {
-        await discordBot.destroy();
-      } catch (error) {
-        console.error("Error destroying Discord bot:", error);
-      }
-
       // Marca come notificati solo se almeno una notifica è andata a buon fine
       if (notificationErrors.length < 3) {
         try {
@@ -114,21 +111,67 @@ export async function POST(request: Request) {
               "id",
               newHackathons.map((h) => h.id),
             );
+          console.log("Hackathons marked as notified");
         } catch (error) {
           console.error("Error updating notification status:", error);
         }
       }
     }
 
-    // Aggiorna il README
+    // 5. Aggiorna il README via GitHub API
     let readmeUpdated = false;
+    let readmeError: string | null = null;
+
     try {
+      console.log("Updating README via GitHub API...");
+
+      const octokit = new Octokit({
+        auth: process.env.GITHUB_TOKEN,
+      });
+
+      const owner = process.env.GITHUB_REPO_OWNER || "lorenzopalaia";
+      const repo = process.env.GITHUB_REPO_NAME || "Euro-Hackathons";
+      const branch = process.env.GITHUB_BRANCH || "v2";
+
+      // Genera il nuovo contenuto del README
       const readmeUpdater = new ReadmeUpdater();
-      await readmeUpdater.updateReadme();
-      readmeUpdated = true;
-      console.log("README updated successfully");
+      const newReadmeContent = await readmeUpdater.generateReadmeContent();
+
+      // Ottieni il file corrente
+      const { data: currentFile } = await octokit.rest.repos.getContent({
+        owner,
+        repo,
+        path: "README.md",
+        ref: branch,
+      });
+
+      if ("content" in currentFile) {
+        const currentContent = Buffer.from(
+          currentFile.content,
+          "base64",
+        ).toString("utf-8");
+
+        // Solo se il contenuto è diverso, aggiorna
+        if (currentContent !== newReadmeContent) {
+          await octokit.rest.repos.createOrUpdateFileContents({
+            owner,
+            repo,
+            path: "README.md",
+            message: "🔄 Auto-update README with latest hackathons [Automated]",
+            content: Buffer.from(newReadmeContent).toString("base64"),
+            sha: currentFile.sha,
+            branch,
+          });
+
+          readmeUpdated = true;
+          console.log("README updated successfully via GitHub API");
+        } else {
+          console.log("README content unchanged, skipping update");
+        }
+      }
     } catch (error) {
       console.error("Error updating README:", error);
+      readmeError = error instanceof Error ? error.message : "Unknown error";
     }
 
     return NextResponse.json({
@@ -136,8 +179,10 @@ export async function POST(request: Request) {
       parsed: parsedHackathons.length,
       inserted: newHackathons.length,
       readmeUpdated,
+      readmeError,
       notificationErrors:
         notificationErrors.length > 0 ? notificationErrors : undefined,
+      timestamp: new Date().toISOString(),
     });
   } catch (error) {
     console.error("Sync error:", error);

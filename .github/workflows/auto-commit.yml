@@ -25,7 +25,7 @@ jobs:
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
-          git pull origin main
+          git pull origin v2
 
       - name: Check for changes
         id: git-check
@@ -41,4 +41,4 @@ jobs:
         run: |
           git add README.md
           git commit -m "🔄 Auto-update README with latest hackathons [Automated]"
-          git push
+          git push origin v2

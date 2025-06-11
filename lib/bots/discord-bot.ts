@@ -13,8 +13,9 @@ export class DiscordBot {
     for (const hackathon of hackathons) {
       try {
         const embed = {
-          title: `🚀 New European Hackathon: ${hackathon.name}`,
+          title: `🚀 New Hackathon: ${hackathon.name}`,
           color: 0x00ae86,
+          url: hackathon.url, // Aggiunge l'URL come link del titolo
           fields: [
             {
               name: "📍 Location",
@@ -25,11 +26,6 @@ export class DiscordBot {
               name: "📅 Date",
               value: this.formatDate(hackathon),
               inline: true,
-            },
-            {
-              name: "🔗 Join",
-              value: `[Register here](${hackathon.url})`,
-              inline: false,
             },
           ],
           timestamp: new Date().toISOString(),
@@ -43,12 +39,14 @@ export class DiscordBot {
           });
         }
 
+        // Invia embed + URL separato per l'anteprima
         await fetch(this.webhookUrl, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
+            content: `🔗 Register: ${hackathon.url}`, // URL nel messaggio principale
             embeds: [embed],
           }),
         });
@@ -70,7 +68,7 @@ export class DiscordBot {
     }
 
     return `${start.toLocaleDateString("en-GB")} - ${end.toLocaleDateString(
-      "en-GB",
+      "en-GB"
     )}`;
   }
 }

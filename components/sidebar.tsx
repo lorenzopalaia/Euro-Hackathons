@@ -85,7 +85,7 @@ export default function Sidebar({
 
       <div className="flex flex-col space-y-2">
         <Button asChild variant="ghost" size="sm" className="h-10 w-10 p-0">
-          <Link href="#" target="_blank">
+          <Link href="https://discord.gg/SmygTckVez" target="_blank">
             <FaDiscord className="h-4 w-4" />
           </Link>
         </Button>
@@ -185,7 +185,7 @@ export default function Sidebar({
                       <Check
                         className={cn(
                           "mr-2 h-4 w-4",
-                          !filters.location ? "opacity-100" : "opacity-0",
+                          !filters.location ? "opacity-100" : "opacity-0"
                         )}
                       />
                       All
@@ -200,7 +200,7 @@ export default function Sidebar({
                             "mr-2 h-4 w-4",
                             filters.location === location
                               ? "opacity-100"
-                              : "opacity-0",
+                              : "opacity-0"
                           )}
                         />
                         {location}
@@ -248,7 +248,7 @@ export default function Sidebar({
                             "mr-2 h-4 w-4",
                             filters.topics.includes(topic)
                               ? "opacity-100"
-                              : "opacity-0",
+                              : "opacity-0"
                           )}
                         />
                         {topic}
@@ -337,7 +337,7 @@ export default function Sidebar({
             className="w-full justify-start"
             size="sm"
           >
-            <Link href="#" target="_blank">
+            <Link href="https://discord.gg/SmygTckVez" target="_blank">
               <FaDiscord className="mr-2 h-4 w-4" />
               Discord Bot
             </Link>

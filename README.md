@@ -122,7 +122,7 @@
   
   ### 🟢 Upcoming Hackathons
   
-  _Last updated: 11 June 2025 at 17:23_
+  _Last updated: 11 June 2025 at 17:44_
   
   <!-- UPCOMING_TABLE_START -->
   | Hackathon Name | Location | Date | Topics | URL |
@@ -254,6 +254,6 @@
   
   **Made with ❤️ for the European hacking community**
   
-  _Last system update: 2025-06-11T16:23:44.383Z_
+  _Last system update: 2025-06-11T16:44:18.979Z_
   
   </div>

@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 12 June 2025 at 15:14_
+_Last updated: 12 June 2025 at 18:17_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -47,6 +47,7 @@ _Last updated: 12 June 2025 at 15:14_
 | 🧠 Hackathon Thiga – IA, Pizza & Champagne 🍕🍾                                                                              | Paris, FR                | 24 Jun 2025               |              | [Link](https://lu.ma/siu1xlzn)                        |
 | 🇫🇷 Oz Builder Day: 24-Hour AI x Web3 Hackathon                                                                               | Valbonne, FR             | 27 Jun-28, 2025           | AI, Web3     | [Link](https://lu.ma/OzBuilderDay)                    |
 | Demo Day: Oz Hackathon Showcase                                                                                              | Paris, FR                | 28 Jun 2025               |              | [Link](https://lu.ma/OZDemoDay)                       |
+| Web3 Marketing Hackathon                                                                                                     | Cannes, FR               | 29 Jun-30, 2025           | Web3         | [Link](https://lu.ma/obw1mqfi)                        |
 | Raise Your Hack                                                                                                              | Paris, FR                | 4 Jul-9, 2025             |              | [Link](https://lablab.ai/event/raise-your-hack)       |
 | Sui Hackathon Wroclaw                                                                                                        | Wrocław, PL              | 11 Jul-13, 2025           |              | [Link](https://lu.ma/ve8e4w28)                        |
 | CheerpJ: The Hackathon                                                                                                       | Leeds, GB                | 1 Sept 2025 - 31 Oct 2025 |              | [Link](https://cheerpj-the-hackathon.devpost.com/)    |

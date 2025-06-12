@@ -103,9 +103,7 @@ Never miss a hackathon again! Our bots automatically notify you when new Europea
 
 ### Discord Bot
 
-Join our Discord server to get instant notifications:
-
-**[🔗 Join Discord Server](https://discord.gg/SmygTckVez)**
+Join our [Discord server](https://discord.gg/SmygTckVez) to get instant notifications:
 
 - 🔔 **Real-time alerts** for new hackathons
 - 📋 **Rich embeds** with all hackathon details
@@ -113,7 +111,7 @@ Join our Discord server to get instant notifications:
 
 ### Telegram Bot
 
-Follow our Telegram channel [@eurohackathons](https://t.me/eurohackathons) for mobile notifications:
+Follow our Telegram channel [@EuroHackathons](https://t.me/eurohackathons) for mobile notifications:
 
 - 📱 **Mobile-friendly** notifications
 - 🚀 **Instant updates** as soon as hackathons are added

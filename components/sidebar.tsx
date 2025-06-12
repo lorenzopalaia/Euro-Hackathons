@@ -35,7 +35,12 @@ import {
   Bell,
   Menu,
   FilterX,
+  Users,
   Github,
+  HelpCircle,
+  FileText,
+  FileCheck,
+  Shield,
 } from "lucide-react";
 import { FaDiscord, FaTelegram, FaXTwitter } from "react-icons/fa6";
 import Link from "next/link";
@@ -81,32 +86,63 @@ export default function Sidebar({
         onClick={() => setMobileOpen(true)}
         className="h-10 w-10 p-0"
       >
-        <Menu className="h-5 w-5" />
+        <Menu className="h-4 w-4" />
       </Button>
 
       <div className="flex flex-col space-y-2">
-        <Button asChild variant="ghost" size="sm" className="h-10 w-10 p-0">
+        <Button
+          variant="outline"
+          size="sm"
+          className="h-10 w-10 p-0"
+          onClick={() => setMobileOpen(true)}
+        >
+          <Filter className="h-4 w-4" />
+        </Button>
+
+        <Separator className="mt-2 mb-4" />
+
+        <Button asChild variant="outline" size="sm" className="h-10 w-10 p-0">
           <Link href="https://discord.gg/SmygTckVez" target="_blank">
             <FaDiscord className="h-4 w-4" />
           </Link>
         </Button>
-        <Button asChild variant="ghost" size="sm" className="h-10 w-10 p-0">
+        <Button asChild variant="outline" size="sm" className="h-10 w-10 p-0">
           <Link href="https://t.me/eurohackathons" target="_blank">
             <FaTelegram className="h-4 w-4" />
           </Link>
         </Button>
-        <Button asChild variant="ghost" size="sm" className="h-10 w-10 p-0">
+        <Button asChild variant="outline" size="sm" className="h-10 w-10 p-0">
           <Link href="https://x.com/eurohackathons" target="_blank">
             <FaXTwitter className="h-4 w-4" />
           </Link>
         </Button>
-        <Separator />
-        <Button asChild variant="ghost" size="sm" className="h-10 w-10 p-0">
+
+        <Separator className="mt-2 mb-4" />
+
+        <Button asChild variant="outline" size="sm" className="h-10 w-10 p-0">
           <Link
             href="https://github.com/lorenzopalaia/Euro-Hackathons"
             target="_blank"
           >
             <Github className="h-4 w-4" />
+          </Link>
+        </Button>
+
+        <Separator className="mt-2 mb-4" />
+
+        <Button asChild variant="outline" size="sm" className="h-10 w-10 p-0">
+          <Link href="/docs">
+            <FileText className="h-4 w-4" />
+          </Link>
+        </Button>
+        <Button asChild variant="outline" size="sm" className="h-10 w-10 p-0">
+          <Link href="/privacy">
+            <Shield className="h-4 w-4" />
+          </Link>
+        </Button>
+        <Button asChild variant="outline" size="sm" className="h-10 w-10 p-0">
+          <Link href="/terms">
+            <FileCheck className="h-4 w-4" />
           </Link>
         </Button>
       </div>
@@ -117,7 +153,7 @@ export default function Sidebar({
   const SidebarContent = () => (
     <>
       {/* Filters */}
-      <div className="space-y-6">
+      <div className="space-y-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Filter className="h-4 w-4" />
@@ -131,7 +167,7 @@ export default function Sidebar({
             )}
             {/* Close button for mobile */}
             <Button
-              variant="ghost"
+              variant="outline"
               size="sm"
               className="md:hidden"
               onClick={() => setMobileOpen(false)}
@@ -381,7 +417,7 @@ export default function Sidebar({
       {/* Socials */}
       <div className="space-y-4">
         <div className="flex items-center gap-2">
-          <Bell className="h-4 w-4" />
+          <Users className="h-4 w-4" />
           <h2 className="font-semibold">Socials</h2>
         </div>
         <div className="space-y-2">
@@ -401,10 +437,53 @@ export default function Sidebar({
           </Button>
         </div>
       </div>
+
+      <Separator />
+
+      {/* Support */}
+      <div className="space-y-4">
+        <div className="flex items-center gap-2">
+          <HelpCircle className="h-4 w-4" />
+          <h2 className="font-semibold">Support</h2>
+        </div>
+        <div className="space-y-2">
+          <Button
+            asChild
+            variant="outline"
+            className="w-full justify-start"
+            size="sm"
+          >
+            <Link href="/docs">
+              <FileText className="mr-2 h-4 w-4" />
+              Documentation
+            </Link>
+          </Button>
+          <Button
+            asChild
+            variant="outline"
+            className="w-full justify-start"
+            size="sm"
+          >
+            <Link href="/privacy">
+              <Shield className="mr-2 h-4 w-4" />
+              Privacy Policy
+            </Link>
+          </Button>
+          <Button
+            asChild
+            variant="outline"
+            className="w-full justify-start"
+            size="sm"
+          >
+            <Link href="/terms">
+              <FileCheck className="mr-2 h-4 w-4" />
+              Terms of Service
+            </Link>
+          </Button>
+        </div>
+      </div>
     </>
   );
-
-  // ...existing code...
 
   return (
     <>
@@ -412,7 +491,7 @@ export default function Sidebar({
       <MobileCollapsedSidebar />
 
       {/* Desktop sidebar */}
-      <aside className="bg-card hidden w-60 flex-col space-y-8 border-r p-6 md:flex">
+      <aside className="bg-card hidden w-60 flex-col space-y-6 border-r p-6 md:flex">
         <SidebarContent />
       </aside>
 

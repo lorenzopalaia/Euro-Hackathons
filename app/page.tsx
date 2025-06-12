@@ -5,10 +5,12 @@ import Sidebar from "@/components/sidebar";
 import { Separator } from "@/components/ui/separator";
 import { useEffect, useState, useMemo } from "react";
 import { Hackathon } from "@/types/hackathon";
+import { FilterProvider } from "@/contexts/filter-context";
 
 export default function Home() {
   const [upcoming, setUpcoming] = useState<Hackathon[]>([]);
   const [past, setPast] = useState<Hackathon[]>([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetchHackathons();
@@ -17,8 +19,8 @@ export default function Home() {
   const fetchHackathons = async () => {
     try {
       const [upcomingRes, pastRes] = await Promise.all([
-        fetch("/api/hackathons?status=upcoming&limit=100"),
-        fetch("/api/hackathons?status=past&limit=50"),
+        fetch("/api/hackathons?status=upcoming"),
+        fetch("/api/hackathons?status=past"),
       ]);
 
       const upcomingData = await upcomingRes.json();
@@ -28,6 +30,8 @@ export default function Home() {
       setPast(pastData.data || []);
     } catch (error) {
       console.error("Error fetching hackathons:", error);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -35,10 +39,10 @@ export default function Home() {
     const allHackathons = [...upcoming, ...past];
 
     const locations = Array.from(
-      new Set(allHackathons.map((h) => h.location).filter(Boolean)),
+      new Set(allHackathons.map((h) => h.location).filter(Boolean))
     );
     const topics = Array.from(
-      new Set(allHackathons.flatMap((h) => h.topics || [])),
+      new Set(allHackathons.flatMap((h) => h.topics || []))
     );
 
     return {
@@ -48,16 +52,21 @@ export default function Home() {
   }, [upcoming, past]);
 
   return (
-    <div className="flex min-h-screen">
-      <Sidebar uniqueLocations={uniqueLocations} uniqueTopics={uniqueTopics} />
-      <main className="ml-16 flex-1 p-8 md:ml-0">
-        <h1 className="mb-3 text-3xl font-bold">Euro Hackathons</h1>
-        <p className="text-muted-foreground">
-          Your comprehensive list of hackathons happening across Europe
-        </p>
-        <Separator className="my-6" />
-        <HackathonList />
-      </main>
-    </div>
+    <FilterProvider>
+      <div className="flex min-h-screen">
+        <Sidebar
+          uniqueLocations={uniqueLocations}
+          uniqueTopics={uniqueTopics}
+        />
+        <main className="ml-16 flex-1 p-8 md:ml-0">
+          <h1 className="mb-3 text-3xl font-bold">Euro Hackathons</h1>
+          <p className="text-muted-foreground">
+            Your comprehensive list of hackathons happening across Europe
+          </p>
+          <Separator className="my-6" />
+          <HackathonList upcoming={upcoming} past={past} loading={loading} />
+        </main>
+      </div>
+    </FilterProvider>
   );
 }

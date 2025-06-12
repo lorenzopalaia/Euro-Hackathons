@@ -1,6 +1,22 @@
 import type { Metadata } from "next";
+import { Inter, JetBrains_Mono, Merriweather } from "next/font/google";
 import "./globals.css";
-import { FilterProvider } from "@/contexts/filter-context";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-sans",
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-mono",
+});
+
+const merriweather = Merriweather({
+  weight: ["300", "400", "700"],
+  subsets: ["latin"],
+  variable: "--font-serif",
+});
 
 export const metadata: Metadata = {
   title: "Euro Hackathons",
@@ -14,8 +30,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="dark font-sans antialiased">
-        <FilterProvider>{children}</FilterProvider>
+      <body
+        className={`dark font-sans antialiased ${inter.variable} ${jetbrainsMono.variable} ${merriweather.variable}`}
+      >
+        {children}
       </body>
     </html>
   );

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useMemo, useCallback } from "react";
+import { useMemo, useCallback } from "react";
 import { Badge } from "@/components/ui/badge";
 import {
   Card,
@@ -22,34 +22,18 @@ import Link from "next/link";
 import { useFilters } from "@/contexts/filter-context";
 import { emojiFlag } from "@/lib/emoji-flag";
 
-export default function HackathonList() {
-  const [upcoming, setUpcoming] = useState<Hackathon[]>([]);
-  const [past, setPast] = useState<Hackathon[]>([]);
-  const [loading, setLoading] = useState(true);
+interface HackathonListProps {
+  upcoming: Hackathon[];
+  past: Hackathon[];
+  loading: boolean;
+}
+
+export default function HackathonList({
+  upcoming,
+  past,
+  loading,
+}: HackathonListProps) {
   const { filters } = useFilters();
-
-  useEffect(() => {
-    fetchHackathons();
-  }, []);
-
-  const fetchHackathons = async () => {
-    try {
-      const [upcomingRes, pastRes] = await Promise.all([
-        fetch("/api/hackathons?status=upcoming&limit=100"),
-        fetch("/api/hackathons?status=past&limit=50"),
-      ]);
-
-      const upcomingData = await upcomingRes.json();
-      const pastData = await pastRes.json();
-
-      setUpcoming(upcomingData.data || []);
-      setPast(pastData.data || []);
-    } catch (error) {
-      console.error("Error fetching hackathons:", error);
-    } finally {
-      setLoading(false);
-    }
-  };
 
   const filterHackathons = useCallback(
     (hackathons: Hackathon[]) => {

@@ -11,7 +11,9 @@ export async function GET(request: Request) {
   try {
     const query = supabase
       .from("hackathons")
-      .select("*")
+      .select(
+        "id, name, location, city, country_code, date_start, date_end, topics, notes, url, status"
+      )
       .eq("status", status)
       .order("date_start", { ascending: status === "upcoming" })
       .range(offset, offset + limit - 1);
@@ -33,7 +35,7 @@ export async function GET(request: Request) {
     console.error("Error fetching hackathons:", error);
     return NextResponse.json(
       { error: "Internal server error" },
-      { status: 500 },
+      { status: 500 }
     );
   }
 }

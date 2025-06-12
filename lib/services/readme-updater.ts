@@ -11,7 +11,7 @@ export class ReadmeUpdater {
   async generateReadmeContent(): Promise<string> {
     try {
       // Ottieni i dati dal database
-      const { upcoming, past, stats } = await this.fetchData();
+      const { upcoming, past } = await this.fetchData();
 
       // Genera le tabelle complete con header
       const upcomingTableContent =
@@ -44,20 +44,15 @@ ${this.generateHackathonTable(past.slice(0, 20))}`
             day: "numeric",
             hour: "2-digit",
             minute: "2-digit",
-          }),
+          })
         )
-        .replace("{TOTAL_HACKATHONS}", stats.total.toString())
-        .replace("{COUNTRIES_COUNT}", stats.countries.toString())
-        .replace("{SOURCES_COUNT}", stats.sources.toString())
-        .replace("{NOTIFICATIONS_SENT}", stats.notifications.toString())
-        .replace("{LAST_SYSTEM_UPDATE}", new Date().toISOString())
         .replace(
           /<!-- UPCOMING_TABLE_START -->[\s\S]*?<!-- UPCOMING_TABLE_END -->/,
           `<!-- UPCOMING_TABLE_START -->
 
 ${upcomingTableContent}
 
-<!-- UPCOMING_TABLE_END -->`,
+<!-- UPCOMING_TABLE_END -->`
         )
         .replace(
           /<!-- PAST_TABLE_START -->[\s\S]*?<!-- PAST_TABLE_END -->/,
@@ -65,7 +60,7 @@ ${upcomingTableContent}
 
 ${pastTableContent}
 
-<!-- PAST_TABLE_END -->`,
+<!-- PAST_TABLE_END -->`
         );
 
       const formattedContent =
@@ -95,7 +90,7 @@ ${pastTableContent}
 | -------------- | -------- | ---- | ------ | --- |
 {UPCOMING_PLACEHOLDER}
 
-<!-- UPCOMING_TABLE_END -->`,
+<!-- UPCOMING_TABLE_END -->`
       )
       .replace(
         /<!-- PAST_TABLE_START -->[\s\S]*?<!-- PAST_TABLE_END -->/,
@@ -105,30 +100,10 @@ ${pastTableContent}
 | -------------- | -------- | ---- | ------ | --- |
 {PAST_PLACEHOLDER}
 
-<!-- PAST_TABLE_END -->`,
+<!-- PAST_TABLE_END -->`
       )
       // Sostituisci i valori hardcoded con placeholder dinamici
-      .replace(/_Last updated: [^_]*_/, "_Last updated: {LAST_UPDATE_DATE}_")
-      .replace(
-        /- 📊 \*\*\d+\+?\*\* hackathons discovered and tracked/,
-        "- 📊 **{TOTAL_HACKATHONS}+** hackathons discovered and tracked",
-      )
-      .replace(
-        /- 🌍 \*\*\d+\*\* European countries covered/,
-        "- 🌍 **{COUNTRIES_COUNT}** European countries covered",
-      )
-      .replace(
-        /- 🔄 \*\*\d+\*\* different data sources monitored/,
-        "- 🔄 **{SOURCES_COUNT}** different data sources monitored",
-      )
-      .replace(
-        /- 🤖 \*\*\d+\+?\*\* notifications sent across all platforms/,
-        "- 🤖 **{NOTIFICATIONS_SENT}+** notifications sent across all platforms",
-      )
-      .replace(
-        /_Last system update: [^_]*_/,
-        "_Last system update: {LAST_SYSTEM_UPDATE}_",
-      );
+      .replace(/_Last updated: [^_]*_/, "_Last updated: {LAST_UPDATE_DATE}_");
 
     console.log("Template created from existing README.md");
     return template;
@@ -150,39 +125,9 @@ ${pastTableContent}
       .order("date_start", { ascending: false })
       .limit(50);
 
-    // Calcola statistiche
-    const { count: totalCount } = await supabase
-      .from("hackathons")
-      .select("*", { count: "exact", head: true });
-
-    const { data: countriesData } = await supabase
-      .from("hackathons")
-      .select("country_code")
-      .not("country_code", "is", null);
-
-    const uniqueCountries = new Set(
-      countriesData?.map((h) => h.country_code).filter(Boolean) || [],
-    ).size;
-
-    const { data: sourcesData } = await supabase
-      .from("hackathons")
-      .select("source");
-
-    const uniqueSources = new Set(
-      sourcesData?.map((h) => h.source).filter(Boolean) || [],
-    ).size;
-
-    const stats = {
-      total: totalCount || 0,
-      countries: uniqueCountries,
-      sources: uniqueSources,
-      notifications: (totalCount || 0) * 3, // Stima basata su 3 piattaforme
-    };
-
     return {
       upcoming: upcoming || [],
       past: past || [],
-      stats,
     };
   }
 
@@ -230,7 +175,7 @@ ${pastTableContent}
 
     return `${start.toLocaleDateString(
       "en-GB",
-      formatOptions,
+      formatOptions
     )} - ${end.toLocaleDateString("en-GB", formatOptions)}`;
   }
 }

@@ -242,6 +242,4 @@ Special thanks to:
 
 **Made with ❤️ for the European hacking community**
 
-_Last system update: 2025-06-11T22:34:31.340Z_
-
 </div>

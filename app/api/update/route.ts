@@ -16,7 +16,7 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
-    console.log("Starting hackathon sync...");
+    console.log("Starting hackathon update...");
 
     // 1. Parsing dei nuovi hackathons
     const parser = new LumaParser();
@@ -218,7 +218,7 @@ export async function POST(request: Request) {
       timestamp: new Date().toISOString(),
     });
   } catch (error) {
-    console.error("Sync error:", error);
+    console.error("Update error:", error);
     return NextResponse.json(
       {
         error: "Internal server error",

@@ -1,0 +1,60 @@
+name: Auto Update Hackathons
+
+on:
+  schedule:
+    # FERIALI (Lun-Ven) - Orari in UTC
+    - cron: "0 7 * * 1-5" # 9:00 CET
+    - cron: "0 11 * * 1-5" # 13:00 CET
+    - cron: "0 14 * * 1-5" # 16:00 CET
+    - cron: "0 17 * * 1-5" # 19:00 CET
+    # WEEKEND (Sab-Dom)
+    - cron: "0 9 * * 6,0" # 11:00 CET
+    - cron: "0 13 * * 6,0" # 15:00 CET
+    - cron: "0 17 * * 6,0" # 19:00 CET
+  workflow_dispatch:
+
+jobs:
+  update-hackathons:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Trigger update endpoint
+        id: update
+        run: |
+          echo "🚀 Triggering update endpoint..."
+
+          response=$(curl -s -w "%{http_code}" -o response.json \
+            --max-time 300 \
+            --retry 3 \
+            --retry-delay 5 \
+            -X POST \
+            "https://euro-hackathons.vercel.app/api/update" \
+            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
+            -H "Content-Type: application/json")
+
+          echo "📊 HTTP Status: $response"
+
+          if [ -f response.json ]; then
+            echo "📄 Response:"
+            cat response.json
+          else
+            echo "⚠️ No response file generated"
+          fi
+
+          if [ "$response" -eq 200 ]; then
+            echo "✅ Update completed successfully"
+            echo "success=true" >> $GITHUB_OUTPUT
+          else
+            echo "❌ Update failed with status $response"
+            echo "success=false" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+
+      - name: Upload response artifact on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: error-response-${{ github.run_number }}
+          path: response.json
+          retention-days: 7

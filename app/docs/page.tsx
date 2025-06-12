@@ -320,7 +320,10 @@ export default function DocsPage() {
                   with rich embeds
                 </p>
                 <Button asChild size="sm" className="w-full">
-                  <Link href="https://discord.gg/SmygTckVez" target="_blank">
+                  <Link
+                    href="https://discord.com/invite/SmygTckVez"
+                    target="_blank"
+                  >
                     Join Server <ExternalLink className="ml-1 h-3 w-3" />
                   </Link>
                 </Button>
@@ -512,7 +515,10 @@ export default function DocsPage() {
                   support
                 </p>
                 <Button asChild variant="outline" size="sm">
-                  <Link href="https://discord.gg/SmygTckVez" target="_blank">
+                  <Link
+                    href="https://discord.com/invite/SmygTckVez"
+                    target="_blank"
+                  >
                     Join Discord <ExternalLink className="ml-1 h-3 w-3" />
                   </Link>
                 </Button>

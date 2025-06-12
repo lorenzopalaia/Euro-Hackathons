@@ -52,7 +52,7 @@ export default function HackathonList({
         if (filters.topics.length > 0) {
           const hackathonTopics = hackathon.topics || [];
           const hasMatchingTopic = filters.topics.some((topic) =>
-            hackathonTopics.includes(topic)
+            hackathonTopics.includes(topic),
           );
           if (!hasMatchingTopic) {
             return false;
@@ -77,7 +77,7 @@ export default function HackathonList({
         return true;
       });
     },
-    [filters]
+    [filters],
   );
 
   const currentHackathons = useMemo(() => {
@@ -116,7 +116,7 @@ export default function HackathonList({
       {
         month: "short",
         year: "numeric",
-      }
+      },
     )}`;
   };
 
@@ -130,15 +130,17 @@ export default function HackathonList({
             </h3>
             <div className="text-muted-foreground flex flex-col gap-2 text-sm">
               <div className="flex items-center gap-1.5">
-                <CalendarIcon className="h-4 w-4" />
+                <CalendarIcon className="h-4 w-4" aria-hidden="true" />
                 <span className="font-medium">{formatDate(hackathon)}</span>
               </div>
               <div className="flex items-center gap-1.5">
-                <MapPin className="h-4 w-4" />
-                {hackathon.location.includes(",")
-                  ? emojiFlag(hackathon.location.split(",")[1]?.trim())
-                  : ""}{" "}
-                {hackathon.location}
+                <MapPin className="h-4 w-4" aria-hidden="true" />
+                <span>
+                  {hackathon.location.includes(",")
+                    ? emojiFlag(hackathon.location.split(",")[1]?.trim())
+                    : ""}{" "}
+                  {hackathon.location}
+                </span>
               </div>
             </div>
           </div>
@@ -148,13 +150,21 @@ export default function HackathonList({
       <CardContent className="flex-1 pt-0">
         {hackathon.topics && hackathon.topics.length > 0 && (
           <div className="flex items-start gap-2">
-            <Tag className="text-muted-foreground mt-1 h-4 w-4 shrink-0" />
-            <div className="flex min-w-0 flex-wrap gap-1.5">
+            <Tag
+              className="text-muted-foreground mt-1 h-4 w-4 shrink-0"
+              aria-hidden="true"
+            />
+            <div
+              className="flex min-w-0 flex-wrap gap-1.5"
+              role="list"
+              aria-label="Event topics"
+            >
               {hackathon.topics.slice(0, 4).map((topic, index) => (
                 <Badge
                   key={`${topic}-${index}`}
                   variant="secondary"
                   className="text-xs font-medium"
+                  role="listitem"
                 >
                   {topic}
                 </Badge>
@@ -170,7 +180,10 @@ export default function HackathonList({
 
         {hackathon.notes && hackathon.notes.trim() && (
           <div className="flex items-start gap-2 mt-2">
-            <FileText className="text-muted-foreground mt-1 h-4 w-4 shrink-0" />
+            <FileText
+              className="text-muted-foreground mt-1 h-4 w-4 shrink-0"
+              aria-hidden="true"
+            />
             <div className="min-w-0">
               <p className="text-muted-foreground line-clamp-3 text-sm leading-relaxed">
                 {hackathon.notes}
@@ -182,8 +195,13 @@ export default function HackathonList({
 
       <CardFooter>
         <Button asChild className="w-full">
-          <Link href={hackathon.url} target="_blank" rel="noopener noreferrer">
-            Join <ExternalLink className="ml-1 h-4 w-4" />
+          <Link
+            href={hackathon.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`Register for ${hackathon.name}`}
+          >
+            Join <ExternalLink className="ml-1 h-4 w-4" aria-hidden="true" />
           </Link>
         </Button>
       </CardFooter>
@@ -248,13 +266,23 @@ export default function HackathonList({
       </div>
 
       {currentHackathons.length === 0 ? (
-        <p className="text-muted-foreground py-8 text-center">
-          Nessun hackathon trovato
-        </p>
+        <div
+          className="text-muted-foreground py-8 text-center"
+          role="status"
+          aria-live="polite"
+        >
+          <p>No hackathons found matching your criteria</p>
+        </div>
       ) : (
-        <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+        <div
+          className="grid grid-cols-1 gap-6 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4"
+          role="list"
+          aria-label={`${currentHackathons.length} hackathon${currentHackathons.length !== 1 ? "s" : ""} found`}
+        >
           {currentHackathons.map((hackathon) => (
-            <HackathonCard key={hackathon.id} hackathon={hackathon} />
+            <div key={hackathon.id} role="listitem">
+              <HackathonCard hackathon={hackathon} />
+            </div>
           ))}
         </div>
       )}

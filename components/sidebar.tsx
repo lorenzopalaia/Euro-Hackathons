@@ -102,7 +102,7 @@ export default function Sidebar({
         <Separator className="mt-2 mb-4" />
 
         <Button asChild variant="outline" size="sm" className="h-10 w-10 p-0">
-          <Link href="https://discord.gg/SmygTckVez" target="_blank">
+          <Link href="https://discord.com/invite/SmygTckVez" target="_blank">
             <FaDiscord className="h-4 w-4" />
           </Link>
         </Button>
@@ -383,7 +383,7 @@ export default function Sidebar({
             className="w-full justify-start"
             size="sm"
           >
-            <Link href="https://discord.gg/SmygTckVez" target="_blank">
+            <Link href="https://discord.com/invite/SmygTckVez" target="_blank">
               <FaDiscord className="mr-2 h-4 w-4" />
               Discord Bot
             </Link>

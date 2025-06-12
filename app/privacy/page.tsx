@@ -226,7 +226,7 @@ export default function PrivacyPage() {
               <li>
                 • Discord:{" "}
                 <Link
-                  href="https://discord.gg/SmygTckVez"
+                  href="https://discord.com/invite/SmygTckVez"
                   className="text-primary hover:underline"
                 >
                   Join our server

@@ -191,7 +191,7 @@ export default function TermsPage() {
               </Link>{" "}
               or join our{" "}
               <Link
-                href="https://discord.gg/SmygTckVez"
+                href="https://discord.com/invite/SmygTckVez"
                 className="text-primary hover:underline"
               >
                 Discord server

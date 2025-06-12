@@ -104,7 +104,7 @@ Never miss a hackathon again! Our bots automatically notify you when new Europea
 
 ### Discord Bot
 
-Join our [Discord server](https://discord.gg/SmygTckVez) to get instant notifications:
+Join our [Discord server](https://discord.com/invite/SmygTckVez) to get instant notifications:
 
 - 🔔 **Real-time alerts** for new hackathons
 - 📋 **Rich embeds** with all hackathon details

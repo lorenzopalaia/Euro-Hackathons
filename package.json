@@ -5,10 +5,12 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "npm run format && next build",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write .",
-    "knip": "npx knip --config knip.json"
+    "knip": "knip",
+    "sitemap": "next-sitemap"
   },
   "dependencies": {
     "@octokit/rest": "^22.0.0",
@@ -25,6 +27,7 @@
     "date-fns": "^4.1.0",
     "lucide-react": "^0.514.0",
     "next": "15.3.3",
+    "next-sitemap": "^4.2.3",
     "react": "^19.1.0",
     "react-day-picker": "^9.7.0",
     "react-dom": "^19.1.0",
@@ -35,14 +38,15 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
     "@tailwindcss/postcss": "^4.1.9",
-    "@types/node": "^24",
+    "@types/node": "^24.0.1",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "eslint": "^9.28.0",
     "eslint-config-next": "15.3.3",
+    "knip": "^5.61.0",
     "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.12",
-    "tailwindcss": "^4.1.9",
+    "tailwindcss": "^4.1.10",
     "tw-animate-css": "^1.3.4",
     "typescript": "^5.8.3"
   }

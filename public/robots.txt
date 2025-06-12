@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://euro-hackathons.vercel.app
+
+# Sitemaps
+Sitemap: https://euro-hackathons.vercel.app/sitemap.xml

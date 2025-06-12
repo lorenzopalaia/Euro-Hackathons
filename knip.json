@@ -8,15 +8,20 @@
     "components/**/*.tsx"
   ],
   "project": ["**/*.{js,ts,tsx}", "!node_modules/**", "!.next/**"],
-  "ignore": ["components/ui/**", "repo_assets/**", "public/**"],
+  "ignore": [
+    "components/ui/**",
+    "repo_assets/**",
+    "public/**",
+    "next-sitemap.config.js"
+  ],
   "ignoreDependencies": [
     "eslint",
     "eslint-config-next",
     "tailwindcss",
+    "prettier-plugin-tailwindcss",
     "tw-animate-css",
     "postcss"
   ],
-  "ignoreBinaries": ["knip"],
   "next": true,
   "postcss": true,
   "prettier": true,

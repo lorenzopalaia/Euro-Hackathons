@@ -10,19 +10,24 @@ import { Button } from "@/components/ui/button";
 import { Calendar as CalendarIcon } from "lucide-react";
 import { atcb_action } from "add-to-calendar-button-react";
 import { Hackathon } from "@/types/hackathon";
+import { FaGoogle, FaApple, FaMicrosoft, FaYahoo } from "react-icons/fa6";
 
 interface ExportCalendarDropdownProps {
   hackathon: Hackathon;
 }
 
 const calendarOptions = [
-  { label: "Google Calendar", value: "Google" as const },
-  { label: "Apple Calendar", value: "Apple" as const },
-  { label: "Outlook", value: "Outlook.com" as const },
-  { label: "iCal", value: "iCal" as const },
-  { label: "Yahoo", value: "Yahoo" as const },
-  { label: "Microsoft Teams", value: "MicrosoftTeams" as const },
-  { label: "Microsoft 365", value: "Microsoft365" as const },
+  { label: "Google Calendar", value: "Google" as const, icon: FaGoogle },
+  { label: "Apple Calendar", value: "Apple" as const, icon: FaApple },
+  { label: "Outlook", value: "Outlook.com" as const, icon: FaMicrosoft },
+  { label: "iCal", value: "iCal" as const, icon: CalendarIcon },
+  { label: "Yahoo", value: "Yahoo" as const, icon: FaYahoo },
+  {
+    label: "Microsoft Teams",
+    value: "MicrosoftTeams" as const,
+    icon: FaMicrosoft,
+  },
+  { label: "Microsoft 365", value: "Microsoft365" as const, icon: FaMicrosoft },
 ];
 
 export function ExportCalendarDropdown({
@@ -65,8 +70,8 @@ export function ExportCalendarDropdown({
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="secondary" size="sm" className="w-full">
-          Add to Calendar
+        <Button variant="outline" size="sm" className="w-full">
+          Calendar
           <CalendarIcon className="ml-1 h-4 w-4" aria-hidden="true" />
         </Button>
       </DropdownMenuTrigger>
@@ -74,14 +79,19 @@ export function ExportCalendarDropdown({
         className="w-[var(--radix-dropdown-menu-trigger-width)]"
         align="start"
       >
-        {calendarOptions.map((option) => (
-          <DropdownMenuItem
-            key={option.value}
-            onClick={() => handleExport(option)}
-          >
-            {option.label}
-          </DropdownMenuItem>
-        ))}
+        {calendarOptions.map((option) => {
+          const IconComponent = option.icon;
+          return (
+            <DropdownMenuItem
+              key={option.value}
+              onClick={() => handleExport(option)}
+              className="flex items-center gap-2"
+            >
+              <IconComponent className="h-4 w-4" />
+              {option.label}
+            </DropdownMenuItem>
+          );
+        })}
       </DropdownMenuContent>
     </DropdownMenu>
   );

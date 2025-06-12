@@ -18,6 +18,7 @@ import {
   FileText,
 } from "lucide-react";
 import { ExportCalendarDropdown } from "@/components/export-calendar-dropdown";
+import { ShareHackathonDropdown } from "@/components/share-hackathon-dropdown";
 import { Hackathon } from "@/types/hackathon";
 import Link from "next/link";
 import { useFilters } from "@/contexts/filter-context";
@@ -53,7 +54,7 @@ export default function HackathonList({
         if (filters.topics.length > 0) {
           const hackathonTopics = hackathon.topics || [];
           const hasMatchingTopic = filters.topics.some((topic) =>
-            hackathonTopics.includes(topic),
+            hackathonTopics.includes(topic)
           );
           if (!hasMatchingTopic) {
             return false;
@@ -78,7 +79,7 @@ export default function HackathonList({
         return true;
       });
     },
-    [filters],
+    [filters]
   );
 
   const currentHackathons = useMemo(() => {
@@ -117,7 +118,7 @@ export default function HackathonList({
       {
         month: "short",
         year: "numeric",
-      },
+      }
     )}`;
   };
 
@@ -207,7 +208,14 @@ export default function HackathonList({
         </Button>
 
         {filters.status === "upcoming" && (
-          <ExportCalendarDropdown hackathon={hackathon} />
+          <div className="grid grid-cols-2 gap-2 w-full">
+            <ExportCalendarDropdown hackathon={hackathon} />
+            <ShareHackathonDropdown hackathon={hackathon} />
+          </div>
+        )}
+
+        {filters.status === "past" && (
+          <ShareHackathonDropdown hackathon={hackathon} />
         )}
       </CardFooter>
     </Card>
@@ -248,8 +256,12 @@ export default function HackathonList({
                   </div>
                 </div>
               </CardContent>
-              <CardFooter>
+              <CardFooter className="flex flex-col gap-2">
                 <Skeleton className="h-9 w-full" />
+                <div className="grid grid-cols-2 gap-2 w-full">
+                  <Skeleton className="h-8 w-full" />
+                  <Skeleton className="h-8 w-full" />
+                </div>
               </CardFooter>
             </Card>
           ))}

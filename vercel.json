@@ -1,8 +1,0 @@
-{
-  "git": {
-    "deploymentEnabled": {
-      "main": true
-    }
-  },
-  "ignoreCommand": "bash -c 'if git diff HEAD^ HEAD --name-only | grep -E \"^(README\\.md|repo_assets/|\\.github/)$\" && [ $(git diff HEAD^ HEAD --name-only | wc -l) -eq 1 ]; then exit 0; else exit 1; fi'"
-}

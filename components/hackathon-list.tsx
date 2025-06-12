@@ -68,7 +68,7 @@ export default function HackathonList() {
         if (filters.topics.length > 0) {
           const hackathonTopics = hackathon.topics || [];
           const hasMatchingTopic = filters.topics.some((topic) =>
-            hackathonTopics.includes(topic),
+            hackathonTopics.includes(topic)
           );
           if (!hasMatchingTopic) {
             return false;
@@ -93,7 +93,7 @@ export default function HackathonList() {
         return true;
       });
     },
-    [filters],
+    [filters]
   );
 
   const currentHackathons = useMemo(() => {
@@ -132,7 +132,7 @@ export default function HackathonList() {
       {
         month: "short",
         year: "numeric",
-      },
+      }
     )}`;
   };
 
@@ -144,14 +144,16 @@ export default function HackathonList() {
             <h3 className="text-foreground mb-2 line-clamp-2 text-xl font-bold">
               {hackathon.name}
             </h3>
-            <div className="text-muted-foreground flex items-center gap-4 text-sm">
+            <div className="text-muted-foreground flex flex-col gap-2 text-sm">
               <div className="flex items-center gap-1.5">
                 <CalendarIcon className="h-4 w-4" />
                 <span className="font-medium">{formatDate(hackathon)}</span>
               </div>
               <div className="flex items-center gap-1.5">
                 <MapPin className="h-4 w-4" />
-                {emojiFlag(hackathon.location.split(",")[1]?.trim())}{" "}
+                {hackathon.location.includes(",")
+                  ? emojiFlag(hackathon.location.split(",")[1]?.trim())
+                  : ""}{" "}
                 {hackathon.location}
               </div>
             </div>
@@ -219,10 +221,8 @@ export default function HackathonList() {
               <CardHeader className="pb-3">
                 <div className="space-y-2">
                   <Skeleton className="h-6 w-full" />
-                  <div className="flex gap-4">
-                    <Skeleton className="h-4 w-1/4" />
-                    <Skeleton className="h-4 w-1/4" />
-                  </div>
+                  <Skeleton className="h-4 w-1/4" />
+                  <Skeleton className="h-4 w-1/4" />
                 </div>
               </CardHeader>
               <CardContent className="flex-1 pt-0">

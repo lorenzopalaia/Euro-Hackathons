@@ -17,6 +17,7 @@ import {
   Tag,
   FileText,
 } from "lucide-react";
+import { ExportCalendarDropdown } from "@/components/export-calendar-dropdown";
 import { Hackathon } from "@/types/hackathon";
 import Link from "next/link";
 import { useFilters } from "@/contexts/filter-context";
@@ -193,7 +194,7 @@ export default function HackathonList({
         )}
       </CardContent>
 
-      <CardFooter>
+      <CardFooter className="flex flex-col gap-2">
         <Button asChild className="w-full">
           <Link
             href={hackathon.url}
@@ -204,6 +205,10 @@ export default function HackathonList({
             Join <ExternalLink className="ml-1 h-4 w-4" aria-hidden="true" />
           </Link>
         </Button>
+
+        {filters.status === "upcoming" && (
+          <ExportCalendarDropdown hackathon={hackathon} />
+        )}
       </CardFooter>
     </Card>
   );

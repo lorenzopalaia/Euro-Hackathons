@@ -10,7 +10,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ## ️ Current Hackathons
 
-> **Note**: This README is automatically updated every 12 hours. For the most current data and better browsing experience, visit our [live website](https://euro-hackathons.vercel.app).
+> **Note**: This README is automatically updated. For the most current data and better browsing experience, visit our [live website](https://euro-hackathons.vercel.app).
 
 ### 🟢 Upcoming Hackathons
 
@@ -74,7 +74,7 @@ _Showing last 20 events_
 
 This repository has been completely **modernized** with:
 
-- 🔄 **Automated Updates**: New hackathons are discovered and added every 12 hours
+- 🔄 **Automated Updates**: New hackathons are discovered and added 3 to 4 times per day
 - 🤖 **Multi-Platform Notifications**: Get notified instantly via Discord, Telegram, and Twitter
 - 🌐 **Live Web Interface**: Browse hackathons on our modern Next.js website
 - 📊 **Smart Data Management**: Everything is stored and managed via Supabase database
@@ -86,7 +86,7 @@ This repository has been completely **modernized** with:
 
 Visit our **interactive website** for the best browsing experience:
 
-### **[📍 Euro-Hackathons.com](https://euro-hackathons.vercel.app)**
+### **[📍 Euro Hackathons](https://euro-hackathons.vercel.app)**
 
 The website features:
 
@@ -105,6 +105,8 @@ Never miss a hackathon again! Our bots automatically notify you when new Europea
 
 Join our Discord server to get instant notifications:
 
+**[🔗 Join Discord Server](https://discord.gg/SmygTckVez)**
+
 - 🔔 **Real-time alerts** for new hackathons
 - 📋 **Rich embeds** with all hackathon details
 - 🏷️ **Topic filtering** (AI, Crypto, Web3, etc.)
@@ -114,15 +116,15 @@ Join our Discord server to get instant notifications:
 Follow our Telegram channel [@eurohackathons](https://t.me/eurohackathons) for mobile notifications:
 
 - 📱 **Mobile-friendly** notifications
-- 🚀 **Instant updates** as soon as hackathons are found
+- 🚀 **Instant updates** as soon as hackathons are added
 - 🔗 **Direct links** to registration pages
 
 ### Twitter Updates
 
-Follow [@EuroHackathons](https://twitter.com/eurohackathons) for social updates:
+Follow [@EuroHackathons](https://x.com/eurohackathons) for social updates:
 
 - 🐦 **Tweet notifications** for trending hackathons
-- 🏷️ **Hashtag organization** by topics and locations
+- 🏷️ **Hashtag organization** by topics
 - 🔄 **Retweetable content** to spread the word
 
 ---
@@ -169,23 +171,12 @@ GET /api/hackathons?status=past&limit=50&page=1
 
 Our modern infrastructure includes:
 
-- **Frontend**: Next.js 14 with App Router, Tailwind CSS, shadcn/ui
+- **Frontend**: Next.js 15 with App Router, Tailwind CSS, shadcn/ui
 - **Backend**: Next.js API Routes with TypeScript
 - **Database**: Supabase (PostgreSQL) with Row Level Security
-- **Notifications**: Discord.js, Telegram Bot API, Twitter API v2
+- **Notifications**: Discord webhooks, Telegram Bot API, Twitter API v2
 - **Deployment**: Vercel with automated CI/CD
-- **Monitoring**: Real-time sync every 12 hours via cron jobs
-
----
-
-## 📈 Statistics
-
-Our system tracks:
-
-- 📊 **34+** hackathons discovered and tracked
-- 🌍 **11** European countries covered
-- 🔄 **4** different data sources monitored
-- 🤖 **102+** notifications sent across all platforms
+- **Monitoring**: Real-time sync
 
 ---
 
@@ -213,14 +204,6 @@ If you know of a hackathon that we missed:
 2. Include: Name, Location, Date, URL, and Topics
 3. Our team will add it manually
 
-### Suggesting Data Sources
-
-Know of a platform we should monitor?
-
-1. **Open an Issue** with the platform URL
-2. Describe the type of events they host
-3. We'll evaluate and potentially add it to our data sources
-
 ### Code Contributions
 
 Want to improve the system?
@@ -236,7 +219,6 @@ Want to improve the system?
 - 💡 **Feature Requests**: Open an issue on GitHub
 - 🐛 **Bug Reports**: Report via GitHub Issues
 - 💬 **General Discussion**: Join our Discord server
-- 📧 **Direct Contact**: [your-email@domain.com]
 
 ---
 
@@ -252,7 +234,6 @@ Special thanks to:
 
 - 🌟 **Contributors** who help maintain and improve the system
 - 🏢 **Event Organizers** who make these amazing hackathons possible
-- 🤖 **Platform Providers** (Luma, Devpost, etc.) for hosting event data
 - 👥 **Community Members** who spread the word and participate
 
 ---

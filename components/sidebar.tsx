@@ -35,6 +35,7 @@ import {
   Bell,
   Menu,
   FilterX,
+  Github,
 } from "lucide-react";
 import { FaDiscord, FaTelegram, FaXTwitter } from "react-icons/fa6";
 import Link from "next/link";
@@ -95,8 +96,17 @@ export default function Sidebar({
           </Link>
         </Button>
         <Button asChild variant="ghost" size="sm" className="h-10 w-10 p-0">
-          <Link href="#" target="_blank">
+          <Link href="https://x.com/eurohackathons" target="_blank">
             <FaXTwitter className="h-4 w-4" />
+          </Link>
+        </Button>
+        <Separator />
+        <Button asChild variant="ghost" size="sm" className="h-10 w-10 p-0">
+          <Link
+            href="https://github.com/lorenzopalaia/Euro-Hackathons"
+            target="_blank"
+          >
+            <Github className="h-4 w-4" />
           </Link>
         </Button>
       </div>
@@ -359,8 +369,34 @@ export default function Sidebar({
             className="w-full justify-start"
             size="sm"
           >
-            <Link href="#" target="_blank">
+            <Link href="https://x.com/eurohackathons" target="_blank">
               <FaXTwitter className="mr-2 h-4 w-4" />X Updates
+            </Link>
+          </Button>
+        </div>
+      </div>
+
+      <Separator />
+
+      {/* Socials */}
+      <div className="space-y-4">
+        <div className="flex items-center gap-2">
+          <Bell className="h-4 w-4" />
+          <h2 className="font-semibold">Notifications</h2>
+        </div>
+        <div className="space-y-2">
+          <Button
+            asChild
+            variant="outline"
+            className="w-full justify-start"
+            size="sm"
+          >
+            <Link
+              href="https://github.com/lorenzopalaia/Euro-Hackathons"
+              target="_blank"
+            >
+              <Github className="mr-2 h-4 w-4" />
+              GitHub
             </Link>
           </Button>
         </div>

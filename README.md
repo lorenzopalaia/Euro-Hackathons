@@ -137,10 +137,10 @@ Access hackathon data programmatically via our REST API:
 
 ```bash
 # Get upcoming hackathons
-GET /api/hackathons?status=upcoming&limit=50&page=1
+GET /api/hackathons?status=upcoming
 
 # Get past hackathons
-GET /api/hackathons?status=past&limit=50&page=1
+GET /api/hackathons?status=past
 
 # Response format
 {
@@ -149,19 +149,17 @@ GET /api/hackathons?status=past&limit=50&page=1
       "id": "uuid",
       "name": "Hackathon Name",
       "location": "City, Country",
-      "date_start": "2025-06-15",
-      "date_end": "2025-06-16",
+      "city": "City",
+      "country": "Country",
+      "date_start": "2025-06-15T00:00:00+00:00",
+      "date_end": "2025-06-16T00:00:00+00:00",
       "topics": ["AI", "Web3"],
+      "notes": "Additional event details and requirements",
       "url": "https://...",
       "status": "upcoming"
-    }
-  ],
-  "pagination": {
-    "page": 1,
-    "limit": 50,
-    "total": 150,
-    "totalPages": 3
-  }
+    },
+    ...
+  ]
 }
 ```
 

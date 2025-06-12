@@ -30,6 +30,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <meta
+          name="google-site-verification"
+          content="TB0TYlzW_qq6j67WODPxTQYoOj24JPPfUrolfXE2gN4"
+        />
+      </head>
       <body
         className={`dark font-sans antialiased ${inter.variable} ${jetbrainsMono.variable} ${merriweather.variable}`}
       >

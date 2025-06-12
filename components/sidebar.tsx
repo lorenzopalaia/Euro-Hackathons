@@ -382,7 +382,7 @@ export default function Sidebar({
       <div className="space-y-4">
         <div className="flex items-center gap-2">
           <Bell className="h-4 w-4" />
-          <h2 className="font-semibold">Notifications</h2>
+          <h2 className="font-semibold">Socials</h2>
         </div>
         <div className="space-y-2">
           <Button

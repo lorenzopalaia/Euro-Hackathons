@@ -52,7 +52,7 @@ export default function HackathonList({
         if (filters.topics.length > 0) {
           const hackathonTopics = hackathon.topics || [];
           const hasMatchingTopic = filters.topics.some((topic) =>
-            hackathonTopics.includes(topic),
+            hackathonTopics.includes(topic)
           );
           if (!hasMatchingTopic) {
             return false;
@@ -77,7 +77,7 @@ export default function HackathonList({
         return true;
       });
     },
-    [filters],
+    [filters]
   );
 
   const currentHackathons = useMemo(() => {
@@ -116,7 +116,7 @@ export default function HackathonList({
       {
         month: "short",
         year: "numeric",
-      },
+      }
     )}`;
   };
 
@@ -147,31 +147,29 @@ export default function HackathonList({
 
       <CardContent className="flex-1 pt-0">
         {hackathon.topics && hackathon.topics.length > 0 && (
-          <div className="mb-4">
-            <div className="flex items-start gap-2">
-              <Tag className="text-muted-foreground mt-1 h-4 w-4 shrink-0" />
-              <div className="flex min-w-0 flex-wrap gap-1.5">
-                {hackathon.topics.slice(0, 4).map((topic, index) => (
-                  <Badge
-                    key={`${topic}-${index}`}
-                    variant="secondary"
-                    className="text-xs font-medium"
-                  >
-                    {topic}
-                  </Badge>
-                ))}
-                {hackathon.topics.length > 4 && (
-                  <Badge variant="outline" className="text-xs">
-                    +{hackathon.topics.length - 4} more
-                  </Badge>
-                )}
-              </div>
+          <div className="flex items-start gap-2">
+            <Tag className="text-muted-foreground mt-1 h-4 w-4 shrink-0" />
+            <div className="flex min-w-0 flex-wrap gap-1.5">
+              {hackathon.topics.slice(0, 4).map((topic, index) => (
+                <Badge
+                  key={`${topic}-${index}`}
+                  variant="secondary"
+                  className="text-xs font-medium"
+                >
+                  {topic}
+                </Badge>
+              ))}
+              {hackathon.topics.length > 4 && (
+                <Badge variant="outline" className="text-xs">
+                  +{hackathon.topics.length - 4} more
+                </Badge>
+              )}
             </div>
           </div>
         )}
 
         {hackathon.notes && hackathon.notes.trim() && (
-          <div className="flex items-start gap-2">
+          <div className="flex items-start gap-2 mt-2">
             <FileText className="text-muted-foreground mt-1 h-4 w-4 shrink-0" />
             <div className="min-w-0">
               <p className="text-muted-foreground line-clamp-3 text-sm leading-relaxed">

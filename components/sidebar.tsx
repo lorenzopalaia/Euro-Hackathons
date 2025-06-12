@@ -231,7 +231,7 @@ export default function Sidebar({
                       <Check
                         className={cn(
                           "mr-2 h-4 w-4",
-                          !filters.location ? "opacity-100" : "opacity-0"
+                          !filters.location ? "opacity-100" : "opacity-0",
                         )}
                       />
                       All
@@ -246,7 +246,7 @@ export default function Sidebar({
                             "mr-2 h-4 w-4",
                             filters.location === location
                               ? "opacity-100"
-                              : "opacity-0"
+                              : "opacity-0",
                           )}
                         />
                         {location}
@@ -294,7 +294,7 @@ export default function Sidebar({
                             "mr-2 h-4 w-4",
                             filters.topics.includes(topic)
                               ? "opacity-100"
-                              : "opacity-0"
+                              : "opacity-0",
                           )}
                         />
                         {topic}

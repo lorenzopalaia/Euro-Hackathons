@@ -97,7 +97,7 @@ export async function POST(request: Request) {
 
     if (newHackathons.length > 0 && !insertionError) {
       console.log(
-        `Sending notifications for ${newHackathons.length} new hackathons...`
+        `Sending notifications for ${newHackathons.length} new hackathons...`,
       );
 
       const discordBot = new DiscordBot();
@@ -126,7 +126,7 @@ export async function POST(request: Request) {
             .update({ notified: true })
             .in(
               "id",
-              newHackathons.map((h) => h.id)
+              newHackathons.map((h) => h.id),
             );
           notificationsSent = true;
           console.log("Hackathons marked as notified");
@@ -166,7 +166,7 @@ export async function POST(request: Request) {
         if ("content" in currentFile) {
           const currentContent = Buffer.from(
             currentFile.content,
-            "base64"
+            "base64",
           ).toString("utf-8");
 
           // Solo se il contenuto è diverso, aggiorna
@@ -224,7 +224,7 @@ export async function POST(request: Request) {
         error: "Internal server error",
         details: error instanceof Error ? error.message : "Unknown error",
       },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

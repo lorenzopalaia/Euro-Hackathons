@@ -1,6 +1,6 @@
 ![Hackathon Logo](https://user-images.githubusercontent.com/36594527/117592199-10730800-b17b-11eb-84f8-4ffcae8116d4.png)
 
-# <p align="center">🇪🇺🚀 EURO HACKATHONS</p>
+# <p align="center">EURO HACKATHONS</p>
 
 Welcome to **EURO HACKATHONS**! This repository provides a comprehensive, **automatically updated** list of hackathons happening across Europe.
 
@@ -238,9 +238,4 @@ Special thanks to:
 
 **Made with ❤️ for the European hacking community**
 
-<<<<<<< HEAD
-=======
-_Last system update: 2025-06-12T07:36:37.797Z_
-
->>>>>>> 47eed0e3eafa091fdff159aa0ff6ccfc7d609c08
 </div>

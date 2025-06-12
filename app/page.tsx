@@ -39,10 +39,10 @@ export default function Home() {
     const allHackathons = [...upcoming, ...past];
 
     const locations = Array.from(
-      new Set(allHackathons.map((h) => h.location).filter(Boolean))
+      new Set(allHackathons.map((h) => h.location).filter(Boolean)),
     );
     const topics = Array.from(
-      new Set(allHackathons.flatMap((h) => h.topics || []))
+      new Set(allHackathons.flatMap((h) => h.topics || [])),
     );
 
     return {

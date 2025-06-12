@@ -3,6 +3,9 @@ import { BaseParser, ParsedHackathon } from "@/lib/parsers/base-parser";
 interface LumaGeoInfo {
   city?: string;
   country_code?: string;
+  // Fallback
+  city_state?: string; // Comma separated city and state
+  region?: string; // Region or state
 }
 
 interface LumaEvent {
@@ -63,7 +66,7 @@ export class LumaParser extends BaseParser {
       });
 
       const response = await fetch(
-        `https://api.lu.ma/discover/category/get-events?${params}`,
+        `https://api.lu.ma/discover/category/get-events?${params}`
       );
 
       if (!response.ok) {
@@ -102,22 +105,31 @@ export class LumaParser extends BaseParser {
 
       const dates = this.formatDate(event.start_at, event.end_at);
 
-      // Filtra solo eventi futuri o recenti (massimo 30 giorni nel passato)
+      // Filtra solo eventi futuri
       const now = new Date();
-      const thirtyDaysAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
+      if (dates.start < now) return null;
 
-      if (dates.start < thirtyDaysAgo) return null;
+      // Estrai i dati di location con fallback
+      let city = geo.city || "";
+      let country_code = geo.country_code || "";
+
+      if (!city && geo.city_state) {
+        const parts = geo.city_state.split(",").map((p) => p.trim());
+        if (parts.length >= 1) city = parts[0];
+      }
+
+      if (!country_code && geo.region) {
+        country_code = geo.region;
+      }
 
       const location =
-        geo.city && geo.country_code
-          ? `${geo.city}, ${geo.country_code}`
-          : "Remote";
+        city && country_code ? `${city}, ${country_code}` : "Remote";
 
       return {
         name: event.name.replace(/\|/g, "-"),
         location,
-        city: geo.city,
-        country_code: geo.country_code,
+        city: city || undefined,
+        country_code: country_code || undefined,
         date_start: dates.start,
         date_end: dates.end,
         topics: this.extractTopics(event.name),
@@ -146,7 +158,7 @@ export class LumaParser extends BaseParser {
   }
 
   private deduplicateHackathons(
-    hackathons: ParsedHackathon[],
+    hackathons: ParsedHackathon[]
   ): ParsedHackathon[] {
     const seen = new Set<string>();
     return hackathons.filter((hackathon) => {

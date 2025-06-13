@@ -55,6 +55,108 @@ interface SidebarProps {
   uniqueTopics?: string[];
 }
 
+// Configurazione dei link esterni
+const EXTERNAL_LINKS = {
+  discord: "https://discord.com/invite/SmygTckVez",
+  telegram: "https://t.me/eurohackathons",
+  twitter: "https://x.com/eurohackathons",
+  github: "https://github.com/lorenzopalaia/Euro-Hackathons",
+} as const;
+
+// Configurazione delle sezioni della sidebar
+const SIDEBAR_SECTIONS = {
+  notifications: [
+    { href: EXTERNAL_LINKS.discord, icon: FaDiscord, label: "Discord Bot" },
+    { href: EXTERNAL_LINKS.telegram, icon: FaTelegram, label: "Telegram Bot" },
+    { href: EXTERNAL_LINKS.twitter, icon: FaXTwitter, label: "X Updates" },
+  ],
+  socials: [{ href: EXTERNAL_LINKS.github, icon: Github, label: "GitHub" }],
+  support: [
+    { href: "/docs", icon: FileText, label: "Documentation" },
+    { href: "/privacy", icon: Shield, label: "Privacy Policy" },
+    { href: "/terms", icon: FileCheck, label: "Terms of Service" },
+  ],
+} as const;
+
+// Componente per i pulsanti della sidebar mobile collassata
+const CollapsedSidebarButton = ({
+  href,
+  icon: Icon,
+  onClick,
+  variant = "outline",
+}: {
+  href?: string;
+  icon: React.ComponentType<{ className?: string }>;
+  onClick?: () => void;
+  variant?: "outline" | "ghost";
+}) => {
+  const buttonProps = {
+    variant,
+    size: "sm" as const,
+    className: "h-10 w-10 p-0",
+  };
+
+  if (href) {
+    return (
+      <Button asChild {...buttonProps}>
+        <Link
+          href={href}
+          target={href.startsWith("http") ? "_blank" : undefined}
+        >
+          <Icon className="h-4 w-4" />
+        </Link>
+      </Button>
+    );
+  }
+
+  return (
+    <Button {...buttonProps} onClick={onClick}>
+      <Icon className="h-4 w-4" />
+    </Button>
+  );
+};
+
+// Componente per le sezioni con link esterni
+const ExternalLinksSection = ({
+  title,
+  icon: TitleIcon,
+  links,
+}: {
+  title: string;
+  icon: React.ComponentType<{ className?: string }>;
+  links: readonly {
+    href: string;
+    icon: React.ComponentType<{ className?: string }>;
+    label: string;
+  }[];
+}) => (
+  <div className="space-y-4">
+    <div className="flex items-center gap-2">
+      <TitleIcon className="h-4 w-4" />
+      <h2 className="font-semibold">{title}</h2>
+    </div>
+    <div className="space-y-2">
+      {links.map(({ href, icon: Icon, label }) => (
+        <Button
+          key={href}
+          asChild
+          variant="outline"
+          className="w-full justify-start"
+          size="sm"
+        >
+          <Link
+            href={href}
+            target={href.startsWith("http") ? "_blank" : undefined}
+          >
+            <Icon className="mr-2 h-4 w-4" />
+            {label}
+          </Link>
+        </Button>
+      ))}
+    </div>
+  </div>
+);
+
 export default function Sidebar({
   uniqueLocations = [],
   uniqueTopics = [],
@@ -79,72 +181,36 @@ export default function Sidebar({
 
   // Mobile collapsed sidebar
   const MobileCollapsedSidebar = () => (
-    <aside className="bg-card fixed top-0 left-0 z-40 flex h-full w-16 flex-col items-center space-y-4 border-r py-6 md:hidden">
-      <Button
+    <aside className="fixed top-0 left-0 z-40 flex h-full w-16 flex-col items-center space-y-4 border-r bg-card py-6 md:hidden">
+      <CollapsedSidebarButton
         variant="ghost"
-        size="sm"
+        icon={Menu}
         onClick={() => setMobileOpen(true)}
-        className="h-10 w-10 p-0"
-      >
-        <Menu className="h-4 w-4" />
-      </Button>
+      />
 
       <div className="flex flex-col space-y-2">
-        <Button
-          variant="outline"
-          size="sm"
-          className="h-10 w-10 p-0"
+        <CollapsedSidebarButton
+          icon={Filter}
           onClick={() => setMobileOpen(true)}
-        >
-          <Filter className="h-4 w-4" />
-        </Button>
+        />
 
-        <Separator className="mt-2 mb-4" />
+        <Separator className="mb-4 mt-2" />
 
-        <Button asChild variant="outline" size="sm" className="h-10 w-10 p-0">
-          <Link href="https://discord.com/invite/SmygTckVez" target="_blank">
-            <FaDiscord className="h-4 w-4" />
-          </Link>
-        </Button>
-        <Button asChild variant="outline" size="sm" className="h-10 w-10 p-0">
-          <Link href="https://t.me/eurohackathons" target="_blank">
-            <FaTelegram className="h-4 w-4" />
-          </Link>
-        </Button>
-        <Button asChild variant="outline" size="sm" className="h-10 w-10 p-0">
-          <Link href="https://x.com/eurohackathons" target="_blank">
-            <FaXTwitter className="h-4 w-4" />
-          </Link>
-        </Button>
+        {SIDEBAR_SECTIONS.notifications.map(({ href, icon }) => (
+          <CollapsedSidebarButton key={href} href={href} icon={icon} />
+        ))}
 
-        <Separator className="mt-2 mb-4" />
+        <Separator className="mb-4 mt-2" />
 
-        <Button asChild variant="outline" size="sm" className="h-10 w-10 p-0">
-          <Link
-            href="https://github.com/lorenzopalaia/Euro-Hackathons"
-            target="_blank"
-          >
-            <Github className="h-4 w-4" />
-          </Link>
-        </Button>
+        {SIDEBAR_SECTIONS.socials.map(({ href, icon }) => (
+          <CollapsedSidebarButton key={href} href={href} icon={icon} />
+        ))}
 
-        <Separator className="mt-2 mb-4" />
+        <Separator className="mb-4 mt-2" />
 
-        <Button asChild variant="outline" size="sm" className="h-10 w-10 p-0">
-          <Link href="/docs">
-            <FileText className="h-4 w-4" />
-          </Link>
-        </Button>
-        <Button asChild variant="outline" size="sm" className="h-10 w-10 p-0">
-          <Link href="/privacy">
-            <Shield className="h-4 w-4" />
-          </Link>
-        </Button>
-        <Button asChild variant="outline" size="sm" className="h-10 w-10 p-0">
-          <Link href="/terms">
-            <FileCheck className="h-4 w-4" />
-          </Link>
-        </Button>
+        {SIDEBAR_SECTIONS.support.map(({ href, icon }) => (
+          <CollapsedSidebarButton key={href} href={href} icon={icon} />
+        ))}
       </div>
     </aside>
   );
@@ -231,7 +297,7 @@ export default function Sidebar({
                       <Check
                         className={cn(
                           "mr-2 h-4 w-4",
-                          !filters.location ? "opacity-100" : "opacity-0",
+                          !filters.location ? "opacity-100" : "opacity-0"
                         )}
                       />
                       All
@@ -246,7 +312,7 @@ export default function Sidebar({
                             "mr-2 h-4 w-4",
                             filters.location === location
                               ? "opacity-100"
-                              : "opacity-0",
+                              : "opacity-0"
                           )}
                         />
                         {location}
@@ -294,7 +360,7 @@ export default function Sidebar({
                             "mr-2 h-4 w-4",
                             filters.topics.includes(topic)
                               ? "opacity-100"
-                              : "opacity-0",
+                              : "opacity-0"
                           )}
                         />
                         {topic}
@@ -370,118 +436,30 @@ export default function Sidebar({
 
       <Separator />
 
-      {/* Bots and Notifications */}
-      <div className="space-y-4">
-        <div className="flex items-center gap-2">
-          <Bell className="h-4 w-4" />
-          <h2 className="font-semibold">Notifications</h2>
-        </div>
-        <div className="space-y-2">
-          <Button
-            asChild
-            variant="outline"
-            className="w-full justify-start"
-            size="sm"
-          >
-            <Link href="https://discord.com/invite/SmygTckVez" target="_blank">
-              <FaDiscord className="mr-2 h-4 w-4" />
-              Discord Bot
-            </Link>
-          </Button>
-          <Button
-            asChild
-            variant="outline"
-            className="w-full justify-start"
-            size="sm"
-          >
-            <Link href="https://t.me/eurohackathons" target="_blank">
-              <FaTelegram className="mr-2 h-4 w-4" />
-              Telegram Bot
-            </Link>
-          </Button>
-          <Button
-            asChild
-            variant="outline"
-            className="w-full justify-start"
-            size="sm"
-          >
-            <Link href="https://x.com/eurohackathons" target="_blank">
-              <FaXTwitter className="mr-2 h-4 w-4" />X Updates
-            </Link>
-          </Button>
-        </div>
-      </div>
+      {/* Notifications */}
+      <ExternalLinksSection
+        title="Notifications"
+        icon={Bell}
+        links={SIDEBAR_SECTIONS.notifications}
+      />
 
       <Separator />
 
       {/* Socials */}
-      <div className="space-y-4">
-        <div className="flex items-center gap-2">
-          <Users className="h-4 w-4" />
-          <h2 className="font-semibold">Socials</h2>
-        </div>
-        <div className="space-y-2">
-          <Button
-            asChild
-            variant="outline"
-            className="w-full justify-start"
-            size="sm"
-          >
-            <Link
-              href="https://github.com/lorenzopalaia/Euro-Hackathons"
-              target="_blank"
-            >
-              <Github className="mr-2 h-4 w-4" />
-              GitHub
-            </Link>
-          </Button>
-        </div>
-      </div>
+      <ExternalLinksSection
+        title="Socials"
+        icon={Users}
+        links={SIDEBAR_SECTIONS.socials}
+      />
 
       <Separator />
 
       {/* Support */}
-      <div className="space-y-4">
-        <div className="flex items-center gap-2">
-          <HelpCircle className="h-4 w-4" />
-          <h2 className="font-semibold">Support</h2>
-        </div>
-        <div className="space-y-2">
-          <Button
-            asChild
-            variant="outline"
-            className="w-full justify-start"
-            size="sm"
-          >
-            <Link href="/docs">
-              <FileText className="mr-2 h-4 w-4" />
-              Documentation
-            </Link>
-          </Button>
-          <Button
-            asChild
-            variant="outline"
-            className="w-full justify-start"
-            size="sm"
-          >
-            <Link href="/privacy">
-              <Shield className="mr-2 h-4 w-4" />
-              Privacy Policy
-            </Link>
-          </Button>
-          <Button
-            asChild
-            variant="outline"
-            className="w-full justify-start"
-            size="sm"
-          >
-            <Link href="/terms">
-              <FileCheck className="mr-2 h-4 w-4" />
-              Terms of Service
-            </Link>
-          </Button>
-        </div>
-      </div>
+      <ExternalLinksSection
+        title="Support"
+        icon={HelpCircle}
+        links={SIDEBAR_SECTIONS.support}
+      />
     </>
   );
 
@@ -491,7 +469,7 @@ export default function Sidebar({
       <MobileCollapsedSidebar />
 
       {/* Desktop sidebar */}
-      <aside className="bg-card hidden w-60 flex-col space-y-6 border-r p-6 md:flex">
+      <aside className="fixed top-0 left-0 z-40 hidden h-screen w-60 flex-col space-y-6 overflow-y-auto border-r bg-card p-6 md:flex">
         <SidebarContent />
       </aside>
 
@@ -500,12 +478,12 @@ export default function Sidebar({
         <>
           {/* Backdrop */}
           <div
-            className="animate-in fade-in fixed inset-0 z-50 bg-black/50 duration-500 md:hidden"
+            className="fixed inset-0 z-50 bg-black/50 animate-in fade-in duration-300 md:hidden"
             onClick={() => setMobileOpen(false)}
           />
 
           {/* Sidebar */}
-          <aside className="bg-card animate-in slide-in-from-left fixed top-0 left-0 z-50 h-full w-80 space-y-8 overflow-y-auto border-r p-6 duration-500 md:hidden">
+          <aside className="fixed top-0 left-0 z-50 h-full w-80 space-y-6 overflow-y-auto border-r bg-card p-6 animate-in slide-in-from-left duration-300 md:hidden">
             <SidebarContent />
           </aside>
         </>

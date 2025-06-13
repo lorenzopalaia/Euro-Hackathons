@@ -6,17 +6,13 @@ import {
   Card,
   CardContent,
   CardHeader,
+  CardTitle,
+  CardDescription,
   CardFooter,
 } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Button } from "@/components/ui/button";
-import {
-  ExternalLink,
-  MapPin,
-  Calendar as CalendarIcon,
-  Tag,
-  FileText,
-} from "lucide-react";
+import { ExternalLink, MapPin, Calendar as CalendarIcon } from "lucide-react";
 import { ExportCalendarDropdown } from "@/components/export-calendar-dropdown";
 import { ShareHackathonDropdown } from "@/components/share-hackathon-dropdown";
 import { Hackathon } from "@/types/hackathon";
@@ -123,74 +119,51 @@ export default function HackathonList({
   };
 
   const HackathonCard = ({ hackathon }: { hackathon: Hackathon }) => (
-    <Card className="border-border flex h-full flex-col transition-all duration-200 hover:shadow-lg">
-      <CardHeader className="pb-3">
-        <div className="flex items-start justify-between gap-4">
-          <div className="min-w-0 flex-1">
-            <h3 className="text-foreground mb-2 line-clamp-2 text-xl font-bold">
-              {hackathon.name}
-            </h3>
-            <div className="text-muted-foreground flex flex-col gap-2 text-sm">
-              <div className="flex items-center gap-1.5">
-                <CalendarIcon className="h-4 w-4" aria-hidden="true" />
-                <span className="font-medium">{formatDate(hackathon)}</span>
-              </div>
-              <div className="flex items-center gap-1.5">
-                <MapPin className="h-4 w-4" aria-hidden="true" />
-                <span>
-                  {hackathon.location.includes(",")
-                    ? emojiFlag(hackathon.location.split(",")[1]?.trim())
-                    : ""}{" "}
-                  {hackathon.location}
-                </span>
-              </div>
+    <Card className="flex h-full flex-col transition-all duration-200 hover:shadow-lg">
+      <CardHeader>
+        <CardTitle className="line-clamp-2">{hackathon.name}</CardTitle>
+        {hackathon.notes && hackathon.notes.trim() && (
+          <CardDescription className="line-clamp-2">
+            {hackathon.notes}
+          </CardDescription>
+        )}
+      </CardHeader>
+
+      <CardContent className="flex-1 space-y-4">
+        <div className="space-y-2">
+          <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
+            <div className="flex md:w-1/2 items-center gap-2 text-sm text-muted-foreground">
+              <CalendarIcon className="h-4 w-4 shrink-0" />
+              <span>{formatDate(hackathon)}</span>
+            </div>
+            <div className="flex md:w-1/2 items-center gap-2 text-sm text-muted-foreground">
+              <MapPin className="h-4 w-4 shrink-0" />
+              <span>
+                {hackathon.location}{" "}
+                {hackathon.location.includes(",")
+                  ? emojiFlag(hackathon.location.split(",")[1]?.trim())
+                  : ""}
+              </span>
             </div>
           </div>
         </div>
-      </CardHeader>
 
-      <CardContent className="flex-1 pt-0">
         {hackathon.topics && hackathon.topics.length > 0 && (
-          <div className="flex items-start gap-2">
-            <Tag
-              className="text-muted-foreground mt-1 h-4 w-4 shrink-0"
-              aria-hidden="true"
-            />
-            <div
-              className="flex min-w-0 flex-wrap gap-1.5"
-              role="list"
-              aria-label="Event topics"
-            >
-              {hackathon.topics.slice(0, 4).map((topic, index) => (
-                <Badge
-                  key={`${topic}-${index}`}
-                  variant="secondary"
-                  className="text-xs font-medium"
-                  role="listitem"
-                >
-                  {topic}
-                </Badge>
-              ))}
-              {hackathon.topics.length > 4 && (
-                <Badge variant="outline" className="text-xs">
-                  +{hackathon.topics.length - 4} more
-                </Badge>
-              )}
-            </div>
-          </div>
-        )}
-
-        {hackathon.notes && hackathon.notes.trim() && (
-          <div className="flex items-start gap-2 mt-2">
-            <FileText
-              className="text-muted-foreground mt-1 h-4 w-4 shrink-0"
-              aria-hidden="true"
-            />
-            <div className="min-w-0">
-              <p className="text-muted-foreground line-clamp-3 text-sm leading-relaxed">
-                {hackathon.notes}
-              </p>
-            </div>
+          <div className="flex flex-wrap gap-1.5">
+            {hackathon.topics.slice(0, 4).map((topic, index) => (
+              <Badge
+                key={`${topic}-${index}`}
+                variant="secondary"
+                className="text-xs"
+              >
+                {topic}
+              </Badge>
+            ))}
+            {hackathon.topics.length > 4 && (
+              <Badge variant="outline" className="text-xs">
+                +{hackathon.topics.length - 4} more
+              </Badge>
+            )}
           </div>
         )}
       </CardContent>
@@ -203,14 +176,14 @@ export default function HackathonList({
             rel="noopener noreferrer"
             aria-label={`Register for ${hackathon.name}`}
           >
-            Join <ExternalLink className="ml-1 h-4 w-4" aria-hidden="true" />
+            Join <ExternalLink className="ml-1 h-4 w-4" />
           </Link>
         </Button>
 
         {filters.status === "upcoming" && (
           <div className="grid grid-cols-2 gap-2 w-full">
-            <ExportCalendarDropdown hackathon={hackathon} />
             <ShareHackathonDropdown hackathon={hackathon} />
+            <ExportCalendarDropdown hackathon={hackathon} />
           </div>
         )}
 
@@ -231,37 +204,41 @@ export default function HackathonList({
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
           {Array.from({ length: 8 }).map((_, i) => (
             <Card key={i} className="flex h-full flex-col">
-              <CardHeader className="pb-3">
-                <div className="space-y-2">
-                  <Skeleton className="h-6 w-full" />
-                  <Skeleton className="h-4 w-1/4" />
-                  <Skeleton className="h-4 w-1/4" />
-                </div>
+              <CardHeader>
+                <Skeleton className="h-6 w-full mb-2" />
+                <Skeleton className="h-4 w-3/4" />
               </CardHeader>
-              <CardContent className="flex-1 pt-0">
-                <div className="space-y-3">
-                  <div className="flex gap-2">
-                    <Skeleton className="h-4 w-4" />
-                    <div className="flex gap-1.5">
-                      <Skeleton className="h-5 w-12" />
-                      <Skeleton className="h-5 w-12" />
-                      <Skeleton className="h-5 w-12" />
+              <CardContent className="flex-1 space-y-4">
+                <div className="space-y-2">
+                  <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
+                    <div className="flex md:w-1/2 items-center gap-2">
+                      <Skeleton className="h-4 w-4 shrink-0" />
+                      <Skeleton className="h-4 w-24" />
+                    </div>
+                    <div className="flex md:w-1/2 items-center gap-2">
+                      <Skeleton className="h-4 w-4 shrink-0" />
+                      <Skeleton className="h-4 w-32" />
                     </div>
                   </div>
-                  <div className="flex gap-2">
-                    <Skeleton className="h-4 w-4" />
-                    <div className="flex-1 space-y-2">
-                      <Skeleton className="h-4 w-1/2" />
-                    </div>
-                  </div>
+                </div>
+                <div className="flex flex-wrap gap-1.5">
+                  <Skeleton className="h-5 w-16" />
+                  <Skeleton className="h-5 w-12" />
+                  <Skeleton className="h-5 w-20" />
+                  <Skeleton className="h-5 w-14" />
                 </div>
               </CardContent>
               <CardFooter className="flex flex-col gap-2">
                 <Skeleton className="h-9 w-full" />
-                <div className="grid grid-cols-2 gap-2 w-full">
+                {filters.status === "upcoming" && (
+                  <div className="grid grid-cols-2 gap-2 w-full">
+                    <Skeleton className="h-8 w-full" />
+                    <Skeleton className="h-8 w-full" />
+                  </div>
+                )}
+                {filters.status === "past" && (
                   <Skeleton className="h-8 w-full" />
-                  <Skeleton className="h-8 w-full" />
-                </div>
+                )}
               </CardFooter>
             </Card>
           ))}
@@ -283,23 +260,13 @@ export default function HackathonList({
       </div>
 
       {currentHackathons.length === 0 ? (
-        <div
-          className="text-muted-foreground py-8 text-center"
-          role="status"
-          aria-live="polite"
-        >
+        <div className="py-8 text-center text-muted-foreground">
           <p>No hackathons found matching your criteria</p>
         </div>
       ) : (
-        <div
-          className="grid grid-cols-1 gap-6 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4"
-          role="list"
-          aria-label={`${currentHackathons.length} hackathon${currentHackathons.length !== 1 ? "s" : ""} found`}
-        >
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
           {currentHackathons.map((hackathon) => (
-            <div key={hackathon.id} role="listitem">
-              <HackathonCard hackathon={hackathon} />
-            </div>
+            <HackathonCard key={hackathon.id} hackathon={hackathon} />
           ))}
         </div>
       )}

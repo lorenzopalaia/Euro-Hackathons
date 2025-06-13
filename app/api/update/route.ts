@@ -18,7 +18,12 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
-    console.log("Starting hackathon update...");
+    // Controlla se è una richiesta di test (solo database, senza notifiche)
+    const testMode = request.headers.get("x-test-mode") === "true";
+
+    console.log(
+      `Starting hackathon update${testMode ? " (TEST MODE - no notifications)" : ""}...`
+    );
 
     // 1. Parsing dei nuovi hackathons da entrambe le fonti
     const lumaParser = new LumaParser();
@@ -94,7 +99,7 @@ export async function POST(request: Request) {
                 notes: hackathon.notes,
                 url: hackathon.url,
                 source: hackathon.source,
-                notified: false,
+                notified: testMode ? true : false, // In test mode, marca come già notificato
               })
               .select()
               .single();
@@ -135,11 +140,11 @@ export async function POST(request: Request) {
     // Determina se c'è stata qualche modifica ai dati
     const dataChanged = newHackathons.length > 0 || statusesUpdated;
 
-    // 4. Invia notifiche SOLO se ci sono nuovi hackathons
+    // 4. Invia notifiche SOLO se ci sono nuovi hackathons E non è in test mode
     const notificationErrors: string[] = [];
     let notificationsSent = false;
 
-    if (newHackathons.length > 0 && !insertionError) {
+    if (newHackathons.length > 0 && !insertionError && !testMode) {
       console.log(
         `Sending notifications for ${newHackathons.length} new hackathons...`
       );
@@ -180,15 +185,17 @@ export async function POST(request: Request) {
       }
     } else if (newHackathons.length > 0 && insertionError) {
       console.log("Skipping notifications due to database insertion errors");
+    } else if (testMode && newHackathons.length > 0) {
+      console.log("Test mode: notifications skipped");
     } else {
       console.log("No new hackathons to notify");
     }
 
-    // 5. Aggiorna il README SOLO se i dati sono cambiati
+    // 5. Aggiorna il README SOLO se i dati sono cambiati E non è in test mode
     let readmeUpdated = false;
     let readmeError: string | null = null;
 
-    if (dataChanged) {
+    if (dataChanged && !testMode) {
       try {
         console.log("Data changed, updating README via GitHub API...");
 
@@ -235,6 +242,8 @@ export async function POST(request: Request) {
         console.error("Error updating README:", error);
         readmeError = error instanceof Error ? error.message : "Unknown error";
       }
+    } else if (testMode) {
+      console.log("Test mode: README update skipped");
     } else {
       console.log("No data changes detected, skipping README update");
     }
@@ -248,6 +257,7 @@ export async function POST(request: Request) {
 
     return NextResponse.json({
       success: !hasErrors,
+      testMode,
       parsed: parsedHackathons.length,
       inserted: newHackathons.length,
       dataChanged,

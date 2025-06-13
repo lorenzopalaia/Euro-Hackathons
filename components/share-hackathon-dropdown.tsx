@@ -86,12 +86,12 @@ export function ShareHackathonDropdown({
     switch (platform) {
       case "twitter":
         const twitterText = encodeURIComponent(
-          `🚀 ${shareContent.title}\n📅 ${formatDate(hackathon)}\n📍 ${hackathon.location}\n${shareContent.url}`
+          `🚀 ${shareContent.title}\n📅 ${formatDate(hackathon)}\n📍 ${hackathon.location}\n${shareContent.url}`,
         );
         window.open(
           `https://twitter.com/intent/tweet?text=${twitterText}`,
           "_blank",
-          "noopener,noreferrer"
+          "noopener,noreferrer",
         );
         break;
 
@@ -99,24 +99,24 @@ export function ShareHackathonDropdown({
         const linkedinUrl = encodeURIComponent(shareContent.url);
         const linkedinTitle = encodeURIComponent(shareContent.title);
         const linkedinSummary = encodeURIComponent(
-          `${shareContent.title} - ${formatDate(hackathon)} in ${hackathon.location}`
+          `${shareContent.title} - ${formatDate(hackathon)} in ${hackathon.location}`,
         );
         window.open(
           `https://www.linkedin.com/sharing/share-offsite/?url=${linkedinUrl}&title=${linkedinTitle}&summary=${linkedinSummary}`,
           "_blank",
-          "noopener,noreferrer"
+          "noopener,noreferrer",
         );
         break;
 
       case "reddit":
         const redditTitle = encodeURIComponent(
-          `${shareContent.title} - ${formatDate(hackathon)} in ${hackathon.location}`
+          `${shareContent.title} - ${formatDate(hackathon)} in ${hackathon.location}`,
         );
         const redditUrl = encodeURIComponent(shareContent.url);
         window.open(
           `https://www.reddit.com/submit?title=${redditTitle}&url=${redditUrl}`,
           "_blank",
-          "noopener,noreferrer"
+          "noopener,noreferrer",
         );
         break;
 

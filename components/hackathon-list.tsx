@@ -50,7 +50,7 @@ export default function HackathonList({
         if (filters.topics.length > 0) {
           const hackathonTopics = hackathon.topics || [];
           const hasMatchingTopic = filters.topics.some((topic) =>
-            hackathonTopics.includes(topic)
+            hackathonTopics.includes(topic),
           );
           if (!hasMatchingTopic) {
             return false;
@@ -75,7 +75,7 @@ export default function HackathonList({
         return true;
       });
     },
-    [filters]
+    [filters],
   );
 
   const currentHackathons = useMemo(() => {
@@ -114,7 +114,7 @@ export default function HackathonList({
       {
         month: "short",
         year: "numeric",
-      }
+      },
     )}`;
   };
 

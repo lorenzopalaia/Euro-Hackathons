@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 import { Octokit } from "@octokit/rest";
 import { supabaseAdmin } from "@/lib/supabase";
 import { LumaParser } from "@/lib/parsers/luma-parser";
+import { LablabParser } from "@/lib/parsers/lablab-parser";
+import { ParsedHackathon } from "@/lib/parsers/base-parser";
 import { DiscordBot } from "@/lib/bots/discord-bot";
 import { TelegramBot } from "@/lib/bots/telegram-bot";
 import { TwitterBot } from "@/lib/bots/twitter-bot";
@@ -18,17 +20,59 @@ export async function POST(request: Request) {
 
     console.log("Starting hackathon update...");
 
-    // 1. Parsing dei nuovi hackathons
-    const parser = new LumaParser();
-    const parsedHackathons = await parser.parse();
-    console.log(`Parsed ${parsedHackathons.length} hackathons`);
+    // 1. Parsing dei nuovi hackathons da entrambe le fonti
+    const lumaParser = new LumaParser();
+    const lablabParser = new LablabParser();
+
+    const [lumaHackathons, lablabHackathons] = await Promise.allSettled([
+      lumaParser.parse(),
+      lablabParser.parse(),
+    ]);
+
+    const parsedHackathons: ParsedHackathon[] = [];
+
+    if (lumaHackathons.status === "fulfilled") {
+      parsedHackathons.push(...lumaHackathons.value);
+      console.log(`Parsed ${lumaHackathons.value.length} hackathons from Luma`);
+    } else {
+      console.error("Luma parser failed:", lumaHackathons.reason);
+    }
+
+    if (lablabHackathons.status === "fulfilled") {
+      parsedHackathons.push(...lablabHackathons.value);
+      console.log(
+        `Parsed ${lablabHackathons.value.length} hackathons from Lablab`
+      );
+    } else {
+      console.error("Lablab parser failed:", lablabHackathons.reason);
+    }
+
+    console.log(`Total parsed ${parsedHackathons.length} hackathons`);
+
+    // Deduplicazione degli hackathons basata su nome e data
+    const deduplicatedHackathons = parsedHackathons.filter(
+      (hackathon, index, array) => {
+        const key = `${hackathon.name.toLowerCase()}-${hackathon.date_start.toISOString().split("T")[0]}`;
+        return (
+          array.findIndex(
+            (h) =>
+              `${h.name.toLowerCase()}-${h.date_start.toISOString().split("T")[0]}` ===
+              key
+          ) === index
+        );
+      }
+    );
+
+    console.log(
+      `After deduplication: ${deduplicatedHackathons.length} hackathons`
+    );
 
     // 2. Inserimento nel database
     const newHackathons: Hackathon[] = [];
     let insertionError: string | null = null;
 
     try {
-      for (const hackathon of parsedHackathons) {
+      for (const hackathon of deduplicatedHackathons) {
         try {
           const { data: existing } = await supabaseAdmin
             .from("hackathons")
@@ -97,7 +141,7 @@ export async function POST(request: Request) {
 
     if (newHackathons.length > 0 && !insertionError) {
       console.log(
-        `Sending notifications for ${newHackathons.length} new hackathons...`,
+        `Sending notifications for ${newHackathons.length} new hackathons...`
       );
 
       const discordBot = new DiscordBot();
@@ -126,7 +170,7 @@ export async function POST(request: Request) {
             .update({ notified: true })
             .in(
               "id",
-              newHackathons.map((h) => h.id),
+              newHackathons.map((h) => h.id)
             );
           notificationsSent = true;
           console.log("Hackathons marked as notified");
@@ -166,7 +210,7 @@ export async function POST(request: Request) {
         if ("content" in currentFile) {
           const currentContent = Buffer.from(
             currentFile.content,
-            "base64",
+            "base64"
           ).toString("utf-8");
 
           // Solo se il contenuto è diverso, aggiorna
@@ -224,7 +268,7 @@ export async function POST(request: Request) {
         error: "Internal server error",
         details: error instanceof Error ? error.message : "Unknown error",
       },
-      { status: 500 },
+      { status: 500 }
     );
   }
 }

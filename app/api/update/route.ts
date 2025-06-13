@@ -158,7 +158,6 @@ export async function POST(request: Request) {
         telegramBot.notifyNewHackathons(newHackathons),
         twitterBot.notifyNewHackathons(newHackathons),
       ]);
-
       notifications.forEach((result, index) => {
         if (result.status === "rejected") {
           const platform = ["Discord", "Telegram", "Twitter"][index];

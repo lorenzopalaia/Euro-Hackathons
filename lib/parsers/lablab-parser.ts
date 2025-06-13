@@ -155,7 +155,7 @@ export class LablabParser extends BaseParser {
 
       return {
         name: event.name.replace(/\|/g, "-").trim(),
-        location: "Remote",
+        location: "Unknown",
         city: undefined,
         country_code: undefined,
         date_start: dates.start,

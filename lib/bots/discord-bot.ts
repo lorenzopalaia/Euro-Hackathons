@@ -1,4 +1,5 @@
 import { Hackathon } from "@/types/hackathon";
+import { europeanCountries } from "@/lib/european-countries";
 
 export class DiscordBot {
   private webhookUrl: string;
@@ -18,7 +19,11 @@ export class DiscordBot {
           fields: [
             {
               name: "📍 Location",
-              value: hackathon.location,
+              value:
+                europeanCountries.formatLocation(
+                  hackathon.city,
+                  hackathon.country_code
+                ) || "TBD",
               inline: true,
             },
             {
@@ -70,7 +75,7 @@ export class DiscordBot {
     }
 
     return `${start.toLocaleDateString("en-GB")} - ${end.toLocaleDateString(
-      "en-GB",
+      "en-GB"
     )}`;
   }
 }

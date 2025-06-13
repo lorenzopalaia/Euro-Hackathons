@@ -148,7 +148,6 @@ GET /api/hackathons?status=past
     {
       "id": "uuid",
       "name": "Hackathon Name",
-      "location": "City, Country",
       "city": "City",
       "country": "Country",
       "date_start": "2025-06-15T00:00:00+00:00",

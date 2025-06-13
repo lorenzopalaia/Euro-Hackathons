@@ -1,3 +1,5 @@
+import type { HackathonTopic } from "@/lib/constants/topics";
+
 export interface Database {
   public: {
     Tables: {
@@ -5,12 +7,12 @@ export interface Database {
         Row: {
           id: string;
           name: string;
-          location: string;
+          // location: REMOVED - Use city + country_code instead
           city: string | null;
           country_code: string | null;
           date_start: string;
           date_end: string | null;
-          topics: string[] | null;
+          topics: HackathonTopic[] | null;
           notes: string | null;
           url: string;
           source: string;
@@ -22,12 +24,12 @@ export interface Database {
         Insert: {
           id?: string;
           name: string;
-          location: string;
+          // location: REMOVED - Use city + country_code instead
           city?: string | null;
           country_code?: string | null;
           date_start: string;
           date_end?: string | null;
-          topics?: string[] | null;
+          topics?: HackathonTopic[] | null;
           notes?: string | null;
           url: string;
           source?: string;
@@ -39,12 +41,12 @@ export interface Database {
         Update: {
           id?: string;
           name?: string;
-          location?: string;
+          // location: REMOVED - Use city + country_code instead
           city?: string | null;
           country_code?: string | null;
           date_start?: string;
           date_end?: string | null;
-          topics?: string[] | null;
+          topics?: HackathonTopic[] | null;
           notes?: string | null;
           url?: string;
           source?: string;

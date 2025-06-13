@@ -1,6 +1,7 @@
 import { supabase } from "@/lib/supabase";
 import { Hackathon } from "@/types/hackathon";
 import { MarkdownFormatter } from "@/lib/markdown-formatter";
+import { europeanCountries } from "@/lib/european-countries";
 import fs from "fs";
 import path from "path";
 
@@ -44,7 +45,7 @@ ${this.generateHackathonTable(past.slice(0, 20))}`
             day: "numeric",
             hour: "2-digit",
             minute: "2-digit",
-          }),
+          })
         )
         .replace(
           /<!-- UPCOMING_TABLE_START -->[\s\S]*?<!-- UPCOMING_TABLE_END -->/,
@@ -52,7 +53,7 @@ ${this.generateHackathonTable(past.slice(0, 20))}`
 
 ${upcomingTableContent}
 
-<!-- UPCOMING_TABLE_END -->`,
+<!-- UPCOMING_TABLE_END -->`
         )
         .replace(
           /<!-- PAST_TABLE_START -->[\s\S]*?<!-- PAST_TABLE_END -->/,
@@ -60,7 +61,7 @@ ${upcomingTableContent}
 
 ${pastTableContent}
 
-<!-- PAST_TABLE_END -->`,
+<!-- PAST_TABLE_END -->`
         );
 
       const formattedContent =
@@ -90,7 +91,7 @@ ${pastTableContent}
 | -------------- | -------- | ---- | ------ | --- |
 {UPCOMING_PLACEHOLDER}
 
-<!-- UPCOMING_TABLE_END -->`,
+<!-- UPCOMING_TABLE_END -->`
       )
       .replace(
         /<!-- PAST_TABLE_START -->[\s\S]*?<!-- PAST_TABLE_END -->/,
@@ -100,7 +101,7 @@ ${pastTableContent}
 | -------------- | -------- | ---- | ------ | --- |
 {PAST_PLACEHOLDER}
 
-<!-- PAST_TABLE_END -->`,
+<!-- PAST_TABLE_END -->`
       )
       // Sostituisci i valori hardcoded con placeholder dinamici
       .replace(/_Last updated: [^_]*_/, "_Last updated: {LAST_UPDATE_DATE}_");
@@ -139,7 +140,12 @@ ${pastTableContent}
     return hackathons
       .map((hackathon) => {
         const name = hackathon.name.replace(/\|/g, "\\|");
-        const location = hackathon.location.replace(/\|/g, "\\|");
+        const location = (
+          europeanCountries.formatLocation(
+            hackathon.city,
+            hackathon.country_code
+          ) || "TBD"
+        ).replace(/\|/g, "\\|");
         const date = this.formatDate(hackathon);
         const topics = hackathon.topics?.join(", ") || "";
         const url = `[Link](${hackathon.url})`;
@@ -175,7 +181,7 @@ ${pastTableContent}
 
     return `${start.toLocaleDateString(
       "en-GB",
-      formatOptions,
+      formatOptions
     )} - ${end.toLocaleDateString("en-GB", formatOptions)}`;
   }
 }

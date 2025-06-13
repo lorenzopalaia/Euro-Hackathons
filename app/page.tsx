@@ -6,6 +6,7 @@ import { Separator } from "@/components/ui/separator";
 import { useEffect, useState, useMemo } from "react";
 import { Hackathon } from "@/types/hackathon";
 import { FilterProvider } from "@/contexts/filter-context";
+import { europeanCountries } from "@/lib/european-countries";
 
 export default function Home() {
   const [upcoming, setUpcoming] = useState<Hackathon[]>([]);
@@ -38,11 +39,16 @@ export default function Home() {
   const { uniqueLocations, uniqueTopics } = useMemo(() => {
     const allHackathons = [...upcoming, ...past];
 
+    // Genera le location uniche da city + country_code invece di location
     const locations = Array.from(
-      new Set(allHackathons.map((h) => h.location).filter(Boolean)),
+      new Set(
+        allHackathons
+          .map((h) => europeanCountries.formatLocation(h.city, h.country_code))
+          .filter((loc): loc is string => Boolean(loc))
+      )
     );
     const topics = Array.from(
-      new Set(allHackathons.flatMap((h) => h.topics || [])),
+      new Set(allHackathons.flatMap((h) => h.topics || []))
     );
 
     return {

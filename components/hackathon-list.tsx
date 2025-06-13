@@ -1,5 +1,3 @@
-<Card className="flex h-full flex-col transition-all duration-200 hover:shadow-lg"></Card>;
-
 import { useMemo, useCallback } from "react";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -19,8 +17,9 @@ import { Hackathon } from "@/types/hackathon";
 import { useUrlPreview } from "@/hooks/use-url-preview";
 import Link from "next/link";
 import { useFilters } from "@/contexts/filter-context";
-import { emojiFlag } from "@/lib/emoji-flag";
+import { europeanCountries } from "@/lib/european-countries";
 import Image from "next/image";
+import { getTopicDisplay } from "@/lib/constants/topics";
 
 interface HackathonListProps {
   upcoming: Hackathon[];
@@ -45,14 +44,20 @@ export default function HackathonList({
           return false;
         }
 
-        if (filters.location && hackathon.location !== filters.location) {
-          return false;
+        if (filters.location) {
+          const hackathonLocation = europeanCountries.formatLocation(
+            hackathon.city,
+            hackathon.country_code
+          );
+          if (hackathonLocation !== filters.location) {
+            return false;
+          }
         }
 
         if (filters.topics.length > 0) {
           const hackathonTopics = hackathon.topics || [];
           const hasMatchingTopic = filters.topics.some((topic) =>
-            hackathonTopics.includes(topic),
+            hackathonTopics.includes(topic)
           );
           if (!hasMatchingTopic) {
             return false;
@@ -77,7 +82,7 @@ export default function HackathonList({
         return true;
       });
     },
-    [filters],
+    [filters]
   );
 
   const currentHackathons = useMemo(() => {
@@ -116,7 +121,7 @@ export default function HackathonList({
       {
         month: "short",
         year: "numeric",
-      },
+      }
     )}`;
   };
 
@@ -158,29 +163,38 @@ export default function HackathonList({
                 <CalendarIcon className="h-4 w-4 shrink-0" />
                 <span>{formatDate(hackathon)}</span>
               </div>
-              <div className="flex md:w-1/2 items-center gap-2 text-sm text-muted-foreground">
-                <MapPin className="h-4 w-4 shrink-0" />
-                <span>
-                  {hackathon.location}{" "}
-                  {hackathon.location.includes(",")
-                    ? emojiFlag(hackathon.location.split(",")[1]?.trim())
-                    : ""}
-                </span>
-              </div>
+              {(hackathon.city || hackathon.country_code) && (
+                <div className="flex md:w-1/2 items-center gap-2 text-sm text-muted-foreground">
+                  <MapPin className="h-4 w-4 shrink-0" />
+                  <span>
+                    {europeanCountries.formatLocation(
+                      hackathon.city,
+                      hackathon.country_code
+                    )}{" "}
+                    {hackathon.country_code &&
+                      europeanCountries.getCountryEmoji(hackathon.country_code)}
+                  </span>
+                </div>
+              )}
             </div>
           </div>
 
           {hackathon.topics && hackathon.topics.length > 0 && (
             <div className="flex flex-wrap gap-1.5">
-              {hackathon.topics.slice(0, 4).map((topic, index) => (
-                <Badge
-                  key={`${topic}-${index}`}
-                  variant="secondary"
-                  className="text-xs"
-                >
-                  {topic}
-                </Badge>
-              ))}
+              {hackathon.topics
+                .slice(0, 4)
+                .map((topic: string, index: number) => {
+                  const topicConfig = getTopicDisplay(topic);
+                  return (
+                    <Badge
+                      key={`${topic}-${index}`}
+                      variant="outline"
+                      className={`text-xs border ${topicConfig.color}`}
+                    >
+                      {topicConfig.label}
+                    </Badge>
+                  );
+                })}
               {hackathon.topics.length > 4 && (
                 <Badge variant="outline" className="text-xs">
                   +{hackathon.topics.length - 4} more
@@ -191,22 +205,24 @@ export default function HackathonList({
         </CardContent>
 
         <CardFooter className="flex flex-col gap-2">
-          <Button asChild className="w-full">
-            <Link
-              href={hackathon.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`Register for ${hackathon.name}`}
-            >
-              Join <ExternalLink className="ml-1 h-4 w-4" />
-            </Link>
-          </Button>
-
           {filters.status === "upcoming" && (
-            <div className="grid grid-cols-2 gap-2 w-full">
-              <ShareHackathonDropdown hackathon={hackathon} />
-              <ExportCalendarDropdown hackathon={hackathon} />
-            </div>
+            <>
+              <Button asChild className="w-full">
+                <Link
+                  href={hackathon.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`Register for ${hackathon.name}`}
+                >
+                  Join <ExternalLink className="ml-1 h-4 w-4" />
+                </Link>
+              </Button>
+
+              <div className="grid grid-cols-2 gap-2 w-full">
+                <ShareHackathonDropdown hackathon={hackathon} />
+                <ExportCalendarDropdown hackathon={hackathon} />
+              </div>
+            </>
           )}
 
           {filters.status === "past" && (

@@ -1,5 +1,6 @@
 import { TwitterApi } from "twitter-api-v2";
 import { Hackathon } from "@/types/hackathon";
+import { europeanCountries } from "@/lib/european-countries";
 
 export class TwitterBot {
   private client: TwitterApi;
@@ -59,7 +60,10 @@ export class TwitterBot {
 
     const location = hackathon.city
       ? `in ${hackathon.city}`
-      : hackathon.location || "";
+      : europeanCountries.formatLocation(
+          hackathon.city,
+          hackathon.country_code
+        ) || "";
 
     let tweet = `🚀 New Hackathon!
 

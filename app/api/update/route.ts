@@ -22,7 +22,7 @@ export async function POST(request: Request) {
     const testMode = request.headers.get("x-test-mode") === "true";
 
     console.log(
-      `Starting hackathon update${testMode ? " (TEST MODE - no notifications)" : ""}...`
+      `Starting hackathon update${testMode ? " (TEST MODE - no notifications)" : ""}...`,
     );
 
     // 1. Parsing dei nuovi hackathons da entrambe le fonti
@@ -46,7 +46,7 @@ export async function POST(request: Request) {
     if (lablabHackathons.status === "fulfilled") {
       parsedHackathons.push(...lablabHackathons.value);
       console.log(
-        `Parsed ${lablabHackathons.value.length} hackathons from Lablab`
+        `Parsed ${lablabHackathons.value.length} hackathons from Lablab`,
       );
     } else {
       console.error("Lablab parser failed:", lablabHackathons.reason);
@@ -62,14 +62,14 @@ export async function POST(request: Request) {
           array.findIndex(
             (h) =>
               `${h.name.toLowerCase()}-${h.date_start.toISOString().split("T")[0]}` ===
-              key
+              key,
           ) === index
         );
-      }
+      },
     );
 
     console.log(
-      `After deduplication: ${deduplicatedHackathons.length} hackathons`
+      `After deduplication: ${deduplicatedHackathons.length} hackathons`,
     );
 
     // 2. Inserimento nel database
@@ -90,7 +90,6 @@ export async function POST(request: Request) {
               .from("hackathons")
               .insert({
                 name: hackathon.name,
-                location: hackathon.location,
                 city: hackathon.city,
                 country_code: hackathon.country_code,
                 date_start: hackathon.date_start.toISOString().split("T")[0],
@@ -146,7 +145,7 @@ export async function POST(request: Request) {
 
     if (newHackathons.length > 0 && !insertionError && !testMode) {
       console.log(
-        `Sending notifications for ${newHackathons.length} new hackathons...`
+        `Sending notifications for ${newHackathons.length} new hackathons...`,
       );
 
       const discordBot = new DiscordBot();
@@ -174,7 +173,7 @@ export async function POST(request: Request) {
             .update({ notified: true })
             .in(
               "id",
-              newHackathons.map((h) => h.id)
+              newHackathons.map((h) => h.id),
             );
           notificationsSent = true;
           console.log("Hackathons marked as notified");
@@ -216,7 +215,7 @@ export async function POST(request: Request) {
         if ("content" in currentFile) {
           const currentContent = Buffer.from(
             currentFile.content,
-            "base64"
+            "base64",
           ).toString("utf-8");
 
           // Solo se il contenuto è diverso, aggiorna
@@ -277,7 +276,7 @@ export async function POST(request: Request) {
         error: "Internal server error",
         details: error instanceof Error ? error.message : "Unknown error",
       },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

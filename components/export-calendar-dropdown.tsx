@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { Calendar as CalendarIcon } from "lucide-react";
 import { atcb_action } from "add-to-calendar-button-react";
 import { Hackathon } from "@/types/hackathon";
+import { europeanCountries } from "@/lib/european-countries";
 import { FaGoogle, FaApple, FaMicrosoft, FaYahoo } from "react-icons/fa6";
 
 interface ExportCalendarDropdownProps {
@@ -57,7 +58,11 @@ export function ExportCalendarDropdown({
       endTime: hasEndTime
         ? endDate.toISOString().split("T")[1].substring(0, 5)
         : "18:00",
-      location: hackathon.location,
+      location:
+        europeanCountries.formatLocation(
+          hackathon.city,
+          hackathon.country_code
+        ) || undefined,
       timeZone: "Europe/London",
     };
   };

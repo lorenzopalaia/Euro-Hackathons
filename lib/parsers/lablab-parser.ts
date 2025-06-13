@@ -1,4 +1,5 @@
 import { BaseParser, ParsedHackathon } from "@/lib/parsers/base-parser";
+import { europeanCountries } from "@/lib/european-countries";
 
 interface LablabEvent {
   id: string;
@@ -147,20 +148,31 @@ export class LablabParser extends BaseParser {
     try {
       const dates = this.formatDate(event.startAt, event.endAt);
 
-      // Estrai i topic dalla descrizione e nome
-      const topics = this.extractTopics(event.name, event.description);
-
       // Crea le note con informazioni aggiuntive
       const notes = this.createNotes(event);
 
+      // Prova a estrarre location dal nome o descrizione se disponibile
+      // Lablab non fornisce dati di location strutturati, quindi cerchiamo pattern
+      const locationData = this.extractLocationFromText(
+        event.name,
+        event.description
+      );
+
+      // Filtra solo hackathon europei - se abbiamo un country_code, deve essere europeo
+      if (
+        locationData.country_code &&
+        !europeanCountries.isValidEuropeanCountry(locationData.country_code)
+      ) {
+        return null;
+      }
+
       return {
         name: event.name.replace(/\|/g, "-").trim(),
-        location: "Unknown",
-        city: undefined,
-        country_code: undefined,
+        city: locationData.city,
+        country_code: locationData.country_code,
         date_start: dates.start,
         date_end: dates.end,
-        topics,
+        topics: this.extractTopics(event.name, event.description),
         notes,
         url: `${this.baseUrl}/event/${event.slug}`,
         source: "lablab",
@@ -169,86 +181,6 @@ export class LablabParser extends BaseParser {
       console.error(`Error mapping event ${event.name}:`, error);
       return null;
     }
-  }
-
-  private extractTopics(name: string, description: string): string[] {
-    const topics: string[] = [];
-    const text = `${name} ${description}`.toLowerCase();
-
-    // AI/ML topics
-    if (
-      text.includes("ai") ||
-      text.includes("artificial intelligence") ||
-      text.includes("machine learning") ||
-      text.includes("ml") ||
-      text.includes("neural") ||
-      text.includes("deep learning")
-    ) {
-      topics.push("AI");
-    }
-
-    // Blockchain/Crypto topics
-    if (
-      text.includes("blockchain") ||
-      text.includes("crypto") ||
-      text.includes("bitcoin") ||
-      text.includes("ethereum") ||
-      text.includes("defi") ||
-      text.includes("nft")
-    ) {
-      topics.push("Crypto");
-    }
-
-    // Web3 topics
-    if (
-      text.includes("web3") ||
-      text.includes("dapp") ||
-      text.includes("decentralized")
-    ) {
-      topics.push("Web3");
-    }
-
-    // Fintech topics
-    if (
-      text.includes("fintech") ||
-      text.includes("finance") ||
-      text.includes("banking") ||
-      text.includes("payment")
-    ) {
-      topics.push("Fintech");
-    }
-
-    // Healthcare topics
-    if (
-      text.includes("health") ||
-      text.includes("medical") ||
-      text.includes("healthcare") ||
-      text.includes("biotech")
-    ) {
-      topics.push("Healthcare");
-    }
-
-    // Sustainability topics
-    if (
-      text.includes("climate") ||
-      text.includes("sustainability") ||
-      text.includes("green") ||
-      text.includes("environment")
-    ) {
-      topics.push("Sustainability");
-    }
-
-    // Gaming topics
-    if (
-      text.includes("game") ||
-      text.includes("gaming") ||
-      text.includes("unity") ||
-      text.includes("gamedev")
-    ) {
-      topics.push("Gaming");
-    }
-
-    return topics;
   }
 
   private createNotes(event: LablabEvent): string {
@@ -272,5 +204,59 @@ export class LablabParser extends BaseParser {
     }
 
     return notes.join(" • ");
+  }
+
+  private extractLocationFromText(
+    name: string,
+    description: string
+  ): { city?: string; country_code?: string } {
+    const combinedText = `${name} ${description}`.toLowerCase();
+
+    // Pattern comuni per trovare location in testi
+    const locationPatterns = [
+      // Pattern come "in Berlin", "in London", "in Paris"
+      /\bin\s+([a-z\s]+?)(?:\s|,|$)/gi,
+      // Pattern come "@ Berlin", "@ London"
+      /@\s*([a-z\s]+?)(?:\s|,|$)/gi,
+      // Pattern come "Berlin Hackathon", "London Event"
+      /([a-z\s]+?)\s+(?:hackathon|event|summit|conference)/gi,
+      // Pattern come "Hackathon Berlin", "Event London"
+      /(?:hackathon|event|summit|conference)\s+([a-z\s]+?)(?:\s|,|$)/gi,
+    ];
+
+    const foundLocations: string[] = [];
+
+    for (const pattern of locationPatterns) {
+      const matches = combinedText.matchAll(pattern);
+      for (const match of matches) {
+        if (match[1]) {
+          foundLocations.push(match[1].trim());
+        }
+      }
+    }
+
+    // Prova a mappare le location trovate
+    for (const location of foundLocations) {
+      // Prima prova come paese
+      const country = europeanCountries.normalizeCountry(location);
+      if (country) {
+        return { country_code: country };
+      }
+
+      // Poi prova come città conosciuta + deduzione paese
+      const city = europeanCountries.normalizeCity(location);
+      if (city) {
+        // Usa il mapping città-paese del sistema unificato
+        const detectedCountry = europeanCountries.inferCountryFromCity(city);
+        if (detectedCountry) {
+          return { city, country_code: detectedCountry };
+        }
+
+        // Se non riusciamo a dedurre il paese, restituiamo solo la città
+        return { city };
+      }
+    }
+
+    return {};
   }
 }

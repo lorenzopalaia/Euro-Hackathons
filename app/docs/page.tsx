@@ -225,7 +225,6 @@ export default function DocsPage() {
     {
       "id": "uuid",
       "name": "AI Hackathon Munich",
-      "location": "Munich, DE",
       "city": "Munich",
       "country_code": "DE",
       "date_start": "2025-06-15T09:00:00+00:00",

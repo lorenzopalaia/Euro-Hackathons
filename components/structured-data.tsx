@@ -1,6 +1,7 @@
 "use client";
 
 import { Hackathon } from "@/types/hackathon";
+import { europeanCountries } from "@/lib/european-countries";
 
 interface StructuredDataProps {
   hackathons?: Hackathon[];
@@ -25,31 +26,42 @@ export function StructuredData({
     },
   });
 
-  const generateEventSchema = (hackathon: Hackathon) => ({
-    "@context": "https://schema.org",
-    "@type": "Event",
-    name: hackathon.name,
-    description: hackathon.notes || `Hackathon event in ${hackathon.location}`,
-    startDate: hackathon.date_start,
-    endDate: hackathon.date_end || hackathon.date_start,
-    eventStatus:
-      hackathon.status === "upcoming" ? "EventScheduled" : "EventCancelled",
-    eventAttendanceMode: "OfflineEventAttendanceMode",
-    location: {
-      "@type": "Place",
-      name: hackathon.location,
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: hackathon.city,
-        addressCountry: hackathon.country_code,
+  const generateEventSchema = (hackathon: Hackathon) => {
+    const formattedLocation = europeanCountries.formatLocation(
+      hackathon.city,
+      hackathon.country_code
+    );
+
+    return {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      name: hackathon.name,
+      description:
+        hackathon.notes ||
+        `Hackathon event${formattedLocation ? ` in ${formattedLocation}` : ""}`,
+      startDate: hackathon.date_start,
+      endDate: hackathon.date_end || hackathon.date_start,
+      eventStatus:
+        hackathon.status === "upcoming" ? "EventScheduled" : "EventCancelled",
+      eventAttendanceMode: "OfflineEventAttendanceMode",
+      location: formattedLocation
+        ? {
+            "@type": "Place",
+            name: formattedLocation,
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: hackathon.city,
+              addressCountry: hackathon.country_code,
+            },
+          }
+        : undefined,
+      url: hackathon.url,
+      organizer: {
+        "@type": "Organization",
+        name: "Event Organizer",
       },
-    },
-    url: hackathon.url,
-    organizer: {
-      "@type": "Organization",
-      name: "Event Organizer",
-    },
-  });
+    };
+  };
 
   const getSchema = () => {
     if (type === "website") {

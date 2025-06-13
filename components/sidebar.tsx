@@ -49,10 +49,11 @@ import { enGB } from "date-fns/locale";
 import { useFilters } from "@/contexts/filter-context";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
+import type { HackathonTopic } from "@/lib/constants/topics";
 
 interface SidebarProps {
   uniqueLocations?: string[];
-  uniqueTopics?: string[];
+  uniqueTopics?: HackathonTopic[];
 }
 
 // Configurazione dei link esterni
@@ -165,7 +166,7 @@ export default function Sidebar({
   const [topicOpen, setTopicOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  const toggleTopic = (topic: string) => {
+  const toggleTopic = (topic: HackathonTopic) => {
     const newTopics = filters.topics.includes(topic)
       ? filters.topics.filter((t) => t !== topic)
       : [...filters.topics, topic];

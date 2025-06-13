@@ -2,11 +2,12 @@
 
 import { createContext, useContext, useState, ReactNode } from "react";
 import { DateRange } from "react-day-picker";
+import type { HackathonTopic } from "@/lib/constants/topics";
 
 interface FilterState {
   search: string;
   location: string;
-  topics: string[];
+  topics: HackathonTopic[];
   dateRange: DateRange | undefined;
   status: "upcoming" | "past";
 }

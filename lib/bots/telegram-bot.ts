@@ -1,4 +1,5 @@
 import { Hackathon } from "@/types/hackathon";
+import { europeanCountries } from "@/lib/european-countries";
 
 export class TelegramBot {
   private token: string;
@@ -34,7 +35,7 @@ export class TelegramBot {
     return `🚀 *New Hackathon\\!*
 
 📝 *Name:* ${this.escapeMarkdownV2(hackathon.name)}
-📍 *Location:* ${this.escapeMarkdownV2(hackathon.location)}
+📍 *Location:* ${this.escapeMarkdownV2(europeanCountries.formatLocation(hackathon.city, hackathon.country_code) || "TBD")}
 📅 *Date:* ${this.escapeMarkdownV2(date)}${topics}
 
 🔗 [Join here](${hackathon.url})`;
@@ -54,7 +55,7 @@ export class TelegramBot {
     }
 
     return `${start.toLocaleDateString("en-GB")} - ${end.toLocaleDateString(
-      "en-GB",
+      "en-GB"
     )}`;
   }
 

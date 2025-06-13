@@ -1,4 +1,5 @@
 import { BaseParser, ParsedHackathon } from "@/lib/parsers/base-parser";
+import { europeanCountries } from "@/lib/european-countries";
 
 interface LumaGeoInfo {
   city?: string;
@@ -109,27 +110,45 @@ export class LumaParser extends BaseParser {
       const now = new Date();
       if (dates.start < now) return null;
 
-      // Estrai i dati di location con fallback
-      let city = geo.city || "";
-      let country_code = geo.country_code || "";
+      // Estrai i dati di location usando il normalizer
+      let city = europeanCountries.normalizeCity(geo.city);
+      let country_code = europeanCountries.normalizeCountry(geo.country_code);
 
+      // Fallback per dati incompleti
       if (!city && geo.city_state) {
         const parts = geo.city_state.split(",").map((p) => p.trim());
-        if (parts.length >= 1) city = parts[0];
+        if (parts.length >= 1) {
+          city = europeanCountries.normalizeCity(parts[0]);
+        }
       }
 
-      if (!country_code && geo.region) {
-        country_code = geo.region;
+      if (!country_code) {
+        // Prova con region come fallback
+        country_code = europeanCountries.normalizeCountry(geo.region);
+
+        // Se ancora non abbiamo il paese, prova a estrarre dall'ultima parte di city_state
+        if (!country_code && geo.city_state) {
+          const parts = geo.city_state.split(",").map((p) => p.trim());
+          if (parts.length >= 2) {
+            country_code = europeanCountries.normalizeCountry(
+              parts[parts.length - 1]
+            );
+          }
+        }
       }
 
-      const location =
-        city && country_code ? `${city}, ${country_code}` : "Unknown";
+      // Filtra solo hackathon europei - se abbiamo un country_code, deve essere europeo
+      if (
+        country_code &&
+        !europeanCountries.isValidEuropeanCountry(country_code)
+      ) {
+        return null;
+      }
 
       return {
         name: event.name.replace(/\|/g, "-"),
-        location,
-        city: city || undefined,
-        country_code: country_code || undefined,
+        city,
+        country_code,
         date_start: dates.start,
         date_end: dates.end,
         topics: this.extractTopics(event.name),
@@ -140,21 +159,6 @@ export class LumaParser extends BaseParser {
       console.error("Error mapping event:", error);
       return null;
     }
-  }
-
-  private extractTopics(name: string): string[] {
-    const topics: string[] = [];
-    const lowerName = name.toLowerCase();
-
-    if (lowerName.includes("ai") || lowerName.includes("artificial"))
-      topics.push("AI");
-    if (lowerName.includes("crypto") || lowerName.includes("blockchain"))
-      topics.push("Crypto");
-    if (lowerName.includes("web3")) topics.push("Web3");
-    if (lowerName.includes("defence") || lowerName.includes("defense"))
-      topics.push("Defense");
-
-    return topics;
   }
 
   private deduplicateHackathons(

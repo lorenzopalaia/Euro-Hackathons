@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { Share2, Linkedin, Copy } from "lucide-react";
 import { Hackathon } from "@/types/hackathon";
 import { FaXTwitter, FaReddit } from "react-icons/fa6";
+import { europeanCountries } from "@/lib/european-countries";
 
 interface ShareHackathonDropdownProps {
   hackathon: Hackathon;
@@ -65,11 +66,15 @@ export function ShareHackathonDropdown({
 
   const generateShareContent = () => {
     const date = formatDate(hackathon);
-    const location = hackathon.location;
+    const location =
+      europeanCountries.formatLocation(
+        hackathon.city,
+        hackathon.country_code
+      ) || "TBD";
     const topics = hackathon.topics?.length
       ? hackathon.topics
           .slice(0, 3)
-          .map((topic) => `#${topic.replace(/\s+/g, "")}`)
+          .map((topic: string) => `#${topic.replace(/\s+/g, "")}`)
           .join(" ")
       : "";
 
@@ -85,38 +90,53 @@ export function ShareHackathonDropdown({
 
     switch (platform) {
       case "twitter":
+        const location =
+          europeanCountries.formatLocation(
+            hackathon.city,
+            hackathon.country_code
+          ) || "TBD";
         const twitterText = encodeURIComponent(
-          `🚀 ${shareContent.title}\n📅 ${formatDate(hackathon)}\n📍 ${hackathon.location}\n${shareContent.url}`,
+          `🚀 ${shareContent.title}\n📅 ${formatDate(hackathon)}\n📍 ${location}\n${shareContent.url}`
         );
         window.open(
           `https://twitter.com/intent/tweet?text=${twitterText}`,
           "_blank",
-          "noopener,noreferrer",
+          "noopener,noreferrer"
         );
         break;
 
       case "linkedin":
         const linkedinUrl = encodeURIComponent(shareContent.url);
         const linkedinTitle = encodeURIComponent(shareContent.title);
+        const linkedinLocation =
+          europeanCountries.formatLocation(
+            hackathon.city,
+            hackathon.country_code
+          ) || "TBD";
         const linkedinSummary = encodeURIComponent(
-          `${shareContent.title} - ${formatDate(hackathon)} in ${hackathon.location}`,
+          `${shareContent.title} - ${formatDate(hackathon)} in ${linkedinLocation}`
         );
         window.open(
           `https://www.linkedin.com/sharing/share-offsite/?url=${linkedinUrl}&title=${linkedinTitle}&summary=${linkedinSummary}`,
           "_blank",
-          "noopener,noreferrer",
+          "noopener,noreferrer"
         );
         break;
 
       case "reddit":
+        const redditLocation =
+          europeanCountries.formatLocation(
+            hackathon.city,
+            hackathon.country_code
+          ) || "TBD";
         const redditTitle = encodeURIComponent(
-          `${shareContent.title} - ${formatDate(hackathon)} in ${hackathon.location}`,
+          `${shareContent.title} - ${formatDate(hackathon)} in ${redditLocation}`
         );
         const redditUrl = encodeURIComponent(shareContent.url);
         window.open(
           `https://www.reddit.com/submit?title=${redditTitle}&url=${redditUrl}`,
           "_blank",
-          "noopener,noreferrer",
+          "noopener,noreferrer"
         );
         break;
 

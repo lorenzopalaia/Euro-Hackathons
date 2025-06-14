@@ -44,11 +44,11 @@ export default function Home() {
       new Set(
         allHackathons
           .map((h) => europeanCountries.formatLocation(h.city, h.country_code))
-          .filter((loc): loc is string => Boolean(loc))
-      )
+          .filter((loc): loc is string => Boolean(loc)),
+      ),
     );
     const topics = Array.from(
-      new Set(allHackathons.flatMap((h) => h.topics || []))
+      new Set(allHackathons.flatMap((h) => h.topics || [])),
     );
 
     return {

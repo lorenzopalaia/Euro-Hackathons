@@ -61,7 +61,7 @@ export function ExportCalendarDropdown({
       location:
         europeanCountries.formatLocation(
           hackathon.city,
-          hackathon.country_code
+          hackathon.country_code,
         ) || undefined,
       timeZone: "Europe/London",
     };

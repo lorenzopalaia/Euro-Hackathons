@@ -8,6 +8,7 @@ import { DiscordBot } from "@/lib/bots/discord-bot";
 import { TelegramBot } from "@/lib/bots/telegram-bot";
 import { TwitterBot } from "@/lib/bots/twitter-bot";
 import { ReadmeUpdater } from "@/lib/services/readme-updater";
+import { LocationEnhancementService } from "@/lib/services/location-enhancement-service";
 import { Hackathon } from "@/types/hackathon";
 
 export async function POST(request: Request) {
@@ -72,12 +73,33 @@ export async function POST(request: Request) {
       `After deduplication: ${deduplicatedHackathons.length} hackathons`,
     );
 
+    // 1.5. Location enhancement con geocoding per hackathon senza country code
+    console.log("Starting location enhancement with geocoding...");
+
+    // Ottieni gli URL già esistenti nel database per evitare geocoding inutile
+    const existingUrls =
+      await LocationEnhancementService.getExistingUrls(supabaseAdmin);
+    console.log(
+      `Found ${existingUrls.size} existing hackathon URLs in database`,
+    );
+
+    // Applica il geocoding solo dove necessario
+    const enhancedHackathons =
+      await LocationEnhancementService.enhanceLocations(
+        deduplicatedHackathons,
+        existingUrls,
+      );
+
+    console.log(
+      `After location enhancement: ${enhancedHackathons.length} hackathons`,
+    );
+
     // 2. Inserimento nel database
     const newHackathons: Hackathon[] = [];
     let insertionError: string | null = null;
 
     try {
-      for (const hackathon of deduplicatedHackathons) {
+      for (const hackathon of enhancedHackathons) {
         try {
           const { data: existing } = await supabaseAdmin
             .from("hackathons")

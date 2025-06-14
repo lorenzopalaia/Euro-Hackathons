@@ -73,7 +73,7 @@ export class LablabParser extends BaseParser {
 
       // Fallback: cerca nel tag script con _next/static
       const scriptMatch = html.match(
-        /_next\/static\/([^\/]+)\/_buildManifest\.js/
+        /_next\/static\/([^\/]+)\/_buildManifest\.js/,
       );
       if (scriptMatch && scriptMatch[1]) {
         return scriptMatch[1];
@@ -155,10 +155,11 @@ export class LablabParser extends BaseParser {
       // Lablab non fornisce dati di location strutturati, quindi cerchiamo pattern
       const locationData = this.extractLocationFromText(
         event.name,
-        event.description
+        event.description,
       );
 
-      // Filtra solo hackathon europei - se abbiamo un country_code, deve essere europeo
+      // Se abbiamo un country_code determinato, verifica che sia europeo
+      // Altrimenti lascia che il geocoding lo determini in seguito
       if (
         locationData.country_code &&
         !europeanCountries.isValidEuropeanCountry(locationData.country_code)
@@ -208,7 +209,7 @@ export class LablabParser extends BaseParser {
 
   private extractLocationFromText(
     name: string,
-    description: string
+    description: string,
   ): { city?: string; country_code?: string } {
     const combinedText = `${name} ${description}`.toLowerCase();
 

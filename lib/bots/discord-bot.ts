@@ -22,7 +22,7 @@ export class DiscordBot {
               value:
                 europeanCountries.formatLocation(
                   hackathon.city,
-                  hackathon.country_code
+                  hackathon.country_code,
                 ) || "TBD",
               inline: true,
             },
@@ -75,7 +75,7 @@ export class DiscordBot {
     }
 
     return `${start.toLocaleDateString("en-GB")} - ${end.toLocaleDateString(
-      "en-GB"
+      "en-GB",
     )}`;
   }
 }

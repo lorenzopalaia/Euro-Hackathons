@@ -709,7 +709,7 @@ export class EuropeanCountriesUtil {
    */
   getCountryEmoji(code: string, fallback: string = "🏳"): string {
     const country = EUROPEAN_COUNTRIES.find(
-      (c) => c.code === code.toUpperCase()
+      (c) => c.code === code.toUpperCase(),
     );
     return country?.emoji || fallback;
   }
@@ -719,7 +719,7 @@ export class EuropeanCountriesUtil {
    */
   getCountryName(code: string): string | undefined {
     const country = EUROPEAN_COUNTRIES.find(
-      (c) => c.code === code.toUpperCase()
+      (c) => c.code === code.toUpperCase(),
     );
     return country?.name;
   }
@@ -786,7 +786,7 @@ export class EuropeanCountriesUtil {
    */
   formatLocation(
     city?: string | null,
-    country_code?: string | null
+    country_code?: string | null,
   ): string | undefined {
     const parts: string[] = [];
 
@@ -827,7 +827,7 @@ export const europeanCountries = new EuropeanCountriesUtil();
 // Legacy compatibility functions
 export function emojiFlag(
   countryCode: string,
-  fallback: string = "🏳"
+  fallback: string = "🏳",
 ): string {
   return europeanCountries.getCountryEmoji(countryCode, fallback);
 }

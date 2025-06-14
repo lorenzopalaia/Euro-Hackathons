@@ -29,7 +29,7 @@ export function StructuredData({
   const generateEventSchema = (hackathon: Hackathon) => {
     const formattedLocation = europeanCountries.formatLocation(
       hackathon.city,
-      hackathon.country_code
+      hackathon.country_code,
     );
 
     return {

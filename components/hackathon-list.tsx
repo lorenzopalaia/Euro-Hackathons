@@ -47,7 +47,7 @@ export default function HackathonList({
         if (filters.location) {
           const hackathonLocation = europeanCountries.formatLocation(
             hackathon.city,
-            hackathon.country_code
+            hackathon.country_code,
           );
           if (hackathonLocation !== filters.location) {
             return false;
@@ -57,7 +57,7 @@ export default function HackathonList({
         if (filters.topics.length > 0) {
           const hackathonTopics = hackathon.topics || [];
           const hasMatchingTopic = filters.topics.some((topic) =>
-            hackathonTopics.includes(topic)
+            hackathonTopics.includes(topic),
           );
           if (!hasMatchingTopic) {
             return false;
@@ -82,7 +82,7 @@ export default function HackathonList({
         return true;
       });
     },
-    [filters]
+    [filters],
   );
 
   const currentHackathons = useMemo(() => {
@@ -121,7 +121,7 @@ export default function HackathonList({
       {
         month: "short",
         year: "numeric",
-      }
+      },
     )}`;
   };
 
@@ -169,7 +169,7 @@ export default function HackathonList({
                   <span>
                     {europeanCountries.formatLocation(
                       hackathon.city,
-                      hackathon.country_code
+                      hackathon.country_code,
                     )}{" "}
                     {hackathon.country_code &&
                       europeanCountries.getCountryEmoji(hackathon.country_code)}

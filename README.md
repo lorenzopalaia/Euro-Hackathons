@@ -14,20 +14,18 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 14 June 2025 at 18:14_
+_Last updated: 15 June 2025 at 10:15_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                                                                               | Location                         | Date             | Topics       | URL                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------- | ---------------- | ------------ | ----------------------------------------------------- |
-| Agents Hackathon - Hugging Face, Anthropic & Unaite                                                                          | Paris, France                    | 15 Jun 2025      |              | [Link](https://lu.ma/qpimrbx3)                        |
-| Agents Without Masters Hackathon with NEAR AI                                                                                | Berlin, Germany                  | 15 Jun-16, 2025  |              | [Link](https://lu.ma/3fjkv8r4)                        |
 | Vibe Coding Days <ideathon>                                                                                                  | Kyiv, Ukraine                    | 16 Jun 2025      |              | [Link](https://lu.ma/t3wfuj4r)                        |
 | Build & Sell #1 - The Entrepreneurs Hackathon // CODE University x Practical AI                                              | Berlin, Germany                  | 18 Jun-20, 2025  |              | [Link](https://lu.ma/build-and-sell)                  |
-| Vibe Coding Hack by Encode                                                                                                   | London, UK                       | 20 Jun-22, 2025  |              | [Link](https://lu.ma/5k1gfcc6)                        |
-| ZK HACK BERLIN Hackathon                                                                                                     | Berlin, Germany                  | 20 Jun-22, 2025  |              | [Link](https://lu.ma/cwj5kakg)                        |
 | World's Largest Hackathon [Zürich Meetup]                                                                                    | Zrich, Switzerland               | 20 Jun 2025      |              | [Link](https://lu.ma/WLH-connect-05)                  |
+| Vibe Coding Hack by Encode                                                                                                   | London, UK                       | 20 Jun-22, 2025  |              | [Link](https://lu.ma/5k1gfcc6)                        |
 | Hacking Agents Hackathon London                                                                                              | London, UK                       | 20 Jun-21, 2025  |              | [Link](https://lu.ma/hacking-agents-hackathon-london) |
+| ZK HACK BERLIN Hackathon                                                                                                     | Berlin, Germany                  | 20 Jun-22, 2025  |              | [Link](https://lu.ma/cwj5kakg)                        |
 | Prague's Biggest Vibe Coding Hackathon - SteerCode                                                                           | Hlavn Msto Praha, Czech Republic | 21 Jun 2025      |              | [Link](https://lu.ma/w4b4krmy)                        |
 | 🌍 Build a Voice-Controlled AI Agent with n8n, Vapi & Perplexity with Some Vibe Coding (No Coding or AI Background Required) | Berlin, Germany                  | 21 Jun 2025      |              | [Link](https://lu.ma/0omrcinz)                        |
 | 🧠 Hackathon Thiga – IA, Pizza & Champagne 🍕🍾                                                                              | Paris, France                    | 24 Jun 2025      |              | [Link](https://lu.ma/siu1xlzn)                        |
@@ -51,14 +49,16 @@ _Showing last 20 events_
 
 | Hackathon Name                                                     | Location                      | Date            | Topics  | URL                                  |
 | ------------------------------------------------------------------ | ----------------------------- | --------------- | ------- | ------------------------------------ |
-| Hackathon - Side Quest                                             | Jnkping, Sweden               | 14 Jun 2025     |         | [Link](https://lu.ma/6iajrer2)       |
-| SoTA's Embodied Intelligence Hackathon                             | London, UK                    | 14 Jun-15, 2025 | Defense | [Link](https://lu.ma/9slgjcs5)       |
+| Agents Without Masters Hackathon with NEAR AI                      | Berlin, Germany               | 15 Jun-16, 2025 |         | [Link](https://lu.ma/3fjkv8r4)       |
+| Agents Hackathon - Hugging Face, Anthropic & Unaite                | Paris, France                 | 15 Jun 2025     |         | [Link](https://lu.ma/qpimrbx3)       |
 | Zero to Coder: AI-Powered Coding Workshop                          | London, UK                    | 14 Jun 2025     |         | [Link](https://lu.ma/nunvlyco)       |
 | AI3 Mobile App 24-Hour Hackathon                                   | London, UK                    | 14 Jun-15, 2025 |         | [Link](https://lu.ma/AI3-Hackathon)  |
-| {Tech: Karlsruhe} AI Hackathon                                     | Karlsruhe, Germany            | 14 Jun-15, 2025 |         | [Link](https://lu.ma/karlsruhe)      |
-| LeRobot Hackathon via Hugging Face (Hipercode Developer AI Summit) | Cambridge, UK                 | 14 Jun-15, 2025 |         | [Link](https://lu.ma/yxenskjf)       |
-| Hackathon: AI in Consumer                                          | Berlin, Germany               | 14 Jun-15, 2025 |         | [Link](https://lu.ma/knowunity-hack) |
 | Aaltoes x LeRobot Robotics Hackathon                               | Espoo, Finland                | 14 Jun-15, 2025 |         | [Link](https://lu.ma/lkx6o0sn)       |
+| SoTA's Embodied Intelligence Hackathon                             | London, UK                    | 14 Jun-15, 2025 | Defense | [Link](https://lu.ma/9slgjcs5)       |
+| Hackathon - Side Quest                                             | Jnkping, Sweden               | 14 Jun 2025     |         | [Link](https://lu.ma/6iajrer2)       |
+| Hackathon: AI in Consumer                                          | Berlin, Germany               | 14 Jun-15, 2025 |         | [Link](https://lu.ma/knowunity-hack) |
+| LeRobot Hackathon via Hugging Face (Hipercode Developer AI Summit) | Cambridge, UK                 | 14 Jun-15, 2025 |         | [Link](https://lu.ma/yxenskjf)       |
+| {Tech: Karlsruhe} AI Hackathon                                     | Karlsruhe, Germany            | 14 Jun-15, 2025 |         | [Link](https://lu.ma/karlsruhe)      |
 | Cardano Hackathon and Networking                                   | Berlin, Germany               | 13 Jun-14, 2025 | Web3    | [Link](https://lu.ma/2q4mzhav)       |
 | Munich AI Robotics Hackathon                                       | Garching bei München, Germany | 13 Jun-15, 2025 | AI      | [Link](https://lu.ma/nr4bt93o)       |
 | Munich AI Robotics Hackathon: Guests & Partners                    | Garching bei München, Germany | 13 Jun-15, 2025 | AI      | [Link](https://lu.ma/nuupusag)       |

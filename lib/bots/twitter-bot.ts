@@ -62,12 +62,13 @@ export class TwitterBot {
       ? `in ${hackathon.city}`
       : europeanCountries.formatLocation(
           hackathon.city,
-          hackathon.country_code,
+          hackathon.country_code
         ) || "";
 
     let tweet = `🚀 New Hackathon!
 
-${hackathon.name} ${location}
+📝 ${hackathon.name}
+📍 ${location}
 📅 ${date}
 
 Join: ${hackathon.url}

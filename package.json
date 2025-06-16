@@ -10,7 +10,8 @@
     "lint": "next lint",
     "format": "prettier --write .",
     "knip": "knip",
-    "sitemap": "next-sitemap"
+    "sitemap": "next-sitemap",
+    "update": "npx npm-check-updates -u && npm install"
   },
   "dependencies": {
     "@octokit/rest": "^22.0.0",
@@ -28,7 +29,7 @@
     "cmdk": "^1.1.1",
     "date-fns": "^4.1.0",
     "jsdom": "^26.1.0",
-    "lucide-react": "^0.514.0",
+    "lucide-react": "^0.515.0",
     "next": "15.3.3",
     "next-sitemap": "^4.2.3",
     "react": "^19.1.0",
@@ -42,10 +43,10 @@
     "@eslint/eslintrc": "^3.3.1",
     "@tailwindcss/postcss": "^4.1.10",
     "@types/jsdom": "^21.1.7",
-    "@types/node": "^24.0.1",
+    "@types/node": "^24.0.3",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
-    "eslint": "^9.28.0",
+    "eslint": "^9.29.0",
     "eslint-config-next": "15.3.3",
     "knip": "^5.61.0",
     "prettier": "^3.5.3",

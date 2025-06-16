@@ -46,7 +46,7 @@ export class GeocodingService {
       const apiKey = process.env.OPENAPI_GEOCODING_KEY;
       if (!apiKey) {
         console.warn(
-          "OPENAPI_GEOCODING_KEY not configured. Skipping geocoding."
+          "OPENAPI_GEOCODING_KEY not configured. Skipping geocoding.",
         );
         return null;
       }
@@ -81,7 +81,7 @@ export class GeocodingService {
 
       if (!countryCode) {
         console.warn(
-          `No country code found in geocoding response for city: ${city}`
+          `No country code found in geocoding response for city: ${city}`,
         );
         return null;
       }
@@ -92,7 +92,7 @@ export class GeocodingService {
 
       if (!normalizedCountryCode) {
         console.warn(
-          `Could not normalize country code ${countryCode} for city: ${city}`
+          `Could not normalize country code ${countryCode} for city: ${city}`,
         );
         return countryCode;
       }
@@ -100,7 +100,7 @@ export class GeocodingService {
       // Verifica che sia un paese europeo
       if (!europeanCountries.isValidEuropeanCountry(normalizedCountryCode)) {
         console.log(
-          `City ${city} is not in Europe (${normalizedCountryCode}). Filtering out.`
+          `City ${city} is not in Europe (${normalizedCountryCode}). Filtering out.`,
         );
         return null;
       }

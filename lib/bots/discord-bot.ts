@@ -24,7 +24,7 @@ ${hackathon.name}`,
               value:
                 europeanCountries.formatLocation(
                   hackathon.city,
-                  hackathon.country_code
+                  hackathon.country_code,
                 ) || "TBD",
               inline: true,
             },
@@ -77,7 +77,7 @@ ${hackathon.name}`,
     }
 
     return `${start.toLocaleDateString("en-GB")} - ${end.toLocaleDateString(
-      "en-GB"
+      "en-GB",
     )}`;
   }
 }

@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 17 June 2025 at 15:15_
+_Last updated: 17 June 2025 at 18:17_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -34,6 +34,7 @@ _Last updated: 17 June 2025 at 15:15_
 | 🇫🇷 Demo Day: Oz Hackathon Showcase                                                                                           | Valbonne, France                 | 28 Jun 2025      |              | [Link](https://lu.ma/OZDemoDay)                       |
 | Web3 Marketing Hackathon                                                                                                     | Cannes, France                   | 29 Jun-30, 2025  | Crypto, Web3 | [Link](https://lu.ma/obw1mqfi)                        |
 | RAISE YOUR HACK                                                                                                              | Paris, France                    | 4 Jul-9, 2025    |              | [Link](https://lablab.ai/event/raise-your-hack)       |
+| AMD AI SPRINT: HACKATHON & WORKSHOP SERIES- PARIS                                                                            | Paris, France                    | 5 Jul-6, 2025    |              | [Link](https://lu.ma/fmvdjmur)                        |
 | AI Search Analytics Hackathon - €10k Cash Prize                                                                              | Berlin, Germany                  | 5 Jul 2025       |              | [Link](https://lu.ma/ai-search-hack)                  |
 | Sui Hackathon Wroclaw                                                                                                        | Wrocaw, Poland                   | 11 Jul-13, 2025  |              | [Link](https://lu.ma/ve8e4w28)                        |
 | ETHSofia Conference and Hackathon 2025                                                                                       | Sofia, Bulgaria                  | 24 Sept 2025     |              | [Link](https://lu.ma/v830crl0)                        |

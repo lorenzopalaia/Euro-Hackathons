@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 16 June 2025 at 18:17_
+_Last updated: 17 June 2025 at 08:23_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -26,6 +26,7 @@ _Last updated: 16 June 2025 at 18:17_
 | Vibe Coding Hack by Encode                                                                                                   | London, UK                       | 20 Jun-22, 2025  |              | [Link](https://lu.ma/5k1gfcc6)                        |
 | Hacking Agents Hackathon London                                                                                              | London, UK                       | 20 Jun-21, 2025  |              | [Link](https://lu.ma/hacking-agents-hackathon-london) |
 | Prague's Biggest Vibe Coding Hackathon - SteerCode                                                                           | Hlavn Msto Praha, Czech Republic | 21 Jun 2025      |              | [Link](https://lu.ma/w4b4krmy)                        |
+| Black AI Hackathon                                                                                                           | London, UK                       | 21 Jun-22, 2025  |              | [Link](https://lu.ma/8n2l33hr)                        |
 | 🌍 Build a Voice-Controlled AI Agent with n8n, Vapi & Perplexity with Some Vibe Coding (No Coding or AI Background Required) | Berlin, Germany                  | 21 Jun 2025      |              | [Link](https://lu.ma/0omrcinz)                        |
 | AI Agents Hackathon - from MIT & Harvard researchers - NANDA - London                                                        | London, UK                       | 22 Jun 2025      |              | [Link](https://lu.ma/rfdg2axe)                        |
 | 🧠 Hackathon Thiga – IA, Pizza & Champagne 🍕🍾                                                                              | Paris, France                    | 24 Jun 2025      |              | [Link](https://lu.ma/siu1xlzn)                        |

@@ -52,7 +52,8 @@ import { cn } from "@/lib/utils";
 import type { HackathonTopic } from "@/lib/constants/topics";
 
 interface SidebarProps {
-  uniqueLocations?: string[];
+  uniqueUpcomingLocations?: string[];
+  uniquePastLocations?: string[];
   uniqueTopics?: HackathonTopic[];
 }
 
@@ -159,12 +160,27 @@ const ExternalLinksSection = ({
 );
 
 export default function Sidebar({
-  uniqueLocations = [],
+  uniqueUpcomingLocations = [],
+  uniquePastLocations = [],
   uniqueTopics = [],
 }: SidebarProps) {
   const { filters, updateFilter, clearFilters } = useFilters();
   const [topicOpen, setTopicOpen] = useState(false);
+  const [locationOpen, setLocationOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+
+  // Determina le location da mostrare in base allo status
+  const availableLocations =
+    filters.status === "upcoming"
+      ? uniqueUpcomingLocations
+      : uniquePastLocations;
+
+  const toggleLocation = (location: string) => {
+    const newLocations = filters.locations.includes(location)
+      ? filters.locations.filter((l) => l !== location)
+      : [...filters.locations, location];
+    updateFilter("locations", newLocations);
+  };
 
   const toggleTopic = (topic: HackathonTopic) => {
     const newTopics = filters.topics.includes(topic)
@@ -175,7 +191,7 @@ export default function Sidebar({
 
   const hasActiveFilters =
     filters.search ||
-    filters.location ||
+    filters.locations.length > 0 ||
     filters.topics.length > 0 ||
     filters.dateRange?.from ||
     filters.dateRange?.to;
@@ -276,15 +292,18 @@ export default function Sidebar({
 
         {/* Location Combobox */}
         <div className="space-y-2">
-          <Label>Location</Label>
-          <Popover>
+          <Label>Locations</Label>
+          <Popover open={locationOpen} onOpenChange={setLocationOpen}>
             <PopoverTrigger asChild>
               <Button
                 variant="outline"
                 role="combobox"
+                aria-expanded={locationOpen}
                 className="w-full justify-between"
               >
-                {filters.location || "Select location..."}
+                {filters.locations.length > 0
+                  ? `${filters.locations.length} selected`
+                  : "Select locations..."}
                 <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
               </Button>
             </PopoverTrigger>
@@ -294,24 +313,17 @@ export default function Sidebar({
                 <CommandList>
                   <CommandEmpty>No location found.</CommandEmpty>
                   <CommandGroup>
-                    <CommandItem onSelect={() => updateFilter("location", "")}>
-                      <Check
-                        className={cn(
-                          "mr-2 h-4 w-4",
-                          !filters.location ? "opacity-100" : "opacity-0",
-                        )}
-                      />
-                      All
-                    </CommandItem>
-                    {uniqueLocations.map((location) => (
+                    {availableLocations.map((location) => (
                       <CommandItem
                         key={location}
-                        onSelect={() => updateFilter("location", location)}
+                        onSelect={() => {
+                          toggleLocation(location);
+                        }}
                       >
                         <Check
                           className={cn(
                             "mr-2 h-4 w-4",
-                            filters.location === location
+                            filters.locations.includes(location)
                               ? "opacity-100"
                               : "opacity-0",
                           )}
@@ -324,6 +336,23 @@ export default function Sidebar({
               </Command>
             </PopoverContent>
           </Popover>
+
+          {/* Selected Locations */}
+          {filters.locations.length > 0 && (
+            <div className="mt-2 flex flex-wrap gap-1">
+              {filters.locations.map((location) => (
+                <Badge
+                  key={location}
+                  variant="secondary"
+                  className="cursor-pointer text-xs"
+                  onClick={() => toggleLocation(location)}
+                >
+                  {location}
+                  <X className="ml-1 h-3 w-3" />
+                </Badge>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Topics Combobox */}

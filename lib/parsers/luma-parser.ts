@@ -68,7 +68,7 @@ export class LumaParser extends BaseParser {
       });
 
       const response = await fetch(
-        `https://api.lu.ma/discover/category/get-events?${params}`
+        `https://api.lu.ma/discover/category/get-events?${params}`,
       );
 
       if (!response.ok) {
@@ -132,7 +132,7 @@ export class LumaParser extends BaseParser {
           const parts = geo.city_state.split(",").map((p) => p.trim());
           if (parts.length >= 2) {
             country_code = europeanCountries.normalizeCountry(
-              parts[parts.length - 1]
+              parts[parts.length - 1],
             );
           }
         }
@@ -164,7 +164,7 @@ export class LumaParser extends BaseParser {
   }
 
   private deduplicateHackathons(
-    hackathons: ParsedHackathon[]
+    hackathons: ParsedHackathon[],
   ): ParsedHackathon[] {
     const seen = new Set<string>();
     return hackathons.filter((hackathon) => {

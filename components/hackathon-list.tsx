@@ -44,12 +44,15 @@ export default function HackathonList({
           return false;
         }
 
-        if (filters.location) {
+        if (filters.locations.length > 0) {
           const hackathonLocation = europeanCountries.formatLocation(
             hackathon.city,
             hackathon.country_code,
           );
-          if (hackathonLocation !== filters.location) {
+          if (
+            !hackathonLocation ||
+            !filters.locations.includes(hackathonLocation)
+          ) {
             return false;
           }
         }

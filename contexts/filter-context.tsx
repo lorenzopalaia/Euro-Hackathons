@@ -6,7 +6,7 @@ import type { HackathonTopic } from "@/lib/constants/topics";
 
 interface FilterState {
   search: string;
-  location: string;
+  locations: string[];
   topics: HackathonTopic[];
   dateRange: DateRange | undefined;
   status: "upcoming" | "past";
@@ -26,7 +26,7 @@ const FilterContext = createContext<FilterContextType | undefined>(undefined);
 
 const initialFilters: FilterState = {
   search: "",
-  location: "",
+  locations: [],
   topics: [],
   dateRange: undefined,
   status: "upcoming",
@@ -39,7 +39,13 @@ export function FilterProvider({ children }: { children: ReactNode }) {
     key: K,
     value: FilterState[K],
   ) => {
-    setFilters((prev) => ({ ...prev, [key]: value }));
+    setFilters((prev) => {
+      // Se stiamo cambiando lo status, resetta anche le locations
+      if (key === "status") {
+        return { ...prev, [key]: value, locations: [] };
+      }
+      return { ...prev, [key]: value };
+    });
   };
 
   const clearFilters = () => {

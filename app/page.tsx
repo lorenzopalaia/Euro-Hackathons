@@ -36,32 +36,48 @@ export default function Home() {
     }
   };
 
-  const { uniqueLocations, uniqueTopics } = useMemo(() => {
-    const allHackathons = [...upcoming, ...past];
+  const { uniqueUpcomingLocations, uniquePastLocations, uniqueTopics } =
+    useMemo(() => {
+      // Genera le location uniche per eventi upcoming
+      const upcomingLocations = Array.from(
+        new Set(
+          upcoming
+            .map((h) =>
+              europeanCountries.formatLocation(h.city, h.country_code),
+            )
+            .filter((loc): loc is string => Boolean(loc)),
+        ),
+      );
 
-    // Genera le location uniche da city + country_code invece di location
-    const locations = Array.from(
-      new Set(
-        allHackathons
-          .map((h) => europeanCountries.formatLocation(h.city, h.country_code))
-          .filter((loc): loc is string => Boolean(loc)),
-      ),
-    );
-    const topics = Array.from(
-      new Set(allHackathons.flatMap((h) => h.topics || [])),
-    );
+      // Genera le location uniche per eventi past
+      const pastLocations = Array.from(
+        new Set(
+          past
+            .map((h) =>
+              europeanCountries.formatLocation(h.city, h.country_code),
+            )
+            .filter((loc): loc is string => Boolean(loc)),
+        ),
+      );
 
-    return {
-      uniqueLocations: locations.sort(),
-      uniqueTopics: topics.sort(),
-    };
-  }, [upcoming, past]);
+      const allHackathons = [...upcoming, ...past];
+      const topics = Array.from(
+        new Set(allHackathons.flatMap((h) => h.topics || [])),
+      );
+
+      return {
+        uniqueUpcomingLocations: upcomingLocations.sort(),
+        uniquePastLocations: pastLocations.sort(),
+        uniqueTopics: topics.sort(),
+      };
+    }, [upcoming, past]);
 
   return (
     <FilterProvider>
       <div className="flex min-h-screen">
         <Sidebar
-          uniqueLocations={uniqueLocations}
+          uniqueUpcomingLocations={uniqueUpcomingLocations}
+          uniquePastLocations={uniquePastLocations}
           uniqueTopics={uniqueTopics}
         />
         <main className="ml-16 flex-1 p-8 md:ml-60">

@@ -682,19 +682,24 @@ export class EuropeanCountriesUtil {
 
   /**
    * Normalize a city name - capitalize first letter of each word
+   * Preserves Unicode characters (accents, umlauts, etc.)
    */
   normalizeCity(input: string | undefined | null): string | undefined {
     if (!input || typeof input !== "string") {
       return undefined;
     }
 
-    return input
-      .trim()
-      .replace(/[^\w\s-'.,]/g, "") // Remove special characters except some
-      .replace(/\s+/g, " ") // Normalize spaces
-      .trim()
-      .toLowerCase()
-      .replace(/\b\w/g, (char) => char.toUpperCase()); // Capitalize first letter of each word
+    return (
+      input
+        .trim()
+        // Remove only specific problematic characters, preserve Unicode letters
+        .replace(/[^\p{L}\p{N}\s\-'.,]/gu, "") // Preserve all Unicode letters and numbers
+        .replace(/\s+/g, " ") // Normalize spaces
+        .trim()
+        .toLowerCase()
+        // Use Unicode-aware word boundary for proper capitalization
+        .replace(/(?:^|\s)\p{L}/gu, (char) => char.toUpperCase())
+    );
   }
 
   /**
@@ -709,7 +714,7 @@ export class EuropeanCountriesUtil {
    */
   getCountryEmoji(code: string, fallback: string = "🏳"): string {
     const country = EUROPEAN_COUNTRIES.find(
-      (c) => c.code === code.toUpperCase(),
+      (c) => c.code === code.toUpperCase()
     );
     return country?.emoji || fallback;
   }
@@ -719,7 +724,7 @@ export class EuropeanCountriesUtil {
    */
   getCountryName(code: string): string | undefined {
     const country = EUROPEAN_COUNTRIES.find(
-      (c) => c.code === code.toUpperCase(),
+      (c) => c.code === code.toUpperCase()
     );
     return country?.name;
   }
@@ -786,7 +791,7 @@ export class EuropeanCountriesUtil {
    */
   formatLocation(
     city?: string | null,
-    country_code?: string | null,
+    country_code?: string | null
   ): string | undefined {
     const parts: string[] = [];
 
@@ -827,7 +832,7 @@ export const europeanCountries = new EuropeanCountriesUtil();
 // Legacy compatibility functions
 export function emojiFlag(
   countryCode: string,
-  fallback: string = "🏳",
+  fallback: string = "🏳"
 ): string {
   return europeanCountries.getCountryEmoji(countryCode, fallback);
 }

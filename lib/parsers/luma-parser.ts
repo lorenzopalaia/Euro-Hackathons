@@ -14,6 +14,7 @@ interface LumaEvent {
   start_at: string;
   end_at: string;
   url: string;
+  description?: string; // Add description field for topic extraction
   geo_address_info?: LumaGeoInfo;
 }
 
@@ -67,7 +68,7 @@ export class LumaParser extends BaseParser {
       });
 
       const response = await fetch(
-        `https://api.lu.ma/discover/category/get-events?${params}`,
+        `https://api.lu.ma/discover/category/get-events?${params}`
       );
 
       if (!response.ok) {
@@ -131,7 +132,7 @@ export class LumaParser extends BaseParser {
           const parts = geo.city_state.split(",").map((p) => p.trim());
           if (parts.length >= 2) {
             country_code = europeanCountries.normalizeCountry(
-              parts[parts.length - 1],
+              parts[parts.length - 1]
             );
           }
         }
@@ -152,7 +153,7 @@ export class LumaParser extends BaseParser {
         country_code,
         date_start: dates.start,
         date_end: dates.end,
-        topics: this.extractTopics(event.name),
+        topics: this.extractTopics(event.name, event.description),
         url: `https://lu.ma/${event.url}`,
         source: "luma",
       };
@@ -163,7 +164,7 @@ export class LumaParser extends BaseParser {
   }
 
   private deduplicateHackathons(
-    hackathons: ParsedHackathon[],
+    hackathons: ParsedHackathon[]
   ): ParsedHackathon[] {
     const seen = new Set<string>();
     return hackathons.filter((hackathon) => {

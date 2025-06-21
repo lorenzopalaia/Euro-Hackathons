@@ -14,17 +14,17 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 20 June 2025 at 18:16_
+_Last updated: 21 June 2025 at 10:15_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                                                                               | Location                         | Date             | Topics       | URL                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------- | ---------------- | ------------ | ----------------------------------------------------- |
 | Build & Sell #1 - The Entrepreneurs Hackathon // CODE University x Practical AI                                              | Berlin, Germany                  | 18 Jun-20, 2025  |              | [Link](https://lu.ma/build-and-sell)                  |
-| World's Largest Hackathon [Zürich Meetup]                                                                                    | Zürich, Switzerland              | 20 Jun 2025      |              | [Link](https://lu.ma/WLH-connect-05)                  |
 | Vibe Coding Hack by Encode                                                                                                   | London, UK                       | 20 Jun-22, 2025  | AI           | [Link](https://lu.ma/5k1gfcc6)                        |
-| Hacking Agents Hackathon London                                                                                              | London, UK                       | 20 Jun-21, 2025  |              | [Link](https://lu.ma/hacking-agents-hackathon-london) |
+| World's Largest Hackathon [Zürich Meetup]                                                                                    | Zürich, Switzerland              | 20 Jun 2025      |              | [Link](https://lu.ma/WLH-connect-05)                  |
 | ZK HACK BERLIN Hackathon                                                                                                     | Berlin, Germany                  | 20 Jun-22, 2025  |              | [Link](https://lu.ma/cwj5kakg)                        |
+| Hacking Agents Hackathon London                                                                                              | London, UK                       | 20 Jun-21, 2025  |              | [Link](https://lu.ma/hacking-agents-hackathon-london) |
 | Black AI Hackathon                                                                                                           | London, UK                       | 21 Jun-22, 2025  | AI           | [Link](https://lu.ma/8n2l33hr)                        |
 | 🌍 Build a Voice-Controlled AI Agent with n8n, Vapi & Perplexity with Some Vibe Coding (No Coding or AI Background Required) | Berlin, Germany                  | 21 Jun 2025      | AI           | [Link](https://lu.ma/0omrcinz)                        |
 | Prague's Biggest Vibe Coding Hackathon - SteerCode                                                                           | Hlavn Msto Praha, Czech Republic | 21 Jun 2025      |              | [Link](https://lu.ma/w4b4krmy)                        |
@@ -33,9 +33,10 @@ _Last updated: 20 June 2025 at 18:16_
 | 🧠 Hackathon Thiga – IA, Pizza & Champagne 🍕🍾                                                                              | Paris, France                    | 24 Jun 2025      |              | [Link](https://lu.ma/siu1xlzn)                        |
 | World's Largest Hackathon [Zürich Meetup]                                                                                    | Zürich, Switzerland              | 27 Jun 2025      |              | [Link](https://lu.ma/WLH-connect-06)                  |
 | 🇫🇷 Oz Builder Day: 24-Hour AI x Web3 Hackathon                                                                               | Valbonne, France                 | 27 Jun-28, 2025  | Crypto, Web3 | [Link](https://lu.ma/OzBuilderDay)                    |
-| ElevenLabs × LFH Build Weekend (powered by Bolt.new’s $1M Hackathon)                                                         | London, UK                       | 28 Jun-29, 2025  |              | [Link](https://lu.ma/nugckc58)                        |
 | 🇫🇷 Demo Day: Oz Hackathon Showcase                                                                                           | Valbonne, France                 | 28 Jun 2025      |              | [Link](https://lu.ma/OZDemoDay)                       |
+| ElevenLabs × LFH Build Weekend (powered by Bolt.new’s $1M Hackathon)                                                         | London, UK                       | 28 Jun-29, 2025  |              | [Link](https://lu.ma/nugckc58)                        |
 | Web3 Marketing Hackathon                                                                                                     | Cannes, France                   | 29 Jun-30, 2025  | Crypto, Web3 | [Link](https://lu.ma/obw1mqfi)                        |
+| AI Agents Hackathon - from MIT & Harvard researchers - NANDA - Paris                                                         | Paris, France                    | 29 Jun 2025      |              | [Link](https://lu.ma/sa8zenew)                        |
 | RAISE YOUR HACK                                                                                                              | Paris, France                    | 4 Jul-9, 2025    |              | [Link](https://lablab.ai/event/raise-your-hack)       |
 | AMD AI SPRINT: HACKATHON & WORKSHOP SERIES- PARIS                                                                            | Paris, France                    | 5 Jul-6, 2025    | AI           | [Link](https://lu.ma/fmvdjmur)                        |
 | AI Search Analytics Hackathon - €10k Cash Prize                                                                              | Berlin, Germany                  | 5 Jul 2025       | AI           | [Link](https://lu.ma/ai-search-hack)                  |

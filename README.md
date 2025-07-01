@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 30 June 2025 at 18:16_
+_Last updated: 1 July 2025 at 08:25_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -23,8 +23,8 @@ _Last updated: 30 June 2025 at 18:16_
 | The Vibe Coders Prague - Hackathon vol. 4                                                           | Plzeň-město, Czech Republic | 4 Jul 2025       |                | [Link](https://lu.ma/nrapx3p3)                  |
 | RAISE YOUR HACK                                                                                     | Paris, France               | 4 Jul-9, 2025    |                | [Link](https://lablab.ai/event/raise-your-hack) |
 | Raise Your Hack - World's Largest AI Hackathon                                                      | Paris, France               | 4 Jul-9, 2025    |                | [Link](https://lu.ma/ac4s0882)                  |
-| AI Search Analytics Hackathon - €10k Cash Prize                                                     | Berlin, Germany             | 5 Jul 2025       | AI             | [Link](https://lu.ma/ai-search-hack)            |
 | AMD AI SPRINT: HACKATHON & WORKSHOP SERIES- PARIS                                                   | Paris, France               | 5 Jul-6, 2025    | AI             | [Link](https://lu.ma/fmvdjmur)                  |
+| AI Search Analytics Hackathon - €10k Cash Prize                                                     | Berlin, Germany             | 5 Jul 2025       | AI             | [Link](https://lu.ma/ai-search-hack)            |
 | Vibe Coding Masterclass - Build a fullstack app for your n8n workflows                              | Berlin, Germany             | 7 Jul 2025       |                | [Link](https://lu.ma/ie0buqw0)                  |
 | 🍹🌴 Afterwork d'été - IQ Project - Comprendre comment utiliser le Vibe coding pour gagner sa vie ! | Paris, France               | 9 Jul 2025       |                | [Link](https://lu.ma/onrehzsw)                  |
 | Manus Vibe Coding Night – Paris                                                                     | Paris, France               | 10 Jul 2025      |                | [Link](https://lu.ma/01jaf7pr)                  |
@@ -39,6 +39,7 @@ _Last updated: 30 June 2025 at 18:16_
 | AI maká, ty tvoříš: Úvod do vibecodingu                                                             | Prague, Czech Republic      | 9 Sept 2025      | Sustainability | [Link](https://lu.ma/howawy36)                  |
 | ETHSofia Conference and Hackathon 2025                                                              | Sofia, Bulgaria             | 24 Sept 2025     |                | [Link](https://lu.ma/v830crl0)                  |
 | European Defense Tech Hackathon – London                                                            | London, UK                  | 25 Sept-28, 2025 | Defense        | [Link](https://lu.ma/edth-2025-london)          |
+| Zurich Hackathon                                                                                    | Zürich, Switzerland         | 26 Sept-27, 2025 |                | [Link](https://lu.ma/hackathon-zurich-26270925) |
 | Encode London Research Conference and Hackathon                                                     | London, UK                  | 24 Oct-26, 2025  |                | [Link](https://lu.ma/Encode-London-25)          |
 | European Defense Tech Hackathon – Berlin                                                            | Berlin, Germany             | 13 Nov-16, 2025  | Defense        | [Link](https://lu.ma/edth-2025-berlin)          |
 

@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 2 July 2025 at 08:23_
+_Last updated: 2 July 2025 at 12:18_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -33,6 +33,7 @@ _Last updated: 2 July 2025 at 08:23_
 | Vibe Coding x Design: From 0 To 1                                                                   | London, UK                  | 12 Jul 2025      |                | [Link](https://lu.ma/ngu7l1lq)                  |
 | The Blockspace Synergy — 3-day Hackathon Berlin                                                     | Berlin, Germany             | 16 Jul-18, 2025  |                | [Link](https://lu.ma/blockspacesynergy)         |
 | Prompt 'n' Roll: Vibe coding jam                                                                    | Joensuu, Finland            | 17 Jul 2025      |                | [Link](https://lu.ma/k8vlsfvc)                  |
+| {Tech: Europe} AI Hackathon - Berlin Edition                                                        | Berlin, Germany             | 19 Jul-20, 2025  |                | [Link](https://lu.ma/berlin-hackathon)          |
 | GenAI Cracow #17 - AI Coding                                                                        | Kraków, Poland              | 28 Jul 2025      |                | [Link](https://lu.ma/t04eaj39)                  |
 | AI Cybersecurity Hackathon                                                                          | Berlin, Germany             | 28 Aug-29, 2025  | Defense        | [Link](https://lu.ma/4688cqru)                  |
 | ETHWarsaw Hackathon 2025                                                                            | Warszawa, Poland            | 5 Sept-7, 2025   |                | [Link](https://lu.ma/fk2sox3r)                  |

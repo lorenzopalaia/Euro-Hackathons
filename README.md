@@ -14,25 +14,26 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 3 July 2025 at 12:17_
+_Last updated: 3 July 2025 at 15:14_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                                                      | Location                    | Date             | Topics         | URL                                             |
 | --------------------------------------------------------------------------------------------------- | --------------------------- | ---------------- | -------------- | ----------------------------------------------- |
-| The Vibe Coders Prague - Hackathon vol. 4                                                           | Plzeň-město, Czech Republic | 4 Jul 2025       |                | [Link](https://lu.ma/nrapx3p3)                  |
 | RAISE YOUR HACK                                                                                     | Paris, France               | 4 Jul-9, 2025    |                | [Link](https://lablab.ai/event/raise-your-hack) |
+| The Vibe Coders Prague - Hackathon vol. 4                                                           | Plzeň-město, Czech Republic | 4 Jul 2025       |                | [Link](https://lu.ma/nrapx3p3)                  |
 | Raise Your Hack - World's Largest AI Hackathon                                                      | Paris, France               | 4 Jul-9, 2025    |                | [Link](https://lu.ma/ac4s0882)                  |
-| AMD AI SPRINT: HACKATHON & WORKSHOP SERIES- PARIS                                                   | Paris, France               | 5 Jul-6, 2025    | AI             | [Link](https://lu.ma/fmvdjmur)                  |
 | AI Search Analytics Hackathon - €10k Cash Prize                                                     | Berlin, Germany             | 5 Jul 2025       | AI             | [Link](https://lu.ma/ai-search-hack)            |
+| AMD AI SPRINT: HACKATHON & WORKSHOP SERIES- PARIS                                                   | Paris, France               | 5 Jul-6, 2025    | AI             | [Link](https://lu.ma/fmvdjmur)                  |
 | Vibe Coding Masterclass - Build a fullstack app for your n8n workflows                              | Berlin, Germany             | 7 Jul 2025       |                | [Link](https://lu.ma/ie0buqw0)                  |
 | 🍹🌴 Afterwork d'été - IQ Project - Comprendre comment utiliser le Vibe coding pour gagner sa vie ! | Paris, France               | 9 Jul 2025       |                | [Link](https://lu.ma/onrehzsw)                  |
-| Manus Vibe Coding Night – Paris                                                                     | Paris, France               | 10 Jul 2025      |                | [Link](https://lu.ma/01jaf7pr)                  |
 | Creators & Regenerators Hackathon                                                                   | Berlin, Germany             | 10 Jul 2025      |                | [Link](https://lu.ma/87s90qhy)                  |
+| Manus Vibe Coding Night – Paris                                                                     | Paris, France               | 10 Jul 2025      |                | [Link](https://lu.ma/01jaf7pr)                  |
 | Sui Hackathon Wroclaw                                                                               | Wrocaw, Poland              | 11 Jul-13, 2025  |                | [Link](https://lu.ma/ve8e4w28)                  |
 | Vibe Coding x Design: From 0 To 1                                                                   | London, UK                  | 12 Jul 2025      |                | [Link](https://lu.ma/ngu7l1lq)                  |
 | The Blockspace Synergy — 3-day Hackathon Berlin                                                     | Berlin, Germany             | 16 Jul-18, 2025  |                | [Link](https://lu.ma/blockspacesynergy)         |
 | Prompt 'n' Roll: Vibe coding jam                                                                    | Joensuu, Finland            | 17 Jul 2025      |                | [Link](https://lu.ma/k8vlsfvc)                  |
+| Stellar Ireland Hackathon                                                                           | Ireland                     | 17 Jul 2025      |                | [Link](https://lu.ma/i26kqpvo)                  |
 | {Tech: Europe} AI Hackathon - Berlin Edition                                                        | Berlin, Germany             | 19 Jul-20, 2025  |                | [Link](https://lu.ma/berlin-hackathon)          |
 | GenAI Cracow #17 - AI Coding                                                                        | Kraków, Poland              | 28 Jul 2025      |                | [Link](https://lu.ma/t04eaj39)                  |
 | AI Cybersecurity Hackathon                                                                          | Berlin, Germany             | 28 Aug-29, 2025  | Defense        | [Link](https://lu.ma/4688cqru)                  |

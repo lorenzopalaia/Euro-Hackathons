@@ -14,13 +14,14 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 4 July 2025 at 08:24_
+_Last updated: 4 July 2025 at 12:18_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                                                      | Location               | Date             | Topics         | URL                                             |
 | --------------------------------------------------------------------------------------------------- | ---------------------- | ---------------- | -------------- | ----------------------------------------------- |
 | AMD AI SPRINT: HACKATHON & WORKSHOP SERIES- PARIS                                                   | Paris, France          | 5 Jul-6, 2025    | AI             | [Link](https://lu.ma/fmvdjmur)                  |
+| Summer of Vibecoding: Amsterdam Meetup for creators with AI 🚀🔆🏳️‍🌈 (v0)                             | Amsterdam, Netherlands | 5 Jul 2025       | Sustainability | [Link](https://lu.ma/hoc5er5k)                  |
 | AI Search Analytics Hackathon - €10k Cash Prize                                                     | Berlin, Germany        | 5 Jul 2025       | AI             | [Link](https://lu.ma/ai-search-hack)            |
 | Vibe Coding Masterclass - Build a fullstack app for your n8n workflows                              | Berlin, Germany        | 7 Jul 2025       |                | [Link](https://lu.ma/ie0buqw0)                  |
 | 🍹🌴 Afterwork d'été - IQ Project - Comprendre comment utiliser le Vibe coding pour gagner sa vie ! | Paris, France          | 9 Jul 2025       |                | [Link](https://lu.ma/onrehzsw)                  |
@@ -33,6 +34,7 @@ _Last updated: 4 July 2025 at 08:24_
 | Prompt 'n' Roll: Vibe coding jam                                                                    | Joensuu, Finland       | 17 Jul 2025      |                | [Link](https://lu.ma/k8vlsfvc)                  |
 | {Tech: Europe} AI Hackathon - Berlin Edition                                                        | Berlin, Germany        | 19 Jul-20, 2025  |                | [Link](https://lu.ma/berlin-hackathon)          |
 | GenAI Cracow #17 - AI Coding                                                                        | Kraków, Poland         | 28 Jul 2025      |                | [Link](https://lu.ma/t04eaj39)                  |
+| ⚡ AI Tooling in the SDLC: Hackathon @ Tessl HQ                                                     | London, UK             | 7 Aug 2025       |                | [Link](https://lu.ma/1re1ffwu)                  |
 | AI Cybersecurity Hackathon                                                                          | Berlin, Germany        | 28 Aug-29, 2025  | Defense        | [Link](https://lu.ma/4688cqru)                  |
 | ETHWarsaw Hackathon 2025                                                                            | Warszawa, Poland       | 5 Sept-7, 2025   |                | [Link](https://lu.ma/fk2sox3r)                  |
 | AI maká, ty tvoříš: Úvod do vibecodingu                                                             | Prague, Czech Republic | 9 Sept 2025      | Sustainability | [Link](https://lu.ma/howawy36)                  |

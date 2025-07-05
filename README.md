@@ -14,12 +14,13 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 5 July 2025 at 10:15_
+_Last updated: 5 July 2025 at 14:29_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                                                      | Location               | Date             | Topics         | URL                                             |
 | --------------------------------------------------------------------------------------------------- | ---------------------- | ---------------- | -------------- | ----------------------------------------------- |
+| Privacy Vibecoding Day                                                                              | Berlin, Germany        | 6 Jul 2025       | Sustainability | [Link](https://lu.ma/kb3rsr75)                  |
 | Vibe Coding Masterclass - Build a fullstack app for your n8n workflows                              | Berlin, Germany        | 7 Jul 2025       |                | [Link](https://lu.ma/ie0buqw0)                  |
 | 🍹🌴 Afterwork d'été - IQ Project - Comprendre comment utiliser le Vibe coding pour gagner sa vie ! | Paris, France          | 9 Jul 2025       |                | [Link](https://lu.ma/onrehzsw)                  |
 | Creators & Regenerators Hackathon                                                                   | Berlin, Germany        | 10 Jul 2025      |                | [Link](https://lu.ma/87s90qhy)                  |
@@ -35,6 +36,7 @@ _Last updated: 5 July 2025 at 10:15_
 | AI Cybersecurity Hackathon                                                                          | Berlin, Germany        | 28 Aug-29, 2025  | Defense        | [Link](https://lu.ma/4688cqru)                  |
 | ETHWarsaw Hackathon 2025                                                                            | Warszawa, Poland       | 5 Sept-7, 2025   |                | [Link](https://lu.ma/fk2sox3r)                  |
 | AI maká, ty tvoříš: Úvod do vibecodingu                                                             | Prague, Czech Republic | 9 Sept 2025      | Sustainability | [Link](https://lu.ma/howawy36)                  |
+| Berlin Energy Hackathon 2025                                                                        | Berlin, Germany        | 12 Sept-14, 2025 | Sustainability | [Link](https://lu.ma/6r10djlm)                  |
 | ETHSofia Conference and Hackathon 2025                                                              | Sofia, Bulgaria        | 24 Sept 2025     |                | [Link](https://lu.ma/v830crl0)                  |
 | European Defense Tech Hackathon – London                                                            | London, UK             | 25 Sept-28, 2025 | Defense        | [Link](https://lu.ma/edth-2025-london)          |
 | Zurich Hackathon                                                                                    | Zürich, Switzerland    | 26 Sept-27, 2025 |                | [Link](https://lu.ma/hackathon-zurich-26270925) |

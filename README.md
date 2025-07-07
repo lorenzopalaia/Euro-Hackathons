@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 7 July 2025 at 12:17_
+_Last updated: 7 July 2025 at 15:15_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -30,8 +30,8 @@ _Last updated: 7 July 2025 at 12:17_
 | Prompt 'n' Roll: Vibe coding jam                                                                    | Joensuu, Finland       | 17 Jul 2025               |                | [Link](https://lu.ma/k8vlsfvc)                  |
 | Stellar Ireland Hackathon                                                                           | Ireland                | 17 Jul 2025               |                | [Link](https://lu.ma/i26kqpvo)                  |
 | {Tech: Europe} AI Hackathon - Berlin Edition                                                        | Berlin, Germany        | 19 Jul-20, 2025           |                | [Link](https://lu.ma/berlin-hackathon)          |
-| 1st Low-Code n8n Tourism Hackathon                                                                  | Eichstätt, Germany     | 22 Jul-23, 2025           |                | [Link](https://lu.ma/d1xug7me)                  |
 | 👾 @MachineTalents Hackathon @ Google                                                               | London, UK             | 22 Jul 2025               |                | [Link](https://lu.ma/ibaiz50k)                  |
+| 1st Low-Code n8n Tourism Hackathon                                                                  | Eichstätt, Germany     | 22 Jul-23, 2025           |                | [Link](https://lu.ma/d1xug7me)                  |
 | Vibe Coding Club Bristol                                                                            | Bristol, UK            | 23 Jul 2025               |                | [Link](https://lu.ma/1v1f3alw)                  |
 | Stellar Ambassador UK Chapter x UK AI Agent Hackathon                                               | London, UK             | 26 Jul 2025 - 29 Aug 2025 |                | [Link](https://lu.ma/fqnfyu54)                  |
 | SoTA x Workshop Labs Hackathon: Human Augmentation                                                  | London, UK             | 26 Jul-27, 2025           |                | [Link](https://lu.ma/1au1lxbt)                  |
@@ -47,9 +47,10 @@ _Last updated: 7 July 2025 at 12:17_
 | Berlin Energy Hackathon 2025                                                                        | Berlin, Germany        | 12 Sept-14, 2025          | Sustainability | [Link](https://lu.ma/6r10djlm)                  |
 | ETHSofia Conference and Hackathon 2025                                                              | Sofia, Bulgaria        | 24 Sept 2025              |                | [Link](https://lu.ma/v830crl0)                  |
 | European Defense Tech Hackathon – London                                                            | London, UK             | 25 Sept-28, 2025          | Defense        | [Link](https://lu.ma/edth-2025-london)          |
-| Lenzburg Hackathon @Finnova                                                                         | Lenzburg, Switzerland  | 26 Sept 2025              |                | [Link](https://lu.ma/kd5177ia)                  |
 | Zurich Hackathon                                                                                    | Zürich, Switzerland    | 26 Sept-27, 2025          |                | [Link](https://lu.ma/hackathon-zurich-26270925) |
+| Lenzburg Hackathon @Finnova                                                                         | Lenzburg, Switzerland  | 26 Sept 2025              |                | [Link](https://lu.ma/kd5177ia)                  |
 | Swiss {ai} Weeks - Lausanne Hackathon                                                               | Lausanne, Switzerland  | 26 Sept-27, 2025          |                | [Link](https://lu.ma/swissai-lausanne)          |
+| AI for Change Hackathon - by Tilda                                                                  | Stockholm, Sweden      | 15 Oct 2025               |                | [Link](https://lu.ma/5c29n1vt)                  |
 | Bio Hackathon - Pitch Session - Nucleate x Evolved                                                  | Berlin, Germany        | 18 Oct 2025               |                | [Link](https://lu.ma/eexmim0y)                  |
 | Encode London Research Conference and Hackathon                                                     | London, UK             | 24 Oct-26, 2025           |                | [Link](https://lu.ma/Encode-London-25)          |
 | European Defense Tech Hackathon – Berlin                                                            | Berlin, Germany        | 13 Nov-16, 2025           | Defense        | [Link](https://lu.ma/edth-2025-berlin)          |

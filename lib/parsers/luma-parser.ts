@@ -68,7 +68,7 @@ export class LumaParser extends BaseParser {
       });
 
       const response = await fetch(
-        `https://api.lu.ma/discover/category/get-events?${params}`,
+        `https://api.lu.ma/discover/category/get-events?${params}`
       );
 
       if (!response.ok) {
@@ -87,14 +87,45 @@ export class LumaParser extends BaseParser {
   }
 
   private filterHackathons(events: LumaEventEntry[]): ParsedHackathon[] {
+    const excludeKeywords = [
+      "bootcamp",
+      "workshop",
+      "meetup",
+      "conference",
+      "summit",
+      "talk",
+      "seminar",
+      "webinar",
+      "course",
+      "lecture",
+      "expo",
+      "forum",
+      "panel",
+      "festival",
+      "showcase",
+      "afterwork",
+    ];
+
+    const includeKeywords = [
+      "hackathon",
+      "hack day",
+      "coding",
+      "code sprint",
+      "code jam",
+      "code challenge",
+      "code fest",
+      "code competition",
+    ];
+
     return events
       .filter((entry) => {
         const name = entry.event?.name?.toLowerCase() || "";
-        return (
-          name.includes("hackathon") ||
-          name.includes("hack day") ||
-          name.includes("coding")
-        );
+        // Include if contains any include keyword, regardless of exclude keywords
+        const include = includeKeywords.some((kw) => name.includes(kw));
+        if (include) return true;
+        // Otherwise, exclude if contains any exclude keyword
+        const exclude = excludeKeywords.some((kw) => name.includes(kw));
+        return !exclude;
       })
       .map((entry) => this.mapEventToHackathon(entry))
       .filter((hackathon) => hackathon !== null) as ParsedHackathon[];
@@ -132,7 +163,7 @@ export class LumaParser extends BaseParser {
           const parts = geo.city_state.split(",").map((p) => p.trim());
           if (parts.length >= 2) {
             country_code = europeanCountries.normalizeCountry(
-              parts[parts.length - 1],
+              parts[parts.length - 1]
             );
           }
         }
@@ -164,7 +195,7 @@ export class LumaParser extends BaseParser {
   }
 
   private deduplicateHackathons(
-    hackathons: ParsedHackathon[],
+    hackathons: ParsedHackathon[]
   ): ParsedHackathon[] {
     const seen = new Set<string>();
     return hackathons.filter((hackathon) => {

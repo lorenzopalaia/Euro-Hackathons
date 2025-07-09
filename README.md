@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 9 July 2025 at 12:18_
+_Last updated: 9 July 2025 at 15:14_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -32,18 +32,19 @@ _Last updated: 9 July 2025 at 12:18_
 | 1st Low-Code n8n Tourism Hackathon                        | Eichstätt, Germany     | 22 Jul-23, 2025           |                | [Link](https://lu.ma/d1xug7me)                  |
 | 👾 @MachineTalents Hackathon @ Google                     | London, UK             | 22 Jul 2025               |                | [Link](https://lu.ma/ibaiz50k)                  |
 | Vibe Coding Club Bristol                                  | Bristol, UK            | 23 Jul 2025               |                | [Link](https://lu.ma/1v1f3alw)                  |
-| Stellar Ambassador UK Chapter x UK AI Agent Hackathon     | London, UK             | 26 Jul 2025 - 29 Aug 2025 |                | [Link](https://lu.ma/fqnfyu54)                  |
+| Hackathon Power of Europe @ Amsterdam/Oosterpark          | Amsterdam, Netherlands | 26 Jul 2025               |                | [Link](https://lu.ma/iv9uovum)                  |
 | SoTA x Workshop Labs Hackathon: Human Augmentation        | London, UK             | 26 Jul-27, 2025           |                | [Link](https://lu.ma/1au1lxbt)                  |
 | Vibe to Engineer: Intermediate AI-Powered Coding Workshop | London, UK             | 26 Jul 2025               |                | [Link](https://lu.ma/s94czt4p)                  |
 | Hackathon Demo & Networking @ Amsterdam/Oosterpark        | Amsterdam, Netherlands | 26 Jul 2025               |                | [Link](https://lu.ma/e0g5zw1n)                  |
+| Stellar Ambassador UK Chapter x UK AI Agent Hackathon     | London, UK             | 26 Jul 2025 - 29 Aug 2025 |                | [Link](https://lu.ma/fqnfyu54)                  |
 | GenAI Cracow #17 - AI Coding                              | Kraków, Poland         | 28 Jul 2025               |                | [Link](https://lu.ma/t04eaj39)                  |
 | Zero to Coder: AI-Powered Coding Workshop                 | London, UK             | 2 Aug 2025                |                | [Link](https://lu.ma/f7w4nhr5)                  |
 | ⚡ AI Tooling in the SDLC: Hackathon @ Tessl HQ           | London, UK             | 7 Aug 2025                |                | [Link](https://lu.ma/1re1ffwu)                  |
 | AI Cybersecurity Hackathon                                | Berlin, Germany        | 28 Aug-29, 2025           | Defense        | [Link](https://lu.ma/4688cqru)                  |
 | ETHWarsaw Hackathon 2025                                  | Warszawa, Poland       | 5 Sept-7, 2025            |                | [Link](https://lu.ma/fk2sox3r)                  |
 | AI maká, ty tvoříš: Úvod do vibecodingu                   | Prague, Czech Republic | 9 Sept 2025               | Sustainability | [Link](https://lu.ma/howawy36)                  |
-| Amsterdam Policy Hackathon                                | Amsterdam, Netherlands | 12 Sept-14, 2025          |                | [Link](https://lu.ma/nxr09g71)                  |
 | Berlin Energy Hackathon 2025                              | Berlin, Germany        | 12 Sept-14, 2025          | Sustainability | [Link](https://lu.ma/6r10djlm)                  |
+| Amsterdam Policy Hackathon                                | Amsterdam, Netherlands | 12 Sept-14, 2025          |                | [Link](https://lu.ma/nxr09g71)                  |
 | ETHSofia Conference and Hackathon 2025                    | Sofia, Bulgaria        | 24 Sept 2025              |                | [Link](https://lu.ma/v830crl0)                  |
 | European Defense Tech Hackathon – London                  | London, UK             | 25 Sept-28, 2025          | Defense        | [Link](https://lu.ma/edth-2025-london)          |
 | Zurich Hackathon                                          | Zürich, Switzerland    | 26 Sept-27, 2025          |                | [Link](https://lu.ma/hackathon-zurich-26270925) |

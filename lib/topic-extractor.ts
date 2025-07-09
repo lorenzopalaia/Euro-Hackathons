@@ -238,7 +238,7 @@ export class TopicExtractor {
   extractTopics(
     name: string,
     description?: string,
-    additionalText?: string
+    additionalText?: string,
   ): HackathonTopic[] {
     const combinedText = [name, description, additionalText]
       .filter(Boolean)
@@ -253,7 +253,7 @@ export class TopicExtractor {
 
     for (const config of this.configs) {
       const matches = config.keywords.filter((keyword) =>
-        combinedText.includes(keyword)
+        combinedText.includes(keyword),
       );
 
       if (matches.length > 0) {
@@ -322,7 +322,7 @@ export const defaultTopicExtractor = new TopicExtractor();
 export function extractTopics(
   name: string,
   description?: string,
-  additionalText?: string
+  additionalText?: string,
 ): HackathonTopic[] {
   return defaultTopicExtractor.extractTopics(name, description, additionalText);
 }

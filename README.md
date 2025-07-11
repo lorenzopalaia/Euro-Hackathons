@@ -14,13 +14,12 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 10 July 2025 at 18:34_
+_Last updated: 11 July 2025 at 08:25_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                            | Location               | Date                      | Topics         | URL                                             |
 | --------------------------------------------------------- | ---------------------- | ------------------------- | -------------- | ----------------------------------------------- |
-| Sui Hackathon Wroclaw                                     | Wrocaw, Poland         | 11 Jul-13, 2025           |                | [Link](https://lu.ma/ve8e4w28)                  |
 | Vibe Coding x Design: From 0 To 1                         | London, UK             | 12 Jul 2025               |                | [Link](https://lu.ma/ngu7l1lq)                  |
 | The Blockspace Synergy — 3-day Hackathon Berlin           | Berlin, Germany        | 16 Jul-18, 2025           |                | [Link](https://lu.ma/blockspacesynergy)         |
 | Stellar Ireland Hackathon                                 | Ireland                | 17 Jul 2025               |                | [Link](https://lu.ma/i26kqpvo)                  |
@@ -66,26 +65,26 @@ _Showing last 20 events_
 
 | Hackathon Name                                                                                      | Location                    | Date            | Topics         | URL                                             |
 | --------------------------------------------------------------------------------------------------- | --------------------------- | --------------- | -------------- | ----------------------------------------------- |
-| Creators & Regenerators Hackathon                                                                   | Berlin, Germany             | 10 Jul 2025     |                | [Link](https://lu.ma/87s90qhy)                  |
+| Sui Hackathon Wroclaw                                                                               | Wrocaw, Poland              | 11 Jul-13, 2025 |                | [Link](https://lu.ma/ve8e4w28)                  |
 | Manus Vibe Coding Night – Paris                                                                     | Paris, France               | 10 Jul 2025     |                | [Link](https://lu.ma/01jaf7pr)                  |
-| Afterwork d'été - IQ Project - Comprendre comment utiliser le vibe-coding pour gagner sa vie !      | Paris, France               | 9 Jul 2025      |                | [Link](https://lu.ma/0gtuc0wv)                  |
+| Creators & Regenerators Hackathon                                                                   | Berlin, Germany             | 10 Jul 2025     |                | [Link](https://lu.ma/87s90qhy)                  |
 | 🍹🌴 Afterwork d'été - IQ Project - Comprendre comment utiliser le Vibe coding pour gagner sa vie ! | Paris, France               | 9 Jul 2025      |                | [Link](https://lu.ma/onrehzsw)                  |
+| Afterwork d'été - IQ Project - Comprendre comment utiliser le vibe-coding pour gagner sa vie !      | Paris, France               | 9 Jul 2025      |                | [Link](https://lu.ma/0gtuc0wv)                  |
 | Vibe Coding Masterclass - Build a fullstack app for your n8n workflows                              | Berlin, Germany             | 7 Jul 2025      |                | [Link](https://lu.ma/ie0buqw0)                  |
 | Privacy Vibecoding Day                                                                              | Berlin, Germany             | 6 Jul 2025      | Sustainability | [Link](https://lu.ma/kb3rsr75)                  |
 | AI Search Analytics Hackathon - €10k Cash Prize                                                     | Berlin, Germany             | 5 Jul 2025      | AI             | [Link](https://lu.ma/ai-search-hack)            |
 | AMD AI SPRINT: HACKATHON & WORKSHOP SERIES- PARIS                                                   | Paris, France               | 5 Jul-6, 2025   | AI             | [Link](https://lu.ma/fmvdjmur)                  |
 | Summer of Vibecoding: Amsterdam Meetup for creators with AI 🚀🔆🏳️‍🌈 (v0)                             | Amsterdam, Netherlands      | 5 Jul 2025      | Sustainability | [Link](https://lu.ma/hoc5er5k)                  |
-| Raise Your Hack - World's Largest AI Hackathon                                                      | Paris, France               | 4 Jul-9, 2025   |                | [Link](https://lu.ma/ac4s0882)                  |
 | The Vibe Coders Prague - Hackathon vol. 4                                                           | Plzeň-město, Czech Republic | 4 Jul 2025      |                | [Link](https://lu.ma/nrapx3p3)                  |
+| Raise Your Hack - World's Largest AI Hackathon                                                      | Paris, France               | 4 Jul-9, 2025   |                | [Link](https://lu.ma/ac4s0882)                  |
 | RAISE YOUR HACK                                                                                     | Paris, France               | 4 Jul-9, 2025   |                | [Link](https://lablab.ai/event/raise-your-hack) |
-| Web3 Marketing Hackathon                                                                            | Cannes, France              | 29 Jun-30, 2025 | Crypto, Web3   | [Link](https://lu.ma/obw1mqfi)                  |
 | AI Agents Hackathon - from MIT & Harvard researchers - NANDA - Paris                                | Paris, France               | 29 Jun 2025     |                | [Link](https://lu.ma/sa8zenew)                  |
 | Vibe Coding Days <final>                                                                            | Kyiv, Ukraine               | 29 Jun 2025     |                | [Link](https://lu.ma/wduhiw2v)                  |
-| Brunel Hack 25- Blockchain Hackathon & Festival                                                     | Uxbridge, UK                | 28 Jun-29, 2025 | Crypto         | [Link](https://lu.ma/ef8xlkp2)                  |
-| ElevenLabs × LFH Build Weekend (powered by Bolt.new’s $1M Hackathon)                                | London, UK                  | 28 Jun-29, 2025 |                | [Link](https://lu.ma/nugckc58)                  |
+| Web3 Marketing Hackathon                                                                            | Cannes, France              | 29 Jun-30, 2025 | Crypto, Web3   | [Link](https://lu.ma/obw1mqfi)                  |
 | 🇫🇷 Demo Day: Oz Hackathon Showcase                                                                  | Valbonne, France            | 28 Jun 2025     |                | [Link](https://lu.ma/OZDemoDay)                 |
+| ElevenLabs × LFH Build Weekend (powered by Bolt.new’s $1M Hackathon)                                | London, UK                  | 28 Jun-29, 2025 |                | [Link](https://lu.ma/nugckc58)                  |
+| Brunel Hack 25- Blockchain Hackathon & Festival                                                     | Uxbridge, UK                | 28 Jun-29, 2025 | Crypto         | [Link](https://lu.ma/ef8xlkp2)                  |
 | Manus AI Hackathon #2 🇹🇷                                                                            | Beşiktaş, Turkey            | 28 Jun 2025     |                | [Link](https://lu.ma/zj3ieyqs)                  |
-| 🇫🇷 Oz Builder Day: 24-Hour AI x Web3 Hackathon                                                      | Valbonne, France            | 27 Jun-28, 2025 | Crypto, Web3   | [Link](https://lu.ma/OzBuilderDay)              |
 
 <!-- PAST_TABLE_END -->
 

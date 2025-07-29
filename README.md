@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 29 July 2025 at 08:27_
+_Last updated: 29 July 2025 at 12:19_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -30,6 +30,7 @@ _Last updated: 29 July 2025 at 08:27_
 | About Product, About AI - Hack Day                                                                                                | London, UK             | 16 Aug 2025      | AI                     | [Link](https://lu.ma/eei676jq)                  |
 | Jentic x Give(a)Go Summer Hackathon                                                                                               | Dublin 8, Ireland      | 16 Aug 2025      |                        | [Link](https://lu.ma/l7lbbqsu)                  |
 | Stablecoin Summer: Decoding Crypto’s Steadiest Asset Class                                                                        | London, UK             | 18 Aug 2025      | Crypto, Sustainability | [Link](https://lu.ma/9d7a9kbx)                  |
+| Summer of Vibecoding: Amsterdam Meetup for creators with AI 🚀🔆🏳️‍🌈 (v0.2)                                                         | Amsterdam, Netherlands | 20 Aug 2025      | AI, Sustainability     | [Link](https://lu.ma/jgzezknl)                  |
 | AI Cybersecurity Hackathon                                                                                                        | Berlin, Germany        | 28 Aug-29, 2025  | Defense                | [Link](https://lu.ma/4688cqru)                  |
 | Agentic Hackathon III                                                                                                             | Antwerpen, Belgium     | 30 Aug 2025      | AI                     | [Link](https://lu.ma/ufw1goiy)                  |
 | ETHWarsaw Hackathon 2025                                                                                                          | Warszawa, Poland       | 5 Sept-7, 2025   |                        | [Link](https://lu.ma/fk2sox3r)                  |
@@ -40,9 +41,9 @@ _Last updated: 29 July 2025 at 08:27_
 | Hackathon: Build crash-proof apps with AI, TypeScript, and Temporal                                                               | Stockholm, Sweden      | 18 Sept 2025     | AI                     | [Link](https://lu.ma/spa2no7m)                  |
 | ETHSofia Conference and Hackathon 2025                                                                                            | Sofia, Bulgaria        | 24 Sept 2025     |                        | [Link](https://lu.ma/v830crl0)                  |
 | European Defense Tech Hackathon – London                                                                                          | London, UK             | 25 Sept-28, 2025 | Defense                | [Link](https://lu.ma/edth-2025-london)          |
-| Swiss {ai} Weeks - Lausanne Hackathon                                                                                             | Lausanne, Switzerland  | 26 Sept-27, 2025 |                        | [Link](https://lu.ma/swissai-lausanne)          |
 | Zurich Hackathon                                                                                                                  | Zürich, Switzerland    | 26 Sept-27, 2025 |                        | [Link](https://lu.ma/hackathon-zurich-26270925) |
 | Lenzburg Hackathon @Finnova                                                                                                       | Lenzburg, Switzerland  | 26 Sept 2025     |                        | [Link](https://lu.ma/kd5177ia)                  |
+| Swiss {ai} Weeks - Lausanne Hackathon                                                                                             | Lausanne, Switzerland  | 26 Sept-27, 2025 |                        | [Link](https://lu.ma/swissai-lausanne)          |
 | European Defense Tech Hackathon – Milan                                                                                           | Milan, Italy           | 3 Oct-5, 2025    | Defense                | [Link](https://lu.ma/edth-2025-milan)           |
 | AI for Change Hackathon - by Tilda                                                                                                | Stockholm, Sweden      | 15 Oct 2025      |                        | [Link](https://lu.ma/5c29n1vt)                  |
 | Bio Hackathon - Pitch Session - Nucleate x Evolved                                                                                | Berlin, Germany        | 18 Oct 2025      |                        | [Link](https://lu.ma/eexmim0y)                  |

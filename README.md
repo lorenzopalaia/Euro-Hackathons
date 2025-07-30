@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 30 July 2025 at 15:16_
+_Last updated: 30 July 2025 at 18:19_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -31,6 +31,7 @@ _Last updated: 30 July 2025 at 15:16_
 | Summer of Vibecoding: Amsterdam Meetup for creators with AI 🚀🔆🏳️‍🌈 (v0.2) | Amsterdam, Netherlands | 20 Aug 2025      | AI, Sustainability     | [Link](https://lu.ma/jgzezknl)                  |
 | AI Cybersecurity Hackathon                                                | Berlin, Germany        | 28 Aug-29, 2025  | Defense                | [Link](https://lu.ma/4688cqru)                  |
 | Agentic Hackathon III                                                     | Antwerpen, Belgium     | 30 Aug 2025      | AI                     | [Link](https://lu.ma/ufw1goiy)                  |
+| Vibe Coders: The Anti-Boring AI Coding & Build Night #2                   | Zürich, Switzerland    | 2 Sept 2025      | AI                     | [Link](https://lu.ma/acsrs703)                  |
 | ETHWarsaw Hackathon 2025                                                  | Warszawa, Poland       | 5 Sept-7, 2025   |                        | [Link](https://lu.ma/fk2sox3r)                  |
 | AI maká, ty tvoříš: Úvod do vibecodingu                                   | Prague, Czech Republic | 9 Sept 2025      | Sustainability         | [Link](https://lu.ma/howawy36)                  |
 | Amsterdam Policy Hackathon                                                | Amsterdam, Netherlands | 12 Sept-14, 2025 |                        | [Link](https://lu.ma/nxr09g71)                  |

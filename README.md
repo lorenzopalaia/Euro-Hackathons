@@ -14,13 +14,12 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 30 July 2025 at 18:19_
+_Last updated: 31 July 2025 at 08:27_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                            | Location               | Date             | Topics                 | URL                                             |
 | ------------------------------------------------------------------------- | ---------------------- | ---------------- | ---------------------- | ----------------------------------------------- |
-| Munich Coding Vibes: A Workshop with Windsurf & Aparavi                   | München, Germany       | 31 Jul 2025      | Sustainability         | [Link](https://lu.ma/8nhubr8g)                  |
 | UK AI Agent Hackathon EP.2                                                | London, UK             | 2 Aug-24, 2025   | AI                     | [Link](https://lu.ma/89qnjdrj)                  |
 | Zero to Coder: AI-Powered Coding Workshop                                 | London, UK             | 2 Aug 2025       |                        | [Link](https://lu.ma/f7w4nhr5)                  |
 | ⚡ AI Tooling in the SDLC: Hackathon @ Tessl HQ                           | London, UK             | 7 Aug 2025       |                        | [Link](https://lu.ma/1re1ffwu)                  |
@@ -63,6 +62,7 @@ _Showing last 20 events_
 
 | Hackathon Name                                                                                                                    | Location               | Date                      | Topics                 | URL                                     |
 | --------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | ------------------------- | ---------------------- | --------------------------------------- |
+| Munich Coding Vibes: A Workshop with Windsurf & Aparavi                                                                           | München, Germany       | 31 Jul 2025               | Sustainability         | [Link](https://lu.ma/8nhubr8g)          |
 | Vibe Coders: The Anti-Boring AI Coding & Build Night                                                                              | Zürich, Switzerland    | 30 Jul 2025               | AI                     | [Link](https://lu.ma/3fiky1z5)          |
 | ✨ Superwomen Summer Sessions Co-Working, Wellness & Mini AI/Blockchain Hackathon — VIBES WITH DR ADAKU LONDON JULY 30TH, 2025 ✨ | London, UK             | 30 Jul 2025               | AI, Crypto, Healthcare | [Link](https://lu.ma/7it5poeb)          |
 | GenAI Cracow #17 - AI Coding                                                                                                      | Kraków, Poland         | 28 Jul 2025               |                        | [Link](https://lu.ma/t04eaj39)          |
@@ -82,7 +82,6 @@ _Showing last 20 events_
 | Stellar Ireland Hackathon                                                                                                         | Ireland                | 17 Jul 2025               |                        | [Link](https://lu.ma/i26kqpvo)          |
 | Prompt 'n' Roll: Vibe coding jam                                                                                                  | Joensuu, Finland       | 17 Jul 2025               |                        | [Link](https://lu.ma/k8vlsfvc)          |
 | The Blockspace Synergy — 3-day Hackathon Berlin                                                                                   | Berlin, Germany        | 16 Jul-18, 2025           |                        | [Link](https://lu.ma/blockspacesynergy) |
-| Vibe Coding x Design: From 0 To 1                                                                                                 | London, UK             | 12 Jul 2025               |                        | [Link](https://lu.ma/ngu7l1lq)          |
 
 <!-- PAST_TABLE_END -->
 

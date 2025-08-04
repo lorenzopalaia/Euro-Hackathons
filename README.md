@@ -14,13 +14,12 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 3 August 2025 at 18:17_
+_Last updated: 4 August 2025 at 08:32_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                            | Location               | Date             | Topics                 | URL                                             |
 | ------------------------------------------------------------------------- | ---------------------- | ---------------- | ---------------------- | ----------------------------------------------- |
-| AI Coding Session #3 — AI Founders Europe + AI Community Belgium          | Bruxelles, Belgium     | 4 Aug 2025       | AI                     | [Link](https://lu.ma/nnd5dm3b)                  |
 | ⚡ AI Tooling in the SDLC: Hackathon @ Tessl HQ                           | London, UK             | 7 Aug 2025       |                        | [Link](https://lu.ma/1re1ffwu)                  |
 | Cursor Hackathon Tallinn                                                  | Tallinn, Estonia       | 14 Aug 2025      |                        | [Link](https://lu.ma/nw7qk2x6)                  |
 | Jentic x Give(a)Go Summer Hackathon                                       | Dublin 8, Ireland      | 16 Aug 2025      |                        | [Link](https://lu.ma/l7lbbqsu)                  |
@@ -32,8 +31,8 @@ _Last updated: 3 August 2025 at 18:17_
 | Vibe Coders: The Anti-Boring AI Coding & Build Night #2                   | Zürich, Switzerland    | 2 Sept 2025      | AI                     | [Link](https://lu.ma/acsrs703)                  |
 | ETHWarsaw Hackathon 2025                                                  | Warszawa, Poland       | 5 Sept-7, 2025   |                        | [Link](https://lu.ma/fk2sox3r)                  |
 | AI maká, ty tvoříš: Úvod do vibecodingu                                   | Prague, Czech Republic | 9 Sept 2025      | Sustainability         | [Link](https://lu.ma/howawy36)                  |
-| Amsterdam Policy Hackathon                                                | Amsterdam, Netherlands | 12 Sept-14, 2025 |                        | [Link](https://lu.ma/nxr09g71)                  |
 | Cursor Hackathon Vilnius                                                  | Vilnius, Lithuania     | 12 Sept-14, 2025 |                        | [Link](https://lu.ma/i13f8qd5)                  |
+| Amsterdam Policy Hackathon                                                | Amsterdam, Netherlands | 12 Sept-14, 2025 |                        | [Link](https://lu.ma/nxr09g71)                  |
 | Berlin Energy Hackathon 2025                                              | Berlin, Germany        | 12 Sept-14, 2025 | Sustainability         | [Link](https://lu.ma/6r10djlm)                  |
 | Hackathon: Build crash-proof apps with AI, TypeScript, and Temporal       | Stockholm, Sweden      | 18 Sept 2025     | AI                     | [Link](https://lu.ma/spa2no7m)                  |
 | ETHSofia Conference and Hackathon 2025                                    | Sofia, Bulgaria        | 24 Sept 2025     |                        | [Link](https://lu.ma/v830crl0)                  |
@@ -61,6 +60,7 @@ _Showing last 20 events_
 
 | Hackathon Name                                                                                                                    | Location               | Date                      | Topics                 | URL                                    |
 | --------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | ------------------------- | ---------------------- | -------------------------------------- |
+| AI Coding Session #3 — AI Founders Europe + AI Community Belgium                                                                  | Bruxelles, Belgium     | 4 Aug 2025                | AI                     | [Link](https://lu.ma/nnd5dm3b)         |
 | UK AI Agent Hackathon EP.2                                                                                                        | London, UK             | 2 Aug-24, 2025            | AI                     | [Link](https://lu.ma/89qnjdrj)         |
 | Zero to Coder: AI-Powered Coding Workshop                                                                                         | London, UK             | 2 Aug 2025                |                        | [Link](https://lu.ma/f7w4nhr5)         |
 | Munich Coding Vibes: A Workshop with Windsurf & Aparavi                                                                           | München, Germany       | 31 Jul 2025               | Sustainability         | [Link](https://lu.ma/8nhubr8g)         |
@@ -80,7 +80,6 @@ _Showing last 20 events_
 | 🎓 Blockchain Academia Workshops & Hackathon 🧑‍💻                                                                                   | Cluj-napoca, Romania   | 22 Jul 2025 - 1 Aug 2025  | AI, Crypto             | [Link](https://lu.ma/0i9an24t)         |
 | {Tech: Europe} AI Hackathon - Berlin Edition                                                                                      | Berlin, Germany        | 19 Jul-20, 2025           |                        | [Link](https://lu.ma/berlin-hackathon) |
 | Agentify: Build Your First AI Agent [Zero Coding]                                                                                 | Berlin, Germany        | 19 Jul 2025               | AI                     | [Link](https://lu.ma/azewg38z)         |
-| Stellar Ireland Hackathon                                                                                                         | Ireland                | 17 Jul 2025               |                        | [Link](https://lu.ma/i26kqpvo)         |
 
 <!-- PAST_TABLE_END -->
 

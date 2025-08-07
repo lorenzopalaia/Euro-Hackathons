@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 7 August 2025 at 12:19_
+_Last updated: 7 August 2025 at 15:19_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -25,6 +25,7 @@ _Last updated: 7 August 2025 at 12:19_
 | Jentic x Give(a)Go Summer Hackathon                                       | Dublin 8, Ireland      | 16 Aug 2025      |                        | [Link](https://lu.ma/l7lbbqsu)                  |
 | About Product, About AI - Hack Day                                        | London, UK             | 16 Aug 2025      | AI                     | [Link](https://lu.ma/eei676jq)                  |
 | Stablecoin Summer: Decoding Crypto’s Steadiest Asset Class                | London, UK             | 18 Aug 2025      | Crypto, Sustainability | [Link](https://lu.ma/9d7a9kbx)                  |
+| Open session on coding assistants (FLINTA only)                           | Berlin, Germany        | 19 Aug 2025      |                        | [Link](https://lu.ma/cpwllk8t)                  |
 | Summer of Vibecoding: Amsterdam Meetup for creators with AI 🚀🔆🏳️‍🌈 (v0.2) | Amsterdam, Netherlands | 20 Aug 2025      | AI, Sustainability     | [Link](https://lu.ma/jgzezknl)                  |
 | AI Cybersecurity Hackathon                                                | Berlin, Germany        | 28 Aug-29, 2025  | Defense                | [Link](https://lu.ma/4688cqru)                  |
 | Agentic Hackathon III                                                     | Antwerpen, Belgium     | 30 Aug 2025      | AI                     | [Link](https://lu.ma/ufw1goiy)                  |

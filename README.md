@@ -14,13 +14,12 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 6 August 2025 at 18:21_
+_Last updated: 7 August 2025 at 08:28_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                            | Location               | Date             | Topics                 | URL                                             |
 | ------------------------------------------------------------------------- | ---------------------- | ---------------- | ---------------------- | ----------------------------------------------- |
-| ⚡ AI Tooling in the SDLC: Hackathon @ Tessl HQ                           | London, UK             | 7 Aug 2025       |                        | [Link](https://lu.ma/1re1ffwu)                  |
 | How to Win a Hackathon - by Manus AI                                      | Dublin 24, Ireland     | 13 Aug 2025      | AI                     | [Link](https://lu.ma/qzng0mw8)                  |
 | Cursor Hackathon Tallinn                                                  | Tallinn, Estonia       | 14 Aug 2025      |                        | [Link](https://lu.ma/nw7qk2x6)                  |
 | Jentic x Give(a)Go Summer Hackathon                                       | Dublin 8, Ireland      | 16 Aug 2025      |                        | [Link](https://lu.ma/l7lbbqsu)                  |
@@ -46,8 +45,8 @@ _Last updated: 6 August 2025 at 18:21_
 | Bio Hackathon - Pitch Session - Nucleate x Evolved                        | Berlin, Germany        | 18 Oct 2025      |                        | [Link](https://lu.ma/eexmim0y)                  |
 | Encode London Research Conference and Hackathon                           | London, UK             | 24 Oct-26, 2025  |                        | [Link](https://lu.ma/Encode-London-25)          |
 | European Defense Tech Hackathon – Berlin                                  | Berlin, Germany        | 13 Nov-16, 2025  | Defense                | [Link](https://lu.ma/edth-2025-berlin)          |
-| AI Genesis                                                                | This, France           | 14 Nov-18, 2025  | AI                     | [Link](https://lablab.ai/event/ai-genesis)      |
 | AIxBio Hackathon Munich                                                   | München, Germany       | 14 Nov-15, 2025  |                        | [Link](https://lu.ma/dp4m7bcs)                  |
+| AI Genesis                                                                | This, France           | 14 Nov-18, 2025  | AI                     | [Link](https://lablab.ai/event/ai-genesis)      |
 | 'Since AI Hackathon' is here for AI enthusiasts🔥                         | Turku, Finland         | 21 Nov-23, 2025  |                        | [Link](https://lu.ma/2vs4wsjr)                  |
 | 2026 London Defence Tech Hackathon                                        | Camberley, UK          | 2 May-3, 2026    | Defense                | [Link](https://lu.ma/nn4aluwm)                  |
 
@@ -61,6 +60,7 @@ _Showing last 20 events_
 
 | Hackathon Name                                                                                                                    | Location               | Date                      | Topics                 | URL                                    |
 | --------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | ------------------------- | ---------------------- | -------------------------------------- |
+| ⚡ AI Tooling in the SDLC: Hackathon @ Tessl HQ                                                                                   | London, UK             | 7 Aug 2025                |                        | [Link](https://lu.ma/1re1ffwu)         |
 | AI Coding Session #3 — AI Founders Europe + AI Community Belgium                                                                  | Bruxelles, Belgium     | 4 Aug 2025                | AI                     | [Link](https://lu.ma/nnd5dm3b)         |
 | UK AI Agent Hackathon EP.2                                                                                                        | London, UK             | 2 Aug-24, 2025            | AI                     | [Link](https://lu.ma/89qnjdrj)         |
 | Zero to Coder: AI-Powered Coding Workshop                                                                                         | London, UK             | 2 Aug 2025                |                        | [Link](https://lu.ma/f7w4nhr5)         |
@@ -80,7 +80,6 @@ _Showing last 20 events_
 | 1st Low-Code n8n Tourism Hackathon                                                                                                | Eichstätt, Germany     | 22 Jul-23, 2025           |                        | [Link](https://lu.ma/d1xug7me)         |
 | 🎓 Blockchain Academia Workshops & Hackathon 🧑‍💻                                                                                   | Cluj-napoca, Romania   | 22 Jul 2025 - 1 Aug 2025  | AI, Crypto             | [Link](https://lu.ma/0i9an24t)         |
 | {Tech: Europe} AI Hackathon - Berlin Edition                                                                                      | Berlin, Germany        | 19 Jul-20, 2025           |                        | [Link](https://lu.ma/berlin-hackathon) |
-| Agentify: Build Your First AI Agent [Zero Coding]                                                                                 | Berlin, Germany        | 19 Jul 2025               | AI                     | [Link](https://lu.ma/azewg38z)         |
 
 <!-- PAST_TABLE_END -->
 

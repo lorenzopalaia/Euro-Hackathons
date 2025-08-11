@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 10 August 2025 at 18:15_
+_Last updated: 11 August 2025 at 08:28_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -22,8 +22,9 @@ _Last updated: 10 August 2025 at 18:15_
 | ------------------------------------------------------------------------- | ---------------------- | ---------------- | ---------------------- | ----------------------------------------------- |
 | How to Win a Hackathon - by Manus AI                                      | Dublin 24, Ireland     | 13 Aug 2025      | AI                     | [Link](https://lu.ma/qzng0mw8)                  |
 | Cursor Hackathon Tallinn                                                  | Tallinn, Estonia       | 14 Aug 2025      |                        | [Link](https://lu.ma/nw7qk2x6)                  |
-| Jentic x Give(a)Go Summer Hackathon                                       | Dublin 8, Ireland      | 16 Aug 2025      |                        | [Link](https://lu.ma/l7lbbqsu)                  |
 | About Product, About AI - Hack Day                                        | London, UK             | 16 Aug 2025      | AI                     | [Link](https://lu.ma/eei676jq)                  |
+| Jentic x Give(a)Go Summer Hackathon                                       | Dublin 8, Ireland      | 16 Aug 2025      |                        | [Link](https://lu.ma/l7lbbqsu)                  |
+| AI Coding Session #4 — AI Founders Europe + AI community Belgium          | Bruxelles, Belgium     | 18 Aug 2025      | AI                     | [Link](https://lu.ma/qyjz5v36)                  |
 | Stablecoin Summer: Decoding Crypto’s Steadiest Asset Class                | London, UK             | 18 Aug 2025      | Crypto, Sustainability | [Link](https://lu.ma/9d7a9kbx)                  |
 | Open session on coding assistants (FLINTA only)                           | Berlin, Germany        | 19 Aug 2025      |                        | [Link](https://lu.ma/cpwllk8t)                  |
 | Summer of Vibecoding: Amsterdam Meetup for creators with AI 🚀🔆🏳️‍🌈 (v0.2) | Amsterdam, Netherlands | 20 Aug 2025      | AI, Sustainability     | [Link](https://lu.ma/jgzezknl)                  |

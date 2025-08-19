@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 19 August 2025 at 08:21_
+_Last updated: 19 August 2025 at 12:16_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -23,6 +23,7 @@ _Last updated: 19 August 2025 at 08:21_
 | Summer of Vibecoding: Amsterdam Meetup for creators with AI 🚀🔆🏳️‍🌈 (v0.2)         | Amsterdam, Netherlands | 20 Aug 2025      | AI, Sustainability           | [Link](https://lu.ma/jgzezknl)                  |
 | Decoding the Digital Gold Rush: Your Playbook for Web3 Success                    | London, UK             | 22 Aug 2025      | Crypto, Web3, Sustainability | [Link](https://lu.ma/0ijuyllg)                  |
 | AI Coding Session #4.5 /_intermezzo_/ — AI Founders Europe + AI community Belgium | Bruxelles, Belgium     | 25 Aug 2025      | AI                           | [Link](https://lu.ma/gzna8d1e)                  |
+| Vibe Coding @ Antler                                                              | Helsinki, Finland      | 26 Aug 2025      | AI                           | [Link](https://lu.ma/antlervibe)                |
 | AI Cybersecurity Hackathon                                                        | Berlin, Germany        | 28 Aug-29, 2025  | Defense                      | [Link](https://lu.ma/4688cqru)                  |
 | Agentic Hackathon III                                                             | Antwerpen, Belgium     | 30 Aug 2025      | AI                           | [Link](https://lu.ma/ufw1goiy)                  |
 | Vibe Coders: The Anti-Boring AI Coding & Build Night #2                           | Zürich, Switzerland    | 2 Sept 2025      | AI                           | [Link](https://lu.ma/acsrs703)                  |

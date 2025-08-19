@@ -14,13 +14,12 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 18 August 2025 at 18:18_
+_Last updated: 19 August 2025 at 08:21_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                                    | Location               | Date             | Topics                       | URL                                             |
 | --------------------------------------------------------------------------------- | ---------------------- | ---------------- | ---------------------------- | ----------------------------------------------- |
-| Open session on coding assistants (FLINTA only)                                   | Berlin, Germany        | 19 Aug 2025      |                              | [Link](https://lu.ma/cpwllk8t)                  |
 | Summer of Vibecoding: Amsterdam Meetup for creators with AI 🚀🔆🏳️‍🌈 (v0.2)         | Amsterdam, Netherlands | 20 Aug 2025      | AI, Sustainability           | [Link](https://lu.ma/jgzezknl)                  |
 | Decoding the Digital Gold Rush: Your Playbook for Web3 Success                    | London, UK             | 22 Aug 2025      | Crypto, Web3, Sustainability | [Link](https://lu.ma/0ijuyllg)                  |
 | AI Coding Session #4.5 /_intermezzo_/ — AI Founders Europe + AI community Belgium | Bruxelles, Belgium     | 25 Aug 2025      | AI                           | [Link](https://lu.ma/gzna8d1e)                  |
@@ -63,6 +62,7 @@ _Showing last 20 events_
 
 | Hackathon Name                                                                                                                    | Location               | Date            | Topics                 | URL                                                    |
 | --------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | --------------- | ---------------------- | ------------------------------------------------------ |
+| Open session on coding assistants (FLINTA only)                                                                                   | Berlin, Germany        | 19 Aug 2025     |                        | [Link](https://lu.ma/cpwllk8t)                         |
 | Stablecoin Summer: Decoding Crypto’s Steadiest Asset Class                                                                        | London, UK             | 18 Aug 2025     | Crypto, Sustainability | [Link](https://lu.ma/9d7a9kbx)                         |
 | Co-Creating with GPT-5                                                                                                            | TBD                    | 18 Aug-24, 2025 | AI                     | [Link](https://lablab.ai/event/co-creating-with-gpt-5) |
 | AI Coding Session #4 — AI Founders Europe + AI community Belgium                                                                  | Bruxelles, Belgium     | 18 Aug 2025     | AI                     | [Link](https://lu.ma/qyjz5v36)                         |
@@ -82,7 +82,6 @@ _Showing last 20 events_
 | Hackathon Demo & Networking @ Amsterdam/Oosterpark                                                                                | Amsterdam, Netherlands | 26 Jul 2025     |                        | [Link](https://lu.ma/e0g5zw1n)                         |
 | Vibe to Engineer: Intermediate AI-Powered Coding Workshop                                                                         | London, UK             | 26 Jul 2025     |                        | [Link](https://lu.ma/s94czt4p)                         |
 | SoTA x Workshop Labs Hackathon: Human Augmentation                                                                                | London, UK             | 26 Jul-27, 2025 |                        | [Link](https://lu.ma/1au1lxbt)                         |
-| Summer of Vibecoding: Amsterdam Meetup for creators with AI 🚀🔆🏳️‍🌈 (v0.1)                                                         | Amsterdam, Netherlands | 26 Jul 2025     | AI, Sustainability     | [Link](https://lu.ma/i0krhqgt)                         |
 
 <!-- PAST_TABLE_END -->
 

@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 23 August 2025 at 10:14_
+_Last updated: 23 August 2025 at 14:26_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -45,6 +45,7 @@ _Last updated: 23 August 2025 at 10:14_
 | Swiss {ai} Weeks - Lausanne Hackathon                                             | Lausanne, Switzerland  | 26 Sept-27, 2025 |                | [Link](https://lu.ma/swissai-lausanne)          |
 | {Tech: Europe} Paris AI Hackathon                                                 | Paris, France          | 27 Sept-28, 2025 | AI             | [Link](https://lu.ma/paris-hackathon)           |
 | SUI <> BSA Hackathon 3rd Edition 💧                                               | Ecublens, Switzerland  | 27 Sept-28, 2025 |                | [Link](https://lu.ma/mqgp7u0s)                  |
+| About Product, About AI - Hack Day                                                | London, UK             | 27 Sept 2025     | AI             | [Link](https://lu.ma/903soqu5)                  |
 | European Defense Tech Hackathon – Milan                                           | Milan, Italy           | 3 Oct-5, 2025    | Defense        | [Link](https://lu.ma/edth-2025-milan)           |
 | AI for Change Hackathon - by Tilda                                                | Stockholm, Sweden      | 15 Oct 2025      |                | [Link](https://lu.ma/5c29n1vt)                  |
 | Bio Hackathon - Pitch Session - Nucleate x Evolved                                | Berlin, Germany        | 18 Oct 2025      |                | [Link](https://lu.ma/eexmim0y)                  |

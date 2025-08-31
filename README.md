@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 31 August 2025 at 10:13_
+_Last updated: 31 August 2025 at 14:25_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -24,6 +24,7 @@ _Last updated: 31 August 2025 at 10:13_
 | Algorand Hackathon: AI Meets Blockchain @w3.hub                                | Berlin, Germany            | 3 Sept-4, 2025   | AI, Crypto         | [Link](https://lu.ma/be27ik5w)                  |
 | Mafia in Manhattan 🗽🦄 - Internet of Agents Hackathon Prep Event              | London, UK                 | 4 Sept 2025      | AI                 | [Link](https://lu.ma/8pskpndy)                  |
 | ETHWarsaw Hackathon 2025                                                       | Warszawa, Poland           | 5 Sept-7, 2025   |                    | [Link](https://lu.ma/fk2sox3r)                  |
+| n8n & Vibe Coding Hackathon                                                    | Berlin, Germany            | 6 Sept 2025      | AI                 | [Link](https://lu.ma/l8j9vfe3)                  |
 | Antler x ElevenLabs Hackathon                                                  | London, UK                 | 6 Sept-7, 2025   |                    | [Link](https://lu.ma/xwrkgma9)                  |
 | BLACKBOX.AI Agents Hackathon x 42AI                                            | Paris, France              | 6 Sept-7, 2025   | AI                 | [Link](https://lu.ma/r9qa9a4a)                  |
 | n8n X Black Forest Labs - Creative AI Hackathon                                | Berlin, Germany            | 6 Sept 2025      | AI                 | [Link](https://lu.ma/creative-ai-hackathon)     |

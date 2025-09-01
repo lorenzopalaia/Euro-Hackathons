@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 1 September 2025 at 15:13_
+_Last updated: 1 September 2025 at 18:14_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -25,17 +25,18 @@ _Last updated: 1 September 2025 at 15:13_
 | Mafia in Manhattan 🗽🦄 - Internet of Agents Hackathon Prep Event              | London, UK                 | 4 Sept 2025      | AI                 | [Link](https://lu.ma/8pskpndy)                  |
 | ETHWarsaw Hackathon 2025                                                       | Warszawa, Poland           | 5 Sept-7, 2025   |                    | [Link](https://lu.ma/fk2sox3r)                  |
 | n8n & Vibe Coding Hackathon                                                    | Berlin, Germany            | 6 Sept 2025      | AI                 | [Link](https://lu.ma/l8j9vfe3)                  |
-| Antler x ElevenLabs Hackathon                                                  | London, UK                 | 6 Sept-7, 2025   |                    | [Link](https://lu.ma/xwrkgma9)                  |
 | BLACKBOX.AI Agents Hackathon x 42AI                                            | Paris, France              | 6 Sept-7, 2025   | AI                 | [Link](https://lu.ma/r9qa9a4a)                  |
+| Antler x ElevenLabs Hackathon                                                  | London, UK                 | 6 Sept-7, 2025   |                    | [Link](https://lu.ma/xwrkgma9)                  |
 | n8n X Black Forest Labs - Creative AI Hackathon                                | Berlin, Germany            | 6 Sept 2025      | AI                 | [Link](https://lu.ma/creative-ai-hackathon)     |
 | AI Security Hackathon                                                          | London, UK                 | 6 Sept 2025      | AI, Defense        | [Link](https://lu.ma/AI-security-hackathon)     |
 | Zero to Coder: AI-Powered Coding Workshop                                      | London, UK                 | 6 Sept 2025      | AI                 | [Link](https://lu.ma/4yipfvo0)                  |
+| Patimat App x Manus AI TR – Meet-Up & Mini Hackathon                           | Şişli, Turkey              | 6 Sept 2025      | AI                 | [Link](https://lu.ma/ky7t6w2l)                  |
 | AI maká, ty tvoříš: Úvod do vibecodingu                                        | Prague, Czech Republic     | 9 Sept 2025      | Sustainability     | [Link](https://lu.ma/howawy36)                  |
 | Vibecoding Meetup Amsterdam: How to AI 🚀🔆🏳️‍🌈 (v0.3)                           | Amsterdam, Netherlands     | 10 Sept 2025     | AI, Sustainability | [Link](https://lu.ma/xa6jp4g1)                  |
 | Software Engineering Meetup: Coding Smarter & Faster with GenAI, LLMs & Agents | Brno-město, Czech Republic | 11 Sept 2025     | AI                 | [Link](https://lu.ma/y5isba0j)                  |
 | Berlin Energy Hackathon 2025                                                   | Berlin, Germany            | 12 Sept-14, 2025 | Sustainability     | [Link](https://lu.ma/6r10djlm)                  |
-| Amsterdam Policy Hackathon                                                     | Amsterdam, Netherlands     | 12 Sept-14, 2025 |                    | [Link](https://lu.ma/nxr09g71)                  |
 | Cursor Hackathon Vilnius                                                       | Vilnius, Lithuania         | 12 Sept-14, 2025 |                    | [Link](https://lu.ma/i13f8qd5)                  |
+| Amsterdam Policy Hackathon                                                     | Amsterdam, Netherlands     | 12 Sept-14, 2025 |                    | [Link](https://lu.ma/nxr09g71)                  |
 | 🇸🇪 {Tech: Europe} Stockholm AI Hackathon                                       | Stockholm, Sweden          | 13 Sept-14, 2025 | AI                 | [Link](https://lu.ma/stockholm-hackathon)       |
 | Rewire the State Hackathon: Build next-gen government with 10DS                | London, UK                 | 16 Sept-17, 2025 |                    | [Link](https://lu.ma/m0mp4xwy)                  |
 | Gender Hackathon Berlin                                                        | Berlin, Germany            | 18 Sept 2025     |                    | [Link](https://lu.ma/b4th8hp4)                  |

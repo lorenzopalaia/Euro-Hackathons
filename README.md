@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 1 September 2025 at 12:16_
+_Last updated: 1 September 2025 at 15:13_
 
 <!-- UPCOMING_TABLE_START -->
 

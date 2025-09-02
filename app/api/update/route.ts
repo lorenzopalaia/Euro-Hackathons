@@ -108,20 +108,23 @@ export async function POST(request: Request) {
             .single();
 
           if (!existing) {
+            const insertData = {
+              name: hackathon.name,
+              city: hackathon.city || null,
+              country_code: hackathon.country_code || null,
+              date_start: hackathon.date_start.toISOString().split("T")[0],
+              date_end: hackathon.date_end?.toISOString().split("T")[0] || null,
+              topics: hackathon.topics || null,
+              notes: hackathon.notes || null,
+              url: hackathon.url,
+              source: hackathon.source,
+              notified: testMode ? true : false, // In test mode, marca come già notificato
+            };
+
             const { data: inserted, error } = await supabaseAdmin
               .from("hackathons")
-              .insert({
-                name: hackathon.name,
-                city: hackathon.city,
-                country_code: hackathon.country_code,
-                date_start: hackathon.date_start.toISOString().split("T")[0],
-                date_end: hackathon.date_end?.toISOString().split("T")[0],
-                topics: hackathon.topics,
-                notes: hackathon.notes,
-                url: hackathon.url,
-                source: hackathon.source,
-                notified: testMode ? true : false, // In test mode, marca come già notificato
-              })
+              // @ts-expect-error - Type assertion for Supabase insert operation
+              .insert(insertData)
               .select()
               .single();
 
@@ -192,6 +195,7 @@ export async function POST(request: Request) {
         try {
           await supabaseAdmin
             .from("hackathons")
+            // @ts-expect-error - Type assertion for Supabase update operation
             .update({ notified: true })
             .in(
               "id",

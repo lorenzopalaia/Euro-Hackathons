@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 7 September 2025 at 14:22_
+_Last updated: 7 September 2025 at 18:12_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -48,10 +48,11 @@ _Last updated: 7 September 2025 at 14:22_
 | Kids (8-13 yo) Vibe-Coding Hackathon                                                  | Bruxelles, Belgium         | 11 Oct 2025              |                              | [Link](https://lu.ma/midw5hf9)                  |
 | AI for Change Hackathon - by Tilda                                                    | Stockholm, Sweden          | 15 Oct 2025              |                              | [Link](https://lu.ma/5c29n1vt)                  |
 | Bio Hackathon - Pitch Session - Nucleate x Evolved                                    | Berlin, Germany            | 18 Oct 2025              |                              | [Link](https://lu.ma/eexmim0y)                  |
+| European Defense Tech Hackathon – Munich                                              | München, Germany           | 24 Oct-26, 2025          | Defense                      | [Link](https://lu.ma/edth-2025-munich)          |
 | Encode London Research Conference and Hackathon                                       | London, UK                 | 24 Oct-26, 2025          |                              | [Link](https://lu.ma/Encode-London-25)          |
 | European Defense Tech Hackathon – Berlin                                              | Berlin, Germany            | 13 Nov-16, 2025          | Defense                      | [Link](https://lu.ma/edth-2025-berlin)          |
-| AIxBio Hackathon Munich                                                               | München, Germany           | 14 Nov-15, 2025          |                              | [Link](https://lu.ma/dp4m7bcs)                  |
 | AI Genesis                                                                            | This, France               | 14 Nov-18, 2025          | AI                           | [Link](https://lablab.ai/event/ai-genesis)      |
+| AIxBio Hackathon Munich                                                               | München, Germany           | 14 Nov-15, 2025          |                              | [Link](https://lu.ma/dp4m7bcs)                  |
 | 'Since AI Hackathon' is here for AI enthusiasts🔥                                     | Turku, Finland             | 21 Nov-23, 2025          |                              | [Link](https://lu.ma/2vs4wsjr)                  |
 | 2026 London Defence Tech Hackathon                                                    | Camberley, UK              | 2 May-3, 2026            | Defense                      | [Link](https://lu.ma/nn4aluwm)                  |
 

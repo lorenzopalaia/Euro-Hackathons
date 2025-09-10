@@ -14,13 +14,12 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 9 September 2025 at 18:15_
+_Last updated: 10 September 2025 at 08:21_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                                                                                   | Location                   | Date             | Topics                       | URL                                             |
 | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | ---------------- | ---------------------------- | ----------------------------------------------- |
-| Vibecoding Meetup Amsterdam: How to AI 🚀🔆🏳️‍🌈 (v0.3)                                                                             | Amsterdam, Netherlands     | 10 Sept 2025     | AI, Sustainability           | [Link](https://lu.ma/xa6jp4g1)                  |
 | Software Engineering Meetup: Coding Smarter & Faster with GenAI, LLMs & Agents                                                   | Brno-město, Czech Republic | 11 Sept 2025     | AI                           | [Link](https://lu.ma/y5isba0j)                  |
 | Cursor Hackathon Vilnius                                                                                                         | Vilnius, Lithuania         | 12 Sept-14, 2025 |                              | [Link](https://lu.ma/i13f8qd5)                  |
 | Amsterdam Policy Hackathon                                                                                                       | Amsterdam, Netherlands     | 12 Sept-14, 2025 |                              | [Link](https://lu.ma/nxr09g71)                  |
@@ -28,8 +27,8 @@ _Last updated: 9 September 2025 at 18:15_
 | 🇸🇪 {Tech: Europe} Stockholm AI Hackathon                                                                                         | Stockholm, Sweden          | 13 Sept-14, 2025 | AI                           | [Link](https://lu.ma/stockholm-hackathon)       |
 | Cursor Hackathon Vilnius: Demo Day                                                                                               | Vilnius, Lithuania         | 14 Sept 2025     |                              | [Link](https://lu.ma/s3wi4vhb)                  |
 | Humanoid Manipulation Hackathon                                                                                                  | München, Germany           | 15 Sept-21, 2025 |                              | [Link](https://lu.ma/0bwvwejk)                  |
-| Rewire the State Hackathon: Build next-gen government with 10DS                                                                  | London, UK                 | 16 Sept-17, 2025 |                              | [Link](https://lu.ma/m0mp4xwy)                  |
 | AI Hackathon                                                                                                                     | Tampere, Finland           | 16 Sept-20, 2025 | AI                           | [Link](https://lu.ma/q0lcqkua)                  |
+| Rewire the State Hackathon: Build next-gen government with 10DS                                                                  | London, UK                 | 16 Sept-17, 2025 |                              | [Link](https://lu.ma/m0mp4xwy)                  |
 | Gender Hackathon Berlin                                                                                                          | Berlin, Germany            | 18 Sept 2025     |                              | [Link](https://lu.ma/b4th8hp4)                  |
 | Hackathon: Build crash-proof apps with AI, TypeScript, and Temporal                                                              | Stockholm, Sweden          | 18 Sept 2025     | AI                           | [Link](https://lu.ma/spa2no7m)                  |
 | Pitch-Off: AGENTIC AI HACKATHON x Road to START HACK 2026                                                                        | Hamburg, Germany           | 19 Sept 2025     | AI                           | [Link](https://lu.ma/6p7dji3g)                  |
@@ -38,24 +37,24 @@ _Last updated: 9 September 2025 at 18:15_
 | Bytes for Bites Hackathon Finals & Networking co-hosted by the Bezos Centre for Sustainable Protein, Microbial Food Hub & I-X    | London, UK                 | 22 Sept 2025     | AI, Sustainability           | [Link](https://lu.ma/ncksh1cf)                  |
 | ETHSofia Conference and Hackathon 2025                                                                                           | Sofia, Bulgaria            | 24 Sept 2025     |                              | [Link](https://lu.ma/v830crl0)                  |
 | European Defense Tech Hackathon – London                                                                                         | London, UK                 | 25 Sept-28, 2025 | Defense                      | [Link](https://lu.ma/edth-2025-london)          |
-| Swiss {ai} Weeks - Geneva Hackathon                                                                                              | Genève, Switzerland        | 26 Sept-28, 2025 | AI                           | [Link](https://lu.ma/ggonfhfm)                  |
 | Zurich Hackathon                                                                                                                 | Zürich, Switzerland        | 26 Sept-27, 2025 |                              | [Link](https://lu.ma/hackathon-zurich-26270925) |
 | Lenzburg Hackathon @Finnova                                                                                                      | Lenzburg, Switzerland      | 26 Sept 2025     |                              | [Link](https://lu.ma/kd5177ia)                  |
 | Swiss {ai} Weeks - Lausanne Hackathon                                                                                            | Lausanne, Switzerland      | 26 Sept-27, 2025 |                              | [Link](https://lu.ma/swissai-lausanne)          |
+| Swiss {ai} Weeks - Geneva Hackathon                                                                                              | Genève, Switzerland        | 26 Sept-28, 2025 | AI                           | [Link](https://lu.ma/ggonfhfm)                  |
 | AWS AI Hackathon                                                                                                                 | München, Germany           | 26 Sept 2025     | AI                           | [Link](https://lu.ma/a6wcga07)                  |
 | About Product, About AI - Hack Day                                                                                               | London, UK                 | 27 Sept 2025     | AI                           | [Link](https://lu.ma/903soqu5)                  |
-| SUI <> BSA Hackathon 3rd Edition 💧                                                                                              | Ecublens, Switzerland      | 27 Sept-28, 2025 |                              | [Link](https://lu.ma/mqgp7u0s)                  |
 | {Tech: Europe} Paris AI Hackathon                                                                                                | Paris, France              | 27 Sept-28, 2025 | AI                           | [Link](https://lu.ma/paris-hackathon)           |
+| SUI <> BSA Hackathon 3rd Edition 💧                                                                                              | Ecublens, Switzerland      | 27 Sept-28, 2025 |                              | [Link](https://lu.ma/mqgp7u0s)                  |
 | Inside Crypto: What every investor should know - decoding bitcoin, wallets and beyond                                            | London, UK                 | 30 Sept 2025     | Crypto, Web3, Sustainability | [Link](https://lu.ma/ugw7id6c)                  |
 | BotWerkstatt - Voice & Chatbot Hackathon                                                                                         | Winterthur, Switzerland    | 1 Oct 2025       |                              | [Link](https://lu.ma/shzplomu)                  |
 | European Defense Tech Hackathon – Milan                                                                                          | Milan, Italy               | 3 Oct-5, 2025    | Defense                      | [Link](https://lu.ma/edth-2025-milan)           |
-| Hackathon AI & GenAI - juridique et conformité @Atos                                                                             | Bezons, France             | 8 Oct-9, 2025    | AI                           | [Link](https://lu.ma/eces77oe)                  |
 | Vibecoding Meetup Amsterdam: How to AI 🚀🔆🏳️‍🌈                                                                                    | Amsterdam, Netherlands     | 8 Oct 2025       | AI, Sustainability           | [Link](https://lu.ma/wzy5amql)                  |
+| Hackathon AI & GenAI - juridique et conformité @Atos                                                                             | Bezons, France             | 8 Oct-9, 2025    | AI                           | [Link](https://lu.ma/eces77oe)                  |
 | Kids (8-13 yo) Vibe-Coding Hackathon                                                                                             | Bruxelles, Belgium         | 11 Oct 2025      |                              | [Link](https://lu.ma/midw5hf9)                  |
 | AI for Change Hackathon - by Tilda                                                                                               | Stockholm, Sweden          | 15 Oct 2025      |                              | [Link](https://lu.ma/5c29n1vt)                  |
 | Bio Hackathon - Pitch Session - Nucleate x Evolved                                                                               | Berlin, Germany            | 18 Oct 2025      |                              | [Link](https://lu.ma/eexmim0y)                  |
-| Encode London Research Conference and Hackathon                                                                                  | London, UK                 | 24 Oct-26, 2025  |                              | [Link](https://lu.ma/Encode-London-25)          |
 | European Defense Tech Hackathon – Munich                                                                                         | München, Germany           | 24 Oct-26, 2025  | Defense                      | [Link](https://lu.ma/edth-2025-munich)          |
+| Encode London Research Conference and Hackathon                                                                                  | London, UK                 | 24 Oct-26, 2025  |                              | [Link](https://lu.ma/Encode-London-25)          |
 | European Defense Tech Hackathon – Berlin                                                                                         | Berlin, Germany            | 13 Nov-16, 2025  | Defense                      | [Link](https://lu.ma/edth-2025-berlin)          |
 | AIxBio Hackathon Munich                                                                                                          | München, Germany           | 14 Nov-15, 2025  |                              | [Link](https://lu.ma/dp4m7bcs)                  |
 | AI Genesis                                                                                                                       | This, France               | 14 Nov-18, 2025  | AI                           | [Link](https://lablab.ai/event/ai-genesis)      |
@@ -70,28 +69,28 @@ _Showing last 20 events_
 
 <!-- PAST_TABLE_START -->
 
-| Hackathon Name                                                              | Location               | Date                     | Topics         | URL                                         |
-| --------------------------------------------------------------------------- | ---------------------- | ------------------------ | -------------- | ------------------------------------------- |
-| AI maká, ty tvoříš: Úvod do vibecodingu                                     | Prague, Czech Republic | 9 Sept 2025              | Sustainability | [Link](https://lu.ma/howawy36)              |
-| 8th & 9th Sept Google Cloud Hackathon - CDTM x TUM.ai                       | München, Germany       | 8 Sept-9, 2025           | AI             | [Link](https://lu.ma/zro3lygw)              |
-| The Bakery by Superteam France - Coworking Hours - Hackathon Build Station. | Paris, France          | 8 Sept 2025 - 5 Oct 2025 |                | [Link](https://lu.ma/peagfbdg)              |
-| Zero to Coder: AI-Powered Coding Workshop                                   | London, UK             | 6 Sept 2025              | AI             | [Link](https://lu.ma/4yipfvo0)              |
-| BLACKBOX.AI Agents Hackathon x 42AI                                         | Paris, France          | 6 Sept-7, 2025           | AI             | [Link](https://lu.ma/r9qa9a4a)              |
-| n8n & Vibe Coding Hackathon                                                 | Berlin, Germany        | 6 Sept 2025              | AI             | [Link](https://lu.ma/l8j9vfe3)              |
-| Patimat App x Manus AI TR – Meet-Up & Mini Hackathon                        | Şişli, Turkey          | 6 Sept 2025              | AI             | [Link](https://lu.ma/ky7t6w2l)              |
-| Antler x ElevenLabs Hackathon                                               | London, UK             | 6 Sept-7, 2025           |                | [Link](https://lu.ma/xwrkgma9)              |
-| AI Security Hackathon                                                       | London, UK             | 6 Sept 2025              | AI, Defense    | [Link](https://lu.ma/AI-security-hackathon) |
-| n8n X Black Forest Labs - Creative AI Hackathon                             | Berlin, Germany        | 6 Sept 2025              | AI             | [Link](https://lu.ma/creative-ai-hackathon) |
-| ETHWarsaw Hackathon 2025                                                    | Warszawa, Poland       | 5 Sept-7, 2025           |                | [Link](https://lu.ma/fk2sox3r)              |
-| Mafia in Manhattan 🗽🦄 - Internet of Agents Hackathon Prep Event           | London, UK             | 4 Sept 2025              | AI             | [Link](https://lu.ma/8pskpndy)              |
-| Algorand Hackathon: AI Meets Blockchain @w3.hub                             | Berlin, Germany        | 3 Sept-4, 2025           | AI, Crypto     | [Link](https://lu.ma/be27ik5w)              |
-| Vibe Coders: The Anti-Boring AI Coding & Build Night #2                     | Zürich, Switzerland    | 2 Sept 2025              | AI             | [Link](https://lu.ma/acsrs703)              |
-| Agentic Hackathon III                                                       | Antwerpen, Belgium     | 30 Aug 2025              | AI             | [Link](https://lu.ma/ufw1goiy)              |
-| n8n + AI Agents + Vibe Coding Workshop                                      | Berlin, Germany        | 30 Aug 2025              | AI             | [Link](https://lu.ma/jn14lcy2)              |
-| 29.08. Hackathon - Lovable x AWS x N8N x CDTM x TUM.ai                      | München, Germany       | 29 Aug 2025              | AI             | [Link](https://lu.ma/1jhgnif6)              |
-| AI Cybersecurity Hackathon                                                  | Berlin, Germany        | 28 Aug-29, 2025          | Defense        | [Link](https://lu.ma/4688cqru)              |
-| Vibe Coding @ Antler                                                        | Helsinki, Finland      | 26 Aug 2025              | AI             | [Link](https://lu.ma/antlervibe)            |
-| Cursor Hackathon Berlin                                                     | Berlin, Germany        | 26 Aug 2025              |                | [Link](https://lu.ma/s8bmclas)              |
+| Hackathon Name                                                              | Location               | Date                     | Topics             | URL                                         |
+| --------------------------------------------------------------------------- | ---------------------- | ------------------------ | ------------------ | ------------------------------------------- |
+| Vibecoding Meetup Amsterdam: How to AI 🚀🔆🏳️‍🌈 (v0.3)                        | Amsterdam, Netherlands | 10 Sept 2025             | AI, Sustainability | [Link](https://lu.ma/xa6jp4g1)              |
+| AI maká, ty tvoříš: Úvod do vibecodingu                                     | Prague, Czech Republic | 9 Sept 2025              | Sustainability     | [Link](https://lu.ma/howawy36)              |
+| 8th & 9th Sept Google Cloud Hackathon - CDTM x TUM.ai                       | München, Germany       | 8 Sept-9, 2025           | AI                 | [Link](https://lu.ma/zro3lygw)              |
+| The Bakery by Superteam France - Coworking Hours - Hackathon Build Station. | Paris, France          | 8 Sept 2025 - 5 Oct 2025 |                    | [Link](https://lu.ma/peagfbdg)              |
+| Zero to Coder: AI-Powered Coding Workshop                                   | London, UK             | 6 Sept 2025              | AI                 | [Link](https://lu.ma/4yipfvo0)              |
+| BLACKBOX.AI Agents Hackathon x 42AI                                         | Paris, France          | 6 Sept-7, 2025           | AI                 | [Link](https://lu.ma/r9qa9a4a)              |
+| n8n & Vibe Coding Hackathon                                                 | Berlin, Germany        | 6 Sept 2025              | AI                 | [Link](https://lu.ma/l8j9vfe3)              |
+| Patimat App x Manus AI TR – Meet-Up & Mini Hackathon                        | Şişli, Turkey          | 6 Sept 2025              | AI                 | [Link](https://lu.ma/ky7t6w2l)              |
+| Antler x ElevenLabs Hackathon                                               | London, UK             | 6 Sept-7, 2025           |                    | [Link](https://lu.ma/xwrkgma9)              |
+| AI Security Hackathon                                                       | London, UK             | 6 Sept 2025              | AI, Defense        | [Link](https://lu.ma/AI-security-hackathon) |
+| n8n X Black Forest Labs - Creative AI Hackathon                             | Berlin, Germany        | 6 Sept 2025              | AI                 | [Link](https://lu.ma/creative-ai-hackathon) |
+| ETHWarsaw Hackathon 2025                                                    | Warszawa, Poland       | 5 Sept-7, 2025           |                    | [Link](https://lu.ma/fk2sox3r)              |
+| Mafia in Manhattan 🗽🦄 - Internet of Agents Hackathon Prep Event           | London, UK             | 4 Sept 2025              | AI                 | [Link](https://lu.ma/8pskpndy)              |
+| Algorand Hackathon: AI Meets Blockchain @w3.hub                             | Berlin, Germany        | 3 Sept-4, 2025           | AI, Crypto         | [Link](https://lu.ma/be27ik5w)              |
+| Vibe Coders: The Anti-Boring AI Coding & Build Night #2                     | Zürich, Switzerland    | 2 Sept 2025              | AI                 | [Link](https://lu.ma/acsrs703)              |
+| Agentic Hackathon III                                                       | Antwerpen, Belgium     | 30 Aug 2025              | AI                 | [Link](https://lu.ma/ufw1goiy)              |
+| n8n + AI Agents + Vibe Coding Workshop                                      | Berlin, Germany        | 30 Aug 2025              | AI                 | [Link](https://lu.ma/jn14lcy2)              |
+| 29.08. Hackathon - Lovable x AWS x N8N x CDTM x TUM.ai                      | München, Germany       | 29 Aug 2025              | AI                 | [Link](https://lu.ma/1jhgnif6)              |
+| AI Cybersecurity Hackathon                                                  | Berlin, Germany        | 28 Aug-29, 2025          | Defense            | [Link](https://lu.ma/4688cqru)              |
+| Vibe Coding @ Antler                                                        | Helsinki, Finland      | 26 Aug 2025              | AI                 | [Link](https://lu.ma/antlervibe)            |
 
 <!-- PAST_TABLE_END -->
 

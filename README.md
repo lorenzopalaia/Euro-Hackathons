@@ -14,13 +14,12 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 10 September 2025 at 18:15_
+_Last updated: 11 September 2025 at 08:21_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                                                                                   | Location                           | Date             | Topics                       | URL                                             |
 | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- | ---------------- | ---------------------------- | ----------------------------------------------- |
-| Software Engineering Meetup: Coding Smarter & Faster with GenAI, LLMs & Agents                                                   | Brno-město, Czech Republic         | 11 Sept 2025     | AI                           | [Link](https://lu.ma/y5isba0j)                  |
 | Amsterdam Policy Hackathon                                                                                                       | Amsterdam, Netherlands             | 12 Sept-14, 2025 |                              | [Link](https://lu.ma/nxr09g71)                  |
 | Berlin Energy Hackathon 2025                                                                                                     | Berlin, Germany                    | 12 Sept-14, 2025 | Sustainability               | [Link](https://lu.ma/6r10djlm)                  |
 | Cursor Hackathon Vilnius                                                                                                         | Vilnius, Lithuania                 | 12 Sept-14, 2025 |                              | [Link](https://lu.ma/i13f8qd5)                  |
@@ -72,28 +71,28 @@ _Showing last 20 events_
 
 <!-- PAST_TABLE_START -->
 
-| Hackathon Name                                                              | Location               | Date                     | Topics             | URL                                         |
-| --------------------------------------------------------------------------- | ---------------------- | ------------------------ | ------------------ | ------------------------------------------- |
-| Vibecoding Meetup Amsterdam: How to AI 🚀🔆🏳️‍🌈 (v0.3)                        | Amsterdam, Netherlands | 10 Sept 2025             | AI, Sustainability | [Link](https://lu.ma/xa6jp4g1)              |
-| AI maká, ty tvoříš: Úvod do vibecodingu                                     | Prague, Czech Republic | 9 Sept 2025              | Sustainability     | [Link](https://lu.ma/howawy36)              |
-| 8th & 9th Sept Google Cloud Hackathon - CDTM x TUM.ai                       | München, Germany       | 8 Sept-9, 2025           | AI                 | [Link](https://lu.ma/zro3lygw)              |
-| The Bakery by Superteam France - Coworking Hours - Hackathon Build Station. | Paris, France          | 8 Sept 2025 - 5 Oct 2025 |                    | [Link](https://lu.ma/peagfbdg)              |
-| Zero to Coder: AI-Powered Coding Workshop                                   | London, UK             | 6 Sept 2025              | AI                 | [Link](https://lu.ma/4yipfvo0)              |
-| BLACKBOX.AI Agents Hackathon x 42AI                                         | Paris, France          | 6 Sept-7, 2025           | AI                 | [Link](https://lu.ma/r9qa9a4a)              |
-| n8n & Vibe Coding Hackathon                                                 | Berlin, Germany        | 6 Sept 2025              | AI                 | [Link](https://lu.ma/l8j9vfe3)              |
-| Patimat App x Manus AI TR – Meet-Up & Mini Hackathon                        | Şişli, Turkey          | 6 Sept 2025              | AI                 | [Link](https://lu.ma/ky7t6w2l)              |
-| Antler x ElevenLabs Hackathon                                               | London, UK             | 6 Sept-7, 2025           |                    | [Link](https://lu.ma/xwrkgma9)              |
-| AI Security Hackathon                                                       | London, UK             | 6 Sept 2025              | AI, Defense        | [Link](https://lu.ma/AI-security-hackathon) |
-| n8n X Black Forest Labs - Creative AI Hackathon                             | Berlin, Germany        | 6 Sept 2025              | AI                 | [Link](https://lu.ma/creative-ai-hackathon) |
-| ETHWarsaw Hackathon 2025                                                    | Warszawa, Poland       | 5 Sept-7, 2025           |                    | [Link](https://lu.ma/fk2sox3r)              |
-| Mafia in Manhattan 🗽🦄 - Internet of Agents Hackathon Prep Event           | London, UK             | 4 Sept 2025              | AI                 | [Link](https://lu.ma/8pskpndy)              |
-| Algorand Hackathon: AI Meets Blockchain @w3.hub                             | Berlin, Germany        | 3 Sept-4, 2025           | AI, Crypto         | [Link](https://lu.ma/be27ik5w)              |
-| Vibe Coders: The Anti-Boring AI Coding & Build Night #2                     | Zürich, Switzerland    | 2 Sept 2025              | AI                 | [Link](https://lu.ma/acsrs703)              |
-| Agentic Hackathon III                                                       | Antwerpen, Belgium     | 30 Aug 2025              | AI                 | [Link](https://lu.ma/ufw1goiy)              |
-| n8n + AI Agents + Vibe Coding Workshop                                      | Berlin, Germany        | 30 Aug 2025              | AI                 | [Link](https://lu.ma/jn14lcy2)              |
-| 29.08. Hackathon - Lovable x AWS x N8N x CDTM x TUM.ai                      | München, Germany       | 29 Aug 2025              | AI                 | [Link](https://lu.ma/1jhgnif6)              |
-| AI Cybersecurity Hackathon                                                  | Berlin, Germany        | 28 Aug-29, 2025          | Defense            | [Link](https://lu.ma/4688cqru)              |
-| Vibe Coding @ Antler                                                        | Helsinki, Finland      | 26 Aug 2025              | AI                 | [Link](https://lu.ma/antlervibe)            |
+| Hackathon Name                                                                 | Location                   | Date                     | Topics             | URL                                         |
+| ------------------------------------------------------------------------------ | -------------------------- | ------------------------ | ------------------ | ------------------------------------------- |
+| Software Engineering Meetup: Coding Smarter & Faster with GenAI, LLMs & Agents | Brno-město, Czech Republic | 11 Sept 2025             | AI                 | [Link](https://lu.ma/y5isba0j)              |
+| Vibecoding Meetup Amsterdam: How to AI 🚀🔆🏳️‍🌈 (v0.3)                           | Amsterdam, Netherlands     | 10 Sept 2025             | AI, Sustainability | [Link](https://lu.ma/xa6jp4g1)              |
+| AI maká, ty tvoříš: Úvod do vibecodingu                                        | Prague, Czech Republic     | 9 Sept 2025              | Sustainability     | [Link](https://lu.ma/howawy36)              |
+| 8th & 9th Sept Google Cloud Hackathon - CDTM x TUM.ai                          | München, Germany           | 8 Sept-9, 2025           | AI                 | [Link](https://lu.ma/zro3lygw)              |
+| The Bakery by Superteam France - Coworking Hours - Hackathon Build Station.    | Paris, France              | 8 Sept 2025 - 5 Oct 2025 |                    | [Link](https://lu.ma/peagfbdg)              |
+| Zero to Coder: AI-Powered Coding Workshop                                      | London, UK                 | 6 Sept 2025              | AI                 | [Link](https://lu.ma/4yipfvo0)              |
+| BLACKBOX.AI Agents Hackathon x 42AI                                            | Paris, France              | 6 Sept-7, 2025           | AI                 | [Link](https://lu.ma/r9qa9a4a)              |
+| n8n & Vibe Coding Hackathon                                                    | Berlin, Germany            | 6 Sept 2025              | AI                 | [Link](https://lu.ma/l8j9vfe3)              |
+| Patimat App x Manus AI TR – Meet-Up & Mini Hackathon                           | Şişli, Turkey              | 6 Sept 2025              | AI                 | [Link](https://lu.ma/ky7t6w2l)              |
+| Antler x ElevenLabs Hackathon                                                  | London, UK                 | 6 Sept-7, 2025           |                    | [Link](https://lu.ma/xwrkgma9)              |
+| AI Security Hackathon                                                          | London, UK                 | 6 Sept 2025              | AI, Defense        | [Link](https://lu.ma/AI-security-hackathon) |
+| n8n X Black Forest Labs - Creative AI Hackathon                                | Berlin, Germany            | 6 Sept 2025              | AI                 | [Link](https://lu.ma/creative-ai-hackathon) |
+| ETHWarsaw Hackathon 2025                                                       | Warszawa, Poland           | 5 Sept-7, 2025           |                    | [Link](https://lu.ma/fk2sox3r)              |
+| Mafia in Manhattan 🗽🦄 - Internet of Agents Hackathon Prep Event              | London, UK                 | 4 Sept 2025              | AI                 | [Link](https://lu.ma/8pskpndy)              |
+| Algorand Hackathon: AI Meets Blockchain @w3.hub                                | Berlin, Germany            | 3 Sept-4, 2025           | AI, Crypto         | [Link](https://lu.ma/be27ik5w)              |
+| Vibe Coders: The Anti-Boring AI Coding & Build Night #2                        | Zürich, Switzerland        | 2 Sept 2025              | AI                 | [Link](https://lu.ma/acsrs703)              |
+| Agentic Hackathon III                                                          | Antwerpen, Belgium         | 30 Aug 2025              | AI                 | [Link](https://lu.ma/ufw1goiy)              |
+| n8n + AI Agents + Vibe Coding Workshop                                         | Berlin, Germany            | 30 Aug 2025              | AI                 | [Link](https://lu.ma/jn14lcy2)              |
+| 29.08. Hackathon - Lovable x AWS x N8N x CDTM x TUM.ai                         | München, Germany           | 29 Aug 2025              | AI                 | [Link](https://lu.ma/1jhgnif6)              |
+| AI Cybersecurity Hackathon                                                     | Berlin, Germany            | 28 Aug-29, 2025          | Defense            | [Link](https://lu.ma/4688cqru)              |
 
 <!-- PAST_TABLE_END -->
 

@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 15 September 2025 at 15:14_
+_Last updated: 15 September 2025 at 18:15_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -53,11 +53,13 @@ _Last updated: 15 September 2025 at 15:14_
 | Beyond vibe coding: когда ИИ начнёт писать весь код за нас?                                                                      | London, UK                         | 2 Oct 2025       | AI                           | [Link](https://lu.ma/qdqls5xz)                        |
 | Manchester Vibe Coding Masterclass - Learn How To Use AI No-Code Tools To Build Apps                                             | Manchester, UK                     | 3 Oct 2025       | AI                           | [Link](https://lu.ma/ManchesterVibeCodingMasterclass) |
 | European Defense Tech Hackathon – Milan                                                                                          | Milan, Italy                       | 3 Oct-5, 2025    | Defense                      | [Link](https://lu.ma/edth-2025-milan)                 |
+| Vibe Coding Paris Meetup #1                                                                                                      | Paris, France                      | 6 Oct 2025       | AI                           | [Link](https://lu.ma/n98ddyu5)                        |
 | Vibe Coding Workshop on AI, Creativity and Esotericism                                                                           | Amsterdam, Netherlands             | 7 Oct 2025       | AI                           | [Link](https://lu.ma/1v8jsbla)                        |
-| Vibecoding Meetup Amsterdam: How to AI 🚀🔆🏳️‍🌈                                                                                    | Amsterdam, Netherlands             | 8 Oct 2025       | AI, Sustainability           | [Link](https://lu.ma/wzy5amql)                        |
 | Hackathon AI & GenAI - juridique et conformité @Atos                                                                             | Bezons, France                     | 8 Oct-9, 2025    | AI                           | [Link](https://lu.ma/eces77oe)                        |
+| Vibecoding Meetup Amsterdam: How to AI 🚀🔆🏳️‍🌈                                                                                    | Amsterdam, Netherlands             | 8 Oct 2025       | AI, Sustainability           | [Link](https://lu.ma/wzy5amql)                        |
 | Kids (8-13 yo) Vibe-Coding Hackathon                                                                                             | Bruxelles, Belgium                 | 11 Oct 2025      |                              | [Link](https://lu.ma/midw5hf9)                        |
 | AI for Change Hackathon - by Tilda                                                                                               | Stockholm, Sweden                  | 15 Oct 2025      |                              | [Link](https://lu.ma/5c29n1vt)                        |
+| Vibe Coding Hackathon powered by Lovable - Milan 🇮🇹                                                                              | Milano, Italy                      | 18 Oct 2025      | AI                           | [Link](https://lu.ma/jcaojikx)                        |
 | Bio Hackathon - Pitch Session - Nucleate x Evolved                                                                               | Berlin, Germany                    | 18 Oct 2025      |                              | [Link](https://lu.ma/eexmim0y)                        |
 | Robotics Hackathon II                                                                                                            | Bruxelles, Belgium                 | 18 Oct 2025      |                              | [Link](https://lu.ma/vl1ksuok)                        |
 | The AI Rave Hackathon                                                                                                            | Berlin, Germany                    | 18 Oct-19, 2025  | AI                           | [Link](https://lu.ma/1uk4m59p)                        |

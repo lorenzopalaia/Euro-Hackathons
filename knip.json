@@ -22,6 +22,7 @@
     "tw-animate-css",
     "postcss"
   ],
+  "ignoreBinaries": ["npm-check-updates"],
   "next": true,
   "postcss": true,
   "prettier": true,

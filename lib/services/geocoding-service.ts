@@ -51,7 +51,7 @@ export class GeocodingService {
         return null;
       }
 
-      console.log(`Geocoding request for: ${city}`);
+      console.log(`Geocoding API request for: ${city}`);
 
       const address = city.trim();
 

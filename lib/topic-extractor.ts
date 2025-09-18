@@ -9,6 +9,7 @@ export interface TopicConfig {
   name: HackathonTopic;
   keywords: string[];
   priority: number; // Higher priority topics will be preferred in case of conflicts
+  pattern?: RegExp; // Pre-compiled regex pattern for performance
 }
 
 // Centralized topic configuration
@@ -221,15 +222,30 @@ export const TOPIC_CONFIGS: TopicConfig[] = [
 
 export class TopicExtractor {
   private readonly configs: TopicConfig[];
+  private readonly compiledPatterns: Array<{
+    name: HackathonTopic;
+    priority: number;
+    pattern: RegExp;
+  }>;
   private readonly maxTopics: number;
 
   constructor(configs: TopicConfig[] = TOPIC_CONFIGS, maxTopics: number = 5) {
     this.configs = configs.sort((a, b) => b.priority - a.priority);
     this.maxTopics = maxTopics;
+
+    // Compile regex patterns for each config
+    this.compiledPatterns = this.configs.map((config) => ({
+      name: config.name,
+      priority: config.priority,
+      pattern: new RegExp(
+        `\\b(${config.keywords.join("|").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})\\b`,
+        "gi",
+      ),
+    }));
   }
 
   /**
-   * Extract topics from hackathon text content
+   * Extract topics from hackathon text content (OPTIMIZED with pre-compiled regex)
    * @param name Hackathon name
    * @param description Optional description text
    * @param additionalText Any additional text to analyze
@@ -251,16 +267,16 @@ export class TopicExtractor {
       matchCount: number;
     }[] = [];
 
-    for (const config of this.configs) {
-      const matches = config.keywords.filter((keyword) =>
-        combinedText.includes(keyword),
-      );
+    // Use pre-compiled regex patterns for performance
+    for (const pattern of this.compiledPatterns) {
+      const matches = combinedText.match(pattern.pattern);
+      const matchCount = matches ? matches.length : 0;
 
-      if (matches.length > 0) {
+      if (matchCount > 0) {
         foundTopics.push({
-          name: config.name,
-          priority: config.priority,
-          matchCount: matches.length,
+          name: pattern.name,
+          priority: pattern.priority,
+          matchCount,
         });
       }
     }

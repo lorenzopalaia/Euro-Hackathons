@@ -1,0 +1,37 @@
+{
+  "functions": {
+    "app/api/update/route.ts": {
+      "maxDuration": 300,
+      "memory": 1024
+    },
+    "app/api/hackathons/route.ts": {
+      "maxDuration": 30,
+      "memory": 512
+    },
+    "app/api/preview/route.ts": {
+      "maxDuration": 15,
+      "memory": 512
+    }
+  },
+  "headers": [
+    {
+      "source": "/api/hackathons",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "s-maxage=300, stale-while-revalidate=600"
+        },
+        {
+          "key": "CDN-Cache-Control",
+          "value": "max-age=300"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/hackathons",
+      "destination": "/api/hackathons"
+    }
+  ]
+}

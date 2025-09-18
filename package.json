@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "npm run format && next build",
+    "prebuild": "npm run knip && npm run format",
+    "build": "next build",
     "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "next lint",
@@ -33,6 +34,7 @@
     "lucide-react": "^0.544.0",
     "next": "15.5.3",
     "next-sitemap": "^4.2.3",
+    "p-limit": "^7.1.1",
     "react": "^19.1.1",
     "react-day-picker": "^9.9.0",
     "react-dom": "^19.1.1",

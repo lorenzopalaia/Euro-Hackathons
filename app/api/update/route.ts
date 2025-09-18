@@ -9,10 +9,14 @@ import { TelegramBot } from "@/lib/bots/telegram-bot";
 import { TwitterBot } from "@/lib/bots/twitter-bot";
 import { ReadmeUpdater } from "@/lib/services/readme-updater";
 import { LocationEnhancementService } from "@/lib/services/location-enhancement-service";
+import { MemoryOptimizer } from "@/lib/utils/memory-optimizer";
 import { Hackathon } from "@/types/hackathon";
 
 export async function POST(request: Request) {
   try {
+    // Log initial memory usage
+    MemoryOptimizer.logMemoryUsage("Initial memory");
+
     // Verifica autenticazione
     const authHeader = request.headers.get("authorization");
     if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
@@ -25,6 +29,19 @@ export async function POST(request: Request) {
     console.log(
       `Starting hackathon update${testMode ? " (TEST MODE - no notifications)" : ""}...`,
     );
+
+    // 0. Reset dei flag is_new per tutti gli hackathons
+    try {
+      await supabaseAdmin
+        .from("hackathons")
+        // @ts-expect-error - Type assertion for Supabase update operation
+        .update({ is_new: false })
+        .neq("id", "00000000-0000-0000-0000-000000000000"); // Update all rows
+      console.log("Reset all is_new flags to false");
+    } catch (error) {
+      console.error("Error resetting is_new flags:", error);
+      // Non interrompiamo il processo per questo errore
+    }
 
     // 1. Parsing dei nuovi hackathons da entrambe le fonti
     const lumaParser = new LumaParser();
@@ -55,23 +72,29 @@ export async function POST(request: Request) {
 
     console.log(`Total parsed ${parsedHackathons.length} hackathons`);
 
-    // Deduplicazione degli hackathons basata su nome e data
-    const deduplicatedHackathons = parsedHackathons.filter(
-      (hackathon, index, array) => {
+    // Log memory after parsing
+    MemoryOptimizer.logMemoryUsage("After parsing");
+
+    // Deduplicazione degli hackathons basata su nome e data (OTTIMIZZATA O(n))
+    const deduplicatedHackathons = parsedHackathons.reduce(
+      (acc, hackathon) => {
         const key = `${hackathon.name.toLowerCase()}-${hackathon.date_start.toISOString().split("T")[0]}`;
-        return (
-          array.findIndex(
-            (h) =>
-              `${h.name.toLowerCase()}-${h.date_start.toISOString().split("T")[0]}` ===
-              key,
-          ) === index
-        );
+        if (!acc.seen.has(key)) {
+          acc.seen.add(key);
+          acc.hackathons.push(hackathon);
+        }
+        return acc;
       },
-    );
+      { seen: new Set<string>(), hackathons: [] as ParsedHackathon[] },
+    ).hackathons;
 
     console.log(
       `After deduplication: ${deduplicatedHackathons.length} hackathons`,
     );
+
+    // Allow garbage collection after deduplication
+    await MemoryOptimizer.allowGarbageCollection();
+    MemoryOptimizer.logMemoryUsage("After deduplication");
 
     // 1.5. Location enhancement con geocoding per hackathon senza country code
     console.log("Starting location enhancement with geocoding...");
@@ -94,53 +117,64 @@ export async function POST(request: Request) {
       `After location enhancement: ${enhancedHackathons.length} hackathons`,
     );
 
-    // 2. Inserimento nel database
+    // 2. Inserimento nel database (OTTIMIZZATO - Batch Operations)
     const newHackathons: Hackathon[] = [];
     let insertionError: string | null = null;
 
     try {
-      for (const hackathon of enhancedHackathons) {
-        try {
-          const { data: existing } = await supabaseAdmin
-            .from("hackathons")
-            .select("id")
-            .eq("url", hackathon.url)
-            .single();
+      // Batch check per URL esistenti
+      const urlsToCheck = enhancedHackathons.map((h) => h.url);
+      const { data: existingHackathons } = await supabaseAdmin
+        .from("hackathons")
+        .select("url")
+        .in("url", urlsToCheck);
 
-          if (!existing) {
-            const insertData = {
-              name: hackathon.name,
-              city: hackathon.city || null,
-              country_code: hackathon.country_code || null,
-              date_start: hackathon.date_start.toISOString().split("T")[0],
-              date_end: hackathon.date_end?.toISOString().split("T")[0] || null,
-              topics: hackathon.topics || null,
-              notes: hackathon.notes || null,
-              url: hackathon.url,
-              source: hackathon.source,
-              notified: testMode ? true : false, // In test mode, marca come già notificato
-            };
+      const existingUrls = new Set(
+        existingHackathons?.map((h: { url: string }) => h.url) || [],
+      );
+      console.log(`Found ${existingUrls.size} existing hackathons`);
 
-            const { data: inserted, error } = await supabaseAdmin
-              .from("hackathons")
-              // @ts-expect-error - Type assertion for Supabase insert operation
-              .insert(insertData)
-              .select()
-              .single();
+      // Prepara i dati per batch insert
+      const hackathonsToInsert = enhancedHackathons
+        .filter((hackathon) => !existingUrls.has(hackathon.url))
+        .map((hackathon) => ({
+          name: hackathon.name,
+          city: hackathon.city || null,
+          country_code: hackathon.country_code || null,
+          date_start: hackathon.date_start.toISOString().split("T")[0],
+          date_end: hackathon.date_end?.toISOString().split("T")[0] || null,
+          topics: hackathon.topics || null,
+          notes: hackathon.notes || null,
+          url: hackathon.url,
+          source: hackathon.source,
+          notified: testMode ? true : false, // In test mode, marca come già notificato
+          is_new: true, // Nuovi hackathon sono marcati come new
+        }));
 
-            if (inserted && !error) {
-              newHackathons.push(inserted);
-            } else if (error) {
-              console.error("Error inserting hackathon:", error);
-              throw error;
-            }
-          }
-        } catch (error) {
-          console.error("Error processing hackathon:", hackathon.name, error);
+      // Batch insert se ci sono hackathon da inserire
+      if (hackathonsToInsert.length > 0) {
+        console.log(
+          `Inserting ${hackathonsToInsert.length} new hackathons in batch...`,
+        );
+
+        const { data: inserted, error } = await supabaseAdmin
+          .from("hackathons")
+          // @ts-expect-error - Type assertion for Supabase insert operation
+          .insert(hackathonsToInsert)
+          .select();
+
+        if (inserted && !error) {
+          newHackathons.push(...inserted);
+          console.log(
+            `Successfully inserted ${inserted.length} new hackathons`,
+          );
+        } else if (error) {
+          console.error("Batch insert error:", error);
           throw error;
         }
+      } else {
+        console.log("No new hackathons to insert");
       }
-      console.log(`Inserted ${newHackathons.length} new hackathons`);
     } catch (error) {
       insertionError =
         error instanceof Error ? error.message : "Database insertion failed";
@@ -279,6 +313,9 @@ export async function POST(request: Request) {
       readmeError ||
       notificationErrors.length > 0;
 
+    // Log final memory usage
+    MemoryOptimizer.logMemoryUsage("Final memory usage");
+
     return NextResponse.json({
       success: !hasErrors,
       testMode,
@@ -294,6 +331,7 @@ export async function POST(request: Request) {
       notificationErrors:
         notificationErrors.length > 0 ? notificationErrors : undefined,
       timestamp: new Date().toISOString(),
+      memoryUsage: MemoryOptimizer.getMemoryUsage(),
     });
   } catch (error) {
     console.error("Update error:", error);

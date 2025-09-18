@@ -199,7 +199,8 @@ GET /api/hackathons?status=past
       "topics": ["AI", "Web3"],
       "notes": "Additional event details and requirements",
       "url": "https://...",
-      "status": "upcoming"
+      "status": "upcoming",
+      "is_new": true
     },
     ...
   ]

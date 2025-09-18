@@ -10,7 +10,12 @@ import {
 } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, MapPin, Calendar as CalendarIcon } from "lucide-react";
+import {
+  ExternalLink,
+  MapPin,
+  Calendar as CalendarIcon,
+  Sparkles,
+} from "lucide-react";
 import { ExportCalendarDropdown } from "@/components/export-calendar-dropdown";
 import { ShareHackathonDropdown } from "@/components/share-hackathon-dropdown";
 import { Hackathon } from "@/types/hackathon";
@@ -134,7 +139,20 @@ export default function HackathonList({
     return (
       <Card className="flex h-full flex-col transition-all duration-200 hover:shadow-lg">
         <CardHeader>
-          <CardTitle className="line-clamp-2">{hackathon.name}</CardTitle>
+          <div className="flex items-start justify-between gap-2">
+            <CardTitle className="line-clamp-2 flex-1">
+              {hackathon.name}
+            </CardTitle>
+            {hackathon.is_new && (
+              <Badge
+                variant="default"
+                className="shrink-0 bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white shadow-sm"
+              >
+                <Sparkles className="mr-1 h-3 w-3" />
+                New
+              </Badge>
+            )}
+          </div>
           {hackathon.notes && hackathon.notes.trim() && (
             <CardDescription className="line-clamp-2">
               {hackathon.notes}

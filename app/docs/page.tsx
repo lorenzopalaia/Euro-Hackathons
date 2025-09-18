@@ -232,7 +232,8 @@ export default function DocsPage() {
       "topics": ["AI", "Machine Learning"],
       "notes": "Bring your laptop and creativity!",
       "url": "https://example.com/hackathon",
-      "status": "upcoming"
+      "status": "upcoming",
+      "is_new": true
     },
     ...
   ]

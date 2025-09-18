@@ -20,6 +20,7 @@ export interface Database {
           created_at: string;
           updated_at: string;
           notified: boolean;
+          is_new: boolean;
         };
         Insert: {
           id?: string;
@@ -37,6 +38,7 @@ export interface Database {
           created_at?: string;
           updated_at?: string;
           notified?: boolean;
+          is_new?: boolean;
         };
         Update: {
           id?: string;
@@ -54,6 +56,7 @@ export interface Database {
           created_at?: string;
           updated_at?: string;
           notified?: boolean;
+          is_new?: boolean;
         };
       };
     };

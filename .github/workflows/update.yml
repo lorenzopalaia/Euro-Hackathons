@@ -2,15 +2,13 @@ name: Auto Update Hackathons
 
 on:
   schedule:
-    # FERIALI (Lun-Ven) - Orari in UTC
-    - cron: "0 7 * * 1-5" # 9:00 CET
-    - cron: "0 11 * * 1-5" # 13:00 CET
-    - cron: "0 14 * * 1-5" # 16:00 CET
+    # FERIALI (Lun-Ven) - 3 chiamate al giorno in UTC
+    - cron: "0 8 * * 1-5" # 10:00 CET
+    - cron: "0 13 * * 1-5" # 15:00 CET
     - cron: "0 17 * * 1-5" # 19:00 CET
-    # WEEKEND (Sab-Dom)
-    - cron: "0 9 * * 6,0" # 11:00 CET
-    - cron: "0 13 * * 6,0" # 15:00 CET
-    - cron: "0 17 * * 6,0" # 19:00 CET
+    # WEEKEND (Sab-Dom) - 2 chiamate al giorno
+    - cron: "0 10 * * 6,0" # 12:00 CET
+    - cron: "0 16 * * 6,0" # 18:00 CET
   workflow_dispatch:
 
 jobs:

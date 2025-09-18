@@ -81,7 +81,7 @@ export async function GET(request: Request) {
     const query = supabase
       .from("hackathons")
       .select(
-        "id, name, city, country_code, date_start, date_end, topics, notes, url, status",
+        "id, name, city, country_code, date_start, date_end, topics, notes, url, status,is_new",
       )
       .eq("status", status)
       .order("date_start", { ascending: status === "upcoming" });
@@ -90,9 +90,24 @@ export async function GET(request: Request) {
 
     if (error) throw error;
 
-    return NextResponse.json({
-      data,
-    });
+    return NextResponse.json(
+      {
+        data,
+      },
+      {
+        headers: {
+          // Cache for 5 minutes, serve stale for up to 10 minutes while revalidating
+          "Cache-Control": "s-maxage=300, stale-while-revalidate=600",
+          // CDN specific caching
+          "CDN-Cache-Control": "max-age=300",
+          "Vercel-CDN-Cache-Control": "max-age=300",
+          // Add ETag for conditional requests
+          ETag: `"hackathons-${status}-${Date.now()}"`,
+          // Vary by status parameter
+          Vary: "Accept, Authorization",
+        },
+      },
+    );
   } catch (error) {
     console.error("Error fetching hackathons:", error);
     return NextResponse.json(

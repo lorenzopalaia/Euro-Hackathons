@@ -19,11 +19,9 @@ import {
 import { ExportCalendarDropdown } from "@/components/export-calendar-dropdown";
 import { ShareHackathonDropdown } from "@/components/share-hackathon-dropdown";
 import { Hackathon } from "@/types/hackathon";
-import { useUrlPreview } from "@/hooks/use-url-preview";
 import Link from "next/link";
 import { useFilters } from "@/contexts/filter-context";
 import { europeanCountries } from "@/lib/european-countries";
-import Image from "next/image";
 import { getTopicDisplay } from "@/lib/constants/topics";
 
 interface HackathonListProps {
@@ -134,8 +132,6 @@ export default function HackathonList({
   };
 
   const HackathonCard = ({ hackathon }: { hackathon: Hackathon }) => {
-    const { preview, loading: previewLoading } = useUrlPreview(hackathon.url);
-
     return (
       <Card className="flex h-full flex-col transition-all duration-200 hover:shadow-lg">
         <CardHeader>
@@ -161,23 +157,6 @@ export default function HackathonList({
         </CardHeader>
 
         <CardContent className="flex-1 space-y-4">
-          {/* Social Preview Image */}
-          {previewLoading ? (
-            <Skeleton className="h-48 w-full rounded" />
-          ) : preview?.image ? (
-            <div className="relative h-48 w-full overflow-hidden rounded bg-muted">
-              <Image
-                src={preview.image}
-                alt={preview.title || hackathon.name}
-                fill
-                className="object-cover transition-transform duration-200 hover:scale-105"
-                onError={(e) => {
-                  e.currentTarget.style.display = "none";
-                }}
-              />
-            </div>
-          ) : null}
-
           <div className="space-y-2">
             <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
               <div className="flex md:w-1/2 items-center gap-2 text-sm text-muted-foreground">
@@ -254,7 +233,6 @@ export default function HackathonList({
     );
   };
 
-  // ...existing code...
   if (loading) {
     return (
       <div className="w-full">
@@ -270,8 +248,6 @@ export default function HackathonList({
                 <Skeleton className="h-4 w-3/4" />
               </CardHeader>
               <CardContent className="flex-1 space-y-4">
-                {/* Preview image skeleton */}
-                <Skeleton className="h-32 w-full rounded-md" />
                 <div className="space-y-2">
                   <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
                     <div className="flex md:w-1/2 items-center gap-2">

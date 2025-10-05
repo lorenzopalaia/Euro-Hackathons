@@ -41,6 +41,7 @@ import {
   FileText,
   FileCheck,
   Shield,
+  Palette,
 } from "lucide-react";
 import { FaDiscord, FaTelegram, FaXTwitter } from "react-icons/fa6";
 import Link from "next/link";
@@ -50,6 +51,7 @@ import { useFilters } from "@/contexts/filter-context";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import type { HackathonTopic } from "@/lib/constants/topics";
+import { ThemeSwitcher } from "@/components/theme-switcher";
 
 interface SidebarProps {
   uniqueUpcomingLocations?: string[];
@@ -207,6 +209,13 @@ export default function Sidebar({
 
       <div className="flex flex-col space-y-2">
         <CollapsedSidebarButton
+          icon={Palette}
+          onClick={() => setMobileOpen(true)}
+        />
+
+        <Separator className="mb-4 mt-2" />
+
+        <CollapsedSidebarButton
           icon={Filter}
           onClick={() => setMobileOpen(true)}
         />
@@ -235,6 +244,11 @@ export default function Sidebar({
   // Full sidebar content
   const SidebarContent = () => (
     <>
+      {/* Theme Switcher */}
+      <ThemeSwitcher />
+
+      <Separator />
+
       {/* Filters */}
       <div className="space-y-4">
         <div className="flex items-center justify-between">
@@ -499,7 +513,7 @@ export default function Sidebar({
       <MobileCollapsedSidebar />
 
       {/* Desktop sidebar */}
-      <aside className="fixed top-0 left-0 z-40 hidden h-screen w-60 flex-col space-y-6 overflow-y-auto border-r bg-card p-6 md:flex">
+      <aside className="fixed top-0 left-0 z-40 hidden h-screen w-64 flex-col space-y-6 overflow-y-auto border-r bg-card p-6 md:flex">
         <SidebarContent />
       </aside>
 

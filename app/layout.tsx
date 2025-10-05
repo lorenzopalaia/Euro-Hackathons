@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono, Merriweather } from "next/font/google";
 import "./globals.css";
 import { StructuredData } from "@/components/structured-data";
+import { ThemeProvider } from "@/components/theme-provider";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -92,6 +93,26 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  const stored = localStorage.getItem('theme-storage');
+                  const mode = stored ? JSON.parse(stored).state?.currentMode || 'dark' : 'dark';
+                  if (mode === 'dark') {
+                    document.documentElement.classList.add('dark');
+                  } else {
+                    document.documentElement.classList.remove('dark');
+                  }
+                } catch (e) {
+                  document.documentElement.classList.add('dark');
+                }
+              })();
+            `,
+          }}
+          suppressHydrationWarning
+        />
         <StructuredData type="website" />
         <meta
           name="google-site-verification"
@@ -99,9 +120,9 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`dark font-sans antialiased ${inter.variable} ${jetbrainsMono.variable} ${merriweather.variable}`}
+        className={`font-sans antialiased ${inter.variable} ${jetbrainsMono.variable} ${merriweather.variable}`}
       >
-        {children}
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );

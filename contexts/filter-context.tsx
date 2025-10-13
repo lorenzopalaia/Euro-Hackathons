@@ -17,7 +17,7 @@ export interface FilterContextType {
   setFilters: (filters: FilterState) => void;
   updateFilter: <K extends keyof FilterState>(
     key: K,
-    value: FilterState[K]
+    value: FilterState[K],
   ) => void;
   clearFilters: () => void;
 }
@@ -37,7 +37,7 @@ export function FilterProvider({ children }: { children: ReactNode }) {
 
   const updateFilter = <K extends keyof FilterState>(
     key: K,
-    value: FilterState[K]
+    value: FilterState[K],
   ) => {
     setFilters((prev) => {
       // Se stiamo cambiando lo status, resetta anche le locations

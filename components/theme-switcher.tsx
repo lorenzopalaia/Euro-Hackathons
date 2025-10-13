@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import {
   Command,
@@ -24,13 +24,19 @@ export function ThemeSwitcher() {
   const [open, setOpen] = useState(false);
   const { styles, currentMode, setThemeById, toggleMode } = useThemeStore();
 
-  // Trova il tema corrente comparando gli stili
+  const [hydrated, setHydrated] = useState(false);
+  useEffect(() => {
+    setHydrated(true);
+  }, []);
+
   const currentTheme = AVAILABLE_THEMES.find(
     (theme) => JSON.stringify(theme.styles) === JSON.stringify(styles),
   );
 
-  // Ottieni i colori di preview del tema corrente
-  const previewColors = getThemePreviewColors(styles[currentMode]);
+  const previewColors =
+    hydrated && currentTheme
+      ? getThemePreviewColors(currentTheme.styles[currentMode])
+      : { primary: "transparent", accent: "transparent" };
 
   return (
     <div className="space-y-4">
@@ -76,14 +82,16 @@ export function ThemeSwitcher() {
                   style={{ backgroundColor: previewColors.accent }}
                 />
               </div>
-              {currentTheme?.name || "Select theme..."}
+              {hydrated
+                ? (currentTheme?.name ?? "Select theme")
+                : "Loading theme"}
             </span>
             <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
           </Button>
         </PopoverTrigger>
         <PopoverContent className="w-[300px] p-0" align="start">
           <Command>
-            <CommandInput placeholder="Search theme..." />
+            <CommandInput placeholder="Search theme" />
             <CommandList>
               <CommandEmpty>No theme found.</CommandEmpty>
               <CommandGroup>

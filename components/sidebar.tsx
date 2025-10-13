@@ -282,7 +282,7 @@ function SidebarContent({
           <Label htmlFor="search">Search</Label>
           <Input
             id="search"
-            placeholder="Hackathon name..."
+            placeholder="Hackathon name"
             value={filters.search}
             onChange={(e) => updateFilter("search", e.target.value)}
           />
@@ -320,13 +320,13 @@ function SidebarContent({
               >
                 {filters.locations.length > 0
                   ? `${filters.locations.length} selected`
-                  : "Select locations..."}
+                  : "Select locations"}
                 <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
               </Button>
             </PopoverTrigger>
             <PopoverContent className="w-full p-0">
               <Command>
-                <CommandInput placeholder="Search location..." />
+                <CommandInput placeholder="Search location" />
                 <CommandList>
                   <CommandEmpty>No location found.</CommandEmpty>
                   <CommandGroup>
@@ -342,7 +342,7 @@ function SidebarContent({
                             "mr-2 h-4 w-4",
                             filters.locations.includes(location)
                               ? "opacity-100"
-                              : "opacity-0"
+                              : "opacity-0",
                           )}
                         />
                         {location}
@@ -385,13 +385,13 @@ function SidebarContent({
               >
                 {filters.topics.length > 0
                   ? `${filters.topics.length} selected`
-                  : "Select topics..."}
+                  : "Select topics"}
                 <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
               </Button>
             </PopoverTrigger>
             <PopoverContent className="w-full p-0">
               <Command>
-                <CommandInput placeholder="Search topic..." />
+                <CommandInput placeholder="Search topic" />
                 <CommandList>
                   <CommandEmpty>No topic found.</CommandEmpty>
                   <CommandGroup>
@@ -407,7 +407,7 @@ function SidebarContent({
                             "mr-2 h-4 w-4",
                             filters.topics.includes(topic)
                               ? "opacity-100"
-                              : "opacity-0"
+                              : "opacity-0",
                           )}
                         />
                         {topic}

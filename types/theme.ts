@@ -50,6 +50,7 @@ export interface ThemeState {
     dark: ThemeStyles;
   };
   currentMode: "light" | "dark";
+  themeId?: string;
 }
 
 export interface ThemeConfig {
@@ -61,7 +62,6 @@ export interface ThemeConfig {
   };
 }
 
-// Type per i preset di temi (formato kebab-case usato in theme-presets.ts)
 export interface ThemePresetStyles {
   background: string;
   foreground: string;

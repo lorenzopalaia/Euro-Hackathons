@@ -112,11 +112,20 @@ export const useThemeStore = create<ThemeStore>()(
     (set) => ({
       styles: getDefaultTheme().styles,
       currentMode: getInitialMode(),
+      themeId: DEFAULT_THEME_ID,
 
       setThemeById: (themeId: string) => {
         const theme = AVAILABLE_THEMES.find((t) => t.id === themeId);
         if (theme) {
-          set({ styles: theme.styles });
+          set({ styles: theme.styles, themeId });
+          if (typeof document !== "undefined") {
+            try {
+              const mode =
+                (localStorage.getItem("theme-mode") as "light" | "dark") ||
+                "dark";
+              document.cookie = `eu_theme=${encodeURIComponent(themeId)}|${mode}; path=/; max-age=${60 * 60 * 24 * 365}; SameSite=lax`;
+            } catch {}
+          }
         }
       },
 
@@ -126,6 +135,19 @@ export const useThemeStore = create<ThemeStore>()(
           // Salva in localStorage separatamente
           if (typeof window !== "undefined") {
             localStorage.setItem("theme-mode", newMode);
+            try {
+              const persisted = localStorage.getItem("theme-storage");
+              let cookieId = DEFAULT_THEME_ID;
+              if (persisted) {
+                try {
+                  const parsed = JSON.parse(persisted).state;
+                  if (parsed && parsed.themeId) cookieId = parsed.themeId;
+                } catch {}
+              }
+              document.cookie = `eu_theme=${encodeURIComponent(cookieId)}|${newMode}; path=/; max-age=${60 * 60 * 24 * 365}; SameSite=lax`;
+            } catch {
+              /* ignore */
+            }
           }
           return { currentMode: newMode };
         });
@@ -136,6 +158,17 @@ export const useThemeStore = create<ThemeStore>()(
         // Salva in localStorage separatamente
         if (typeof window !== "undefined") {
           localStorage.setItem("theme-mode", mode);
+          try {
+            const persisted = localStorage.getItem("theme-storage");
+            let cookieId = DEFAULT_THEME_ID;
+            if (persisted) {
+              try {
+                const parsed = JSON.parse(persisted).state;
+                if (parsed && parsed.themeId) cookieId = parsed.themeId;
+              } catch {}
+            }
+            document.cookie = `eu_theme=${encodeURIComponent(cookieId)}|${mode}; path=/; max-age=${60 * 60 * 24 * 365}; SameSite=lax`;
+          } catch {}
         }
       },
     }),
@@ -144,6 +177,7 @@ export const useThemeStore = create<ThemeStore>()(
       partialize: (state) => ({
         styles: state.styles,
         currentMode: state.currentMode,
+        themeId: state.themeId,
       }),
     },
   ),

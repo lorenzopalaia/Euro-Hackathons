@@ -1,13 +1,12 @@
 #!/usr/bin/env node
 
-/**
- * Script to update theme presets from tweakcn
- * Downloads the latest themes and replaces the local file
- */
+import https from "https";
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 
-const https = require("https");
-const fs = require("fs");
-const path = require("path");
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const THEME_PRESETS_URL =
   "https://raw.githubusercontent.com/jnsahaj/tweakcn/0e400ecbfc04c2d07515235e0ed3f2e8b0cfbe3d/utils/theme-presets.ts";

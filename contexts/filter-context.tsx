@@ -4,7 +4,7 @@ import { createContext, useContext, useState, ReactNode } from "react";
 import { DateRange } from "react-day-picker";
 import type { HackathonTopic } from "@/lib/constants/topics";
 
-interface FilterState {
+export interface FilterState {
   search: string;
   locations: string[];
   topics: HackathonTopic[];
@@ -12,12 +12,12 @@ interface FilterState {
   status: "upcoming" | "past";
 }
 
-interface FilterContextType {
+export interface FilterContextType {
   filters: FilterState;
   setFilters: (filters: FilterState) => void;
   updateFilter: <K extends keyof FilterState>(
     key: K,
-    value: FilterState[K],
+    value: FilterState[K]
   ) => void;
   clearFilters: () => void;
 }
@@ -37,7 +37,7 @@ export function FilterProvider({ children }: { children: ReactNode }) {
 
   const updateFilter = <K extends keyof FilterState>(
     key: K,
-    value: FilterState[K],
+    value: FilterState[K]
   ) => {
     setFilters((prev) => {
       // Se stiamo cambiando lo status, resetta anche le locations

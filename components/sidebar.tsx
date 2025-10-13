@@ -48,6 +48,7 @@ import Link from "next/link";
 import { format } from "date-fns";
 import { enGB } from "date-fns/locale";
 import { useFilters } from "@/contexts/filter-context";
+import type { FilterState, FilterContextType } from "@/contexts/filter-context";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import type { HackathonTopic } from "@/lib/constants/topics";
@@ -161,64 +162,26 @@ const ExternalLinksSection = ({
   </div>
 );
 
-export default function Sidebar({
-  uniqueUpcomingLocations = [],
-  uniquePastLocations = [],
-  uniqueTopics = [],
-}: SidebarProps) {
-  const { filters, updateFilter, clearFilters } = useFilters();
-  const [topicOpen, setTopicOpen] = useState(false);
-  const [locationOpen, setLocationOpen] = useState(false);
-  const [mobileOpen, setMobileOpen] = useState(false);
-
-  // Determina le location da mostrare in base allo status
-  const availableLocations =
-    filters.status === "upcoming"
-      ? uniqueUpcomingLocations
-      : uniquePastLocations;
-
-  const toggleLocation = (location: string) => {
-    const newLocations = filters.locations.includes(location)
-      ? filters.locations.filter((l) => l !== location)
-      : [...filters.locations, location];
-    updateFilter("locations", newLocations);
-  };
-
-  const toggleTopic = (topic: HackathonTopic) => {
-    const newTopics = filters.topics.includes(topic)
-      ? filters.topics.filter((t) => t !== topic)
-      : [...filters.topics, topic];
-    updateFilter("topics", newTopics);
-  };
-
-  const hasActiveFilters =
-    filters.search ||
-    filters.locations.length > 0 ||
-    filters.topics.length > 0 ||
-    filters.dateRange?.from ||
-    filters.dateRange?.to;
-
-  // Mobile collapsed sidebar
-  const MobileCollapsedSidebar = () => (
+// Mobile collapsed sidebar (moved out to avoid remounting on each render)
+function MobileCollapsedSidebar({
+  onOpen,
+}: {
+  onOpen: (open: boolean) => void;
+}) {
+  return (
     <aside className="fixed top-0 left-0 z-40 flex h-full w-16 flex-col items-center space-y-4 border-r bg-card py-6 md:hidden">
       <CollapsedSidebarButton
         variant="ghost"
         icon={Menu}
-        onClick={() => setMobileOpen(true)}
+        onClick={() => onOpen(true)}
       />
 
       <div className="flex flex-col space-y-2">
-        <CollapsedSidebarButton
-          icon={Palette}
-          onClick={() => setMobileOpen(true)}
-        />
+        <CollapsedSidebarButton icon={Palette} onClick={() => onOpen(true)} />
 
         <Separator className="mb-4 mt-2" />
 
-        <CollapsedSidebarButton
-          icon={Filter}
-          onClick={() => setMobileOpen(true)}
-        />
+        <CollapsedSidebarButton icon={Filter} onClick={() => onOpen(true)} />
 
         <Separator className="mb-4 mt-2" />
 
@@ -240,9 +203,49 @@ export default function Sidebar({
       </div>
     </aside>
   );
+}
 
-  // Full sidebar content
-  const SidebarContent = () => (
+// Full sidebar content (moved out to avoid remounting on each render)
+function SidebarContent({
+  filters,
+  updateFilter,
+  clearFilters,
+  uniqueTopics = [],
+  availableLocations = [],
+  onCloseMobile,
+}: {
+  filters: FilterState;
+  updateFilter: FilterContextType["updateFilter"];
+  clearFilters: () => void;
+  uniqueTopics?: HackathonTopic[];
+  availableLocations?: string[];
+  onCloseMobile?: () => void;
+}) {
+  const [topicOpen, setTopicOpen] = useState(false);
+  const [locationOpen, setLocationOpen] = useState(false);
+
+  const toggleLocation = (location: string) => {
+    const newLocations = filters.locations.includes(location)
+      ? filters.locations.filter((l: string) => l !== location)
+      : [...filters.locations, location];
+    updateFilter("locations", newLocations);
+  };
+
+  const toggleTopic = (topic: HackathonTopic) => {
+    const newTopics = filters.topics.includes(topic)
+      ? filters.topics.filter((t: HackathonTopic) => t !== topic)
+      : [...filters.topics, topic];
+    updateFilter("topics", newTopics);
+  };
+
+  const hasActiveFilters =
+    filters.search ||
+    filters.locations.length > 0 ||
+    filters.topics.length > 0 ||
+    filters.dateRange?.from ||
+    filters.dateRange?.to;
+
+  return (
     <>
       {/* Theme Switcher */}
       <ThemeSwitcher />
@@ -267,7 +270,7 @@ export default function Sidebar({
               variant="outline"
               size="sm"
               className="md:hidden"
-              onClick={() => setMobileOpen(false)}
+              onClick={() => onCloseMobile?.()}
             >
               <X className="h-4 w-4" />
             </Button>
@@ -339,7 +342,7 @@ export default function Sidebar({
                             "mr-2 h-4 w-4",
                             filters.locations.includes(location)
                               ? "opacity-100"
-                              : "opacity-0",
+                              : "opacity-0"
                           )}
                         />
                         {location}
@@ -354,7 +357,7 @@ export default function Sidebar({
           {/* Selected Locations */}
           {filters.locations.length > 0 && (
             <div className="mt-2 flex flex-wrap gap-1">
-              {filters.locations.map((location) => (
+              {filters.locations.map((location: string) => (
                 <Badge
                   key={location}
                   variant="secondary"
@@ -404,7 +407,7 @@ export default function Sidebar({
                             "mr-2 h-4 w-4",
                             filters.topics.includes(topic)
                               ? "opacity-100"
-                              : "opacity-0",
+                              : "opacity-0"
                           )}
                         />
                         {topic}
@@ -419,7 +422,7 @@ export default function Sidebar({
           {/* Selected Topics */}
           {filters.topics.length > 0 && (
             <div className="mt-2 flex flex-wrap gap-1">
-              {filters.topics.map((topic) => (
+              {filters.topics.map((topic: HackathonTopic) => (
                 <Badge
                   key={topic}
                   variant="secondary"
@@ -506,15 +509,37 @@ export default function Sidebar({
       />
     </>
   );
+}
+
+export default function Sidebar({
+  uniqueUpcomingLocations = [],
+  uniquePastLocations = [],
+  uniqueTopics = [],
+}: SidebarProps) {
+  const { filters, updateFilter, clearFilters } = useFilters();
+  const [mobileOpen, setMobileOpen] = useState(false);
+
+  // Determina le location da mostrare in base allo status
+  const availableLocations =
+    filters.status === "upcoming"
+      ? uniqueUpcomingLocations
+      : uniquePastLocations;
 
   return (
     <>
       {/* Mobile collapsed sidebar */}
-      <MobileCollapsedSidebar />
+      <MobileCollapsedSidebar onOpen={setMobileOpen} />
 
       {/* Desktop sidebar */}
       <aside className="fixed top-0 left-0 z-40 hidden h-screen w-64 flex-col space-y-6 overflow-y-auto border-r bg-card p-6 md:flex">
-        <SidebarContent />
+        <SidebarContent
+          filters={filters}
+          updateFilter={updateFilter}
+          clearFilters={clearFilters}
+          uniqueTopics={uniqueTopics}
+          availableLocations={availableLocations}
+          onCloseMobile={() => setMobileOpen(false)}
+        />
       </aside>
 
       {/* Mobile overlay sidebar */}
@@ -528,7 +553,14 @@ export default function Sidebar({
 
           {/* Sidebar */}
           <aside className="fixed top-0 left-0 z-50 h-full w-80 space-y-6 overflow-y-auto border-r bg-card p-6 animate-in slide-in-from-left duration-300 md:hidden">
-            <SidebarContent />
+            <SidebarContent
+              filters={filters}
+              updateFilter={updateFilter}
+              clearFilters={clearFilters}
+              uniqueTopics={uniqueTopics}
+              availableLocations={availableLocations}
+              onCloseMobile={() => setMobileOpen(false)}
+            />
           </aside>
         </>
       )}

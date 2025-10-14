@@ -10,6 +10,7 @@ export interface FilterState {
   topics: HackathonTopic[];
   dateRange: DateRange | undefined;
   status: "upcoming" | "past";
+  sort: "asc" | "desc";
 }
 
 export interface FilterContextType {
@@ -30,6 +31,7 @@ const initialFilters: FilterState = {
   topics: [],
   dateRange: undefined,
   status: "upcoming",
+  sort: "asc",
 };
 
 export function FilterProvider({ children }: { children: ReactNode }) {
@@ -49,7 +51,11 @@ export function FilterProvider({ children }: { children: ReactNode }) {
   };
 
   const clearFilters = () => {
-    setFilters({ ...initialFilters, status: filters.status });
+    setFilters({
+      ...initialFilters,
+      status: filters.status,
+      sort: filters.sort,
+    });
   };
 
   return (

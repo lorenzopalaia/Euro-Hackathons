@@ -32,6 +32,7 @@ import {
   Filter,
   Check,
   ChevronsUpDown,
+  ArrowUpDown,
   Bell,
   Menu,
   FilterX,
@@ -185,6 +186,13 @@ function MobileCollapsedSidebar({
 
         <Separator className="mb-4 mt-2" />
 
+        <CollapsedSidebarButton
+          icon={ArrowUpDown}
+          onClick={() => onOpen(true)}
+        />
+
+        <Separator className="mb-4 mt-2" />
+
         {SIDEBAR_SECTIONS.notifications.map(({ href, icon }) => (
           <CollapsedSidebarButton key={href} href={href} icon={icon} />
         ))}
@@ -212,14 +220,12 @@ function SidebarContent({
   clearFilters,
   uniqueTopics = [],
   availableLocations = [],
-  onCloseMobile,
 }: {
   filters: FilterState;
   updateFilter: FilterContextType["updateFilter"];
   clearFilters: () => void;
   uniqueTopics?: HackathonTopic[];
   availableLocations?: string[];
-  onCloseMobile?: () => void;
 }) {
   const [topicOpen, setTopicOpen] = useState(false);
   const [locationOpen, setLocationOpen] = useState(false);
@@ -265,15 +271,6 @@ function SidebarContent({
                 <FilterX className="h-4 w-4" />
               </Button>
             )}
-            {/* Close button for mobile */}
-            <Button
-              variant="outline"
-              size="sm"
-              className="md:hidden"
-              onClick={() => onCloseMobile?.()}
-            >
-              <X className="h-4 w-4" />
-            </Button>
           </div>
         </div>
 
@@ -483,6 +480,36 @@ function SidebarContent({
 
       <Separator />
 
+      {/* Sorting */}
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <ArrowUpDown className="h-4 w-4" />
+            <h2 className="font-semibold">Sorting</h2>
+          </div>
+        </div>
+
+        <div className="space-y-2">
+          <Label>Sort by date</Label>
+          <Select
+            value={filters.sort}
+            onValueChange={(value: "asc" | "desc") =>
+              updateFilter("sort", value)
+            }
+          >
+            <SelectTrigger className="w-full">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="asc">Ascending</SelectItem>
+              <SelectItem value="desc">Descending</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+      </div>
+
+      <Separator />
+
       {/* Notifications */}
       <ExternalLinksSection
         title="Notifications"
@@ -538,7 +565,6 @@ export default function Sidebar({
           clearFilters={clearFilters}
           uniqueTopics={uniqueTopics}
           availableLocations={availableLocations}
-          onCloseMobile={() => setMobileOpen(false)}
         />
       </aside>
 
@@ -559,7 +585,6 @@ export default function Sidebar({
               clearFilters={clearFilters}
               uniqueTopics={uniqueTopics}
               availableLocations={availableLocations}
-              onCloseMobile={() => setMobileOpen(false)}
             />
           </aside>
         </>

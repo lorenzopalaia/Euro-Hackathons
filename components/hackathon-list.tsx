@@ -93,8 +93,15 @@ export default function HackathonList({
 
   const currentHackathons = useMemo(() => {
     const source = filters.status === "upcoming" ? upcoming : past;
-    return filterHackathons(source);
-  }, [filters.status, upcoming, past, filterHackathons]);
+    const filtered = filterHackathons(source);
+    const sorted = [...filtered].sort((a, b) => {
+      const da = new Date(a.date_start).getTime();
+      const db = new Date(b.date_start).getTime();
+      if (filters.sort === "asc") return da - db;
+      return db - da;
+    });
+    return sorted;
+  }, [filters.status, filters.sort, upcoming, past, filterHackathons]);
 
   const formatDate = (hackathon: Hackathon) => {
     const start = new Date(hackathon.date_start);

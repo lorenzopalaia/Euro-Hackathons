@@ -11,6 +11,16 @@ import {
   SelectItem,
 } from "@/components/ui/select";
 
+const languages = [
+  { code: "en", name: "English", flag: "GB" },
+  { code: "it", name: "Italiano", flag: "IT" },
+  { code: "de", name: "Deutsch", flag: "DE" },
+  { code: "es", name: "Español", flag: "ES" },
+  { code: "fr", name: "Français", flag: "FR" },
+  { code: "nl", name: "Nederlands", flag: "NL" },
+  { code: "pt", name: "Português", flag: "PT" },
+] as const;
+
 export default function LanguageSelect({ className }: { className?: string }) {
   const { locale, setLocale } = useTranslation();
 
@@ -21,26 +31,18 @@ export default function LanguageSelect({ className }: { className?: string }) {
           <SelectValue placeholder={locale === "en" ? "EN" : "IT"} />
         </SelectTrigger>
         <SelectContent>
-          <SelectItem value="en">
-            <span className="flex items-center gap-2">
-              <ReactCountryFlag
-                countryCode="GB"
-                svg
-                style={{ width: "1.2em" }}
-              />
-              <span>English</span>
-            </span>
-          </SelectItem>
-          <SelectItem value="it">
-            <span className="flex items-center gap-2">
-              <ReactCountryFlag
-                countryCode="IT"
-                svg
-                style={{ width: "1.2em" }}
-              />
-              <span>Italiano</span>
-            </span>
-          </SelectItem>
+          {languages.map((lang) => (
+            <SelectItem key={lang.code} value={lang.code}>
+              <span className="flex items-center gap-2">
+                <ReactCountryFlag
+                  countryCode={lang.flag}
+                  svg
+                  style={{ width: "1.2em" }}
+                />
+                <span>{lang.name}</span>
+              </span>
+            </SelectItem>
+          ))}
         </SelectContent>
       </Select>
     </div>

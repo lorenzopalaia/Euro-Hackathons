@@ -1,8 +1,13 @@
 "use client";
 
 import React, { createContext, useContext, useMemo } from "react";
+import de from "@/i18n/de.json";
 import en from "@/i18n/en.json";
+import es from "@/i18n/es.json";
+import fr from "@/i18n/fr.json";
 import it from "@/i18n/it.json";
+import nl from "@/i18n/nl.json";
+import pt from "@/i18n/pt.json";
 import { useLocaleStore } from "@/lib/locale-store";
 
 type Messages = Record<string, string>;
@@ -33,8 +38,13 @@ export const useTranslation = () => {
 };
 
 const MESSAGES: Record<string, Messages> = {
+  de,
   en,
+  es,
+  fr,
   it,
+  nl,
+  pt,
 };
 
 export const TranslationProvider: React.FC<{ children: React.ReactNode }> = ({

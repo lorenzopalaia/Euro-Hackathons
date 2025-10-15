@@ -45,10 +45,10 @@ export default function Home() {
         new Set(
           upcoming
             .map((h) =>
-              europeanCountries.formatLocation(h.city, h.country_code)
+              europeanCountries.formatLocation(h.city, h.country_code),
             )
-            .filter((loc): loc is string => Boolean(loc))
-        )
+            .filter((loc): loc is string => Boolean(loc)),
+        ),
       );
 
       // Genera le location uniche per eventi past
@@ -56,15 +56,15 @@ export default function Home() {
         new Set(
           past
             .map((h) =>
-              europeanCountries.formatLocation(h.city, h.country_code)
+              europeanCountries.formatLocation(h.city, h.country_code),
             )
-            .filter((loc): loc is string => Boolean(loc))
-        )
+            .filter((loc): loc is string => Boolean(loc)),
+        ),
       );
 
       const allHackathons = [...upcoming, ...past];
       const topics = Array.from(
-        new Set(allHackathons.flatMap((h) => h.topics || []))
+        new Set(allHackathons.flatMap((h) => h.topics || [])),
       );
 
       return {

@@ -357,7 +357,7 @@ function SidebarContent({
                             "mr-2 h-4 w-4",
                             filters.locations.includes(location)
                               ? "opacity-100"
-                              : "opacity-0"
+                              : "opacity-0",
                           )}
                         />
                         {location}
@@ -422,7 +422,7 @@ function SidebarContent({
                             "mr-2 h-4 w-4",
                             filters.topics.includes(topic)
                               ? "opacity-100"
-                              : "opacity-0"
+                              : "opacity-0",
                           )}
                         />
                         {topic}

@@ -31,7 +31,7 @@ export function ThemeSwitcher() {
   }, []);
 
   const currentTheme = AVAILABLE_THEMES.find(
-    (theme) => JSON.stringify(theme.styles) === JSON.stringify(styles)
+    (theme) => JSON.stringify(theme.styles) === JSON.stringify(styles),
   );
 
   const previewColors =
@@ -104,7 +104,7 @@ export function ThemeSwitcher() {
                 {AVAILABLE_THEMES.map((theme) => {
                   const isSelected = currentTheme?.id === theme.id;
                   const colors = getThemePreviewColors(
-                    theme.styles[currentMode]
+                    theme.styles[currentMode],
                   );
 
                   return (
@@ -120,7 +120,7 @@ export function ThemeSwitcher() {
                         <Check
                           className={cn(
                             "h-4 w-4",
-                            isSelected ? "opacity-100" : "opacity-0"
+                            isSelected ? "opacity-100" : "opacity-0",
                           )}
                         />
                         {/* Preview colori nel dropdown */}

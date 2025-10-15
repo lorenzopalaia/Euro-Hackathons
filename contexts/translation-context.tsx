@@ -7,7 +7,10 @@ import es from "@/i18n/es.json";
 import fr from "@/i18n/fr.json";
 import it from "@/i18n/it.json";
 import nl from "@/i18n/nl.json";
+import pl from "@/i18n/pl.json";
 import pt from "@/i18n/pt.json";
+import ro from "@/i18n/ro.json";
+import sv from "@/i18n/sv.json";
 import { useLocaleStore } from "@/lib/locale-store";
 
 type Messages = Record<string, string>;
@@ -44,7 +47,10 @@ const MESSAGES: Record<string, Messages> = {
   fr,
   it,
   nl,
+  pl,
   pt,
+  ro,
+  sv,
 };
 
 export const TranslationProvider: React.FC<{ children: React.ReactNode }> = ({
@@ -90,7 +96,7 @@ export const TranslationProvider: React.FC<{ children: React.ReactNode }> = ({
 
     const formatDateRange = (
       startInput: string | Date,
-      endInput?: string | Date | null
+      endInput?: string | Date | null,
     ) => {
       const start =
         startInput instanceof Date ? startInput : new Date(startInput);
@@ -160,7 +166,7 @@ export const TranslationProvider: React.FC<{ children: React.ReactNode }> = ({
           locale === "en" ? "en" : locale,
           {
             numeric: "auto",
-          }
+          },
         );
 
         if (Math.abs(hours) < 1) return rtf.format(minutes, "minute");

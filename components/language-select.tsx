@@ -19,6 +19,9 @@ const languages = [
   { code: "fr", name: "Français", flag: "FR" },
   { code: "nl", name: "Nederlands", flag: "NL" },
   { code: "pt", name: "Português", flag: "PT" },
+  { code: "pl", name: "Polski", flag: "PL" },
+  { code: "ro", name: "Română", flag: "RO" },
+  { code: "sv", name: "Svenska", flag: "SE" },
 ] as const;
 
 export default function LanguageSelect({ className }: { className?: string }) {

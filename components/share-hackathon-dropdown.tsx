@@ -59,7 +59,7 @@ export function ShareHackathonDropdown({
     const location =
       europeanCountries.formatLocation(
         hackathon.city,
-        hackathon.country_code
+        hackathon.country_code,
       ) || "TBD";
     const topics = hackathon.topics?.length
       ? hackathon.topics
@@ -83,15 +83,15 @@ export function ShareHackathonDropdown({
         const location =
           europeanCountries.formatLocation(
             hackathon.city,
-            hackathon.country_code
+            hackathon.country_code,
           ) || "TBD";
         const twitterText = encodeURIComponent(
-          `${t("share.prefix")} ${shareContent.title}\n${t("share.date")} ${formatDate(hackathon)}\n${t("share.location")} ${location}\n${shareContent.url}`
+          `${t("share.prefix")} ${shareContent.title}\n${t("share.date")} ${formatDate(hackathon)}\n${t("share.location")} ${location}\n${shareContent.url}`,
         );
         window.open(
           `https://twitter.com/intent/tweet?text=${twitterText}`,
           "_blank",
-          "noopener,noreferrer"
+          "noopener,noreferrer",
         );
         break;
 
@@ -101,15 +101,15 @@ export function ShareHackathonDropdown({
         const linkedinLocation =
           europeanCountries.formatLocation(
             hackathon.city,
-            hackathon.country_code
+            hackathon.country_code,
           ) || "TBD";
         const linkedinSummary = encodeURIComponent(
-          `${shareContent.title} - ${formatDate(hackathon)} ${t("share.in")} ${linkedinLocation}`
+          `${shareContent.title} - ${formatDate(hackathon)} ${t("share.in")} ${linkedinLocation}`,
         );
         window.open(
           `https://www.linkedin.com/sharing/share-offsite/?url=${linkedinUrl}&title=${linkedinTitle}&summary=${linkedinSummary}`,
           "_blank",
-          "noopener,noreferrer"
+          "noopener,noreferrer",
         );
         break;
 
@@ -117,16 +117,16 @@ export function ShareHackathonDropdown({
         const redditLocation =
           europeanCountries.formatLocation(
             hackathon.city,
-            hackathon.country_code
+            hackathon.country_code,
           ) || "TBD";
         const redditTitle = encodeURIComponent(
-          `${shareContent.title} - ${formatDate(hackathon)} ${t("share.in")} ${redditLocation}`
+          `${shareContent.title} - ${formatDate(hackathon)} ${t("share.in")} ${redditLocation}`,
         );
         const redditUrl = encodeURIComponent(shareContent.url);
         window.open(
           `https://www.reddit.com/submit?title=${redditTitle}&url=${redditUrl}`,
           "_blank",
-          "noopener,noreferrer"
+          "noopener,noreferrer",
         );
         break;
 

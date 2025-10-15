@@ -15,7 +15,6 @@ const getInitialLocale = () => {
       if (parsed && parsed.locale) return parsed.locale;
     }
   } catch {}
-  // fallback
   return "en";
 };
 
@@ -29,7 +28,7 @@ export const useLocaleStore = create<LocaleState>()(
           try {
             localStorage.setItem(
               "locale-storage",
-              JSON.stringify({ state: { locale: l } })
+              JSON.stringify({ state: { locale: l } }),
             );
           } catch {}
         }
@@ -38,8 +37,6 @@ export const useLocaleStore = create<LocaleState>()(
     {
       name: "locale-storage",
       partialize: (s) => ({ locale: s.locale }),
-    }
-  )
+    },
+  ),
 );
-
-export default useLocaleStore;

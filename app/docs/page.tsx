@@ -105,6 +105,43 @@ export default function DocsPage() {
 
           <section className="mb-8">
             <h2 className="mb-4 flex items-center gap-2 text-2xl font-semibold">
+              <BookOpen className="h-6 w-6" />
+              Internationalization
+            </h2>
+
+            <p>
+              Euro Hackathons supports multiple interface languages. The main
+              application UI loads translations from the <code>i18n/</code>
+              directory; documentation pages are currently kept in English.
+            </p>
+
+            <h3 className="mb-2 mt-4 text-xl font-medium">
+              Available Languages
+            </h3>
+            <ul className="mt-2 space-y-1 list-disc pl-5">
+              <li>English</li>
+              <li>Italian</li>
+              <li>German</li>
+              <li>Spanish</li>
+              <li>French</li>
+              <li>Dutch</li>
+              <li>Portuguese</li>
+              <li>Polish</li>
+              <li>Romanian</li>
+              <li>Swedish</li>
+            </ul>
+
+            <p className="mt-4">
+              To add or edit translations, update the JSON files in{" "}
+              <code>i18n/</code>
+              ensuring keys remain consistent across languages. The translation
+              context in <code>contexts/translation-context.tsx</code> exposes
+              helpers used by the app.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="mb-4 flex items-center gap-2 text-2xl font-semibold">
               <Calendar className="h-6 w-6" />
               Using the Platform
             </h2>
@@ -116,26 +153,25 @@ export default function DocsPage() {
               The main interface displays hackathons in an easy-to-browse card
               format. Each card shows:
             </p>
-            <ul className="mt-2 space-y-1">
+            <ul className="mt-2 space-y-1 list-disc pl-5">
               <li>
-                • <strong>Event Name:</strong> Full hackathon title
+                <strong>Event Name:</strong> Full hackathon title
               </li>
               <li>
-                • <strong>Location:</strong> City and country
+                <strong>Location:</strong> City and country
               </li>
               <li>
-                • <strong>Dates:</strong> Start and end dates (if available)
+                <strong>Dates:</strong> Start and end dates (if available)
               </li>
               <li>
-                • <strong>Topics:</strong> Relevant tags (AI, Crypto, Web3,
-                etc.)
+                <strong>Topics:</strong> Relevant tags (AI, Crypto, Web3, etc.)
               </li>
               <li>
-                • <strong>Notes:</strong> Additional event details and
+                <strong>Notes:</strong> Additional event details and
                 requirements
               </li>
               <li>
-                • <strong>Registration Link:</strong> Direct link to sign up
+                <strong>Registration Link:</strong> Direct link to sign up
               </li>
             </ul>
 
@@ -206,7 +242,7 @@ export default function DocsPage() {
                 <h4 className="font-semibold mb-2">Query Parameters</h4>
                 <ul className="text-sm space-y-1">
                   <li>
-                    • <code>status</code> - Filter by status (upcoming, past,
+                    <code>status</code> - Filter by status (upcoming, past,
                     estimated)
                   </li>
                 </ul>
@@ -246,16 +282,15 @@ export default function DocsPage() {
             <p>
               The API implements reasonable rate limiting to ensure fair usage:
             </p>
-            <ul className="mt-2 space-y-1">
+            <ul className="mt-2 space-y-1 list-disc pl-5">
               <li>
-                • <strong>Free usage:</strong> 100 requests per hour per IP
+                <strong>Free usage:</strong> 100 requests per hour per IP
               </li>
               <li>
-                • <strong>Burst limit:</strong> 10 requests per minute
+                <strong>Burst limit:</strong> 10 requests per minute
               </li>
               <li>
-                • <strong>Commercial usage:</strong> Contact us for higher
-                limits
+                <strong>Commercial usage:</strong> Contact us for higher limits
               </li>
             </ul>
 
@@ -395,27 +430,27 @@ export default function DocsPage() {
               <div className="border rounded-lg p-4">
                 <h4 className="font-semibold mb-2">Frontend</h4>
                 <ul className="text-sm space-y-1">
-                  <li>• Next.js 15 with App Router</li>
-                  <li>• TypeScript</li>
-                  <li>• Tailwind CSS</li>
-                  <li>• shadcn/ui components</li>
+                  <li>Next.js 15 with App Router</li>
+                  <li>TypeScript</li>
+                  <li>Tailwind CSS</li>
+                  <li>shadcn/ui components</li>
                 </ul>
               </div>
               <div className="border rounded-lg p-4">
                 <h4 className="font-semibold mb-2">Backend</h4>
                 <ul className="text-sm space-y-1">
-                  <li>• Next.js API Routes</li>
-                  <li>• Supabase (PostgreSQL)</li>
-                  <li>• Row Level Security</li>
+                  <li>Next.js API Routes</li>
+                  <li>Supabase (Postgr</li>
+                  <li>Row Level Security</li>
                 </ul>
               </div>
               <div className="border rounded-lg p-4">
                 <h4 className="font-semibold mb-2">Infrastructure</h4>
                 <ul className="text-sm space-y-1">
-                  <li>• Vercel deployment</li>
-                  <li>• GitHub Actions CI/CD</li>
-                  <li>• Cron job automation</li>
-                  <li>• Multiple bot integrations</li>
+                  <li>Vercel deployment</li>
+                  <li>GitHub Actions CI/CD</li>
+                  <li>Cron job automation</li>
+                  <li>Multiple bot integrations</li>
                 </ul>
               </div>
             </div>
@@ -425,12 +460,12 @@ export default function DocsPage() {
               Our automated system runs multiple times daily to ensure fresh
               data:
             </p>
-            <ul className="mt-2 space-y-1">
+            <ul className="mt-2 space-y-1 list-disc pl-5">
               <li>
-                • <strong>Weekdays:</strong> 4 times daily
+                <strong>Weekdays:</strong> 4 times daily
               </li>
               <li>
-                • <strong>Weekends:</strong> 3 times daily
+                <strong>Weekends:</strong> 3 times daily
               </li>
             </ul>
           </section>

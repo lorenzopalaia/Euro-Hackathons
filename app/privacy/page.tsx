@@ -50,10 +50,22 @@ export default function PrivacyPage() {
             <h3 className="mb-2 mt-4 text-xl font-medium">
               Information You Provide
             </h3>
-            <ul className="space-y-1">
-              <li>• Feedback or bug reports submitted through GitHub</li>
-              <li>• Messages sent through our Discord server</li>
+            <ul className="space-y-1 list-disc pl-5">
+              <li>Feedback or bug reports submitted through GitHub</li>
+              <li>Messages sent through our Discord server</li>
             </ul>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="mb-4 text-2xl font-semibold">What&apos;s New</h2>
+            <p>
+              Recent frontend improvements added theme management (stored in
+              browser localStorage) and enhanced filtering options. These
+              features store only non-personal preferences (theme choice,
+              selected filters) locally in your browser; we do not collect
+              additional personal data for these features. Cookies remain
+              minimal and used only for essential functionality.
+            </p>
           </section>
 
           <section className="mb-8">
@@ -62,12 +74,10 @@ export default function PrivacyPage() {
               2. Information Usage
             </h2>
             <p>We use the collected information for the following purposes:</p>
-            <ul className="mt-2 space-y-1">
-              <li>
-                • Providing and maintaining our hackathon discovery service
-              </li>
-              <li>• Improving user experience and website performance</li>
-              <li>• Responding to user feedback and support requests</li>
+            <ul className="mt-2 space-y-1 list-disc pl-5">
+              <li>Providing and maintaining our hackathon discovery service</li>
+              <li>Improving user experience and website performance</li>
+              <li>Responding to user feedback and support requests</li>
             </ul>
           </section>
 
@@ -79,13 +89,13 @@ export default function PrivacyPage() {
               Your data security is important to us. We implement appropriate
               technical and organizational measures:
             </p>
-            <ul className="mt-2 space-y-1">
-              <li>• All data is stored on secure, encrypted servers</li>
+            <ul className="mt-2 space-y-1 list-disc pl-5">
+              <li>All data is stored on secure, encrypted servers</li>
               <li>
-                • We use Supabase (PostgreSQL) with Row Level Security enabled
+                We use Supabase (PostgreSQL) with Row Level Security enabled
               </li>
-              <li>• HTTPS encryption for all data transmission</li>
-              <li>• Regular security updates and monitoring</li>
+              <li>HTTPS encryption for all data transmission</li>
+              <li>Regular security updates and monitoring</li>
             </ul>
           </section>
 
@@ -143,8 +153,8 @@ export default function PrivacyPage() {
               We use minimal cookies and browser local storage to enhance your
               experience:
             </p>
-            <ul className="mt-2 space-y-1">
-              <li>• Essential cookies for website functionality</li>
+            <ul className="mt-2 space-y-1 list-disc pl-5">
+              <li>Essential cookies for website functionality</li>
             </ul>
             <p className="mt-2 text-sm text-muted-foreground">
               You can control cookie settings through your browser preferences.
@@ -157,11 +167,10 @@ export default function PrivacyPage() {
               We do not sell, trade, or rent your personal information to third
               parties. We may share information only in these cases:
             </p>
-            <ul className="mt-2 space-y-1">
-              <li>• When required by law or to respond to legal requests</li>
+            <ul className="mt-2 space-y-1 list-disc pl-5">
+              <li>When required by law or to respond to legal requests</li>
               <li>
-                • To protect our rights, property, or safety, or that of our
-                users
+                To protect our rights, property, or safety, or that of our users
               </li>
             </ul>
           </section>
@@ -172,25 +181,25 @@ export default function PrivacyPage() {
               7. Your Rights
             </h2>
             <p>You have the following rights regarding your personal data:</p>
-            <ul className="mt-2 space-y-1">
+            <ul className="mt-2 space-y-1 list-disc pl-5">
               <li>
-                • <strong>Access:</strong> Request information about what
-                personal data we hold about you
+                <strong>Access:</strong> Request information about what personal
+                data we hold about you
               </li>
               <li>
-                • <strong>Correction:</strong> Request correction of inaccurate
+                <strong>Correction:</strong> Request correction of inaccurate
                 personal data
               </li>
               <li>
-                • <strong>Deletion:</strong> Request deletion of your personal
+                <strong>Deletion:</strong> Request deletion of your personal
                 data
               </li>
               <li>
-                • <strong>Portability:</strong> Request a copy of your data in a
+                <strong>Portability:</strong> Request a copy of your data in a
                 machine-readable format
               </li>
               <li>
-                • <strong>Objection:</strong> Object to processing of your
+                <strong>Objection:</strong> Object to processing of your
                 personal data
               </li>
             </ul>
@@ -213,9 +222,9 @@ export default function PrivacyPage() {
               If you have any questions about this Privacy Policy or our data
               practices, please contact us:
             </p>
-            <ul className="mt-2 space-y-1">
+            <ul className="mt-2 space-y-1 list-disc pl-5">
               <li>
-                • GitHub:{" "}
+                GitHub:{" "}
                 <Link
                   href="https://github.com/lorenzopalaia/Euro-Hackathons"
                   className="text-primary hover:underline"
@@ -224,7 +233,7 @@ export default function PrivacyPage() {
                 </Link>
               </li>
               <li>
-                • Discord:{" "}
+                Discord:{" "}
                 <Link
                   href="https://discord.com/invite/SmygTckVez"
                   className="text-primary hover:underline"

@@ -3,6 +3,7 @@ import { Inter, JetBrains_Mono, Merriweather } from "next/font/google";
 import "./globals.css";
 import { StructuredData } from "@/components/structured-data";
 import { ThemeProvider } from "@/components/theme-provider";
+import { TranslationProvider } from "@/contexts/translation-context";
 import { cookies } from "next/headers";
 import { AVAILABLE_THEMES, DEFAULT_THEME_ID } from "@/lib/theme-store";
 
@@ -168,7 +169,9 @@ export default async function RootLayout({
       <body
         className={`font-sans antialiased ${inter.variable} ${jetbrainsMono.variable} ${merriweather.variable}`}
       >
-        <ThemeProvider>{children}</ThemeProvider>
+        <TranslationProvider>
+          <ThemeProvider>{children}</ThemeProvider>
+        </TranslationProvider>
       </body>
     </html>
   );

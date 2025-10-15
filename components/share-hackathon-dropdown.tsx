@@ -11,6 +11,7 @@ import { Share2, Linkedin, Copy } from "lucide-react";
 import { Hackathon } from "@/types/hackathon";
 import { FaXTwitter, FaReddit } from "react-icons/fa6";
 import { europeanCountries } from "@/lib/european-countries";
+import { useTranslation } from "@/contexts/translation-context";
 
 interface ShareHackathonDropdownProps {
   hackathon: Hackathon;
@@ -42,26 +43,15 @@ const shareOptions = [
 export function ShareHackathonDropdown({
   hackathon,
 }: ShareHackathonDropdownProps) {
+  const { t, format } = useTranslation();
+
   const formatDate = (hackathon: Hackathon) => {
-    const start = new Date(hackathon.date_start);
-    const end = hackathon.date_end ? new Date(hackathon.date_end) : null;
-
-    if (!end || start.toDateString() === end.toDateString()) {
-      return start.toLocaleDateString("en-GB", {
-        day: "numeric",
-        month: "short",
-        year: "numeric",
-      });
-    }
-
-    return `${start.toLocaleDateString("en-GB", {
-      day: "numeric",
-      month: "short",
-    })} - ${end.toLocaleDateString("en-GB", {
-      day: "numeric",
-      month: "short",
-      year: "numeric",
-    })}`;
+    return (
+      format.dateTime(hackathon.date_start, "medium") +
+      (hackathon.date_end
+        ? ` - ${format.dateTime(hackathon.date_end, "medium")}`
+        : "")
+    );
   };
 
   const generateShareContent = () => {
@@ -69,7 +59,7 @@ export function ShareHackathonDropdown({
     const location =
       europeanCountries.formatLocation(
         hackathon.city,
-        hackathon.country_code,
+        hackathon.country_code
       ) || "TBD";
     const topics = hackathon.topics?.length
       ? hackathon.topics
@@ -80,7 +70,7 @@ export function ShareHackathonDropdown({
 
     return {
       title: hackathon.name,
-      text: `🚀 Check out this hackathon: ${hackathon.name}\n📅 ${date}\n📍 ${location}\n${topics}`,
+      text: `${t("share.prefix")} ${hackathon.name}\n${t("share.date")} ${date}\n${t("share.location")} ${location}\n${topics}`,
       url: hackathon.url,
     };
   };
@@ -93,15 +83,15 @@ export function ShareHackathonDropdown({
         const location =
           europeanCountries.formatLocation(
             hackathon.city,
-            hackathon.country_code,
+            hackathon.country_code
           ) || "TBD";
         const twitterText = encodeURIComponent(
-          `🚀 ${shareContent.title}\n📅 ${formatDate(hackathon)}\n📍 ${location}\n${shareContent.url}`,
+          `${t("share.prefix")} ${shareContent.title}\n${t("share.date")} ${formatDate(hackathon)}\n${t("share.location")} ${location}\n${shareContent.url}`
         );
         window.open(
           `https://twitter.com/intent/tweet?text=${twitterText}`,
           "_blank",
-          "noopener,noreferrer",
+          "noopener,noreferrer"
         );
         break;
 
@@ -111,15 +101,15 @@ export function ShareHackathonDropdown({
         const linkedinLocation =
           europeanCountries.formatLocation(
             hackathon.city,
-            hackathon.country_code,
+            hackathon.country_code
           ) || "TBD";
         const linkedinSummary = encodeURIComponent(
-          `${shareContent.title} - ${formatDate(hackathon)} in ${linkedinLocation}`,
+          `${shareContent.title} - ${formatDate(hackathon)} ${t("share.in")} ${linkedinLocation}`
         );
         window.open(
           `https://www.linkedin.com/sharing/share-offsite/?url=${linkedinUrl}&title=${linkedinTitle}&summary=${linkedinSummary}`,
           "_blank",
-          "noopener,noreferrer",
+          "noopener,noreferrer"
         );
         break;
 
@@ -127,16 +117,16 @@ export function ShareHackathonDropdown({
         const redditLocation =
           europeanCountries.formatLocation(
             hackathon.city,
-            hackathon.country_code,
+            hackathon.country_code
           ) || "TBD";
         const redditTitle = encodeURIComponent(
-          `${shareContent.title} - ${formatDate(hackathon)} in ${redditLocation}`,
+          `${shareContent.title} - ${formatDate(hackathon)} ${t("share.in")} ${redditLocation}`
         );
         const redditUrl = encodeURIComponent(shareContent.url);
         window.open(
           `https://www.reddit.com/submit?title=${redditTitle}&url=${redditUrl}`,
           "_blank",
-          "noopener,noreferrer",
+          "noopener,noreferrer"
         );
         break;
 
@@ -186,7 +176,7 @@ export function ShareHackathonDropdown({
               className="flex items-center gap-2"
             >
               <IconComponent className={`h-4 w-4`} />
-              {option.label}
+              {t(`share.option.${option.value}`, { default: option.label })}
             </DropdownMenuItem>
           );
         })}

@@ -19,6 +19,7 @@ import { Check, ChevronsUpDown, Moon, Palette, Sun } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useThemeStore, AVAILABLE_THEMES } from "@/lib/theme-store";
 import { getThemePreviewColors } from "@/lib/theme-utils";
+import { useTranslation } from "@/contexts/translation-context";
 
 export function ThemeSwitcher() {
   const [open, setOpen] = useState(false);
@@ -30,13 +31,14 @@ export function ThemeSwitcher() {
   }, []);
 
   const currentTheme = AVAILABLE_THEMES.find(
-    (theme) => JSON.stringify(theme.styles) === JSON.stringify(styles),
+    (theme) => JSON.stringify(theme.styles) === JSON.stringify(styles)
   );
 
   const previewColors =
     hydrated && currentTheme
       ? getThemePreviewColors(currentTheme.styles[currentMode])
       : { primary: "transparent", accent: "transparent" };
+  const { t } = useTranslation();
 
   return (
     <div className="space-y-4">
@@ -44,14 +46,18 @@ export function ThemeSwitcher() {
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Palette className="h-4 w-4" />
-          <h2 className="font-semibold">Theme</h2>
+          <h2 className="font-semibold">{t("theme")}</h2>
         </div>
         <Button
           variant="ghost"
           size="icon"
           className="h-8 w-8"
           onClick={toggleMode}
-          title={currentMode === "light" ? "Switch to Dark" : "Switch to Light"}
+          title={
+            currentMode === "light"
+              ? t("theme.switchToDark")
+              : t("theme.switchToLight")
+          }
         >
           {currentMode === "light" ? (
             <Sun className="h-4 w-4" />
@@ -83,22 +89,22 @@ export function ThemeSwitcher() {
                 />
               </div>
               {hydrated
-                ? (currentTheme?.name ?? "Select theme")
-                : "Loading theme"}
+                ? (currentTheme?.name ?? t("theme.selectPlaceholder"))
+                : t("theme.loading")}
             </span>
             <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
           </Button>
         </PopoverTrigger>
         <PopoverContent className="w-[300px] p-0" align="start">
           <Command>
-            <CommandInput placeholder="Search theme" />
+            <CommandInput placeholder={t("theme.searchPlaceholder")} />
             <CommandList>
-              <CommandEmpty>No theme found.</CommandEmpty>
+              <CommandEmpty>{t("theme.noThemeFound")}</CommandEmpty>
               <CommandGroup>
                 {AVAILABLE_THEMES.map((theme) => {
                   const isSelected = currentTheme?.id === theme.id;
                   const colors = getThemePreviewColors(
-                    theme.styles[currentMode],
+                    theme.styles[currentMode]
                   );
 
                   return (
@@ -114,7 +120,7 @@ export function ThemeSwitcher() {
                         <Check
                           className={cn(
                             "h-4 w-4",
-                            isSelected ? "opacity-100" : "opacity-0",
+                            isSelected ? "opacity-100" : "opacity-0"
                           )}
                         />
                         {/* Preview colori nel dropdown */}

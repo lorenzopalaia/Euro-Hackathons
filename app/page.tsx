@@ -7,6 +7,8 @@ import { useEffect, useState, useMemo } from "react";
 import { Hackathon } from "@/types/hackathon";
 import { FilterProvider } from "@/contexts/filter-context";
 import { europeanCountries } from "@/lib/european-countries";
+import { useTranslation } from "@/contexts/translation-context";
+import LanguageSelect from "@/components/language-select";
 
 export default function Home() {
   const [upcoming, setUpcoming] = useState<Hackathon[]>([]);
@@ -43,10 +45,10 @@ export default function Home() {
         new Set(
           upcoming
             .map((h) =>
-              europeanCountries.formatLocation(h.city, h.country_code),
+              europeanCountries.formatLocation(h.city, h.country_code)
             )
-            .filter((loc): loc is string => Boolean(loc)),
-        ),
+            .filter((loc): loc is string => Boolean(loc))
+        )
       );
 
       // Genera le location uniche per eventi past
@@ -54,15 +56,15 @@ export default function Home() {
         new Set(
           past
             .map((h) =>
-              europeanCountries.formatLocation(h.city, h.country_code),
+              europeanCountries.formatLocation(h.city, h.country_code)
             )
-            .filter((loc): loc is string => Boolean(loc)),
-        ),
+            .filter((loc): loc is string => Boolean(loc))
+        )
       );
 
       const allHackathons = [...upcoming, ...past];
       const topics = Array.from(
-        new Set(allHackathons.flatMap((h) => h.topics || [])),
+        new Set(allHackathons.flatMap((h) => h.topics || []))
       );
 
       return {
@@ -81,14 +83,27 @@ export default function Home() {
           uniqueTopics={uniqueTopics}
         />
         <main className="ml-16 flex-1 p-8 md:ml-60">
-          <h1 className="mb-3 text-3xl font-bold">Euro Hackathons</h1>
-          <p className="text-muted-foreground">
-            Your comprehensive list of hackathons happening across Europe
-          </p>
+          {/* Translated header and subtitle */}
+          <TranslatedHeader />
           <Separator className="my-6" />
           <HackathonList upcoming={upcoming} past={past} loading={loading} />
         </main>
       </div>
     </FilterProvider>
+  );
+}
+
+function TranslatedHeader() {
+  const { t } = useTranslation();
+  return (
+    <div className="flex items-center justify-between gap-4">
+      <div>
+        <h1 className="mb-3 text-3xl font-bold">{t("title")}</h1>
+        <p className="text-muted-foreground">{t("subtitle")}</p>
+      </div>
+      <div className="flex items-center">
+        <LanguageSelect />
+      </div>
+    </div>
   );
 }

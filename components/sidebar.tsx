@@ -54,6 +54,7 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 import type { HackathonTopic } from "@/lib/constants/topics";
 import { ThemeSwitcher } from "@/components/theme-switcher";
+import { useTranslation } from "@/contexts/translation-context";
 
 interface SidebarProps {
   uniqueUpcomingLocations?: string[];
@@ -72,15 +73,29 @@ const EXTERNAL_LINKS = {
 // Configurazione delle sezioni della sidebar
 const SIDEBAR_SECTIONS = {
   notifications: [
-    { href: EXTERNAL_LINKS.discord, icon: FaDiscord, label: "Discord Bot" },
-    { href: EXTERNAL_LINKS.telegram, icon: FaTelegram, label: "Telegram Bot" },
-    { href: EXTERNAL_LINKS.twitter, icon: FaXTwitter, label: "X Updates" },
+    {
+      href: EXTERNAL_LINKS.discord,
+      icon: FaDiscord,
+      labelKey: "external.discord",
+    },
+    {
+      href: EXTERNAL_LINKS.telegram,
+      icon: FaTelegram,
+      labelKey: "external.telegram",
+    },
+    {
+      href: EXTERNAL_LINKS.twitter,
+      icon: FaXTwitter,
+      labelKey: "external.twitter",
+    },
   ],
-  socials: [{ href: EXTERNAL_LINKS.github, icon: Github, label: "GitHub" }],
+  socials: [
+    { href: EXTERNAL_LINKS.github, icon: Github, labelKey: "external.github" },
+  ],
   support: [
-    { href: "/docs", icon: FileText, label: "Documentation" },
-    { href: "/privacy", icon: Shield, label: "Privacy Policy" },
-    { href: "/terms", icon: FileCheck, label: "Terms of Service" },
+    { href: "/docs", icon: FileText, labelKey: "external.docs" },
+    { href: "/privacy", icon: Shield, labelKey: "external.privacy" },
+    { href: "/terms", icon: FileCheck, labelKey: "external.terms" },
   ],
 } as const;
 
@@ -122,7 +137,6 @@ const CollapsedSidebarButton = ({
   );
 };
 
-// Componente per le sezioni con link esterni
 const ExternalLinksSection = ({
   title,
   icon: TitleIcon,
@@ -133,35 +147,38 @@ const ExternalLinksSection = ({
   links: readonly {
     href: string;
     icon: React.ComponentType<{ className?: string }>;
-    label: string;
+    labelKey: string;
   }[];
-}) => (
-  <div className="space-y-4">
-    <div className="flex items-center gap-2">
-      <TitleIcon className="h-4 w-4" />
-      <h2 className="font-semibold">{title}</h2>
-    </div>
-    <div className="space-y-2">
-      {links.map(({ href, icon: Icon, label }) => (
-        <Button
-          key={href}
-          asChild
-          variant="outline"
-          className="w-full justify-start"
-          size="sm"
-        >
-          <Link
-            href={href}
-            target={href.startsWith("http") ? "_blank" : undefined}
+}) => {
+  const { t } = useTranslation();
+  return (
+    <div className="space-y-4">
+      <div className="flex items-center gap-2">
+        <TitleIcon className="h-4 w-4" />
+        <h2 className="font-semibold">{t(title)}</h2>
+      </div>
+      <div className="space-y-2">
+        {links.map(({ href, icon: Icon, labelKey }) => (
+          <Button
+            key={href}
+            asChild
+            variant="outline"
+            className="w-full justify-start"
+            size="sm"
           >
-            <Icon className="mr-2 h-4 w-4" />
-            {label}
-          </Link>
-        </Button>
-      ))}
+            <Link
+              href={href}
+              target={href.startsWith("http") ? "_blank" : undefined}
+            >
+              <Icon className="mr-2 h-4 w-4" />
+              {t(labelKey)}
+            </Link>
+          </Button>
+        ))}
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 // Mobile collapsed sidebar (moved out to avoid remounting on each render)
 function MobileCollapsedSidebar({
@@ -229,6 +246,7 @@ function SidebarContent({
 }) {
   const [topicOpen, setTopicOpen] = useState(false);
   const [locationOpen, setLocationOpen] = useState(false);
+  const { t } = useTranslation();
 
   const toggleLocation = (location: string) => {
     const newLocations = filters.locations.includes(location)
@@ -263,7 +281,7 @@ function SidebarContent({
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Filter className="h-4 w-4" />
-            <h2 className="font-semibold">Filters</h2>
+            <h2 className="font-semibold">{t("filters")}</h2>
           </div>
           <div className="flex items-center gap-2">
             {hasActiveFilters && (
@@ -276,10 +294,10 @@ function SidebarContent({
 
         {/* Search */}
         <div className="space-y-2">
-          <Label htmlFor="search">Search</Label>
+          <Label htmlFor="search">{t("search")}</Label>
           <Input
             id="search"
-            placeholder="Hackathon name"
+            placeholder={t("search.placeholder")}
             value={filters.search}
             onChange={(e) => updateFilter("search", e.target.value)}
           />
@@ -287,7 +305,7 @@ function SidebarContent({
 
         {/* Status */}
         <div className="space-y-2">
-          <Label>Status</Label>
+          <Label>{t("status")}</Label>
           <Select
             value={filters.status}
             onValueChange={(value: "upcoming" | "past") =>
@@ -298,15 +316,15 @@ function SidebarContent({
               <SelectValue />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="upcoming">Upcoming</SelectItem>
-              <SelectItem value="past">Past</SelectItem>
+              <SelectItem value="upcoming">{t("status.upcoming")}</SelectItem>
+              <SelectItem value="past">{t("status.past")}</SelectItem>
             </SelectContent>
           </Select>
         </div>
 
         {/* Location Combobox */}
         <div className="space-y-2">
-          <Label>Locations</Label>
+          <Label>{t("locations")}</Label>
           <Popover open={locationOpen} onOpenChange={setLocationOpen}>
             <PopoverTrigger asChild>
               <Button
@@ -316,16 +334,16 @@ function SidebarContent({
                 className="w-full justify-between"
               >
                 {filters.locations.length > 0
-                  ? `${filters.locations.length} selected`
-                  : "Select locations"}
+                  ? `${filters.locations.length} ${t("locations.selected")}`
+                  : t("locations.select")}
                 <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
               </Button>
             </PopoverTrigger>
             <PopoverContent className="w-full p-0">
               <Command>
-                <CommandInput placeholder="Search location" />
+                <CommandInput placeholder={t("locations.searchPlaceholder")} />
                 <CommandList>
-                  <CommandEmpty>No location found.</CommandEmpty>
+                  <CommandEmpty>{t("locations.noneFound")}</CommandEmpty>
                   <CommandGroup>
                     {availableLocations.map((location) => (
                       <CommandItem
@@ -339,7 +357,7 @@ function SidebarContent({
                             "mr-2 h-4 w-4",
                             filters.locations.includes(location)
                               ? "opacity-100"
-                              : "opacity-0",
+                              : "opacity-0"
                           )}
                         />
                         {location}
@@ -371,7 +389,7 @@ function SidebarContent({
 
         {/* Topics Combobox */}
         <div className="space-y-2">
-          <Label>Topics</Label>
+          <Label>{t("topics")}</Label>
           <Popover open={topicOpen} onOpenChange={setTopicOpen}>
             <PopoverTrigger asChild>
               <Button
@@ -381,16 +399,16 @@ function SidebarContent({
                 className="w-full justify-between"
               >
                 {filters.topics.length > 0
-                  ? `${filters.topics.length} selected`
-                  : "Select topics"}
+                  ? `${filters.topics.length} ${t("locations.selected")}`
+                  : t("topics.select")}
                 <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
               </Button>
             </PopoverTrigger>
             <PopoverContent className="w-full p-0">
               <Command>
-                <CommandInput placeholder="Search topic" />
+                <CommandInput placeholder={t("topics.searchPlaceholder")} />
                 <CommandList>
-                  <CommandEmpty>No topic found.</CommandEmpty>
+                  <CommandEmpty>{t("topics.noneFound")}</CommandEmpty>
                   <CommandGroup>
                     {uniqueTopics.map((topic) => (
                       <CommandItem
@@ -404,7 +422,7 @@ function SidebarContent({
                             "mr-2 h-4 w-4",
                             filters.topics.includes(topic)
                               ? "opacity-100"
-                              : "opacity-0",
+                              : "opacity-0"
                           )}
                         />
                         {topic}
@@ -436,7 +454,7 @@ function SidebarContent({
 
         {/* Date Range */}
         <div className="space-y-2">
-          <Label>Dates</Label>
+          <Label>{t("dates")}</Label>
           <Popover>
             <PopoverTrigger asChild>
               <Button
@@ -459,7 +477,7 @@ function SidebarContent({
                     })
                   )
                 ) : (
-                  "Select dates"
+                  t("dates.select")
                 )}
               </Button>
             </PopoverTrigger>
@@ -485,12 +503,12 @@ function SidebarContent({
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <ArrowUpDown className="h-4 w-4" />
-            <h2 className="font-semibold">Sorting</h2>
+            <h2 className="font-semibold">{t("sorting")}</h2>
           </div>
         </div>
 
         <div className="space-y-2">
-          <Label>Sort by date</Label>
+          <Label>{t("sort.byDate")}</Label>
           <Select
             value={filters.sort}
             onValueChange={(value: "asc" | "desc") =>
@@ -501,8 +519,8 @@ function SidebarContent({
               <SelectValue />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="asc">Ascending</SelectItem>
-              <SelectItem value="desc">Descending</SelectItem>
+              <SelectItem value="asc">{t("sort.ascending")}</SelectItem>
+              <SelectItem value="desc">{t("sort.descending")}</SelectItem>
             </SelectContent>
           </Select>
         </div>
@@ -512,7 +530,7 @@ function SidebarContent({
 
       {/* Notifications */}
       <ExternalLinksSection
-        title="Notifications"
+        title="notifications"
         icon={Bell}
         links={SIDEBAR_SECTIONS.notifications}
       />
@@ -521,7 +539,7 @@ function SidebarContent({
 
       {/* Socials */}
       <ExternalLinksSection
-        title="Socials"
+        title="socials"
         icon={Users}
         links={SIDEBAR_SECTIONS.socials}
       />
@@ -530,7 +548,7 @@ function SidebarContent({
 
       {/* Support */}
       <ExternalLinksSection
-        title="Support"
+        title="support"
         icon={HelpCircle}
         links={SIDEBAR_SECTIONS.support}
       />

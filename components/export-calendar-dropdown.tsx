@@ -11,6 +11,7 @@ import { Calendar as CalendarIcon } from "lucide-react";
 import { atcb_action } from "add-to-calendar-button-react";
 import { Hackathon } from "@/types/hackathon";
 import { europeanCountries } from "@/lib/european-countries";
+import { useTranslation } from "@/contexts/translation-context";
 import { FaGoogle, FaApple, FaMicrosoft, FaYahoo } from "react-icons/fa6";
 
 interface ExportCalendarDropdownProps {
@@ -34,6 +35,7 @@ const calendarOptions = [
 export function ExportCalendarDropdown({
   hackathon,
 }: ExportCalendarDropdownProps) {
+  const { t } = useTranslation();
   const formatEventForCalendar = () => {
     const startDate = new Date(hackathon.date_start);
     const endDate = hackathon.date_end
@@ -49,7 +51,7 @@ export function ExportCalendarDropdown({
     return {
       name: hackathon.name,
       description:
-        hackathon.notes || `Join us for the ${hackathon.name} hackathon!`,
+        hackathon.notes || t("export.description", { name: hackathon.name }),
       startDate: startDate.toISOString().split("T")[0],
       endDate: endDate.toISOString().split("T")[0],
       startTime: hasStartTime
@@ -61,7 +63,7 @@ export function ExportCalendarDropdown({
       location:
         europeanCountries.formatLocation(
           hackathon.city,
-          hackathon.country_code,
+          hackathon.country_code
         ) || undefined,
       timeZone: "Europe/London",
     };
@@ -93,7 +95,7 @@ export function ExportCalendarDropdown({
               className="flex items-center gap-2"
             >
               <IconComponent className="h-4 w-4" />
-              {option.label}
+              {t(`calendar.option.${option.value}`, { default: option.label })}
             </DropdownMenuItem>
           );
         })}

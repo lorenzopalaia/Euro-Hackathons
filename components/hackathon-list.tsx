@@ -1,4 +1,7 @@
+"use client";
+
 import { useMemo, useCallback } from "react";
+import { useTranslation } from "@/contexts/translation-context";
 import { Badge } from "@/components/ui/badge";
 import {
   Card,
@@ -35,6 +38,7 @@ export default function HackathonList({
   past,
   loading,
 }: HackathonListProps) {
+  const { t } = useTranslation();
   const { filters } = useFilters();
 
   const filterHackathons = useCallback(
@@ -103,42 +107,16 @@ export default function HackathonList({
     return sorted;
   }, [filters.status, filters.sort, upcoming, past, filterHackathons]);
 
-  const formatDate = (hackathon: Hackathon) => {
-    const start = new Date(hackathon.date_start);
-    const end = hackathon.date_end ? new Date(hackathon.date_end) : null;
-
-    if (!end || start.toDateString() === end.toDateString()) {
-      return start.toLocaleDateString("en-GB", {
-        day: "numeric",
-        month: "short",
-        year: "numeric",
-      });
-    }
-
-    if (
-      start.getMonth() !== end.getMonth() ||
-      start.getFullYear() !== end.getFullYear()
-    ) {
-      return `${start.toLocaleDateString("en-GB", {
-        day: "numeric",
-        month: "short",
-      })} - ${end.toLocaleDateString("en-GB", {
-        day: "numeric",
-        month: "short",
-        year: "numeric",
-      })}`;
-    }
-
-    return `${start.getDate()}-${end.getDate()} ${start.toLocaleDateString(
-      "en-GB",
-      {
-        month: "short",
-        year: "numeric",
-      }
-    )}`;
-  };
+  // formatDate is provided by the translation context (formatDateRange)
 
   const HackathonCard = ({ hackathon }: { hackathon: Hackathon }) => {
+    const { t, formatDateRange } = useTranslation();
+    // DEBUG: log resolution for badge.new during runtime to diagnose missing translations
+    if (typeof window !== "undefined") {
+      try {
+        console.debug("[i18n-debug] badge.new ->", t("badge.new"));
+      } catch {}
+    }
     return (
       <Card className="flex h-full flex-col transition-all duration-200 hover:shadow-lg">
         <CardHeader>
@@ -152,7 +130,7 @@ export default function HackathonList({
                 className="shrink-0 bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white shadow-sm"
               >
                 <Sparkles className="mr-1 h-3 w-3" />
-                New
+                {t("badge.new")}
               </Badge>
             )}
           </div>
@@ -168,7 +146,9 @@ export default function HackathonList({
             <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
               <div className="flex md:w-1/2 items-center gap-2 text-sm text-muted-foreground">
                 <CalendarIcon className="h-4 w-4 shrink-0" />
-                <span>{formatDate(hackathon)}</span>
+                <span>
+                  {formatDateRange(hackathon.date_start, hackathon.date_end)}
+                </span>
               </div>
               {(hackathon.city || hackathon.country_code) && (
                 <div className="flex md:w-1/2 items-center gap-2 text-sm text-muted-foreground">
@@ -204,7 +184,7 @@ export default function HackathonList({
                 })}
               {hackathon.topics.length > 4 && (
                 <Badge variant="outline" className="text-xs">
-                  +{hackathon.topics.length - 4} more
+                  {`+${hackathon.topics.length - 4} ${t("topics.more")}`}
                 </Badge>
               )}
             </div>
@@ -219,9 +199,9 @@ export default function HackathonList({
                   href={hackathon.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label={`Register for ${hackathon.name}`}
+                  aria-label={t("aria.register", { name: hackathon.name })}
                 >
-                  Join <ExternalLink className="ml-1 h-4 w-4" />
+                  {t("action.join")} <ExternalLink className="ml-1 h-4 w-4" />
                 </Link>
               </Button>
 
@@ -297,17 +277,20 @@ export default function HackathonList({
     <div className="w-full">
       <div className="mb-6">
         <h2 className="mb-2 text-xl font-semibold">
-          {filters.status === "upcoming" ? "Upcoming" : "Past"} Hackathons
+          {filters.status === "upcoming"
+            ? t("header.upcoming")
+            : t("header.past")}{" "}
+          {t("header.hackathons")}
         </h2>
         <p className="text-muted-foreground">
-          {currentHackathons.length} hackathon
-          {currentHackathons.length !== 1 ? "s" : ""} found
+          {currentHackathons.length}{" "}
+          {t("header.found", { count: currentHackathons.length })}
         </p>
       </div>
 
       {currentHackathons.length === 0 ? (
         <div className="py-8 text-center text-muted-foreground">
-          <p>No hackathons found matching your criteria</p>
+          <p>{t("noResults.message")}</p>
         </div>
       ) : (
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">

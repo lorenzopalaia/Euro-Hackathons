@@ -14,27 +14,28 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 17 October 2025 at 14:21_
+_Last updated: 17 October 2025 at 18:15_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                                      | Location                   | Date            | Topics             | URL                                                                                     |
 | ----------------------------------------------------------------------------------- | -------------------------- | --------------- | ------------------ | --------------------------------------------------------------------------------------- |
-| Women Longevity X London Hackathon                                                  | London, UK                 | 18 Oct-19, 2025 |                    | [Link](https://lu.ma/wkht62b5)                                                          |
+| The AI Rave Hackathon                                                               | Berlin, Germany            | 18 Oct-19, 2025 | AI                 | [Link](https://lu.ma/1uk4m59p)                                                          |
 | Robotics Hackathon II                                                               | Bruxelles, Belgium         | 18 Oct 2025     |                    | [Link](https://lu.ma/vl1ksuok)                                                          |
 | Vibe Coding Hackathon powered by Lovable - Milan 🇮🇹                                 | Milano, Italy              | 18 Oct 2025     | AI                 | [Link](https://lu.ma/jcaojikx)                                                          |
-| The AI Rave Hackathon                                                               | Berlin, Germany            | 18 Oct-19, 2025 | AI                 | [Link](https://lu.ma/1uk4m59p)                                                          |
-| Tsunami Protocol: Art in the age of Coding                                          | Paris, France              | 18 Oct 2025     |                    | [Link](https://lu.ma/air6yb5n)                                                          |
 | Cursor Hackathon Bucharest                                                          | București, Romania         | 18 Oct 2025     |                    | [Link](https://lu.ma/icqo8c94)                                                          |
 | Bio Hackathon - Pitch Session - Nucleate x Evolved                                  | Berlin, Germany            | 18 Oct 2025     |                    | [Link](https://lu.ma/eexmim0y)                                                          |
+| Women Longevity X London Hackathon                                                  | London, UK                 | 18 Oct-19, 2025 |                    | [Link](https://lu.ma/wkht62b5)                                                          |
+| Tsunami Protocol: Art in the age of Coding                                          | Paris, France              | 18 Oct 2025     |                    | [Link](https://lu.ma/air6yb5n)                                                          |
 | DSS x Lovable x Redwood Founder Vibecoding Hackathon                                | London, UK                 | 19 Oct 2025     |                    | [Link](https://lu.ma/and80s1l)                                                          |
 | HACKATHON - Celebrating Through Innovation                                          | Iași, Romania              | 20 Oct-25, 2025 |                    | [Link](https://lu.ma/vl7ijkmw)                                                          |
 | AI Hackathon: Learn to build with AI                                                | Amsterdam, Netherlands     | 21 Oct 2025     | AI                 | [Link](https://lu.ma/uct637hw)                                                          |
 | 🧠 The AI Collective Paris - Hackathon with BlackboxAI @42 Paris                    | Paris, France              | 21 Oct 2025     |                    | [Link](https://lu.ma/hackathon-aic-blackboxai-42)                                       |
 | The TabPFN Hackathon (1k€ in Prizes!)                                               | Berlin, Germany            | 21 Oct 2025     |                    | [Link](https://lu.ma/hack_tabpfn)                                                       |
+| AI assisted coding workflows - what works best?                                     | Berlin, Germany            | 22 Oct 2025     |                    | [Link](https://lu.ma/2oapsasw)                                                          |
+| Voice AI Evening Hackathon                                                          | London, UK                 | 23 Oct 2025     |                    | [Link](https://lu.ma/i2zayp7l)                                                          |
 | The Conversational AI Vibe Coding Hack: Build, Ship, Demo, Learn, Together, Fast    | London, UK                 | 23 Oct 2025     |                    | [Link](https://lu.ma/qhowz965)                                                          |
 | Ship Happens - 24h Hackathon by Treblle                                             | Zagreb, Croatia            | 23 Oct-24, 2025 |                    | [Link](https://lu.ma/cqwublym)                                                          |
-| Voice AI Evening Hackathon                                                          | London, UK                 | 23 Oct 2025     |                    | [Link](https://lu.ma/i2zayp7l)                                                          |
 | Blockchain/DLT/Digital Asset Hackathon                                              | Edinburgh, UK              | 24 Oct 2025     |                    | [Link](https://lu.ma/u3pvf15s)                                                          |
 | Sui Hackathon Serisi: Aylık Düzenli Yarışmalar Devam Ediyor                         | Sarıyer, Turkey            | 24 Oct-26, 2025 |                    | [Link](https://lu.ma/lintroj0)                                                          |
 | Robotics & AI Hackathon                                                             | Espoo, Finland             | 24 Oct-26, 2025 |                    | [Link](https://lu.ma/r066ymq1)                                                          |

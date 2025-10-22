@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-export function middleware() {
+export function proxy() {
   const response = NextResponse.next();
   const vary = response.headers.get("Vary");
   if (vary) {

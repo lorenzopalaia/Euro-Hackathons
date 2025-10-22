@@ -12,7 +12,8 @@
     "components/ui/**",
     "repo_assets/**",
     "public/**",
-    "next-sitemap.config.js"
+    "next-sitemap.config.js",
+    "proxy.ts"
   ],
   "ignoreDependencies": [
     "eslint",

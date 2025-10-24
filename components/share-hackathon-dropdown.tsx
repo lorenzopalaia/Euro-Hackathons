@@ -159,12 +159,12 @@ export function ShareHackathonDropdown({
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="outline" size="sm" className="w-full">
-          Share
+          {t("share.button")}
           <Share2 className="ml-1 h-4 w-4" aria-hidden="true" />
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent
-        className="w-[var(--radix-dropdown-menu-trigger-width)]"
+        className="w-(--radix-dropdown-menu-trigger-width)"
         align="start"
       >
         {shareOptions.map((option) => {

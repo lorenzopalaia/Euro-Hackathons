@@ -78,12 +78,12 @@ export function ExportCalendarDropdown({
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="outline" size="sm" className="w-full">
-          Calendar
+          {t("calendar.button")}
           <CalendarIcon className="ml-1 h-4 w-4" aria-hidden="true" />
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent
-        className="w-[var(--radix-dropdown-menu-trigger-width)]"
+        className="w-(--radix-dropdown-menu-trigger-width)"
         align="start"
       >
         {calendarOptions.map((option) => {

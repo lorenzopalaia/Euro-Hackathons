@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 29 November 2025 at 16:23_
+_Last updated: 30 November 2025 at 10:13_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -59,8 +59,8 @@ _Showing last 20 events_
 | UK AI Agent Hackathon EP3 - The Largest Web3 × AI Hackathon in Europe  | London, UK              | 29 Nov 2025 - 7 Dec 2025 |         | [Link](https://lu.ma/e2ie935t)                   |
 | Iterate - London RL Hackathon w/ Cognition & Originator                | London, UK              | 29 Nov 2025              |         | [Link](https://lu.ma/vnia1awh)                   |
 | Shipyard 24h hackathon                                                 | Rīga, Latvia            | 29 Nov-30, 2025          |         | [Link](https://lu.ma/4iqrjeam)                   |
-| Accelerate ME: Hackathon                                               | Manchester, UK          | 29 Nov-30, 2025          |         | [Link](https://lu.ma/cj6lkt12)                   |
 | MVP Weekends: Co-Lab, Hackathon, Community - November 2025             | London, UK              | 29 Nov-30, 2025          |         | [Link](https://lu.ma/5a6lrks0)                   |
+| Accelerate ME: Hackathon                                               | Manchester, UK          | 29 Nov-30, 2025          |         | [Link](https://lu.ma/cj6lkt12)                   |
 | European Defense Tech Hackathon – Switzerland                          | Winterthur, Switzerland | 28 Nov-30, 2025          | Defense | [Link](https://lu.ma/edth-2025-switzerland)      |
 | Cactus X Nothing X HuggingFace Hackathon                               | London, UK              | 28 Nov-29, 2025          |         | [Link](https://lu.ma/jrec73nt)                   |
 | Light x Lovable x McKinsey Finance Hackathon                           | Stockholm, Sweden       | 27 Nov 2025              |         | [Link](https://lu.ma/FinanceHackathonStockholm)  |
@@ -72,7 +72,7 @@ _Showing last 20 events_
 | Talent~People x Metaview - AI Talent Hackathon                         | London, UK              | 25 Nov 2025              |         | [Link](https://lu.ma/0olz6jrp)                   |
 | Agentic Coding Meetup Hamburg #3                                       | Hamburg, Germany        | 25 Nov 2025              |         | [Link](https://lu.ma/dicrp3xl)                   |
 | Vibe Coding Berlin                                                     | Berlin, Germany         | 24 Nov 2025              |         | [Link](https://lu.ma/5jl5bm79)                   |
-| Personalised Longevity X Paris Hackathon                               | Paris, France           | 22 Nov-23, 2025          |         | [Link](https://lu.ma/z5g5edi2)                   |
+| Agentic Payments Hackathon with Stripe                                 | Bruxelles, Belgium      | 22 Nov 2025              |         | [Link](https://lu.ma/f7gs82fe)                   |
 
 <!-- PAST_TABLE_END -->
 

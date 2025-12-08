@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 7 December 2025 at 16:22_
+_Last updated: 8 December 2025 at 08:25_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -62,8 +62,8 @@ _Showing last 20 events_
 | ShadowStack: Vibe-coding jam [Season 01, jam 03]                      | Joensuu, Finland           | 3 Dec 2025               |        | [Link](https://lu.ma/v9cvc0gt)               |
 | AI Lovable Hackathon: Community Tools Edition                         | London, UK                 | 3 Dec 2025               |        | [Link](https://lu.ma/ai-hackathon-community) |
 | Learn how to get the most out of AI coding assistants with Google     | Amsterdam, Netherlands     | 2 Dec 2025               |        | [Link](https://lu.ma/fwnm7zp8)               |
-| ZERO-TO-DEMO: AI-FIRST HACKATHON                                      | København, Denmark         | 29 Nov-30, 2025          |        | [Link](https://lu.ma/zmho1iqy)               |
 | AI Automation Hackathon powered by n8n - Milan                        | Milano, Italy              | 29 Nov 2025              |        | [Link](https://lu.ma/fagpkenv)               |
+| ZERO-TO-DEMO: AI-FIRST HACKATHON                                      | København, Denmark         | 29 Nov-30, 2025          |        | [Link](https://lu.ma/zmho1iqy)               |
 | Accelerate ME: Hackathon                                              | Manchester, UK             | 29 Nov-30, 2025          |        | [Link](https://lu.ma/cj6lkt12)               |
 | MVP Weekends: Co-Lab, Hackathon, Community - November 2025            | London, UK                 | 29 Nov-30, 2025          |        | [Link](https://lu.ma/5a6lrks0)               |
 | Shipyard 24h hackathon                                                | Rīga, Latvia               | 29 Nov-30, 2025          |        | [Link](https://lu.ma/4iqrjeam)               |

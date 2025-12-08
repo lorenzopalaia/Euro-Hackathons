@@ -14,7 +14,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 8 December 2025 at 08:25_
+_Last updated: 8 December 2025 at 13:28_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -26,11 +26,11 @@ _Last updated: 8 December 2025 at 08:25_
 | BLISS x InstaDeep Workshop - Foundational Models for Genomics: Decoding Genomic Sequences | Berlin, Germany                    | 11 Dec 2025     |         | [Link](https://lu.ma/f3yb8zn2) |
 | AMMO AI Hackathon                                                                         | London, UK                         | 12 Dec 2025     |         | [Link](https://lu.ma/u5hs4tt4) |
 | The Vibe Coders - Christmas Hackathon vol.8                                               | Hlavní Město Praha, Czech Republic | 12 Dec 2025     |         | [Link](https://lu.ma/wscto8jw) |
-| AI Fixathon Amsterdam - 24h Hackathon for Impact!                                         | Amsterdam, Netherlands             | 13 Dec-14, 2025 |         | [Link](https://lu.ma/fixathon) |
 | Epiminds Hackathon @ LONDON, UK - 13thDec ($6k cash)                                      | London, UK                         | 13 Dec 2025     |         | [Link](https://lu.ma/gkbghqvs) |
+| AI Fixathon Amsterdam - 24h Hackathon for Impact!                                         | Amsterdam, Netherlands             | 13 Dec-14, 2025 |         | [Link](https://lu.ma/fixathon) |
 | Rev Up Your Workflow: AI Agent Hackathon with Airia                                       | Grove, UK                          | 15 Dec 2025     |         | [Link](https://lu.ma/1rr8yl2m) |
-| Tech & Sip #7: 🎁 Wrap up Vibe Coding w Lovable                                           | København, Denmark                 | 16 Dec 2025     |         | [Link](https://lu.ma/9l273ilm) |
 | Hackathon: Advent of Vibe-automation                                                      | Berlin, Germany                    | 16 Dec 2025     |         | [Link](https://lu.ma/m7a8e77c) |
+| Tech & Sip #7: 🎁 Wrap up Vibe Coding w Lovable                                           | København, Denmark                 | 16 Dec 2025     |         | [Link](https://lu.ma/9l273ilm) |
 | Cuneo Christmas Vibe Coding Night                                                         | Cuneo, Italy                       | 22 Dec 2025     |         | [Link](https://lu.ma/0ne1443f) |
 | Hyperliquid London Hackathon                                                              | London, UK                         | 16 Jan-18, 2026 |         | [Link](https://lu.ma/vay21dno) |
 | What’s new in vibe coding? Lovable builder session                                        | Amsterdam, Netherlands             | 20 Jan 2026     |         | [Link](https://lu.ma/si7l7jhd) |

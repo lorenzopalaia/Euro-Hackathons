@@ -6,7 +6,7 @@ Welcome to **EURO HACKATHONS**! This repository provides a comprehensive, **auto
 
 Whether you're a seasoned hacker or a beginner looking for your first hackathon, you'll find all the information you need here! 🎉
 
-[![Star History Chart](https://api.star-history.com/svg?repos=lorenzopalaia/euro-hackathons&type=Date)](https://star-history.com/#lorenzopalaia/euro-hackathons&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=lorenzopalaia/euro-hackathons&type=Date&theme=dark)](https://star-history.com/#lorenzopalaia/euro-hackathons&type=Date&theme=dark)
 
 ---
 

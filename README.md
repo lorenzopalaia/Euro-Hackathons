@@ -16,24 +16,23 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 9 December 2025 at 17:20_
+_Last updated: 10 December 2025 at 08:23_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                                            | Location                           | Date            | Topics  | URL                            |
 | ----------------------------------------------------------------------------------------- | ---------------------------------- | --------------- | ------- | ------------------------------ |
-| Vibecoding Meetup Amsterdam: How to AI 🚀🔆🏳️‍🌈                                             | Amsterdam, Netherlands             | 10 Dec 2025     |         | [Link](https://lu.ma/1kap38hk) |
-| BLISS x InstaDeep Workshop - Foundational Models for Genomics: Decoding Genomic Sequences | Berlin, Germany                    | 11 Dec 2025     |         | [Link](https://lu.ma/f3yb8zn2) |
 | elevenlabs hackathon vilnius demo night                                                   | Vilnius, Lithuania                 | 11 Dec 2025     |         | [Link](https://lu.ma/4uos7lcl) |
+| BLISS x InstaDeep Workshop - Foundational Models for Genomics: Decoding Genomic Sequences | Berlin, Germany                    | 11 Dec 2025     |         | [Link](https://lu.ma/f3yb8zn2) |
 | Critique #2: AI for Neural Decoding                                                       | London, UK                         | 11 Dec 2025     |         | [Link](https://lu.ma/hqmxp6c7) |
 | The Vibe Coders - Christmas Hackathon vol.8                                               | Hlavní Město Praha, Czech Republic | 12 Dec 2025     |         | [Link](https://lu.ma/wscto8jw) |
-| AMMO AI Hackathon                                                                         | London, UK                         | 12 Dec 2025     |         | [Link](https://lu.ma/u5hs4tt4) |
 | GTM Nights 7: "Vibe" Coding                                                               | Beyoğlu, Turkey                    | 12 Dec 2025     |         | [Link](https://lu.ma/4m3g73f3) |
-| AI Fixathon Amsterdam - 24h Hackathon for Impact!                                         | Amsterdam, Netherlands             | 13 Dec-14, 2025 |         | [Link](https://lu.ma/fixathon) |
+| AMMO AI Hackathon                                                                         | London, UK                         | 12 Dec 2025     |         | [Link](https://lu.ma/u5hs4tt4) |
 | Epiminds Hackathon @ LONDON, UK - 13thDec ($6k cash)                                      | London, UK                         | 13 Dec 2025     |         | [Link](https://lu.ma/gkbghqvs) |
+| AI Fixathon Amsterdam - 24h Hackathon for Impact!                                         | Amsterdam, Netherlands             | 13 Dec-14, 2025 |         | [Link](https://lu.ma/fixathon) |
 | Rev Up Your Workflow: AI Agent Hackathon with Airia                                       | Grove, UK                          | 15 Dec 2025     |         | [Link](https://lu.ma/1rr8yl2m) |
-| Tech & Sip #7: 🎁 Wrap up Vibe Coding w Lovable                                           | København, Denmark                 | 16 Dec 2025     |         | [Link](https://lu.ma/9l273ilm) |
 | Hackathon: Advent of Vibe-automation                                                      | Berlin, Germany                    | 16 Dec 2025     |         | [Link](https://lu.ma/m7a8e77c) |
+| Tech & Sip #7: 🎁 Wrap up Vibe Coding w Lovable                                           | København, Denmark                 | 16 Dec 2025     |         | [Link](https://lu.ma/9l273ilm) |
 | Cuneo Christmas Vibe Coding Night                                                         | Cuneo, Italy                       | 22 Dec 2025     |         | [Link](https://lu.ma/0ne1443f) |
 | Vibe Coding Meetup: How to AI (Show & Tell Edition) 🚀✨ 🏳️‍🌈                               | Amsterdam, Netherlands             | 14 Jan 2026     |         | [Link](https://lu.ma/lyo5idxe) |
 | Hyperliquid London Hackathon                                                              | London, UK                         | 16 Jan-18, 2026 |         | [Link](https://lu.ma/vay21dno) |
@@ -53,6 +52,7 @@ _Showing last 20 events_
 
 | Hackathon Name                                                    | Location                   | Date            | Topics | URL                                          |
 | ----------------------------------------------------------------- | -------------------------- | --------------- | ------ | -------------------------------------------- |
+| Vibecoding Meetup Amsterdam: How to AI 🚀🔆🏳️‍🌈                     | Amsterdam, Netherlands     | 10 Dec 2025     |        | [Link](https://lu.ma/1kap38hk)               |
 | London AI hackathon                                               | London, UK                 | 9 Dec 2025      |        | [Link](https://lu.ma/w1ljwuqt)               |
 | Paris AI hackathon                                                | Paris, France              | 9 Dec 2025      |        | [Link](https://lu.ma/db3q8y7e)               |
 | Build\_ on SUI Hackathon #2                                       | Çankaya, Turkey            | 6 Dec-7, 2025   |        | [Link](https://lu.ma/xtbb0q4v)               |
@@ -72,7 +72,6 @@ _Showing last 20 events_
 | ZERO-TO-DEMO: AI-FIRST HACKATHON                                  | København, Denmark         | 29 Nov-30, 2025 |        | [Link](https://lu.ma/zmho1iqy)               |
 | Accelerate ME: Hackathon                                          | Manchester, UK             | 29 Nov-30, 2025 |        | [Link](https://lu.ma/cj6lkt12)               |
 | MVP Weekends: Co-Lab, Hackathon, Community - November 2025        | London, UK                 | 29 Nov-30, 2025 |        | [Link](https://lu.ma/5a6lrks0)               |
-| Shipyard 24h hackathon                                            | Rīga, Latvia               | 29 Nov-30, 2025 |        | [Link](https://lu.ma/4iqrjeam)               |
 
 <!-- PAST_TABLE_END -->
 

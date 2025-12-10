@@ -16,7 +16,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 10 December 2025 at 08:23_
+_Last updated: 10 December 2025 at 13:30_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -31,8 +31,8 @@ _Last updated: 10 December 2025 at 08:23_
 | Epiminds Hackathon @ LONDON, UK - 13thDec ($6k cash)                                      | London, UK                         | 13 Dec 2025     |         | [Link](https://lu.ma/gkbghqvs) |
 | AI Fixathon Amsterdam - 24h Hackathon for Impact!                                         | Amsterdam, Netherlands             | 13 Dec-14, 2025 |         | [Link](https://lu.ma/fixathon) |
 | Rev Up Your Workflow: AI Agent Hackathon with Airia                                       | Grove, UK                          | 15 Dec 2025     |         | [Link](https://lu.ma/1rr8yl2m) |
-| Hackathon: Advent of Vibe-automation                                                      | Berlin, Germany                    | 16 Dec 2025     |         | [Link](https://lu.ma/m7a8e77c) |
 | Tech & Sip #7: 🎁 Wrap up Vibe Coding w Lovable                                           | København, Denmark                 | 16 Dec 2025     |         | [Link](https://lu.ma/9l273ilm) |
+| Hackathon: Advent of Vibe-automation                                                      | Berlin, Germany                    | 16 Dec 2025     |         | [Link](https://lu.ma/m7a8e77c) |
 | Cuneo Christmas Vibe Coding Night                                                         | Cuneo, Italy                       | 22 Dec 2025     |         | [Link](https://lu.ma/0ne1443f) |
 | Vibe Coding Meetup: How to AI (Show & Tell Edition) 🚀✨ 🏳️‍🌈                               | Amsterdam, Netherlands             | 14 Jan 2026     |         | [Link](https://lu.ma/lyo5idxe) |
 | Hyperliquid London Hackathon                                                              | London, UK                         | 16 Jan-18, 2026 |         | [Link](https://lu.ma/vay21dno) |

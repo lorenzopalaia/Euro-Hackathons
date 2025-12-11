@@ -16,14 +16,15 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 11 December 2025 at 08:24_
+_Last updated: 11 December 2025 at 13:32_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                                      | Location                            | Date            | Topics  | URL                            |
 | ----------------------------------------------------------------------------------- | ----------------------------------- | --------------- | ------- | ------------------------------ |
-| AMMO AI Hackathon                                                                   | London, UK                          | 12 Dec 2025     |         | [Link](https://lu.ma/u5hs4tt4) |
 | The Vibe Coders - Christmas Hackathon vol.8                                         | Hlavní Město Praha, Czech Republic  | 12 Dec 2025     |         | [Link](https://lu.ma/wscto8jw) |
+| HACKATHON 101                                                                       | Güngören, Turkey                    | 12 Dec 2025     |         | [Link](https://lu.ma/9knolc0i) |
+| AMMO AI Hackathon                                                                   | London, UK                          | 12 Dec 2025     |         | [Link](https://lu.ma/u5hs4tt4) |
 | GTM Nights 7: "Vibe" Coding                                                         | Beyoğlu, Turkey                     | 12 Dec 2025     |         | [Link](https://lu.ma/4m3g73f3) |
 | Epiminds Hackathon @ LONDON, UK - 13thDec ($6k cash)                                | London, UK                          | 13 Dec 2025     |         | [Link](https://lu.ma/gkbghqvs) |
 | AI Fixathon Amsterdam - 24h Hackathon for Impact!                                   | Amsterdam, Netherlands              | 13 Dec-14, 2025 |         | [Link](https://lu.ma/fixathon) |

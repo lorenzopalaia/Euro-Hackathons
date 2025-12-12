@@ -16,7 +16,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 12 December 2025 at 13:28_
+_Last updated: 12 December 2025 at 17:18_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -67,9 +67,9 @@ _Showing last 20 events_
 | Hackathon Trading PoC x Ramify                                                            | Le Kremlin-bicêtre, France         | 5 Dec-6, 2025 |        | [Link](https://lu.ma/dgtc21et)       |
 | Agentic Hackathon with SpoonOS                                                            | London, UK                         | 5 Dec-7, 2025 |        | [Link](https://lu.ma/neo-agentic-ai) |
 | Ship Your First App in a Day: Vibe Coding with AI (December 2025)                         | London, UK                         | 5 Dec 2025    |        | [Link](https://lu.ma/27eyofh2)       |
+| Women\* only Vibe Coding Workshop                                                         | Berlin, Germany                    | 4 Dec 2025    |        | [Link](https://lu.ma/qjpi1hjm)       |
 | The ivee Hackathon: Marketing                                                             | London, UK                         | 4 Dec 2025    |        | [Link](https://lu.ma/r0mt8es0)       |
 | AI Hackathon Xperion Berlin                                                               | Berlin, Germany                    | 4 Dec-5, 2025 |        | [Link](https://lu.ma/knoxn74q)       |
-| Women\* only Vibe Coding Workshop                                                         | Berlin, Germany                    | 4 Dec 2025    |        | [Link](https://lu.ma/qjpi1hjm)       |
 
 <!-- PAST_TABLE_END -->
 

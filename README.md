@@ -16,16 +16,16 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 15 December 2025 at 08:26_
+_Last updated: 15 December 2025 at 13:33_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                                      | Location                            | Date            | Topics  | URL                            |
 | ----------------------------------------------------------------------------------- | ----------------------------------- | --------------- | ------- | ------------------------------ |
-| Hackathon: Advent of Vibe-automation                                                | Berlin, Germany                     | 16 Dec 2025     |         | [Link](https://lu.ma/m7a8e77c) |
 | Tech & Sip #7: 🎁 Wrap up Vibe Coding w Lovable                                     | København, Denmark                  | 16 Dec 2025     |         | [Link](https://lu.ma/9l273ilm) |
-| ShadowStack: Vibe-coding jam [Season 01, jam 04]                                    | Joensuu, Finland                    | 17 Dec 2025     |         | [Link](https://lu.ma/14xpnkwg) |
+| Hackathon: Advent of Vibe-automation                                                | Berlin, Germany                     | 16 Dec 2025     |         | [Link](https://lu.ma/m7a8e77c) |
 | VibeFlow Christmas Hackathon                                                        | Zürich, Switzerland                 | 17 Dec 2025     |         | [Link](https://lu.ma/37yod0uk) |
+| ShadowStack: Vibe-coding jam [Season 01, jam 04]                                    | Joensuu, Finland                    | 17 Dec 2025     |         | [Link](https://lu.ma/14xpnkwg) |
 | AI Hackathon SFxHamburg Coderabbit x Windsurf Christmas edition                     | Hamburg, Germany                    | 19 Dec 2025     |         | [Link](https://lu.ma/yqg1y4d6) |
 | Cuneo Christmas Vibe Coding Night                                                   | Cuneo, Italy                        | 22 Dec 2025     |         | [Link](https://lu.ma/0ne1443f) |
 | Vibe Coding Meetup: How to AI (Show & Tell Edition) 🚀✨ 🏳️‍🌈                         | Amsterdam, Netherlands              | 14 Jan 2026     |         | [Link](https://lu.ma/lyo5idxe) |
@@ -62,8 +62,8 @@ _Showing last 20 events_
 | Paris AI hackathon                                                                        | Paris, France                      | 9 Dec 2025      |        | [Link](https://lu.ma/db3q8y7e)       |
 | London AI hackathon                                                                       | London, UK                         | 9 Dec 2025      |        | [Link](https://lu.ma/w1ljwuqt)       |
 | WEB 3 Hackathon & Ideathon                                                                | Split, Croatia                     | 6 Dec-7, 2025   |        | [Link](https://lu.ma/v22wzfwo)       |
-| Anthropic Coding Challenge                                                                | Zürich, Switzerland                | 6 Dec 2025      |        | [Link](https://lu.ma/shzve0lc)       |
 | Build\_ on SUI Hackathon #2                                                               | Çankaya, Turkey                    | 6 Dec-7, 2025   |        | [Link](https://lu.ma/xtbb0q4v)       |
+| Anthropic Coding Challenge                                                                | Zürich, Switzerland                | 6 Dec 2025      |        | [Link](https://lu.ma/shzve0lc)       |
 | Ship Your First App in a Day: Vibe Coding with AI (December 2025)                         | London, UK                         | 5 Dec 2025      |        | [Link](https://lu.ma/27eyofh2)       |
 | Longevity x Intelligence Hackathon                                                        | Zürich, Switzerland                | 5 Dec-7, 2025   |        | [Link](https://lu.ma/2oqm0cr6)       |
 | Hackathon Trading PoC x Ramify                                                            | Le Kremlin-bicêtre, France         | 5 Dec-6, 2025   |        | [Link](https://lu.ma/dgtc21et)       |

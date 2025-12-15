@@ -16,15 +16,14 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 14 December 2025 at 16:23_
+_Last updated: 15 December 2025 at 08:26_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                                      | Location                            | Date            | Topics  | URL                            |
 | ----------------------------------------------------------------------------------- | ----------------------------------- | --------------- | ------- | ------------------------------ |
-| Rev Up Your Workflow: AI Agent Hackathon with Airia                                 | Grove, UK                           | 15 Dec 2025     |         | [Link](https://lu.ma/1rr8yl2m) |
-| Tech & Sip #7: 🎁 Wrap up Vibe Coding w Lovable                                     | København, Denmark                  | 16 Dec 2025     |         | [Link](https://lu.ma/9l273ilm) |
 | Hackathon: Advent of Vibe-automation                                                | Berlin, Germany                     | 16 Dec 2025     |         | [Link](https://lu.ma/m7a8e77c) |
+| Tech & Sip #7: 🎁 Wrap up Vibe Coding w Lovable                                     | København, Denmark                  | 16 Dec 2025     |         | [Link](https://lu.ma/9l273ilm) |
 | ShadowStack: Vibe-coding jam [Season 01, jam 04]                                    | Joensuu, Finland                    | 17 Dec 2025     |         | [Link](https://lu.ma/14xpnkwg) |
 | VibeFlow Christmas Hackathon                                                        | Zürich, Switzerland                 | 17 Dec 2025     |         | [Link](https://lu.ma/37yod0uk) |
 | AI Hackathon SFxHamburg Coderabbit x Windsurf Christmas edition                     | Hamburg, Germany                    | 19 Dec 2025     |         | [Link](https://lu.ma/yqg1y4d6) |
@@ -49,6 +48,7 @@ _Showing last 20 events_
 
 | Hackathon Name                                                                            | Location                           | Date            | Topics | URL                                  |
 | ----------------------------------------------------------------------------------------- | ---------------------------------- | --------------- | ------ | ------------------------------------ |
+| Rev Up Your Workflow: AI Agent Hackathon with Airia                                       | Grove, UK                          | 15 Dec 2025     |        | [Link](https://lu.ma/1rr8yl2m)       |
 | AI Fixathon Amsterdam - 24h Hackathon for Impact!                                         | Amsterdam, Netherlands             | 13 Dec-14, 2025 |        | [Link](https://lu.ma/fixathon)       |
 | Epiminds Hackathon @ LONDON, UK - 13thDec ($6k cash)                                      | London, UK                         | 13 Dec 2025     |        | [Link](https://lu.ma/gkbghqvs)       |
 | AMMO AI Hackathon                                                                         | London, UK                         | 12 Dec 2025     |        | [Link](https://lu.ma/u5hs4tt4)       |
@@ -62,13 +62,12 @@ _Showing last 20 events_
 | Paris AI hackathon                                                                        | Paris, France                      | 9 Dec 2025      |        | [Link](https://lu.ma/db3q8y7e)       |
 | London AI hackathon                                                                       | London, UK                         | 9 Dec 2025      |        | [Link](https://lu.ma/w1ljwuqt)       |
 | WEB 3 Hackathon & Ideathon                                                                | Split, Croatia                     | 6 Dec-7, 2025   |        | [Link](https://lu.ma/v22wzfwo)       |
-| Build\_ on SUI Hackathon #2                                                               | Çankaya, Turkey                    | 6 Dec-7, 2025   |        | [Link](https://lu.ma/xtbb0q4v)       |
 | Anthropic Coding Challenge                                                                | Zürich, Switzerland                | 6 Dec 2025      |        | [Link](https://lu.ma/shzve0lc)       |
+| Build\_ on SUI Hackathon #2                                                               | Çankaya, Turkey                    | 6 Dec-7, 2025   |        | [Link](https://lu.ma/xtbb0q4v)       |
 | Ship Your First App in a Day: Vibe Coding with AI (December 2025)                         | London, UK                         | 5 Dec 2025      |        | [Link](https://lu.ma/27eyofh2)       |
 | Longevity x Intelligence Hackathon                                                        | Zürich, Switzerland                | 5 Dec-7, 2025   |        | [Link](https://lu.ma/2oqm0cr6)       |
 | Hackathon Trading PoC x Ramify                                                            | Le Kremlin-bicêtre, France         | 5 Dec-6, 2025   |        | [Link](https://lu.ma/dgtc21et)       |
 | Agentic Hackathon with SpoonOS                                                            | London, UK                         | 5 Dec-7, 2025   |        | [Link](https://lu.ma/neo-agentic-ai) |
-| Women\* only Vibe Coding Workshop                                                         | Berlin, Germany                    | 4 Dec 2025      |        | [Link](https://lu.ma/qjpi1hjm)       |
 
 <!-- PAST_TABLE_END -->
 

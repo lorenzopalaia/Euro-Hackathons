@@ -16,7 +16,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 18 December 2025 at 13:29_
+_Last updated: 18 December 2025 at 17:22_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -64,8 +64,8 @@ _Showing last 20 events_
 | London AI hackathon                                                                       | London, UK                         | 9 Dec 2025      |        | [Link](https://lu.ma/w1ljwuqt) |
 | Paris AI hackathon                                                                        | Paris, France                      | 9 Dec 2025      |        | [Link](https://lu.ma/db3q8y7e) |
 | Anthropic Coding Challenge                                                                | Zürich, Switzerland                | 6 Dec 2025      |        | [Link](https://lu.ma/shzve0lc) |
-| Build\_ on SUI Hackathon #2                                                               | Çankaya, Turkey                    | 6 Dec-7, 2025   |        | [Link](https://lu.ma/xtbb0q4v) |
 | WEB 3 Hackathon & Ideathon                                                                | Split, Croatia                     | 6 Dec-7, 2025   |        | [Link](https://lu.ma/v22wzfwo) |
+| Build\_ on SUI Hackathon #2                                                               | Çankaya, Turkey                    | 6 Dec-7, 2025   |        | [Link](https://lu.ma/xtbb0q4v) |
 
 <!-- PAST_TABLE_END -->
 

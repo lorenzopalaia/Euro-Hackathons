@@ -16,7 +16,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 18 December 2025 at 08:23_
+_Last updated: 18 December 2025 at 13:29_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -46,26 +46,26 @@ _Showing last 20 events_
 
 | Hackathon Name                                                                            | Location                           | Date            | Topics | URL                            |
 | ----------------------------------------------------------------------------------------- | ---------------------------------- | --------------- | ------ | ------------------------------ |
-| VibeFlow Christmas Hackathon                                                              | Zürich, Switzerland                | 17 Dec 2025     |        | [Link](https://lu.ma/37yod0uk) |
 | ShadowStack: Vibe-coding jam [Season 01, jam 04]                                          | Joensuu, Finland                   | 17 Dec 2025     |        | [Link](https://lu.ma/14xpnkwg) |
-| Hackathon: Advent of Vibe-automation                                                      | Berlin, Germany                    | 16 Dec 2025     |        | [Link](https://lu.ma/m7a8e77c) |
+| VibeFlow Christmas Hackathon                                                              | Zürich, Switzerland                | 17 Dec 2025     |        | [Link](https://lu.ma/37yod0uk) |
 | Tech & Sip #7: 🎁 Wrap up Vibe Coding w Lovable                                           | København, Denmark                 | 16 Dec 2025     |        | [Link](https://lu.ma/9l273ilm) |
+| Hackathon: Advent of Vibe-automation                                                      | Berlin, Germany                    | 16 Dec 2025     |        | [Link](https://lu.ma/m7a8e77c) |
 | Rev Up Your Workflow: AI Agent Hackathon with Airia                                       | Grove, UK                          | 15 Dec 2025     |        | [Link](https://lu.ma/1rr8yl2m) |
-| AI Fixathon Amsterdam - 24h Hackathon for Impact!                                         | Amsterdam, Netherlands             | 13 Dec-14, 2025 |        | [Link](https://lu.ma/fixathon) |
 | Epiminds Hackathon @ LONDON, UK - 13thDec ($6k cash)                                      | London, UK                         | 13 Dec 2025     |        | [Link](https://lu.ma/gkbghqvs) |
-| AMMO AI Hackathon                                                                         | London, UK                         | 12 Dec 2025     |        | [Link](https://lu.ma/u5hs4tt4) |
-| HACKATHON 101                                                                             | Güngören, Turkey                   | 12 Dec 2025     |        | [Link](https://lu.ma/9knolc0i) |
-| The Vibe Coders - Christmas Hackathon vol.8                                               | Hlavní Město Praha, Czech Republic | 12 Dec 2025     |        | [Link](https://lu.ma/wscto8jw) |
+| AI Fixathon Amsterdam - 24h Hackathon for Impact!                                         | Amsterdam, Netherlands             | 13 Dec-14, 2025 |        | [Link](https://lu.ma/fixathon) |
 | GTM Nights 7: "Vibe" Coding                                                               | Beyoğlu, Turkey                    | 12 Dec 2025     |        | [Link](https://lu.ma/4m3g73f3) |
-| Critique #2: AI for Neural Decoding                                                       | London, UK                         | 11 Dec 2025     |        | [Link](https://lu.ma/hqmxp6c7) |
+| The Vibe Coders - Christmas Hackathon vol.8                                               | Hlavní Město Praha, Czech Republic | 12 Dec 2025     |        | [Link](https://lu.ma/wscto8jw) |
+| HACKATHON 101                                                                             | Güngören, Turkey                   | 12 Dec 2025     |        | [Link](https://lu.ma/9knolc0i) |
+| AMMO AI Hackathon                                                                         | London, UK                         | 12 Dec 2025     |        | [Link](https://lu.ma/u5hs4tt4) |
 | elevenlabs hackathon vilnius demo night                                                   | Vilnius, Lithuania                 | 11 Dec 2025     |        | [Link](https://lu.ma/4uos7lcl) |
 | BLISS x InstaDeep Workshop - Foundational Models for Genomics: Decoding Genomic Sequences | Berlin, Germany                    | 11 Dec 2025     |        | [Link](https://lu.ma/f3yb8zn2) |
+| Critique #2: AI for Neural Decoding                                                       | London, UK                         | 11 Dec 2025     |        | [Link](https://lu.ma/hqmxp6c7) |
 | Vibecoding Meetup Amsterdam: How to AI 🚀🔆🏳️‍🌈                                             | Amsterdam, Netherlands             | 10 Dec 2025     |        | [Link](https://lu.ma/1kap38hk) |
-| Paris AI hackathon                                                                        | Paris, France                      | 9 Dec 2025      |        | [Link](https://lu.ma/db3q8y7e) |
 | London AI hackathon                                                                       | London, UK                         | 9 Dec 2025      |        | [Link](https://lu.ma/w1ljwuqt) |
-| WEB 3 Hackathon & Ideathon                                                                | Split, Croatia                     | 6 Dec-7, 2025   |        | [Link](https://lu.ma/v22wzfwo) |
+| Paris AI hackathon                                                                        | Paris, France                      | 9 Dec 2025      |        | [Link](https://lu.ma/db3q8y7e) |
 | Anthropic Coding Challenge                                                                | Zürich, Switzerland                | 6 Dec 2025      |        | [Link](https://lu.ma/shzve0lc) |
 | Build\_ on SUI Hackathon #2                                                               | Çankaya, Turkey                    | 6 Dec-7, 2025   |        | [Link](https://lu.ma/xtbb0q4v) |
+| WEB 3 Hackathon & Ideathon                                                                | Split, Croatia                     | 6 Dec-7, 2025   |        | [Link](https://lu.ma/v22wzfwo) |
 
 <!-- PAST_TABLE_END -->
 

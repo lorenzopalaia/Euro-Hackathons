@@ -16,13 +16,12 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 18 December 2025 at 17:22_
+_Last updated: 19 December 2025 at 08:23_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                                      | Location                            | Date                     | Topics  | URL                            |
 | ----------------------------------------------------------------------------------- | ----------------------------------- | ------------------------ | ------- | ------------------------------ |
-| AI Hackathon SFxHamburg Coderabbit x Windsurf Christmas edition                     | Hamburg, Germany                    | 19 Dec 2025              |         | [Link](https://lu.ma/yqg1y4d6) |
 | Cuneo Christmas Vibe Coding Night                                                   | Cuneo, Italy                        | 22 Dec 2025              |         | [Link](https://lu.ma/0ne1443f) |
 | Vibe Coding Meetup: How to AI (Show & Tell Edition) 🚀✨ 🏳️‍🌈                         | Amsterdam, Netherlands              | 14 Jan 2026              |         | [Link](https://lu.ma/lyo5idxe) |
 | Community tech series - The innovation factory: vibe coding, are you really faster? | Ottignies-louvain-la-neuve, Belgium | 15 Jan 2026              |         | [Link](https://lu.ma/b9d3rqxv) |
@@ -46,6 +45,7 @@ _Showing last 20 events_
 
 | Hackathon Name                                                                            | Location                           | Date            | Topics | URL                            |
 | ----------------------------------------------------------------------------------------- | ---------------------------------- | --------------- | ------ | ------------------------------ |
+| AI Hackathon SFxHamburg Coderabbit x Windsurf Christmas edition                           | Hamburg, Germany                   | 19 Dec 2025     |        | [Link](https://lu.ma/yqg1y4d6) |
 | ShadowStack: Vibe-coding jam [Season 01, jam 04]                                          | Joensuu, Finland                   | 17 Dec 2025     |        | [Link](https://lu.ma/14xpnkwg) |
 | VibeFlow Christmas Hackathon                                                              | Zürich, Switzerland                | 17 Dec 2025     |        | [Link](https://lu.ma/37yod0uk) |
 | Tech & Sip #7: 🎁 Wrap up Vibe Coding w Lovable                                           | København, Denmark                 | 16 Dec 2025     |        | [Link](https://lu.ma/9l273ilm) |
@@ -63,9 +63,8 @@ _Showing last 20 events_
 | Vibecoding Meetup Amsterdam: How to AI 🚀🔆🏳️‍🌈                                             | Amsterdam, Netherlands             | 10 Dec 2025     |        | [Link](https://lu.ma/1kap38hk) |
 | London AI hackathon                                                                       | London, UK                         | 9 Dec 2025      |        | [Link](https://lu.ma/w1ljwuqt) |
 | Paris AI hackathon                                                                        | Paris, France                      | 9 Dec 2025      |        | [Link](https://lu.ma/db3q8y7e) |
-| Anthropic Coding Challenge                                                                | Zürich, Switzerland                | 6 Dec 2025      |        | [Link](https://lu.ma/shzve0lc) |
-| WEB 3 Hackathon & Ideathon                                                                | Split, Croatia                     | 6 Dec-7, 2025   |        | [Link](https://lu.ma/v22wzfwo) |
 | Build\_ on SUI Hackathon #2                                                               | Çankaya, Turkey                    | 6 Dec-7, 2025   |        | [Link](https://lu.ma/xtbb0q4v) |
+| Anthropic Coding Challenge                                                                | Zürich, Switzerland                | 6 Dec 2025      |        | [Link](https://lu.ma/shzve0lc) |
 
 <!-- PAST_TABLE_END -->
 

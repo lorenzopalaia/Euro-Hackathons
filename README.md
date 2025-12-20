@@ -16,7 +16,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 19 December 2025 at 17:18_
+_Last updated: 20 December 2025 at 10:14_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -33,6 +33,7 @@ _Last updated: 19 December 2025 at 17:18_
 | Cursor Hackathon Stuttgart                                                          | Stuttgart, Germany                  | 24 Jan 2026              |         | [Link](https://lu.ma/sgw5glmq) |
 | MCP Hackathon - build AI-first products and services                                | Berlin, Germany                     | 31 Jan 2026              |         | [Link](https://lu.ma/97ttlp5d) |
 | AI Enthusiasts - Winter Hackathon                                                   | Berlin, Germany                     | 31 Jan 2026 - 1 Feb 2026 |         | [Link](https://lu.ma/3a8otuvw) |
+| Save the Date: WDAIxUKAI BuildTogetHer Hackathon Showcase event                     | London, UK                          | 3 Feb 2026               |         | [Link](https://lu.ma/o3l6h4tk) |
 | Cursor Northampton Evening Hackathon                                                | Northampton, UK                     | 12 Feb 2026              |         | [Link](https://lu.ma/cw8l2nhn) |
 | 2026 London Defence Tech Hackathon                                                  | Camberley, UK                       | 2 May-3, 2026            | Defense | [Link](https://lu.ma/nn4aluwm) |
 

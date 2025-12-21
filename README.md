@@ -16,7 +16,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 21 December 2025 at 10:14_
+_Last updated: 21 December 2025 at 16:23_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -31,10 +31,11 @@ _Last updated: 21 December 2025 at 10:14_
 | Vibe-Coding Applications with AI — Supported by Lovable                             | London, UK                          | 21 Jan 2026              |         | [Link](https://lu.ma/3304rcdw) |
 | JatHub: Join universities AI and Web3 Hackathon                                     | Guildford, UK                       | 22 Jan 2026              |         | [Link](https://lu.ma/4j4bqbkx) |
 | Cursor Hackathon Stuttgart                                                          | Stuttgart, Germany                  | 24 Jan 2026              |         | [Link](https://lu.ma/sgw5glmq) |
-| MCP Hackathon - build AI-first products and services                                | Berlin, Germany                     | 31 Jan 2026              |         | [Link](https://lu.ma/97ttlp5d) |
 | AI Enthusiasts - Winter Hackathon                                                   | Berlin, Germany                     | 31 Jan 2026 - 1 Feb 2026 |         | [Link](https://lu.ma/3a8otuvw) |
+| MCP Hackathon - build AI-first products and services                                | Berlin, Germany                     | 31 Jan 2026              |         | [Link](https://lu.ma/97ttlp5d) |
 | Save the Date: WDAIxUKAI BuildTogetHer Hackathon Showcase event                     | London, UK                          | 3 Feb 2026               |         | [Link](https://lu.ma/o3l6h4tk) |
 | Cursor Northampton Evening Hackathon                                                | Northampton, UK                     | 12 Feb 2026              |         | [Link](https://lu.ma/cw8l2nhn) |
+| AI London Hackathon                                                                 | London, UK                          | 20 Mar-22, 2026          |         | [Link](https://lu.ma/gttihhxt) |
 | 2026 London Defence Tech Hackathon                                                  | Camberley, UK                       | 2 May-3, 2026            | Defense | [Link](https://lu.ma/nn4aluwm) |
 
 <!-- UPCOMING_TABLE_END -->
@@ -48,8 +49,8 @@ _Showing last 20 events_
 | Hackathon Name                                                                            | Location                           | Date            | Topics | URL                            |
 | ----------------------------------------------------------------------------------------- | ---------------------------------- | --------------- | ------ | ------------------------------ |
 | AI Hackathon SFxHamburg Coderabbit x Windsurf Christmas edition                           | Hamburg, Germany                   | 19 Dec 2025     |        | [Link](https://lu.ma/yqg1y4d6) |
-| VibeFlow Christmas Hackathon                                                              | Zürich, Switzerland                | 17 Dec 2025     |        | [Link](https://lu.ma/37yod0uk) |
 | ShadowStack: Vibe-coding jam [Season 01, jam 04]                                          | Joensuu, Finland                   | 17 Dec 2025     |        | [Link](https://lu.ma/14xpnkwg) |
+| VibeFlow Christmas Hackathon                                                              | Zürich, Switzerland                | 17 Dec 2025     |        | [Link](https://lu.ma/37yod0uk) |
 | Hackathon: Advent of Vibe-automation                                                      | Berlin, Germany                    | 16 Dec 2025     |        | [Link](https://lu.ma/m7a8e77c) |
 | Tech & Sip #7: 🎁 Wrap up Vibe Coding w Lovable                                           | København, Denmark                 | 16 Dec 2025     |        | [Link](https://lu.ma/9l273ilm) |
 | Rev Up Your Workflow: AI Agent Hackathon with Airia                                       | Grove, UK                          | 15 Dec 2025     |        | [Link](https://lu.ma/1rr8yl2m) |

@@ -16,7 +16,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 23 December 2025 at 13:29_
+_Last updated: 23 December 2025 at 17:19_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -26,9 +26,11 @@ _Last updated: 23 December 2025 at 13:29_
 | Community tech series - The innovation factory: vibe coding, are you really faster? | Ottignies-louvain-la-neuve, Belgium | 15 Jan 2026              |         | [Link](https://lu.ma/b9d3rqxv) |
 | Hyperliquid London Hackathon                                                        | London, UK                          | 16 Jan-18, 2026          |         | [Link](https://lu.ma/vay21dno) |
 | The Robot Rave [The Hackathon]                                                      | London, UK                          | 17 Jan-18, 2026          |         | [Link](https://lu.ma/yju1ryeu) |
+| Voice AI Hackathon Istanbul (Asia)                                                  | Ataşehir, Turkey                    | 17 Jan 2026              |         | [Link](https://lu.ma/abdzsfdi) |
 | What’s new in vibe coding? Lovable builder session                                  | Amsterdam, Netherlands              | 20 Jan 2026              |         | [Link](https://lu.ma/si7l7jhd) |
 | Vibe-Coding Applications with AI — Supported by Lovable                             | London, UK                          | 21 Jan 2026              |         | [Link](https://lu.ma/3304rcdw) |
 | JatHub: Join universities AI and Web3 Hackathon                                     | Guildford, UK                       | 22 Jan 2026              |         | [Link](https://lu.ma/4j4bqbkx) |
+| Voice AI Hackathon Istanbul (Europe)                                                | Şişli, Turkey                       | 24 Jan 2026              |         | [Link](https://lu.ma/zhwylll0) |
 | Cursor Hackathon Stuttgart                                                          | Stuttgart, Germany                  | 24 Jan 2026              |         | [Link](https://lu.ma/sgw5glmq) |
 | AI Enthusiasts - Winter Hackathon                                                   | Berlin, Germany                     | 31 Jan 2026 - 1 Feb 2026 |         | [Link](https://lu.ma/3a8otuvw) |
 | MCP Hackathon - build AI-first products and services                                | Berlin, Germany                     | 31 Jan 2026              |         | [Link](https://lu.ma/97ttlp5d) |

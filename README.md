@@ -16,12 +16,13 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 3 January 2026 at 10:14_
+_Last updated: 3 January 2026 at 16:25_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                                      | Location                            | Date                     | Topics  | URL                            |
 | ----------------------------------------------------------------------------------- | ----------------------------------- | ------------------------ | ------- | ------------------------------ |
+| AI Manipulation Hackathon - Berlin                                                  | Berlin, Germany                     | 9 Jan-11, 2026           |         | [Link](https://lu.ma/w9cdmx2q) |
 | Vibe Coding & Smart Assistant: From Concept to Use Cases                            | Warszawa, Poland                    | 10 Jan 2026              |         | [Link](https://lu.ma/twooat5i) |
 | Vibe Coding Meetup: How to AI (Show & Tell Edition) 🚀✨ 🏳️‍🌈                         | Amsterdam, Netherlands              | 14 Jan 2026              |         | [Link](https://lu.ma/lyo5idxe) |
 | Community tech series - The innovation factory: vibe coding, are you really faster? | Ottignies-louvain-la-neuve, Belgium | 15 Jan 2026              |         | [Link](https://lu.ma/b9d3rqxv) |

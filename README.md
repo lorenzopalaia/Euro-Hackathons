@@ -16,7 +16,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 3 January 2026 at 16:25_
+_Last updated: 4 January 2026 at 10:14_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -32,13 +32,15 @@ _Last updated: 3 January 2026 at 16:25_
 | The Robot Rave [The Hackathon]                                                      | London, UK                          | 17 Jan-18, 2026          |         | [Link](https://lu.ma/yju1ryeu) |
 | What’s new in vibe coding? Lovable builder session                                  | Amsterdam, Netherlands              | 20 Jan 2026              |         | [Link](https://lu.ma/si7l7jhd) |
 | Vibe-Coding Applications with AI — Supported by Lovable                             | London, UK                          | 21 Jan 2026              |         | [Link](https://lu.ma/3304rcdw) |
-| Beyond The Classroom 01 - Coding in the era of AI                                   | Amsterdam, Netherlands              | 22 Jan 2026              |         | [Link](https://lu.ma/e5tlwmc9) |
 | JatHub: Join universities AI and Web3 Hackathon                                     | Guildford, UK                       | 22 Jan 2026              |         | [Link](https://lu.ma/4j4bqbkx) |
+| Beyond The Classroom 01 - Coding in the era of AI                                   | Amsterdam, Netherlands              | 22 Jan 2026              |         | [Link](https://lu.ma/e5tlwmc9) |
 | Voice AI Hackathon Istanbul (Europe)                                                | Şişli, Turkey                       | 24 Jan 2026              |         | [Link](https://lu.ma/zhwylll0) |
 | Cursor Hackathon Stuttgart                                                          | Stuttgart, Germany                  | 24 Jan 2026              |         | [Link](https://lu.ma/sgw5glmq) |
+| Vibe-Coding Applications with AI — Supported by Lovable                             | London, UK                          | 28 Jan 2026              |         | [Link](https://lu.ma/aeqqdo33) |
 | MCP Hackathon - build AI-first products and services                                | Berlin, Germany                     | 31 Jan 2026              |         | [Link](https://lu.ma/97ttlp5d) |
 | AI Enthusiasts - Winter Hackathon                                                   | Berlin, Germany                     | 31 Jan 2026 - 1 Feb 2026 |         | [Link](https://lu.ma/3a8otuvw) |
 | Save the Date: WDAIxUKAI BuildTogetHer Hackathon Showcase event                     | London, UK                          | 3 Feb 2026               |         | [Link](https://lu.ma/o3l6h4tk) |
+| AI FILM HACKATHON- Paris                                                            | Saint-ouen-sur-seine, France        | 7 Feb 2026               |         | [Link](https://lu.ma/zql6v1ay) |
 | Cursor Northampton Evening Hackathon                                                | Northampton, UK                     | 12 Feb 2026              |         | [Link](https://lu.ma/cw8l2nhn) |
 | AI London Hackathon                                                                 | London, UK                          | 20 Mar-22, 2026          |         | [Link](https://lu.ma/gttihhxt) |
 | 2026 London Defence Tech Hackathon                                                  | Camberley, UK                       | 2 May-3, 2026            | Defense | [Link](https://lu.ma/nn4aluwm) |

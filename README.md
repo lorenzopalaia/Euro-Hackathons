@@ -16,37 +16,37 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 27 January 2026 at 08:27_
+_Last updated: 27 January 2026 at 13:38_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                                 | Location                     | Date                     | Topics  | URL                                                   |
 | ------------------------------------------------------------------------------ | ---------------------------- | ------------------------ | ------- | ----------------------------------------------------- |
+| Chalmers AI Society x GoWest First-Ever Joint Hackathon                        | Göteborg, Sweden             | 28 Jan-29, 2026          |         | [Link](https://lu.ma/g1eb8s7y)                        |
 | AI Agency Hackathon                                                            | Berlin, Germany              | 28 Jan 2026              |         | [Link](https://lu.ma/9pjbdupy)                        |
 | Vibe-Coding Applications with AI — Supported by Lovable                        | London, UK                   | 28 Jan 2026              |         | [Link](https://lu.ma/aeqqdo33)                        |
 | Open Source High-Throughput Vibe Coding                                        | London, UK                   | 28 Jan 2026              |         | [Link](https://lu.ma/d3birz5d)                        |
-| Chalmers AI Society x GoWest First-Ever Joint Hackathon                        | Göteborg, Sweden             | 28 Jan-29, 2026          |         | [Link](https://lu.ma/g1eb8s7y)                        |
 | AI x TRMNL - Hackathon: Berlin                                                 | Berlin, Germany              | 29 Jan 2026              |         | [Link](https://lu.ma/nymeki7r)                        |
-| Cursor Meetup Lyon - AI Coding Workshop & Networking                           | Lyon, France                 | 29 Jan 2026              |         | [Link](https://lu.ma/w59o8im3)                        |
 | Vibecoding for Academics and researchers: basics of building software products | Tartu, Estonia               | 29 Jan 2026              |         | [Link](https://lu.ma/oblhgi6e)                        |
-| Canva Gen©️ - Student Hackathon London 🚀                                      | London, UK                   | 31 Jan 2026              |         | [Link](https://lu.ma/b6pwqugz)                        |
+| Cursor Meetup Lyon - AI Coding Workshop & Networking                           | Lyon, France                 | 29 Jan 2026              |         | [Link](https://lu.ma/w59o8im3)                        |
 | AI Safety Hackathon with                                                       | Bruxelles, Belgium           | 31 Jan 2026              |         | [Link](https://lu.ma/c5p19yf8)                        |
 | AI Enthusiasts - Winter Hackathon                                              | Berlin, Germany              | 31 Jan 2026 - 1 Feb 2026 |         | [Link](https://lu.ma/3a8otuvw)                        |
-| Cursor AI-Hackathon Hamburg                                                    | Hamburg, Germany             | 31 Jan 2026 - 1 Feb 2026 |         | [Link](https://lu.ma/hl7wv7k3)                        |
 | MCP Hackathon - build AI-first products and services                           | Berlin, Germany              | 31 Jan 2026              |         | [Link](https://lu.ma/97ttlp5d)                        |
+| Cursor AI-Hackathon Hamburg                                                    | Hamburg, Germany             | 31 Jan 2026 - 1 Feb 2026 |         | [Link](https://lu.ma/hl7wv7k3)                        |
+| Canva Gen©️ - Student Hackathon London 🚀                                      | London, UK                   | 31 Jan 2026              |         | [Link](https://lu.ma/b6pwqugz)                        |
 | UCL DSS - ML Stock Prediction Hackathon                                        | London, UK                   | 1 Feb 2026               |         | [Link](https://lu.ma/4bnaxa8n)                        |
-| Save the Date: WDAIxUKAI BuildTogetHer Hackathon Showcase event                | London, UK                   | 3 Feb 2026               |         | [Link](https://lu.ma/o3l6h4tk)                        |
 | Vibe Coding Paris #1 — Agents work. You vibe.                                  | Paris, France                | 3 Feb 2026               |         | [Link](https://lu.ma/0t2j8vhb)                        |
+| Save the Date: WDAIxUKAI BuildTogetHer Hackathon Showcase event                | London, UK                   | 3 Feb 2026               |         | [Link](https://lu.ma/o3l6h4tk)                        |
 | KINN TechTalk - Vibe Coding                                                    | Innsbruck, Austria           | 4 Feb 2026               |         | [Link](https://lu.ma/z1bh2c3i)                        |
-| ProsusAI - Agentic Coding Symposium 2026                                       | Amsterdam, Netherlands       | 6 Feb 2026               |         | [Link](https://lu.ma/mxz9teds)                        |
 | Raycast Stockholm Hackathon                                                    | Stockholm, Sweden            | 6 Feb 2026               |         | [Link](https://lu.ma/n5fkcunu)                        |
+| ProsusAI - Agentic Coding Symposium 2026                                       | Amsterdam, Netherlands       | 6 Feb 2026               |         | [Link](https://lu.ma/mxz9teds)                        |
 | AI FILM HACKATHON- Paris                                                       | Saint-ouen-sur-seine, France | 7 Feb 2026               |         | [Link](https://lu.ma/AIFILMFESTMONACO-HACKATHONPARIS) |
-| Hack Nation 4th Global AI Hackathon - Vienna Hub                               | Wien, Austria                | 7 Feb-8, 2026            |         | [Link](https://lu.ma/1m7lzvsk)                        |
+| Granola x DeepMind Hackathon                                                   | London, UK                   | 7 Feb 2026               |         | [Link](https://lu.ma/granola-deepmind)                |
 | AI FILM HACKATHON- Paris                                                       | Saint-ouen-sur-seine, France | 7 Feb 2026               |         | [Link](https://lu.ma/zql6v1ay)                        |
 | {Tech: Europe} Paris AI Hackathon                                              | Paris, France                | 7 Feb-8, 2026            |         | [Link](https://lu.ma/paris-hack)                      |
-| Granola x DeepMind Hackathon                                                   | London, UK                   | 7 Feb 2026               |         | [Link](https://lu.ma/granola-deepmind)                |
-| Founder Office Club & Tekoäly + Vibe Coding (@ Danske)                         | Helsinki, Finland            | 11 Feb 2026              |         | [Link](https://lu.ma/uroxe0ax)                        |
+| Hack Nation 4th Global AI Hackathon - Vienna Hub                               | Wien, Austria                | 7 Feb-8, 2026            |         | [Link](https://lu.ma/1m7lzvsk)                        |
 | Vibe Coding Meetup: How to AI (Show & Tell Edition) 🚀✨ 🏳️‍🌈                    | Amsterdam, Netherlands       | 11 Feb 2026              |         | [Link](https://lu.ma/l2i0jf0k)                        |
+| Founder Office Club & Tekoäly + Vibe Coding (@ Danske)                         | Helsinki, Finland            | 11 Feb 2026              |         | [Link](https://lu.ma/uroxe0ax)                        |
 | Cursor Northampton Evening Hackathon                                           | Northampton, UK              | 12 Feb 2026              |         | [Link](https://lu.ma/cw8l2nhn)                        |
 | VLGE X CES 3D WORLD-BUILDING HACKATHON                                         | London, UK                   | 13 Feb 2026              |         | [Link](https://lu.ma/it2symnr)                        |
 | 🇦🇹 Vienna CPTO Drinks and AI Talks - Coding Partners                           | Wien, Austria                | 17 Feb 2026              |         | [Link](https://lu.ma/ijllxz2i)                        |
@@ -69,14 +69,14 @@ _Showing last 20 events_
 | Hackathon Name                                                   | Location               | Date            | Topics | URL                                  |
 | ---------------------------------------------------------------- | ---------------------- | --------------- | ------ | ------------------------------------ |
 | YFL x Lovable Hackathon                                          | London, UK             | 25 Jan 2026     |        | [Link](https://lu.ma/2dtjir3u)       |
+| Bring your own Startup 🚀- Amsterdam Hackathon                   | Amsterdam, Netherlands | 24 Jan 2026     |        | [Link](https://lu.ma/startup-hack)   |
+| Cursor Hackathon Stuttgart                                       | Stuttgart, Germany     | 24 Jan 2026     |        | [Link](https://lu.ma/sgw5glmq)       |
 | Bring your own Startup 🚀- Amsterdam Hackathon                   | Amsterdam, Netherlands | 24 Jan 2026     |        | [Link](https://lu.ma/fwan1u09)       |
 | Voice AI Hackathon Istanbul (Europe)                             | Şişli, Turkey          | 24 Jan 2026     |        | [Link](https://lu.ma/zhwylll0)       |
 | {Tech: Europe} Berlin AI Hackathon                               | Berlin, Germany        | 24 Jan-25, 2026 |        | [Link](https://lu.ma/berlin-ai-hack) |
 | Saturn & EF - Build the Next Decade Hackathon                    | London, UK             | 24 Jan-25, 2026 |        | [Link](https://lu.ma/x2zbseuk)       |
-| Bring your own Startup 🚀- Amsterdam Hackathon                   | Amsterdam, Netherlands | 24 Jan 2026     |        | [Link](https://lu.ma/startup-hack)   |
-| Cursor Hackathon Stuttgart                                       | Stuttgart, Germany     | 24 Jan 2026     |        | [Link](https://lu.ma/sgw5glmq)       |
-| Ship Your First App in a Day: Vibe Coding with AI (January 2026) | London, UK             | 23 Jan 2026     |        | [Link](https://lu.ma/gog6wd4t)       |
 | WDAI UK - IRL - Work & Mingle - and talk about the hackathon     | London, UK             | 23 Jan 2026     |        | [Link](https://lu.ma/vy8528an)       |
+| Ship Your First App in a Day: Vibe Coding with AI (January 2026) | London, UK             | 23 Jan 2026     |        | [Link](https://lu.ma/gog6wd4t)       |
 | Beyond The Classroom 01 - Coding in the era of AI                | Amsterdam, Netherlands | 22 Jan 2026     |        | [Link](https://lu.ma/e5tlwmc9)       |
 | JatHub: Join universities AI and Web3 Hackathon                  | Guildford, UK          | 22 Jan 2026     |        | [Link](https://lu.ma/4j4bqbkx)       |
 | Vercel Munich Meetup & Mini‑Hackathon                            | München, Germany       | 22 Jan 2026     |        | [Link](https://lu.ma/heoz1n7k)       |
@@ -85,9 +85,9 @@ _Showing last 20 events_
 | Vibe Coding on Base 😎                                           | London, UK             | 21 Jan 2026     |        | [Link](https://lu.ma/cdv541hl)       |
 | AI Developer Meetup on Coding Agents                             | Paris, France          | 20 Jan 2026     |        | [Link](https://lu.ma/elif78ks)       |
 | What’s new in vibe coding? Lovable builder session               | Amsterdam, Netherlands | 20 Jan 2026     |        | [Link](https://lu.ma/si7l7jhd)       |
+| ORIGIN AI Hackathon                                              | Paris, France          | 17 Jan-18, 2026 |        | [Link](https://lu.ma/3f9qk0k7)       |
 | Voice AI Hackathon Istanbul (Asia)                               | Ataşehir, Turkey       | 17 Jan 2026     |        | [Link](https://lu.ma/abdzsfdi)       |
 | Accessibility Hackathon - EF x Raspberry Pi                      | London, UK             | 17 Jan 2026     |        | [Link](https://lu.ma/jp9aruxj)       |
-| The Robot Rave [The Hackathon]                                   | London, UK             | 17 Jan-18, 2026 |        | [Link](https://lu.ma/yju1ryeu)       |
 
 <!-- PAST_TABLE_END -->
 

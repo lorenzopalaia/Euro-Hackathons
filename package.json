@@ -24,34 +24,34 @@
     "@radix-ui/react-select": "^2.2.6",
     "@radix-ui/react-separator": "^1.1.8",
     "@radix-ui/react-slot": "^1.2.4",
-    "@supabase/supabase-js": "^2.93.3",
+    "@supabase/supabase-js": "^2.95.3",
     "add-to-calendar-button-react": "^2.13.5",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
     "date-fns": "^4.1.0",
-    "lucide-react": "^0.563.0",
+    "lucide-react": "^0.564.0",
     "next": "16.1.6",
     "next-sitemap": "^4.2.3",
-    "p-limit": "^7.2.0",
+    "p-limit": "^7.3.0",
     "react": "19.2.4",
     "react-country-flag": "^3.1.0",
-    "react-day-picker": "^9.13.0",
+    "react-day-picker": "^9.13.2",
     "react-dom": "19.2.4",
     "react-icons": "^5.5.0",
-    "tailwind-merge": "^3.4.0",
+    "tailwind-merge": "^3.4.1",
     "twitter-api-v2": "^1.29.0",
-    "zustand": "^5.0.10"
+    "zustand": "^5.0.11"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.3",
     "@tailwindcss/postcss": "^4.1.18",
-    "@types/node": "^25.1.0",
-    "@types/react": "19.2.10",
+    "@types/node": "^25.2.3",
+    "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "eslint": "^9.39.2",
     "eslint-config-next": "16.1.6",
-    "knip": "^5.82.1",
+    "knip": "^5.83.1",
     "prettier": "^3.8.1",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "tailwindcss": "^4.1.18",
@@ -59,7 +59,7 @@
     "typescript": "^5.9.3"
   },
   "overrides": {
-    "@types/react": "19.2.10",
+    "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3"
   }
 }

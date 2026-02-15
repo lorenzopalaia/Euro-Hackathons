@@ -2,6 +2,8 @@
 
 # <p align="center">HackTrack EU</p>
 
+> **ℹ️ Project Update**: This project was formerly known as **Euro Hackathons** and has been rebranded to **HackTrack EU** for better clarity and expanded scope.
+
 Welcome to **HackTrack EU**! This repository provides a comprehensive, **automatically updated** list of hackathons happening across Europe.
 
 Whether you're a seasoned hacker or a beginner looking for your first hackathon, you'll find all the information you need here! 🎉
@@ -189,7 +191,7 @@ GET /api/hackathons?status=past
 
 Our modern infrastructure includes:
 
-- **Frontend**: Next.js 15 with App Router, Tailwind CSS, shadcn/ui
+- **Frontend**: Next.js 16 with App Router, Tailwind CSS, shadcn/ui
 - **Backend**: Next.js API Routes with TypeScript
 - **Database**: Supabase (PostgreSQL) with Row Level Security
 - **Notifications**: Discord webhooks, Telegram Bot API, Twitter API v2

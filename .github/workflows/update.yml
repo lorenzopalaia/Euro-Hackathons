@@ -27,7 +27,7 @@ jobs:
             --retry 3 \
             --retry-delay 5 \
             -X POST \
-            "https://euro-hackathons.vercel.app/api/update" \
+            "https://hacktrack-eu.vercel.app/api/update" \
             -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
             -H "Content-Type: application/json")
 

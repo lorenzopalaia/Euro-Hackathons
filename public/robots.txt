@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://euro-hackathons.vercel.app
+Host: https://hacktrack-eu.vercel.app
 
 # Sitemaps
-Sitemap: https://euro-hackathons.vercel.app/sitemap.xml
+Sitemap: https://hacktrack-eu.vercel.app/sitemap.xml

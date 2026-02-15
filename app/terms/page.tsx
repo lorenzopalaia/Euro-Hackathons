@@ -4,8 +4,8 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
 export const metadata = {
-  title: "Terms of Service - Euro Hackathons",
-  description: "Terms of Service for Euro Hackathons platform",
+  title: "Terms of Service - HackTrack EU",
+  description: "Terms of Service for HackTrack EU platform",
 };
 
 export default function TermsPage() {
@@ -39,10 +39,10 @@ export default function TermsPage() {
               1. Acceptance of Terms
             </h2>
             <p>
-              By accessing and using Euro Hackathons (&quot;the Service&quot;),
-              you accept and agree to be bound by the terms and provision of
-              this agreement. If you do not agree to abide by the above, please
-              do not use this service.
+              By accessing and using HackTrack EU (&quot;the Service&quot;), you
+              accept and agree to be bound by the terms and provision of this
+              agreement. If you do not agree to abide by the above, please do
+              not use this service.
             </p>
           </section>
 
@@ -51,7 +51,7 @@ export default function TermsPage() {
               2. Description of Service
             </h2>
             <p>
-              Euro Hackathons is a free platform that aggregates and displays
+              HackTrack EU is a free platform that aggregates and displays
               information about hackathons happening across Europe. We provide:
             </p>
             <ul className="mt-2 space-y-1 list-disc pl-5">
@@ -114,11 +114,11 @@ export default function TermsPage() {
               5. API Access and Usage
             </h2>
             <p>
-              Euro Hackathons may provide you with access to the Application
+              HackTrack EU may provide you with access to the Application
               Programming Interface (&quot;API&quot;) to enable you to access
               certain data and functionality of the Service. Your use of the API
               is subject to these Terms and any additional terms and conditions
-              provided by Euro Hackathons.
+              provided by HackTrack EU.
             </p>
             <p>
               You agree to use the API only for purposes that are permitted by
@@ -126,21 +126,21 @@ export default function TermsPage() {
               accepted practices or guidelines in the relevant jurisdictions.
             </p>
             <p>
-              Euro Hackathons reserves the right to suspend or terminate your
+              HackTrack EU reserves the right to suspend or terminate your
               access to the API at any time, with or without cause, and with or
               without notice.
             </p>
             <p>
               You are responsible for maintaining the confidentiality of your
               API key and for all activities that occur under your API key. You
-              agree to notify Euro Hackathons immediately of any unauthorized
-              use of your API key or any other breach of security.
+              agree to notify HackTrack EU immediately of any unauthorized use
+              of your API key or any other breach of security.
             </p>
             <p>
-              Euro Hackathons may impose limitations on the use of the API,
+              HackTrack EU may impose limitations on the use of the API,
               including but not limited to the frequency and volume of requests,
               and the amount of data accessed or retrieved. These limitations
-              may be updated from time to time at Euro Hackathons&apos; sole
+              may be updated from time to time at HackTrack EU&apos; sole
               discretion.
             </p>
           </section>
@@ -160,12 +160,11 @@ export default function TermsPage() {
           <section className="mb-8">
             <h2 className="mb-4 text-2xl font-semibold">6. Changes to Terms</h2>
             <p>
-              Euro Hackathons reserves the right, at its sole discretion, to
-              modify or replace these Terms at any time. If the alteration is
-              material, Euro Hackathons will provide notice via the Service or
-              by some other means. What constitutes a &quot;material&quot;
-              change will be determined at Euro Hackathons&apos; sole
-              discretion.
+              HackTrack EU reserves the right, at its sole discretion, to modify
+              or replace these Terms at any time. If the alteration is material,
+              HackTrack EU will provide notice via the Service or by some other
+              means. What constitutes a &quot;material&quot; change will be
+              determined at HackTrack EU&apos; sole discretion.
             </p>
             <p>
               By continuing to access or use the Service after revisions become
@@ -179,14 +178,14 @@ export default function TermsPage() {
             <h2 className="mb-4 text-2xl font-semibold">7. Governing Law</h2>
             <p>
               These Terms shall be governed by and construed in accordance with
-              the laws of the jurisdiction in which Euro Hackathons is
-              established, without regard to its conflict of law principles.
+              the laws of the jurisdiction in which HackTrack EU is established,
+              without regard to its conflict of law principles.
             </p>
             <p>
               Any legal action or proceeding arising out of or relating to these
               Terms or the Service shall be brought exclusively in the courts
-              located in the jurisdiction in which Euro Hackathons is
-              established, and you consent to the jurisdiction of such courts.
+              located in the jurisdiction in which HackTrack EU is established,
+              and you consent to the jurisdiction of such courts.
             </p>
           </section>
 

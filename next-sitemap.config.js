@@ -1,7 +1,7 @@
 /** @type {import('next-sitemap').IConfig} */
 
 module.exports = {
-  siteUrl: "https://euro-hackathons.vercel.app",
+  siteUrl: "https://hacktrack-eu.vercel.app",
   generateRobotsTxt: true,
   priority: 1,
   transform: async (config, path) => {

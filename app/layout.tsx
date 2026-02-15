@@ -25,8 +25,8 @@ const merriweather = Merriweather({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Euro Hackathons",
-    default: "Euro Hackathons - Discover European Hackathons",
+    template: "%s | HackTrack EU",
+    default: "HackTrack EU - Discover European Hackathons",
   },
   description:
     "Comprehensive list of hackathons happening across Europe. Real-time updates, advanced filtering, and notifications via Discord, Telegram, and Twitter.",
@@ -44,32 +44,32 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Lorenzo Palaia" }],
   creator: "Lorenzo Palaia",
-  publisher: "Euro Hackathons",
+  publisher: "HackTrack EU",
   alternates: {
-    canonical: "https://euro-hackathons.vercel.app",
+    canonical: "https://hacktrack-eu.vercel.app",
   },
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: "https://euro-hackathons.vercel.app",
-    title: "Euro Hackathons - Discover European Hackathons",
+    url: "https://hacktrack-eu.vercel.app",
+    title: "HackTrack EU - Discover European Hackathons",
     description:
       "Comprehensive list of hackathons happening across Europe. Real-time updates, advanced filtering, and notifications.",
-    siteName: "Euro Hackathons",
+    siteName: "HackTrack EU",
     images: [
       {
         url: "/images/preview.png",
         width: 1200,
         height: 630,
-        alt: "Euro Hackathons Platform Preview",
+        alt: "HackTrack EU Platform Preview",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Euro Hackathons - Discover European Hackathons",
+    title: "HackTrack EU - Discover European Hackathons",
     description: "Comprehensive list of hackathons happening across Europe",
-    creator: "@EuroHackathons",
+    creator: "@HackTrackEU",
     images: ["/images/preview.png"],
   },
   robots: {

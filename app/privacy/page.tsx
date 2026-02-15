@@ -4,8 +4,8 @@ import Link from "next/link";
 import { ArrowLeft, Shield, Eye, Database, Users } from "lucide-react";
 
 export const metadata = {
-  title: "Privacy Policy - Euro Hackathons",
-  description: "Privacy Policy for Euro Hackathons platform",
+  title: "Privacy Policy - HackTrack EU",
+  description: "Privacy Policy for HackTrack EU platform",
 };
 
 export default function PrivacyPage() {
@@ -43,9 +43,8 @@ export default function PrivacyPage() {
               1. Information We Collect
             </h2>
             <p>
-              Euro Hackathons is committed to protecting your privacy. We
-              collect minimal information necessary to provide our service
-              effectively.
+              HackTrack EU is committed to protecting your privacy. We collect
+              minimal information necessary to provide our service effectively.
             </p>
             <h3 className="mb-2 mt-4 text-xl font-medium">
               Information You Provide
@@ -226,7 +225,7 @@ export default function PrivacyPage() {
               <li>
                 GitHub:{" "}
                 <Link
-                  href="https://github.com/lorenzopalaia/Euro-Hackathons"
+                  href="https://github.com/lorenzopalaia/hacktrack-eu"
                   className="text-primary hover:underline"
                 >
                   Open an issue

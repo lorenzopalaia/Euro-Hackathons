@@ -268,7 +268,7 @@ export async function POST(request: Request) {
         // Ottieni il file corrente
         const { data: currentFile } = await octokit.rest.repos.getContent({
           owner: "lorenzopalaia",
-          repo: "Euro-Hackathons",
+          repo: "hacktrack-eu",
           path: "README.md",
         });
 
@@ -282,7 +282,7 @@ export async function POST(request: Request) {
           if (currentContent !== newReadmeContent) {
             await octokit.rest.repos.createOrUpdateFileContents({
               owner: "lorenzopalaia",
-              repo: "Euro-Hackathons",
+              repo: "hacktrack-eu",
               path: "README.md",
               message:
                 "🔄 Auto-update README with latest hackathons [Automated]",

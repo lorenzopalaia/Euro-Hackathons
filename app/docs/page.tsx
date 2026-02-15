@@ -15,8 +15,8 @@ import {
 import { FaDiscord, FaTelegram, FaXTwitter, FaGithub } from "react-icons/fa6";
 
 export const metadata = {
-  title: "Documentation - Euro Hackathons",
-  description: "Complete documentation for Euro Hackathons platform and API",
+  title: "Documentation - HackTrack EU",
+  description: "Complete documentation for HackTrack EU platform and API",
 };
 
 export default function DocsPage() {
@@ -38,7 +38,7 @@ export default function DocsPage() {
             <h1 className="mb-0 text-3xl font-bold">Documentation</h1>
           </div>
           <p className="text-muted-foreground mb-6">
-            Complete guide to using Euro Hackathons platform, API, and services
+            Complete guide to using HackTrack EU platform, API, and services
           </p>
 
           <Separator className="my-6" />
@@ -73,7 +73,7 @@ export default function DocsPage() {
               Getting Started
             </h2>
             <p>
-              Euro Hackathons is a comprehensive platform for discovering
+              HackTrack EU is a comprehensive platform for discovering
               hackathons across Europe. Our system automatically scans and
               aggregates hackathon information, providing you with the most
               up-to-date listings.
@@ -110,7 +110,7 @@ export default function DocsPage() {
             </h2>
 
             <p>
-              Euro Hackathons supports multiple interface languages. The main
+              HackTrack EU supports multiple interface languages. The main
               application UI loads translations from the <code>i18n/</code>
               directory; documentation pages are currently kept in English.
             </p>
@@ -222,7 +222,7 @@ export default function DocsPage() {
 
             <h3 className="mb-2 mt-6 text-xl font-medium">Base URL</h3>
             <div className="bg-muted rounded-lg p-4 font-mono text-sm">
-              https://euro-hackathons.vercel.app/api
+              https://hacktrack-eu.vercel.app/api
             </div>
 
             <h3 className="mb-2 mt-6 text-xl font-medium">Endpoints</h3>
@@ -371,7 +371,7 @@ export default function DocsPage() {
                   Follow our Telegram channel for mobile-friendly notifications
                 </p>
                 <Button asChild size="sm" className="w-full">
-                  <Link href="https://t.me/eurohackathons" target="_blank">
+                  <Link href="https://t.me/hacktrackeu" target="_blank">
                     Join Channel <ExternalLink className="ml-1 h-3 w-3" />
                   </Link>
                 </Button>
@@ -384,8 +384,8 @@ export default function DocsPage() {
                   Follow us on Twitter for hackathon announcements and updates
                 </p>
                 <Button asChild size="sm" className="w-full">
-                  <Link href="https://x.com/eurohackathons" target="_blank">
-                    Follow @EuroHackathons{" "}
+                  <Link href="https://x.com/hacktrackeu" target="_blank">
+                    Follow @HackTrackEU{" "}
                     <ExternalLink className="ml-1 h-3 w-3" />
                   </Link>
                 </Button>
@@ -421,7 +421,7 @@ export default function DocsPage() {
               Technical Architecture
             </h2>
             <p>
-              Euro Hackathons is built with modern technologies to ensure
+              HackTrack EU is built with modern technologies to ensure
               reliability, performance, and scalability.
             </p>
 
@@ -473,7 +473,7 @@ export default function DocsPage() {
           <section className="mb-8">
             <h2 className="mb-4 text-2xl font-semibold">Contributing</h2>
             <p>
-              Euro Hackathons is an open-source project and we welcome
+              HackTrack EU is an open-source project and we welcome
               contributions from the community!
             </p>
 
@@ -483,7 +483,7 @@ export default function DocsPage() {
                 <strong>Report Issues:</strong> Found a bug or missing
                 hackathon?{" "}
                 <Link
-                  href="https://github.com/lorenzopalaia/Euro-Hackathons/issues"
+                  href="https://github.com/lorenzopalaia/hacktrack-eu/issues"
                   className="text-primary hover:underline"
                 >
                   Open an issue
@@ -503,7 +503,7 @@ export default function DocsPage() {
             <div className="bg-muted rounded-lg p-4 font-mono text-sm space-y-2">
               <div># Clone the repository</div>
               <div>
-                git clone https://github.com/lorenzopalaia/Euro-Hackathons.git
+                git clone https://github.com/lorenzopalaia/hacktrack-eu.git
               </div>
               <div></div>
               <div># Install dependencies</div>
@@ -534,7 +534,7 @@ export default function DocsPage() {
                 </p>
                 <Button asChild variant="outline" size="sm">
                   <Link
-                    href="https://github.com/lorenzopalaia/Euro-Hackathons/issues"
+                    href="https://github.com/lorenzopalaia/hacktrack-eu/issues"
                     target="_blank"
                   >
                     Open Issue <ExternalLink className="ml-1 h-3 w-3" />
@@ -615,8 +615,8 @@ export default function DocsPage() {
                 </h3>
                 <p className="text-sm text-muted-foreground">
                   Yes! Our API is designed for this purpose. Please respect our
-                  rate limits and consider mentioning Euro Hackathons as your
-                  data source.
+                  rate limits and consider mentioning HackTrack EU as your data
+                  source.
                 </p>
               </div>
             </div>

@@ -65,9 +65,9 @@ interface SidebarProps {
 // Configurazione dei link esterni
 const EXTERNAL_LINKS = {
   discord: "https://discord.com/invite/SmygTckVez",
-  telegram: "https://t.me/eurohackathons",
-  twitter: "https://x.com/eurohackathons",
-  github: "https://github.com/lorenzopalaia/Euro-Hackathons",
+  telegram: "https://t.me/hacktrackeu",
+  twitter: "https://x.com/hacktrackeu",
+  github: "https://github.com/lorenzopalaia/hacktrack-eu",
 } as const;
 
 // Configurazione delle sezioni della sidebar

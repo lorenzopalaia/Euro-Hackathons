@@ -1,18 +1,18 @@
 ![Hackathon Logo](https://user-images.githubusercontent.com/36594527/117592199-10730800-b17b-11eb-84f8-4ffcae8116d4.png)
 
-# <p align="center">EURO HACKATHONS</p>
+# <p align="center">HackTrack EU</p>
 
-Welcome to **EURO HACKATHONS**! This repository provides a comprehensive, **automatically updated** list of hackathons happening across Europe.
+Welcome to **HackTrack EU**! This repository provides a comprehensive, **automatically updated** list of hackathons happening across Europe.
 
 Whether you're a seasoned hacker or a beginner looking for your first hackathon, you'll find all the information you need here! 🎉
 
-[![Star History Chart](https://api.star-history.com/svg?repos=lorenzopalaia/euro-hackathons&type=Date&theme=dark)](https://star-history.com/#lorenzopalaia/euro-hackathons&type=Date&theme=dark)
+[![Star History Chart](https://api.star-history.com/svg?repos=lorenzopalaia/hacktrack-eu&type=Date&theme=dark)](https://star-history.com/#lorenzopalaia/hacktrack-eu&type=Date&theme=dark)
 
 ---
 
 ## ️ Current Hackathons
 
-> **Note**: This README is automatically updated. For the most current data and better browsing experience, visit our [live website](https://euro-hackathons.vercel.app).
+> **Note**: This README is automatically updated. For the most current data and better browsing experience, visit our [live website](https://hacktrack-eu.vercel.app).
 
 ### 🟢 Upcoming Hackathons
 
@@ -108,7 +108,7 @@ This repository has been completely **modernized** with:
 
 Visit our **interactive website** for the best browsing experience:
 
-### **[📍 Euro Hackathons](https://euro-hackathons.vercel.app)**
+### **[📍 HackTrack EU](https://hacktrack-eu.vercel.app)**
 
 The website features:
 
@@ -133,7 +133,7 @@ Join our [Discord server](https://discord.com/invite/SmygTckVez) to get instant 
 
 ### Telegram Bot
 
-Follow our Telegram channel [@EuroHackathons](https://t.me/eurohackathons) for mobile notifications:
+Follow our Telegram channel [@HackTrackEU](https://t.me/hacktrackeu) for mobile notifications:
 
 - 📱 **Mobile-friendly** notifications
 - 🚀 **Instant updates** as soon as hackathons are added
@@ -141,7 +141,7 @@ Follow our Telegram channel [@EuroHackathons](https://t.me/eurohackathons) for m
 
 ### Twitter Updates
 
-Follow [@EuroHackathons](https://x.com/eurohackathons) for social updates:
+Follow [@HackTrackEU](https://x.com/hacktrackeu) for social updates:
 
 - 🐦 **Tweet notifications** for trending hackathons
 - 🏷️ **Hashtag organization** by topics

@@ -16,7 +16,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 15 February 2026 at 10:19_
+_Last updated: 15 February 2026 at 16:31_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -27,18 +27,19 @@ _Last updated: 15 February 2026 at 10:19_
 | Mindbricks Hackathon                                                                                 | Şişli, Turkey         | 17 Feb 2026     |         | [Link](https://lu.ma/s3fnnp96)                 |
 | AI for the rest of us - AI Coding The Right Way                                                      | London, UK            | 19 Feb 2026     |         | [Link](https://lu.ma/AI4Feb26)                 |
 | MCP Hackathon - build AI-first products and services                                                 | Berlin, Germany       | 20 Feb 2026     |         | [Link](https://lu.ma/ropystfk)                 |
+| {Tech: Europe} London AI Hackathon                                                                   | London, UK            | 21 Feb 2026     |         | [Link](https://lu.ma/london-hackathon)         |
 | The London Neurotech Hackathon                                                                       | London, UK            | 21 Feb-22, 2026 |         | [Link](https://lu.ma/qfkhl0qi)                 |
 | Vibecoding workshop: Build Your First Prototype with Lovable                                         | Berlin, Germany       | 21 Feb 2026     |         | [Link](https://lu.ma/agle4gmb)                 |
-| {Tech: Europe} London AI Hackathon                                                                   | London, UK            | 21 Feb 2026     |         | [Link](https://lu.ma/london-hackathon)         |
 | From black circles to vibe coding / Dizajn Zajednica Meetup #21                                      | Beograd, Serbia       | 24 Feb 2026     |         | [Link](https://lu.ma/8ig04ux9)                 |
-| Code Club #1: Building a Real-Time Event Ticketing App with Flutter & Firebase - Live Coding Session | Zagreb, Croatia       | 25 Feb 2026     |         | [Link](https://lu.ma/j9aqql2n)                 |
 | AI Agency Hackathon                                                                                  | Berlin, Germany       | 25 Feb 2026     |         | [Link](https://lu.ma/7d7incb5)                 |
+| Code Club #1: Building a Real-Time Event Ticketing App with Flutter & Firebase - Live Coding Session | Zagreb, Croatia       | 25 Feb 2026     |         | [Link](https://lu.ma/j9aqql2n)                 |
 | Winecoding Office Hours #5 (Wine tasting @ 3 p.m., AI Mad Lab @ 5 p.m.)                              | Oslo, Norway          | 26 Feb 2026     |         | [Link](https://lu.ma/r49227wp)                 |
 | Encode x Arc Enterprise & DeFi Hackathon                                                             | London, UK            | 27 Feb 2026     |         | [Link](https://lu.ma/or9m52bp)                 |
 | Berlin Bio × AI Hackathon: Pitch Showcase + Afterparty                                               | Berlin, Germany       | 28 Feb 2026     |         | [Link](https://lu.ma/mak1dut2)                 |
 | Ship Your First App in a Day: Vibe Coding with AI (March 2026)                                       | London, UK            | 5 Mar 2026      |         | [Link](https://lu.ma/c6kt0dpu)                 |
-| Hackathon: Agents & Knowledge Graphs (LangChain x SurrealDB)                                         | London, UK            | 6 Mar 2026      |         | [Link](https://lu.ma/lcsqwmf3)                 |
 | ART+TECH Festival (2026) - The New Human - Hackathon (Milan, San Francisco & Online)                 | Milano, Italy         | 6 Mar-8, 2026   |         | [Link](https://lu.ma/jevwfttk)                 |
+| LiT Hackathon                                                                                        | București, Romania    | 6 Mar-8, 2026   |         | [Link](https://lu.ma/gttmv8n4)                 |
+| Hackathon: Agents & Knowledge Graphs (LangChain x SurrealDB)                                         | London, UK            | 6 Mar 2026      |         | [Link](https://lu.ma/lcsqwmf3)                 |
 | Oxbridge Varsity Hackathon 2026                                                                      | London, UK            | 7 Mar 2026      |         | [Link](https://lu.ma/xtliudf9)                 |
 | Ecodigital Innovation Hackathon                                                                      | Bologna, Italy        | 10 Mar 2026     |         | [Link](https://lu.ma/ebvub2rx)                 |
 | GeoJam: A GeoAI Evening Hackathon                                                                    | London, UK            | 12 Mar 2026     |         | [Link](https://lu.ma/mc92hprm)                 |
@@ -48,9 +49,9 @@ _Last updated: 15 February 2026 at 10:19_
 | AI Automation Hackathon powered by n8n - Jenia                                                       | Sassuolo, Italy       | 14 Mar 2026     |         | [Link](https://lu.ma/4jdn2fuf)                 |
 | Coding Agent Evals 101                                                                               | London, UK            | 17 Mar 2026     |         | [Link](https://lu.ma/nik9qra6)                 |
 | AI London Hackathon                                                                                  | London, UK            | 20 Mar-22, 2026 |         | [Link](https://lu.ma/gttihhxt)                 |
-| Cursor Hackathon Heilbronn                                                                           | Heilbronn, Germany    | 21 Mar-22, 2026 |         | [Link](https://lu.ma/k3jwtb5t)                 |
-| Art Tech Hackathon Info Day                                                                          | Zürich, Switzerland   | 21 Mar 2026     |         | [Link](https://lu.ma/6sewoaka)                 |
 | EPFL BSA Hackathon - Stablecoins & Payments                                                          | Ecublens, Switzerland | 21 Mar-22, 2026 |         | [Link](https://lu.ma/u5vssgpt)                 |
+| Art Tech Hackathon Info Day                                                                          | Zürich, Switzerland   | 21 Mar 2026     |         | [Link](https://lu.ma/6sewoaka)                 |
+| Cursor Hackathon Heilbronn                                                                           | Heilbronn, Germany    | 21 Mar-22, 2026 |         | [Link](https://lu.ma/k3jwtb5t)                 |
 | Lovable x LangChain: AI for the built-world, PropTech Hackathon                                      | Stockholm, Sweden     | 22 Mar 2026     |         | [Link](https://lu.ma/aa543o8t)                 |
 | 2026 London Defence Tech Hackathon                                                                   | Camberley, UK         | 2 May-3, 2026   | Defense | [Link](https://lu.ma/nn4aluwm)                 |
 | Vibecoding Level 2 - Med Simon Souyris Strumse                                                       | Ås, Norway            | 12 May 2026     |         | [Link](https://lu.ma/ui0kaxdp)                 |
@@ -77,15 +78,15 @@ _Showing last 20 events_
 | Ai Vibe Coding Evening                                                       | Berlin, Germany                    | 11 Feb 2026     |        | [Link](https://lu.ma/kiiyqhxv)                        |
 | Vibe Coding Meetup: Demo Night (EU-INC Edition: Lovable x n8n x Mistral ) 🚀 | Amsterdam, Netherlands             | 10 Feb 2026     |        | [Link](https://lu.ma/krjze7bb)                        |
 | Starknet Meetup - LLMs for Hackathon submission                              | Hlavní Město Praha, Czech Republic | 10 Feb 2026     |        | [Link](https://lu.ma/t8vihwl1)                        |
+| Hack Nation 4th Global AI Hackathon - Munich Hub                             | München, Germany                   | 7 Feb-8, 2026   |        | [Link](https://lu.ma/6ulceixu)                        |
 | AI FILM HACKATHON- Paris                                                     | Saint-ouen-sur-seine, France       | 7 Feb 2026      |        | [Link](https://lu.ma/zql6v1ay)                        |
 | Hack Nation 4th Global AI Hackathon - Vienna Hub                             | Wien, Austria                      | 7 Feb-8, 2026   |        | [Link](https://lu.ma/1m7lzvsk)                        |
 | AI FILM HACKATHON- Paris                                                     | Saint-ouen-sur-seine, France       | 7 Feb 2026      |        | [Link](https://lu.ma/AIFILMFESTMONACO-HACKATHONPARIS) |
+| Granola x DeepMind Hackathon                                                 | London, UK                         | 7 Feb 2026      |        | [Link](https://lu.ma/granola-deepmind)                |
 | Hack Nation 4th Global AI Hackathon - London Hub                             | London, UK                         | 7 Feb-8, 2026   |        | [Link](https://lu.ma/ksqocg1m)                        |
 | Hack Nation 4th Global AI Hackathon - Zurich Hub                             | Dübendorf, Switzerland             | 7 Feb-8, 2026   |        | [Link](https://lu.ma/x1v7g7wu)                        |
-| Granola x DeepMind Hackathon                                                 | London, UK                         | 7 Feb 2026      |        | [Link](https://lu.ma/granola-deepmind)                |
 | Spring Hackathon                                                             | Stockholm, Sweden                  | 7 Feb-8, 2026   |        | [Link](https://lu.ma/vqng8srs)                        |
 | {Tech: Europe} Paris AI Hackathon                                            | Paris, France                      | 7 Feb-8, 2026   |        | [Link](https://lu.ma/paris-hack)                      |
-| Hack Nation 4th Global AI Hackathon - Munich Hub                             | München, Germany                   | 7 Feb-8, 2026   |        | [Link](https://lu.ma/6ulceixu)                        |
 
 <!-- PAST_TABLE_END -->
 

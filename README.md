@@ -8,8 +8,6 @@ Welcome to **HackTrack EU**! This repository provides a comprehensive, **automat
 
 Whether you're a seasoned hacker or a beginner looking for your first hackathon, you'll find all the information you need here! 🎉
 
-[![Star History Chart](https://api.star-history.com/svg?repos=lorenzopalaia/hacktrack-eu&type=Date&theme=dark)](https://star-history.com/#lorenzopalaia/hacktrack-eu&type=Date&theme=dark)
-
 [![RepoStars](https://repostars.dev/api/embed?repo=lorenzopalaia%2FHackTrack-EU&theme=neon)](https://repostars.dev/?repos=lorenzopalaia%2FHackTrack-EU&theme=neon)
 ---
 

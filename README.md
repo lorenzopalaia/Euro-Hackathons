@@ -8,8 +8,7 @@ Welcome to **HackTrack EU**! This repository provides a comprehensive, **automat
 
 Whether you're a seasoned hacker or a beginner looking for your first hackathon, you'll find all the information you need here! 🎉
 
-[![RepoStars](https://repostars.dev/api/embed?repo=lorenzopalaia%2FHackTrack-EU&theme=neon)](https://repostars.dev/?repos=lorenzopalaia%2FHackTrack-EU&theme=neon)
----
+## [![RepoStars](https://repostars.dev/api/embed?repo=lorenzopalaia%2FHackTrack-EU&theme=neon)](https://repostars.dev/?repos=lorenzopalaia%2FHackTrack-EU&theme=neon)
 
 ## ️ Current Hackathons
 

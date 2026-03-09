@@ -8,15 +8,10 @@
     "components/**/*.tsx"
   ],
   "project": ["**/*.{js,ts,tsx}", "!node_modules/**", "!.next/**"],
-  "ignore": [
-    "components/ui/**",
-    "repo_assets/**",
-    "public/**",
-    "next-sitemap.config.js",
-    "proxy.ts"
-  ],
+  "ignore": ["next-sitemap.config.js"],
   "ignoreDependencies": [
     "eslint",
+    "@eslint/eslintrc",
     "eslint-config-next",
     "tailwindcss",
     "prettier-plugin-tailwindcss",
@@ -28,6 +23,6 @@
   "postcss": true,
   "prettier": true,
   "typescript": true,
-  "eslint": true,
+  "eslint": false,
   "tailwind": true
 }

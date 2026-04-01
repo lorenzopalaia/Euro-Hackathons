@@ -16,57 +16,63 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 1 April 2026 at 09:58_
+_Last updated: 1 April 2026 at 15:24_
 
 <!-- UPCOMING_TABLE_START -->
 
-| Hackathon Name                                                         | Location               | Date            | Topics  | URL                                                    |
-| ---------------------------------------------------------------------- | ---------------------- | --------------- | ------- | ------------------------------------------------------ |
-| Cursor London Evening Hackathon                                        | London, UK             | 2 Apr 2026      |         | [Link](https://lu.ma/1ufgfhvv)                         |
-| Agentic Vibecoding: Fast Prototyping to Enterprise-Scale AI            | T'bilisi               | 4 Apr 2026      |         | [Link](https://lu.ma/82g8zeeb)                         |
-| Solana Hackathon Kick-off, Ohrid                                       | Ohrid, North Macedonia | 4 Apr 2026      |         | [Link](https://lu.ma/bpfbejm8)                         |
-| Open Source Hack Day: Surogate / Invergent AI                          | București, Romania     | 4 Apr 2026      |         | [Link](https://lu.ma/9l416krx)                         |
-| Twerk & Grants; The NGO Scraping Hackathon                             | Hlavní Město Praha     | 5 Apr 2026      |         | [Link](https://lu.ma/w7n2817y)                         |
-| Music Vibe Coding w/ ElevenLabs                                        | London, UK             | 7 Apr 2026      |         | [Link](https://lu.ma/mkt0c5g7)                         |
-| The Future of E-commerce & Payments: Decoding MPE Berlin 2026          | Sofia, Bulgaria        | 7 Apr 2026      |         | [Link](https://lu.ma/254rokwv)                         |
-| Vibe Coding Netværk's Nykøbing Falster Meetup #1                       | Nykøbing Falster       | 8 Apr 2026      |         | [Link](https://lu.ma/mpazx1rz)                         |
-| Vibe Coding with Claude Code                                           | Braunschweig, Germany  | 9 Apr 2026      |         | [Link](https://lu.ma/k4yb0l1i)                         |
-| ChefTreff AI Hackathon 2026                                            | Hamburg, Germany       | 9 Apr-10, 2026  |         | [Link](https://lu.ma/cheftreff-ai-hackathon)           |
-| VibeCoding with Internet Archive Europe                                | Amsterdam, Netherlands | 9 Apr 2026      |         | [Link](https://lu.ma/amyb2hoa)                         |
-| AI Lovable x Eventify Hackathon                                        | London, UK             | 9 Apr 2026      |         | [Link](https://lu.ma/eventify-hackathon)               |
-| GPU MODE IRL Hackathon - PyTorch Conference Europe side event          | Paris                  | 9 Apr 2026      |         | [Link](https://lu.ma/gpu-mode-paris-2026)              |
-| How to Win Crypto’s Largest Hackathon - Talent Hub Friday's            | Dublin 1, Ireland      | 10 Apr 2026     |         | [Link](https://lu.ma/nyhotjat)                         |
-| Algorand Builders Berlin: Agentic Commerce x402 Hackathon              | Berlin, Germany        | 10 Apr-12, 2026 |         | [Link](https://lu.ma/agentic-commerce-hack)            |
-| AI Hackathon - 🦞OpenClaw                                              | Amsterdam, Netherlands | 10 Apr 2026     |         | [Link](https://lu.ma/ams-apr10)                        |
-| Agentic Society: Panels by Day, Hackathon by Night                     | London, UK             | 11 Apr-12, 2026 |         | [Link](https://lu.ma/by89oryb)                         |
-| Build Sprint #2: Vibe Coding & Fal.ai 🚀 - Kendi AI App’ini Geliştir   | Yenimahalle            | 11 Apr 2026     |         | [Link](https://lu.ma/rai7mi3d)                         |
-| Competitive Intelligence Hackathon                                     | Hlavní Město Praha     | 15 Apr 2026     |         | [Link](https://lu.ma/j4yoaexd)                         |
-| Vibe Coding Meetup: How to AI (Show & Tell Edition) 🚀✨ 🏳️‍🌈            | Amsterdam, Netherlands | 15 Apr 2026     |         | [Link](https://lu.ma/qj6og0v9)                         |
-| 🇩🇪 Munich CPTO Drinks and AI Talks - Coding Partners                   | München, Germany       | 16 Apr 2026     |         | [Link](https://lu.ma/rh7mmqxa)                         |
-| Vibe Coding Netværk Aarhus #4                                          | Aarhus, Denmark        | 16 Apr 2026     |         | [Link](https://lu.ma/rsbwykpp)                         |
-| Ship Your First App in a Day: Vibe Coding with AI (April 2026)         | London, UK             | 17 Apr 2026     |         | [Link](https://lu.ma/dbfz9lvs)                         |
-| 🇩🇪 Munich Startup & Scaleup Drinks and AI Talks - Coding Partners      | München, Germany       | 17 Apr 2026     |         | [Link](https://lu.ma/7fngplsw)                         |
-| ETHSilesia Hackathon 2026                                              | Katowice, Poland       | 17 Apr-19, 2026 |         | [Link](https://lu.ma/ethsilesiahackathon)              |
-| Codex Community Hackathon with thinc! and Entrepreneurs First          | Munich, Germany        | 18 Apr-19, 2026 |         | [Link](https://lu.ma/pvtcprxu)                         |
-| XDesign Hackathon                                                      | Berlin, Germany        | 18 Apr 2026     |         | [Link](https://lu.ma/8801rq13)                         |
-| Hackathon Builder Challenge: AI on the Factory Floor                   | Lausanne, Switzerland  | 22 Apr 2026     |         | [Link](https://lu.ma/zzjbr53k)                         |
-| AI Agents for Health: ClawBio Hackathon                                | London, UK             | 23 Apr 2026     |         | [Link](https://lu.ma/8qtu0xaz)                         |
-| AI Meetup #3: Vibe drinking: vibe coding e networking                  | Biella, Italy          | 23 Apr 2026     |         | [Link](https://lu.ma/tgjjse7n)                         |
-| Vibe Coding Netværk's KBH Meetup #3                                    | Frederiksberg, Denmark | 24 Apr 2026     |         | [Link](https://lu.ma/4bah9tsl)                         |
-| Frontier Interfaces Hackathon by TR\*                                  | Espoo, Finland         | 24 Apr-26, 2026 |         | [Link](https://lu.ma/9reujzgi)                         |
-| n8n Budapest Hackathon No. 2                                           | Budapest, Hungary      | 30 Apr 2026     |         | [Link](https://lu.ma/2ak1686a)                         |
-| 2026 London Defence Tech Hackathon                                     | Camberley, UK          | 2 May-3, 2026   | Defense | [Link](https://lu.ma/nn4aluwm)                         |
-| GeoJam: A GeoAI Evening Hackathon                                      | London, UK             | 7 May 2026      |         | [Link](https://lu.ma/s0o43hpi)                         |
-| GDG AI HACK - 2026                                                     | Milan, Italy           | 7 May-10, 2026  | AI      | [Link](https://gdgaihack.com/)                         |
-| De Connectie Code - AI Hackathon for moms & kids (EN/NL editie)        | Amsterdam, Netherlands | 10 May 2026     |         | [Link](https://lu.ma/9dcjvxuy)                         |
-| Vibecoding Level 2 - Med Simon Souyris Strumse                         | Ås, Norway             | 12 May 2026     |         | [Link](https://lu.ma/ui0kaxdp)                         |
-| Kill the Search Bar - pdm Hackathon 2026                               | Berlin, Germany        | 15 May-17, 2026 |         | [Link](https://lu.ma/2e3aa6yj)                         |
-| AI Agent Olympics Hackathon                                            | Rho, Italy             | 19 May-20, 2026 |         | [Link](https://lu.ma/5fxlxfl5)                         |
-| Vibe Coding Netværk Aarhus #5                                          | Aarhus                 | 21 May 2026     |         | [Link](https://lu.ma/zdhnrmkx)                         |
-| Miro x Kiro AMS Hackathon: Building Today to Pitch (a Better) Tomorrow | Amsterdam, Netherlands | 26 May 2026     |         | [Link](https://lu.ma/y0we1v1p)                         |
-| SOFTWARE DEFINED VEHICLE (AI FOR CODING) & TIME TO MARKET              | Modena, Italy          | 29 May 2026     |         | [Link](https://lu.ma/mvf2026-software-defined-vehicle) |
-| Vibe Coding Hackathon                                                  | London, UK             | 20 Jun-22, 2026 |         | [Link](https://lu.ma/4f1qbg8g)                         |
-| Encode London Hackathon and Conference                                 | London, UK             | 23 Oct-25, 2026 |         | [Link](https://lu.ma/encode-london-2026)               |
+| Hackathon Name                                                         | Location                   | Date            | Topics  | URL                                                    |
+| ---------------------------------------------------------------------- | -------------------------- | --------------- | ------- | ------------------------------------------------------ |
+| Cursor London Evening Hackathon                                        | London, UK                 | 2 Apr 2026      |         | [Link](https://lu.ma/1ufgfhvv)                         |
+| Open Source Hack Day: Surogate / Invergent AI                          | București, Romania         | 4 Apr 2026      |         | [Link](https://lu.ma/9l416krx)                         |
+| Agentic Vibecoding: Fast Prototyping to Enterprise-Scale AI            | T'bilisi                   | 4 Apr 2026      |         | [Link](https://lu.ma/82g8zeeb)                         |
+| Vibe Coding with AI - Work Session                                     | Yerevan                    | 4 Apr 2026      |         | [Link](https://lu.ma/b6z98fvz)                         |
+| Solana Hackathon Kick-off, Ohrid                                       | Ohrid, North Macedonia     | 4 Apr 2026      |         | [Link](https://lu.ma/bpfbejm8)                         |
+| Twerk & Grants; The NGO Scraping Hackathon                             | Hlavní Město Praha         | 5 Apr 2026      |         | [Link](https://lu.ma/w7n2817y)                         |
+| Music Vibe Coding w/ ElevenLabs                                        | London, UK                 | 7 Apr 2026      |         | [Link](https://lu.ma/mkt0c5g7)                         |
+| The Future of E-commerce & Payments: Decoding MPE Berlin 2026          | Sofia, Bulgaria            | 7 Apr 2026      |         | [Link](https://lu.ma/254rokwv)                         |
+| Vibe Coding Netværk's Nykøbing Falster Meetup #1                       | Nykøbing Falster           | 8 Apr 2026      |         | [Link](https://lu.ma/mpazx1rz)                         |
+| VibeCoding with Internet Archive Europe                                | Amsterdam, Netherlands     | 9 Apr 2026      |         | [Link](https://lu.ma/amyb2hoa)                         |
+| ChefTreff AI Hackathon 2026                                            | Hamburg, Germany           | 9 Apr-10, 2026  |         | [Link](https://lu.ma/cheftreff-ai-hackathon)           |
+| AI Lovable x Eventify Hackathon                                        | London, UK                 | 9 Apr 2026      |         | [Link](https://lu.ma/eventify-hackathon)               |
+| GPU MODE IRL Hackathon - PyTorch Conference Europe side event          | Paris                      | 9 Apr 2026      |         | [Link](https://lu.ma/gpu-mode-paris-2026)              |
+| Vibe Coding with Claude Code                                           | Braunschweig, Germany      | 9 Apr 2026      |         | [Link](https://lu.ma/k4yb0l1i)                         |
+| Algorand Builders Berlin: Agentic Commerce x402 Hackathon              | Berlin, Germany            | 10 Apr-12, 2026 |         | [Link](https://lu.ma/agentic-commerce-hack)            |
+| How to Win Crypto’s Largest Hackathon - Talent Hub Friday's            | Dublin 1, Ireland          | 10 Apr 2026     |         | [Link](https://lu.ma/nyhotjat)                         |
+| AI Hackathon - 🦞OpenClaw                                              | Amsterdam, Netherlands     | 10 Apr 2026     |         | [Link](https://lu.ma/ams-apr10)                        |
+| Agentic Society: Panels by Day, Hackathon by Night                     | London, UK                 | 11 Apr-12, 2026 |         | [Link](https://lu.ma/by89oryb)                         |
+| Berlin: Agentic FinAI Hackathon                                        | Berlin, Germany            | 11 Apr 2026     |         | [Link](https://lu.ma/ili241vv)                         |
+| Build Sprint #2: Vibe Coding & Fal.ai 🚀 - Kendi AI App’ini Geliştir   | Yenimahalle                | 11 Apr 2026     |         | [Link](https://lu.ma/rai7mi3d)                         |
+| Vibe Coding Meetup: How to AI (Show & Tell Edition) 🚀✨ 🏳️‍🌈            | Amsterdam, Netherlands     | 15 Apr 2026     |         | [Link](https://lu.ma/qj6og0v9)                         |
+| Competitive Intelligence Hackathon                                     | Hlavní Město Praha         | 15 Apr 2026     |         | [Link](https://lu.ma/j4yoaexd)                         |
+| 🇩🇪 Munich CPTO Drinks and AI Talks - Coding Partners                   | München, Germany           | 16 Apr 2026     |         | [Link](https://lu.ma/rh7mmqxa)                         |
+| Vibe Coding Netværk Aarhus #4                                          | Aarhus, Denmark            | 16 Apr 2026     |         | [Link](https://lu.ma/rsbwykpp)                         |
+| AI x GTM: Prompting Hackathon                                          | London, UK                 | 16 Apr 2026     |         | [Link](https://lu.ma/lp4g3rop)                         |
+| ETHSilesia Hackathon 2026                                              | Katowice, Poland           | 17 Apr-19, 2026 |         | [Link](https://lu.ma/ethsilesiahackathon)              |
+| Ship Your First App in a Day: Vibe Coding with AI (April 2026)         | London, UK                 | 17 Apr 2026     |         | [Link](https://lu.ma/dbfz9lvs)                         |
+| 🇩🇪 Munich Startup & Scaleup Drinks and AI Talks - Coding Partners      | München, Germany           | 17 Apr 2026     |         | [Link](https://lu.ma/7fngplsw)                         |
+| Codex Community Hackathon with thinc! and Entrepreneurs First          | Munich, Germany            | 18 Apr-19, 2026 |         | [Link](https://lu.ma/pvtcprxu)                         |
+| XDesign Hackathon                                                      | Berlin, Germany            | 18 Apr 2026     |         | [Link](https://lu.ma/8801rq13)                         |
+| Context Engineering for Coding Agents: Hands-on Lab + Agent Build-Off  | Amsterdam, Netherlands     | 21 Apr 2026     |         | [Link](https://lu.ma/i7o74wuo)                         |
+| Hackathon Builder Challenge: AI on the Factory Floor                   | Lausanne, Switzerland      | 22 Apr 2026     |         | [Link](https://lu.ma/zzjbr53k)                         |
+| AI Meetup #3: Vibe drinking: vibe coding e networking                  | Biella, Italy              | 23 Apr 2026     |         | [Link](https://lu.ma/tgjjse7n)                         |
+| Hackathon Crypto Grand-Prix by PoC Innovation                          | Le Kremlin-bicêtre, France | 23 Apr-25, 2026 |         | [Link](https://lu.ma/1lpmmy6g)                         |
+| AI Agents for Health: ClawBio Hackathon                                | London, UK                 | 23 Apr 2026     |         | [Link](https://lu.ma/8qtu0xaz)                         |
+| Frontier Interfaces Hackathon by TR\*                                  | Espoo, Finland             | 24 Apr-26, 2026 |         | [Link](https://lu.ma/9reujzgi)                         |
+| Vibe Coding Netværk's KBH Meetup #3                                    | Frederiksberg, Denmark     | 24 Apr 2026     |         | [Link](https://lu.ma/4bah9tsl)                         |
+| Beyond the Vibecoding                                                  | Amsterdam, Netherlands     | 28 Apr 2026     |         | [Link](https://lu.ma/33c0hue3)                         |
+| n8n Budapest Hackathon No. 2                                           | Budapest, Hungary          | 30 Apr 2026     |         | [Link](https://lu.ma/2ak1686a)                         |
+| 2026 London Defence Tech Hackathon                                     | Camberley, UK              | 2 May-3, 2026   | Defense | [Link](https://lu.ma/nn4aluwm)                         |
+| GeoJam: A GeoAI Evening Hackathon                                      | London, UK                 | 7 May 2026      |         | [Link](https://lu.ma/s0o43hpi)                         |
+| GDG AI HACK - 2026                                                     | Milan, Italy               | 7 May-10, 2026  | AI      | [Link](https://gdgaihack.com/)                         |
+| De Connectie Code - AI Hackathon for moms & kids (EN/NL editie)        | Amsterdam, Netherlands     | 10 May 2026     |         | [Link](https://lu.ma/9dcjvxuy)                         |
+| Vibecoding Level 2 - Med Simon Souyris Strumse                         | Ås, Norway                 | 12 May 2026     |         | [Link](https://lu.ma/ui0kaxdp)                         |
+| Kill the Search Bar - pdm Hackathon 2026                               | Berlin, Germany            | 15 May-17, 2026 |         | [Link](https://lu.ma/2e3aa6yj)                         |
+| AI Agent Olympics Hackathon                                            | Rho, Italy                 | 19 May-20, 2026 |         | [Link](https://lu.ma/5fxlxfl5)                         |
+| Vibe Coding Netværk Aarhus #5                                          | Aarhus                     | 21 May 2026     |         | [Link](https://lu.ma/zdhnrmkx)                         |
+| Miro x Kiro AMS Hackathon: Building Today to Pitch (a Better) Tomorrow | Amsterdam, Netherlands     | 26 May 2026     |         | [Link](https://lu.ma/y0we1v1p)                         |
+| SOFTWARE DEFINED VEHICLE (AI FOR CODING) & TIME TO MARKET              | Modena, Italy              | 29 May 2026     |         | [Link](https://lu.ma/mvf2026-software-defined-vehicle) |
+| Vibe Coding Hackathon                                                  | London, UK                 | 20 Jun-22, 2026 |         | [Link](https://lu.ma/4f1qbg8g)                         |
+| Encode London Hackathon and Conference                                 | London, UK                 | 23 Oct-25, 2026 |         | [Link](https://lu.ma/encode-london-2026)               |
 
 <!-- UPCOMING_TABLE_END -->
 
@@ -83,9 +89,9 @@ _Showing last 20 events_
 | Frontier Interfaces Hackathon: Info Session, Day 1                                                        | Espoo, Finland                     | 1 Apr 2026      |        | [Link](https://lu.ma/snql39fy)              |
 | From Copilot Moments to Team Velocity: How AI Coding Assistants Transform Enterprise Software Development | Zürich, Switzerland                | 1 Apr 2026      |        | [Link](https://lu.ma/gh4s4upc)              |
 | KINN:TALK - Vibe Coding                                                                                   | Innsbruck, Austria                 | 31 Mar 2026     |        | [Link](https://lu.ma/veffl6h4)              |
-| Miro x Kiro Hackathon - Inventer Demain : Du Code au Pitch                                                | Paris, France                      | 31 Mar 2026     |        | [Link](https://lu.ma/08fl3s70)              |
 | TRAE & AWS - Vibe Coding Workshop - Paris                                                                 | Clichy, France                     | 31 Mar 2026     |        | [Link](https://lu.ma/7ctf9m8y)              |
 | Agentic Coding Meetup                                                                                     | München, Germany                   | 31 Mar 2026     |        | [Link](https://lu.ma/0qzqxkh8)              |
+| Miro x Kiro Hackathon - Inventer Demain : Du Code au Pitch                                                | Paris, France                      | 31 Mar 2026     |        | [Link](https://lu.ma/08fl3s70)              |
 | AI meets Robotics Hackathon - Vallendar                                                                   | Vallendar, Germany                 | 29 Mar 2026     |        | [Link](https://lu.ma/j4jjt218)              |
 | AI Enthusiasts - Hackathon[1]                                                                             | Berlin, Germany                    | 28 Mar-29, 2026 |        | [Link](https://lu.ma/xkqwefx2)              |
 | Hackathon #superNS06                                                                                      | Novi Sad                           | 28 Mar 2026     |        | [Link](https://lu.ma/tswjhq2n)              |

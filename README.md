@@ -16,7 +16,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 2 April 2026 at 18:49_
+_Last updated: 3 April 2026 at 09:47_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -27,14 +27,14 @@ _Last updated: 2 April 2026 at 18:49_
 | Agentic Vibecoding: Fast Prototyping to Enterprise-Scale AI            | T'bilisi                   | 4 Apr 2026      |         | [Link](https://lu.ma/82g8zeeb)                         |
 | Open Source Hack Day: Surogate / Invergent AI                          | București, Romania         | 4 Apr 2026      |         | [Link](https://lu.ma/9l416krx)                         |
 | Twerk & Grants; The NGO Scraping Hackathon                             | Hlavní Město Praha         | 5 Apr 2026      |         | [Link](https://lu.ma/w7n2817y)                         |
-| Music Vibe Coding w/ ElevenLabs                                        | London, UK                 | 7 Apr 2026      |         | [Link](https://lu.ma/mkt0c5g7)                         |
 | The Future of E-commerce & Payments: Decoding MPE Berlin 2026          | Sofia, Bulgaria            | 7 Apr 2026      |         | [Link](https://lu.ma/254rokwv)                         |
+| Music Vibe Coding w/ ElevenLabs                                        | London, UK                 | 7 Apr 2026      |         | [Link](https://lu.ma/mkt0c5g7)                         |
 | Vibe Coding Netværk's Nykøbing Falster Meetup #1                       | Nykøbing Falster           | 8 Apr 2026      |         | [Link](https://lu.ma/mpazx1rz)                         |
+| ChefTreff AI Hackathon 2026                                            | Hamburg, Germany           | 9 Apr-10, 2026  |         | [Link](https://lu.ma/cheftreff-ai-hackathon)           |
+| GPU MODE IRL Hackathon - PyTorch Conference Europe side event          | Paris                      | 9 Apr 2026      |         | [Link](https://lu.ma/gpu-mode-paris-2026)              |
 | Vibe Coding with Claude Code                                           | Braunschweig, Germany      | 9 Apr 2026      |         | [Link](https://lu.ma/k4yb0l1i)                         |
 | AI Lovable x Eventify Hackathon                                        | London, UK                 | 9 Apr 2026      |         | [Link](https://lu.ma/eventify-hackathon)               |
-| GPU MODE IRL Hackathon - PyTorch Conference Europe side event          | Paris                      | 9 Apr 2026      |         | [Link](https://lu.ma/gpu-mode-paris-2026)              |
 | VibeCoding with Internet Archive Europe                                | Amsterdam, Netherlands     | 9 Apr 2026      |         | [Link](https://lu.ma/amyb2hoa)                         |
-| ChefTreff AI Hackathon 2026                                            | Hamburg, Germany           | 9 Apr-10, 2026  |         | [Link](https://lu.ma/cheftreff-ai-hackathon)           |
 | AI Hackathon - 🦞OpenClaw                                              | Amsterdam, Netherlands     | 10 Apr 2026     |         | [Link](https://lu.ma/ams-apr10)                        |
 | Agora Hacks x TUM.ai E-Lab - Saving Public Discourse Hackathon         | München, Germany           | 10 Apr-12, 2026 |         | [Link](https://lu.ma/rstdsfkf)                         |
 | How to Win Crypto’s Largest Hackathon - Talent Hub Friday's            | Dublin 1, Ireland          | 10 Apr 2026     |         | [Link](https://lu.ma/nyhotjat)                         |

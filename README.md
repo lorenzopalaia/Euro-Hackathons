@@ -16,7 +16,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 16 April 2026 at 10:13_
+_Last updated: 16 April 2026 at 15:47_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -28,8 +28,8 @@ _Last updated: 16 April 2026 at 10:13_
 | AI in practice: self-hosted automation, AI-assisted education content and video archive with vibe-coding | Warszawa, Poland           | 18 Apr 2026     |         | [Link](https://lu.ma/yy982j7a)                         |
 | Florent × Lund AI Society Hackathon                                                                      | Lund, Sweden               | 18 Apr 2026     |         | [Link](https://lu.ma/b9yhs70s)                         |
 | Watcha Global Hackathon LONDON                                                                           | London, UK                 | 18 Apr-19, 2026 |         | [Link](https://lu.ma/pp9vh9ig)                         |
-| XDesign Hackathon                                                                                        | Berlin, Germany            | 18 Apr 2026     |         | [Link](https://lu.ma/8801rq13)                         |
 | Codex Community Hackathon with thinc! and Entrepreneurs First                                            | Munich, Germany            | 18 Apr-19, 2026 |         | [Link](https://lu.ma/pvtcprxu)                         |
+| XDesign Hackathon                                                                                        | Berlin, Germany            | 18 Apr 2026     |         | [Link](https://lu.ma/8801rq13)                         |
 | AI Filmmaking Hackathon - Ireland                                                                        | Dublin 1                   | 18 Apr-19, 2026 |         | [Link](https://lu.ma/0zqny709)                         |
 | Context Engineering for Coding Agents: Hands-on Lab + Agent Build-Off                                    | Amsterdam, Netherlands     | 21 Apr 2026     |         | [Link](https://lu.ma/i7o74wuo)                         |
 | Vibecoding s Macaly: postav si web/app s AI                                                              | Třinec 1, Czech Republic   | 21 Apr 2026     |         | [Link](https://lu.ma/kmokjh80)                         |
@@ -75,8 +75,8 @@ _Showing last 20 events_
 | Vibe Coding Meetup: How to AI (Show & Tell Edition) 🚀✨ 🏳️‍🌈          | Amsterdam, Netherlands            | 15 Apr 2026     |        | [Link](https://lu.ma/qj6og0v9)                  |
 | Heartless Pitches_Vibecoding edition with Ojin AixHaus               | Berlin                            | 13 Apr 2026     |        | [Link](https://lu.ma/x2rsh4vd)                  |
 | Berlin: Agentic FinAI Hackathon                                      | Berlin, Germany                   | 11 Apr 2026     |        | [Link](https://lu.ma/ili241vv)                  |
-| Agentic Society: Panels by Day, Hackathon by Night                   | London, UK                        | 11 Apr-12, 2026 |        | [Link](https://lu.ma/by89oryb)                  |
 | HACK THE BLOCK 2026 Paris Blockchain Week XRPL Hackathon             | Paris                             | 11 Apr-12, 2026 |        | [Link](https://lu.ma/Hacktheblock2026-PBW-XRPL) |
+| Agentic Society: Panels by Day, Hackathon by Night                   | London, UK                        | 11 Apr-12, 2026 |        | [Link](https://lu.ma/by89oryb)                  |
 | Build Sprint #2: Vibe Coding & Fal.ai 🚀 - Kendi AI App’ini Geliştir | Yenimahalle                       | 11 Apr 2026     |        | [Link](https://lu.ma/rai7mi3d)                  |
 | Algorand Builders Berlin: Agentic Commerce x402 Hackathon            | Berlin, Germany                   | 10 Apr-12, 2026 |        | [Link](https://lu.ma/agentic-commerce-hack)     |
 | Co-Working x Cladwdbot Agent Hackathon                               | Amsterdam, Netherlands            | 10 Apr 2026     |        | [Link](https://lu.ma/sji16tq2)                  |

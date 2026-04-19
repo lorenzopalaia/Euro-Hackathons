@@ -16,7 +16,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 18 April 2026 at 17:40_
+_Last updated: 19 April 2026 at 11:32_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -29,8 +29,8 @@ _Last updated: 18 April 2026 at 17:40_
 | AI Meetup #3: Vibe drinking: vibe coding e networking                  | Biella, Italy              | 23 Apr 2026     |         | [Link](https://lu.ma/tgjjse7n)                         |
 | Context is King #3 - Context Engineering for AI Coding Agents          | Helsinki                   | 23 Apr 2026     |         | [Link](https://lu.ma/gah9jmxx)                         |
 | AI Agents for Health: ClawBio Hackathon                                | London, UK                 | 23 Apr 2026     |         | [Link](https://lu.ma/8qtu0xaz)                         |
-| Vibe Coding Netværk's KBH Meetup #3                                    | Frederiksberg, Denmark     | 24 Apr 2026     |         | [Link](https://lu.ma/4bah9tsl)                         |
 | Frontier Interfaces Hackathon by TR\*                                  | Espoo, Finland             | 24 Apr-26, 2026 |         | [Link](https://lu.ma/9reujzgi)                         |
+| Vibe Coding Netværk's KBH Meetup #3                                    | Frederiksberg, Denmark     | 24 Apr 2026     |         | [Link](https://lu.ma/4bah9tsl)                         |
 | Beyond the Vibecoding                                                  | Amsterdam, Netherlands     | 28 Apr 2026     |         | [Link](https://lu.ma/33c0hue3)                         |
 | n8n Budapest Hackathon No. 2                                           | Budapest, Hungary          | 30 Apr 2026     |         | [Link](https://lu.ma/2ak1686a)                         |
 | 2026 London Defence Tech Hackathon                                     | Camberley, UK              | 2 May-3, 2026   | Defense | [Link](https://lu.ma/nn4aluwm)                         |
@@ -66,9 +66,9 @@ _Showing last 20 events_
 | 🇩🇪 Munich Startup & Scaleup Drinks and AI Talks - Coding Partners                                        | München, Germany                  | 17 Apr 2026     |        | [Link](https://lu.ma/7fngplsw)                  |
 | Ship Your First App in a Day: Vibe Coding with AI (April 2026)                                           | London, UK                        | 17 Apr 2026     |        | [Link](https://lu.ma/dbfz9lvs)                  |
 | ETHSilesia Hackathon 2026                                                                                | Katowice, Poland                  | 17 Apr-19, 2026 |        | [Link](https://lu.ma/ethsilesiahackathon)       |
-| 🇩🇪 Munich CPTO Drinks and AI Talks - Coding Partners                                                     | München, Germany                  | 16 Apr 2026     |        | [Link](https://lu.ma/rh7mmqxa)                  |
 | Vibe Coding Netværk Aarhus #4                                                                            | Aarhus, Denmark                   | 16 Apr 2026     |        | [Link](https://lu.ma/rsbwykpp)                  |
 | AI x GTM: Prompting Hackathon                                                                            | London, UK                        | 16 Apr 2026     |        | [Link](https://lu.ma/lp4g3rop)                  |
+| 🇩🇪 Munich CPTO Drinks and AI Talks - Coding Partners                                                     | München, Germany                  | 16 Apr 2026     |        | [Link](https://lu.ma/rh7mmqxa)                  |
 | Workshop 4 - Zero to Hero: Hackathon Series - CTU x SolanaCZ                                             | Praha 6 - Dejvice, Czech Republic | 15 Apr 2026     |        | [Link](https://lu.ma/sokoiwq0)                  |
 | Vibe Coding Meetup: How to AI (Show & Tell Edition) 🚀✨ 🏳️‍🌈                                              | Amsterdam, Netherlands            | 15 Apr 2026     |        | [Link](https://lu.ma/qj6og0v9)                  |
 | Langfuse x OpenAI: Fastest Hackathon Ever                                                                | Berlin, Germany                   | 15 Apr 2026     |        | [Link](https://lu.ma/m7263aao)                  |

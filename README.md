@@ -16,7 +16,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 21 April 2026 at 10:20_
+_Last updated: 21 April 2026 at 15:28_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -70,8 +70,8 @@ _Showing last 20 events_
 | AI x GTM: Prompting Hackathon                                                                            | London, UK                        | 16 Apr 2026     |        | [Link](https://lu.ma/lp4g3rop)            |
 | 🇩🇪 Munich CPTO Drinks and AI Talks - Coding Partners                                                     | München, Germany                  | 16 Apr 2026     |        | [Link](https://lu.ma/rh7mmqxa)            |
 | Vibe Coding Meetup: How to AI (Show & Tell Edition) 🚀✨ 🏳️‍🌈                                              | Amsterdam, Netherlands            | 15 Apr 2026     |        | [Link](https://lu.ma/qj6og0v9)            |
-| Workshop 4 - Zero to Hero: Hackathon Series - CTU x SolanaCZ                                             | Praha 6 - Dejvice, Czech Republic | 15 Apr 2026     |        | [Link](https://lu.ma/sokoiwq0)            |
 | Langfuse x OpenAI: Fastest Hackathon Ever                                                                | Berlin, Germany                   | 15 Apr 2026     |        | [Link](https://lu.ma/m7263aao)            |
+| Workshop 4 - Zero to Hero: Hackathon Series - CTU x SolanaCZ                                             | Praha 6 - Dejvice, Czech Republic | 15 Apr 2026     |        | [Link](https://lu.ma/sokoiwq0)            |
 | Competitive Intelligence Hackathon                                                                       | Hlavní Město Praha                | 15 Apr 2026     |        | [Link](https://lu.ma/j4yoaexd)            |
 | Heartless Pitches_Vibecoding edition with Ojin AixHaus                                                   | Berlin                            | 13 Apr 2026     |        | [Link](https://lu.ma/x2rsh4vd)            |
 | Berlin: Agentic FinAI Hackathon                                                                          | Berlin, Germany                   | 11 Apr 2026     |        | [Link](https://lu.ma/ili241vv)            |

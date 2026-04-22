@@ -16,18 +16,18 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 22 April 2026 at 15:28_
+_Last updated: 22 April 2026 at 18:59_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                         | Location                   | Date            | Topics  | URL                                                    |
 | ---------------------------------------------------------------------- | -------------------------- | --------------- | ------- | ------------------------------------------------------ |
-| Hackathon Crypto Grand-Prix by PoC Innovation                          | Le Kremlin-bicêtre, France | 23 Apr-25, 2026 |         | [Link](https://lu.ma/1lpmmy6g)                         |
-| AI Meetup #3: Vibe drinking: vibe coding e networking                  | Biella, Italy              | 23 Apr 2026     |         | [Link](https://lu.ma/tgjjse7n)                         |
 | AI Agents for Health: ClawBio Hackathon                                | London, UK                 | 23 Apr 2026     |         | [Link](https://lu.ma/8qtu0xaz)                         |
+| AI Meetup #3: Vibe drinking: vibe coding e networking                  | Biella, Italy              | 23 Apr 2026     |         | [Link](https://lu.ma/tgjjse7n)                         |
+| Hackathon Crypto Grand-Prix by PoC Innovation                          | Le Kremlin-bicêtre, France | 23 Apr-25, 2026 |         | [Link](https://lu.ma/1lpmmy6g)                         |
 | Context is King #3 - Context Engineering for AI Coding Agents          | Helsinki                   | 23 Apr 2026     |         | [Link](https://lu.ma/gah9jmxx)                         |
-| Frontier Interfaces Hackathon by TR\*                                  | Espoo, Finland             | 24 Apr-26, 2026 |         | [Link](https://lu.ma/9reujzgi)                         |
 | Vibe Coding Netværk's KBH Meetup #3                                    | Frederiksberg, Denmark     | 24 Apr 2026     |         | [Link](https://lu.ma/4bah9tsl)                         |
+| Frontier Interfaces Hackathon by TR\*                                  | Espoo, Finland             | 24 Apr-26, 2026 |         | [Link](https://lu.ma/9reujzgi)                         |
 | Beyond the Vibecoding                                                  | Amsterdam, Netherlands     | 28 Apr 2026     |         | [Link](https://lu.ma/33c0hue3)                         |
 | n8n Budapest Hackathon No. 2                                           | Budapest, Hungary          | 30 Apr 2026     |         | [Link](https://lu.ma/2ak1686a)                         |
 | 2026 London Defence Tech Hackathon                                     | Camberley, UK              | 2 May-3, 2026   | Defense | [Link](https://lu.ma/nn4aluwm)                         |

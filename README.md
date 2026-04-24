@@ -16,14 +16,12 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 23 April 2026 at 19:04_
+_Last updated: 24 April 2026 at 10:27_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                         | Location               | Date            | Topics  | URL                                                    |
 | ---------------------------------------------------------------------- | ---------------------- | --------------- | ------- | ------------------------------------------------------ |
-| Vibe Coding Netværk's KBH Meetup #3                                    | Frederiksberg, Denmark | 24 Apr 2026     |         | [Link](https://lu.ma/4bah9tsl)                         |
-| Frontier Interfaces Hackathon by TR\*                                  | Espoo, Finland         | 24 Apr-26, 2026 |         | [Link](https://lu.ma/9reujzgi)                         |
 | Beyond the Vibecoding                                                  | Amsterdam, Netherlands | 28 Apr 2026     |         | [Link](https://lu.ma/33c0hue3)                         |
 | n8n Budapest Hackathon No. 2                                           | Budapest, Hungary      | 30 Apr 2026     |         | [Link](https://lu.ma/2ak1686a)                         |
 | 2026 London Defence Tech Hackathon                                     | Camberley, UK          | 2 May-3, 2026   | Defense | [Link](https://lu.ma/nn4aluwm)                         |
@@ -50,6 +48,8 @@ _Showing last 20 events_
 
 | Hackathon Name                                                                                           | Location                   | Date            | Topics | URL                                       |
 | -------------------------------------------------------------------------------------------------------- | -------------------------- | --------------- | ------ | ----------------------------------------- |
+| Vibe Coding Netværk's KBH Meetup #3                                                                      | Frederiksberg, Denmark     | 24 Apr 2026     |        | [Link](https://lu.ma/4bah9tsl)            |
+| Frontier Interfaces Hackathon by TR\*                                                                    | Espoo, Finland             | 24 Apr-26, 2026 |        | [Link](https://lu.ma/9reujzgi)            |
 | AI Meetup #3: Vibe drinking: vibe coding e networking                                                    | Biella, Italy              | 23 Apr 2026     |        | [Link](https://lu.ma/tgjjse7n)            |
 | Hackathon Crypto Grand-Prix by PoC Innovation                                                            | Le Kremlin-bicêtre, France | 23 Apr-25, 2026 |        | [Link](https://lu.ma/1lpmmy6g)            |
 | AI Agents for Health: ClawBio Hackathon                                                                  | London, UK                 | 23 Apr 2026     |        | [Link](https://lu.ma/8qtu0xaz)            |
@@ -68,8 +68,6 @@ _Showing last 20 events_
 | ETHSilesia Hackathon 2026                                                                                | Katowice, Poland           | 17 Apr-19, 2026 |        | [Link](https://lu.ma/ethsilesiahackathon) |
 | AI x GTM: Prompting Hackathon                                                                            | London, UK                 | 16 Apr 2026     |        | [Link](https://lu.ma/lp4g3rop)            |
 | Vibe Coding Netværk Aarhus #4                                                                            | Aarhus, Denmark            | 16 Apr 2026     |        | [Link](https://lu.ma/rsbwykpp)            |
-| 🇩🇪 Munich CPTO Drinks and AI Talks - Coding Partners                                                     | München, Germany           | 16 Apr 2026     |        | [Link](https://lu.ma/rh7mmqxa)            |
-| Vibe Coding Meetup: How to AI (Show & Tell Edition) 🚀✨ 🏳️‍🌈                                              | Amsterdam, Netherlands     | 15 Apr 2026     |        | [Link](https://lu.ma/qj6og0v9)            |
 
 <!-- PAST_TABLE_END -->
 

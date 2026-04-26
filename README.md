@@ -16,7 +16,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 25 April 2026 at 17:41_
+_Last updated: 26 April 2026 at 11:38_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -61,8 +61,8 @@ _Showing last 20 events_
 | AI Filmmaking Hackathon - Ireland                                                                        | Dublin 1                   | 18 Apr-19, 2026 |        | [Link](https://lu.ma/0zqny709)            |
 | Florent × Lund AI Society Hackathon                                                                      | Lund, Sweden               | 18 Apr 2026     |        | [Link](https://lu.ma/b9yhs70s)            |
 | AI in practice: self-hosted automation, AI-assisted education content and video archive with vibe-coding | Warszawa, Poland           | 18 Apr 2026     |        | [Link](https://lu.ma/yy982j7a)            |
-| Codex Community Hackathon with thinc! and Entrepreneurs First                                            | Munich, Germany            | 18 Apr-19, 2026 |        | [Link](https://lu.ma/pvtcprxu)            |
 | XDesign Hackathon                                                                                        | Berlin, Germany            | 18 Apr 2026     |        | [Link](https://lu.ma/8801rq13)            |
+| Codex Community Hackathon with thinc! and Entrepreneurs First                                            | Munich, Germany            | 18 Apr-19, 2026 |        | [Link](https://lu.ma/pvtcprxu)            |
 | Ship Your First App in a Day: Vibe Coding with AI (April 2026)                                           | London, UK                 | 17 Apr 2026     |        | [Link](https://lu.ma/dbfz9lvs)            |
 | 🇩🇪 Munich Startup & Scaleup Drinks and AI Talks - Coding Partners                                        | München, Germany           | 17 Apr 2026     |        | [Link](https://lu.ma/7fngplsw)            |
 | ETHSilesia Hackathon 2026                                                                                | Katowice, Poland           | 17 Apr-19, 2026 |        | [Link](https://lu.ma/ethsilesiahackathon) |

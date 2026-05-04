@@ -16,7 +16,7 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 4 May 2026 at 11:09_
+_Last updated: 4 May 2026 at 16:01_
 
 <!-- UPCOMING_TABLE_START -->
 
@@ -51,8 +51,8 @@ _Showing last 20 events_
 | Vibe Coding Netværk's KBH Meetup #3                                                                      | Frederiksberg, Denmark     | 24 Apr 2026     |         | [Link](https://lu.ma/4bah9tsl) |
 | Frontier Interfaces Hackathon by TR\*                                                                    | Espoo, Finland             | 24 Apr-26, 2026 |         | [Link](https://lu.ma/9reujzgi) |
 | AI Meetup #3: Vibe drinking: vibe coding e networking                                                    | Biella, Italy              | 23 Apr 2026     |         | [Link](https://lu.ma/tgjjse7n) |
-| AI Agents for Health: ClawBio Hackathon                                                                  | London, UK                 | 23 Apr 2026     |         | [Link](https://lu.ma/8qtu0xaz) |
 | Hackathon Crypto Grand-Prix by PoC Innovation                                                            | Le Kremlin-bicêtre, France | 23 Apr-25, 2026 |         | [Link](https://lu.ma/1lpmmy6g) |
+| AI Agents for Health: ClawBio Hackathon                                                                  | London, UK                 | 23 Apr 2026     |         | [Link](https://lu.ma/8qtu0xaz) |
 | Context is King #3 - Context Engineering for AI Coding Agents                                            | Helsinki                   | 23 Apr 2026     |         | [Link](https://lu.ma/gah9jmxx) |
 | Hackathon Builder Challenge: AI on the Factory Floor                                                     | Lausanne, Switzerland      | 22 Apr 2026     |         | [Link](https://lu.ma/zzjbr53k) |
 | Vibecoding s Macaly: postav si web/app s AI                                                              | Třinec 1, Czech Republic   | 21 Apr 2026     |         | [Link](https://lu.ma/kmokjh80) |

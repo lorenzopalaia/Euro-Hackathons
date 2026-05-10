@@ -16,13 +16,12 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 9 May 2026 at 17:55_
+_Last updated: 10 May 2026 at 11:56_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                         | Location               | Date            | Topics | URL                                                    |
 | ---------------------------------------------------------------------- | ---------------------- | --------------- | ------ | ------------------------------------------------------ |
-| De Connectie Code - AI Hackathon for moms & kids (EN/NL editie)        | Amsterdam, Netherlands | 10 May 2026     |        | [Link](https://lu.ma/9dcjvxuy)                         |
 | Vibecoding Level 2 - Med Simon Souyris Strumse                         | Ås, Norway             | 12 May 2026     |        | [Link](https://lu.ma/ui0kaxdp)                         |
 | Kill the Search Bar - pdm Hackathon 2026                               | Berlin, Germany        | 15 May-17, 2026 |        | [Link](https://lu.ma/2e3aa6yj)                         |
 | AI Agent Olympics Hackathon                                            | Rho, Italy             | 19 May-20, 2026 |        | [Link](https://lu.ma/5fxlxfl5)                         |
@@ -42,6 +41,7 @@ _Showing last 20 events_
 
 | Hackathon Name                                                                                           | Location                   | Date            | Topics  | URL                                              |
 | -------------------------------------------------------------------------------------------------------- | -------------------------- | --------------- | ------- | ------------------------------------------------ |
+| De Connectie Code - AI Hackathon for moms & kids (EN/NL editie)                                          | Amsterdam, Netherlands     | 10 May 2026     |         | [Link](https://lu.ma/9dcjvxuy)                   |
 | Critical Infrastructure Shield Hackathon Switzerland                                                     | Winterthur                 | 8 May-10, 2026  |         | [Link](https://lu.ma/critical-infra-shield-2026) |
 | GDG AI HACK - 2026                                                                                       | Milan, Italy               | 7 May-10, 2026  | AI      | [Link](https://gdgaihack.com/)                   |
 | GeoJam: A GeoAI Evening Hackathon                                                                        | London, UK                 | 7 May 2026      |         | [Link](https://lu.ma/s0o43hpi)                   |
@@ -61,7 +61,6 @@ _Showing last 20 events_
 | AI Filmmaking Hackathon - Ireland                                                                        | Dublin 1                   | 18 Apr-19, 2026 |         | [Link](https://lu.ma/0zqny709)                   |
 | Codex Community Hackathon with thinc! and Entrepreneurs First                                            | Munich, Germany            | 18 Apr-19, 2026 |         | [Link](https://lu.ma/pvtcprxu)                   |
 | AI in practice: self-hosted automation, AI-assisted education content and video archive with vibe-coding | Warszawa, Poland           | 18 Apr 2026     |         | [Link](https://lu.ma/yy982j7a)                   |
-| Florent × Lund AI Society Hackathon                                                                      | Lund, Sweden               | 18 Apr 2026     |         | [Link](https://lu.ma/b9yhs70s)                   |
 
 <!-- PAST_TABLE_END -->
 

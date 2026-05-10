@@ -15,8 +15,7 @@
     "eslint-config-next",
     "tailwindcss",
     "prettier-plugin-tailwindcss",
-    "tw-animate-css",
-    "postcss"
+    "tw-animate-css"
   ],
   "ignoreBinaries": ["npm-check-updates"],
   "next": true,

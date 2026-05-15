@@ -16,13 +16,12 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 14 May 2026 at 19:53_
+_Last updated: 15 May 2026 at 11:17_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                         | Location               | Date            | Topics | URL                                                    |
 | ---------------------------------------------------------------------- | ---------------------- | --------------- | ------ | ------------------------------------------------------ |
-| Kill the Search Bar - pdm Hackathon 2026                               | Berlin, Germany        | 15 May-17, 2026 |        | [Link](https://lu.ma/2e3aa6yj)                         |
 | AI Agent Olympics Hackathon                                            | Rho, Italy             | 19 May-20, 2026 |        | [Link](https://lu.ma/5fxlxfl5)                         |
 | Vibe Coding Netværk Aarhus #5                                          | Aarhus                 | 21 May 2026     |        | [Link](https://lu.ma/zdhnrmkx)                         |
 | Miro x Kiro AMS Hackathon: Building Today to Pitch (a Better) Tomorrow | Amsterdam, Netherlands | 26 May 2026     |        | [Link](https://lu.ma/y0we1v1p)                         |
@@ -38,28 +37,28 @@ _Showing last 20 events_
 
 <!-- PAST_TABLE_START -->
 
-| Hackathon Name                                                                                           | Location                   | Date            | Topics  | URL                                              |
-| -------------------------------------------------------------------------------------------------------- | -------------------------- | --------------- | ------- | ------------------------------------------------ |
-| Vibecoding Level 2 - Med Simon Souyris Strumse                                                           | Ås, Norway                 | 12 May 2026     |         | [Link](https://lu.ma/ui0kaxdp)                   |
-| De Connectie Code - AI Hackathon for moms & kids (EN/NL editie)                                          | Amsterdam, Netherlands     | 10 May 2026     |         | [Link](https://lu.ma/9dcjvxuy)                   |
-| Critical Infrastructure Shield Hackathon Switzerland                                                     | Winterthur                 | 8 May-10, 2026  |         | [Link](https://lu.ma/critical-infra-shield-2026) |
-| GDG AI HACK - 2026                                                                                       | Milan, Italy               | 7 May-10, 2026  | AI      | [Link](https://gdgaihack.com/)                   |
-| GeoJam: A GeoAI Evening Hackathon                                                                        | London, UK                 | 7 May 2026      |         | [Link](https://lu.ma/s0o43hpi)                   |
-| 2026 London Defence Tech Hackathon                                                                       | Camberley, UK              | 2 May-3, 2026   | Defense | [Link](https://lu.ma/nn4aluwm)                   |
-| n8n Budapest Hackathon No. 2                                                                             | Budapest, Hungary          | 30 Apr 2026     |         | [Link](https://lu.ma/2ak1686a)                   |
-| Beyond the Vibecoding                                                                                    | Amsterdam, Netherlands     | 28 Apr 2026     |         | [Link](https://lu.ma/33c0hue3)                   |
-| Vibe Coding Netværk's KBH Meetup #3                                                                      | Frederiksberg, Denmark     | 24 Apr 2026     |         | [Link](https://lu.ma/4bah9tsl)                   |
-| Frontier Interfaces Hackathon by TR\*                                                                    | Espoo, Finland             | 24 Apr-26, 2026 |         | [Link](https://lu.ma/9reujzgi)                   |
-| AI Agents for Health: ClawBio Hackathon                                                                  | London, UK                 | 23 Apr 2026     |         | [Link](https://lu.ma/8qtu0xaz)                   |
-| Hackathon Crypto Grand-Prix by PoC Innovation                                                            | Le Kremlin-bicêtre, France | 23 Apr-25, 2026 |         | [Link](https://lu.ma/1lpmmy6g)                   |
-| Context is King #3 - Context Engineering for AI Coding Agents                                            | Helsinki                   | 23 Apr 2026     |         | [Link](https://lu.ma/gah9jmxx)                   |
-| AI Meetup #3: Vibe drinking: vibe coding e networking                                                    | Biella, Italy              | 23 Apr 2026     |         | [Link](https://lu.ma/tgjjse7n)                   |
-| Hackathon Builder Challenge: AI on the Factory Floor                                                     | Lausanne, Switzerland      | 22 Apr 2026     |         | [Link](https://lu.ma/zzjbr53k)                   |
-| Context Engineering for Coding Agents: Hands-on Lab + Agent Build-Off                                    | Amsterdam, Netherlands     | 21 Apr 2026     |         | [Link](https://lu.ma/i7o74wuo)                   |
-| Vibecoding s Macaly: postav si web/app s AI                                                              | Třinec 1, Czech Republic   | 21 Apr 2026     |         | [Link](https://lu.ma/kmokjh80)                   |
-| Watcha Global Hackathon LONDON                                                                           | London, UK                 | 18 Apr-19, 2026 |         | [Link](https://lu.ma/pp9vh9ig)                   |
-| AI Filmmaking Hackathon - Ireland                                                                        | Dublin 1                   | 18 Apr-19, 2026 |         | [Link](https://lu.ma/0zqny709)                   |
-| AI in practice: self-hosted automation, AI-assisted education content and video archive with vibe-coding | Warszawa, Poland           | 18 Apr 2026     |         | [Link](https://lu.ma/yy982j7a)                   |
+| Hackathon Name                                                        | Location                   | Date            | Topics  | URL                                              |
+| --------------------------------------------------------------------- | -------------------------- | --------------- | ------- | ------------------------------------------------ |
+| Kill the Search Bar - pdm Hackathon 2026                              | Berlin, Germany            | 15 May-17, 2026 |         | [Link](https://lu.ma/2e3aa6yj)                   |
+| Vibecoding Level 2 - Med Simon Souyris Strumse                        | Ås, Norway                 | 12 May 2026     |         | [Link](https://lu.ma/ui0kaxdp)                   |
+| De Connectie Code - AI Hackathon for moms & kids (EN/NL editie)       | Amsterdam, Netherlands     | 10 May 2026     |         | [Link](https://lu.ma/9dcjvxuy)                   |
+| Critical Infrastructure Shield Hackathon Switzerland                  | Winterthur                 | 8 May-10, 2026  |         | [Link](https://lu.ma/critical-infra-shield-2026) |
+| GDG AI HACK - 2026                                                    | Milan, Italy               | 7 May-10, 2026  | AI      | [Link](https://gdgaihack.com/)                   |
+| GeoJam: A GeoAI Evening Hackathon                                     | London, UK                 | 7 May 2026      |         | [Link](https://lu.ma/s0o43hpi)                   |
+| 2026 London Defence Tech Hackathon                                    | Camberley, UK              | 2 May-3, 2026   | Defense | [Link](https://lu.ma/nn4aluwm)                   |
+| n8n Budapest Hackathon No. 2                                          | Budapest, Hungary          | 30 Apr 2026     |         | [Link](https://lu.ma/2ak1686a)                   |
+| Beyond the Vibecoding                                                 | Amsterdam, Netherlands     | 28 Apr 2026     |         | [Link](https://lu.ma/33c0hue3)                   |
+| Vibe Coding Netværk's KBH Meetup #3                                   | Frederiksberg, Denmark     | 24 Apr 2026     |         | [Link](https://lu.ma/4bah9tsl)                   |
+| Frontier Interfaces Hackathon by TR\*                                 | Espoo, Finland             | 24 Apr-26, 2026 |         | [Link](https://lu.ma/9reujzgi)                   |
+| AI Agents for Health: ClawBio Hackathon                               | London, UK                 | 23 Apr 2026     |         | [Link](https://lu.ma/8qtu0xaz)                   |
+| Hackathon Crypto Grand-Prix by PoC Innovation                         | Le Kremlin-bicêtre, France | 23 Apr-25, 2026 |         | [Link](https://lu.ma/1lpmmy6g)                   |
+| Context is King #3 - Context Engineering for AI Coding Agents         | Helsinki                   | 23 Apr 2026     |         | [Link](https://lu.ma/gah9jmxx)                   |
+| AI Meetup #3: Vibe drinking: vibe coding e networking                 | Biella, Italy              | 23 Apr 2026     |         | [Link](https://lu.ma/tgjjse7n)                   |
+| Hackathon Builder Challenge: AI on the Factory Floor                  | Lausanne, Switzerland      | 22 Apr 2026     |         | [Link](https://lu.ma/zzjbr53k)                   |
+| Context Engineering for Coding Agents: Hands-on Lab + Agent Build-Off | Amsterdam, Netherlands     | 21 Apr 2026     |         | [Link](https://lu.ma/i7o74wuo)                   |
+| Vibecoding s Macaly: postav si web/app s AI                           | Třinec 1, Czech Republic   | 21 Apr 2026     |         | [Link](https://lu.ma/kmokjh80)                   |
+| Watcha Global Hackathon LONDON                                        | London, UK                 | 18 Apr-19, 2026 |         | [Link](https://lu.ma/pp9vh9ig)                   |
+| AI Filmmaking Hackathon - Ireland                                     | Dublin 1                   | 18 Apr-19, 2026 |         | [Link](https://lu.ma/0zqny709)                   |
 
 <!-- PAST_TABLE_END -->
 

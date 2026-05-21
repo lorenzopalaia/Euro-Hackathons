@@ -16,13 +16,12 @@ Whether you're a seasoned hacker or a beginner looking for your first hackathon,
 
 ### 🟢 Upcoming Hackathons
 
-_Last updated: 20 May 2026 at 20:23_
+_Last updated: 21 May 2026 at 12:17_
 
 <!-- UPCOMING_TABLE_START -->
 
 | Hackathon Name                                                         | Location               | Date            | Topics | URL                                                    |
 | ---------------------------------------------------------------------- | ---------------------- | --------------- | ------ | ------------------------------------------------------ |
-| Vibe Coding Netværk Aarhus #5                                          | Aarhus                 | 21 May 2026     |        | [Link](https://lu.ma/zdhnrmkx)                         |
 | Miro x Kiro AMS Hackathon: Building Today to Pitch (a Better) Tomorrow | Amsterdam, Netherlands | 26 May 2026     |        | [Link](https://lu.ma/y0we1v1p)                         |
 | SOFTWARE DEFINED VEHICLE (AI FOR CODING) & TIME TO MARKET              | Modena, Italy          | 29 May 2026     |        | [Link](https://lu.ma/mvf2026-software-defined-vehicle) |
 | Vibe Coding Hackathon                                                  | London, UK             | 20 Jun-22, 2026 |        | [Link](https://lu.ma/4f1qbg8g)                         |
@@ -38,6 +37,7 @@ _Showing last 20 events_
 
 | Hackathon Name                                                        | Location                   | Date            | Topics  | URL                                              |
 | --------------------------------------------------------------------- | -------------------------- | --------------- | ------- | ------------------------------------------------ |
+| Vibe Coding Netværk Aarhus #5                                         | Aarhus                     | 21 May 2026     |         | [Link](https://lu.ma/zdhnrmkx)                   |
 | AI Agent Olympics Hackathon                                           | Rho, Italy                 | 19 May-20, 2026 |         | [Link](https://lu.ma/5fxlxfl5)                   |
 | Kill the Search Bar - pdm Hackathon 2026                              | Berlin, Germany            | 15 May-17, 2026 |         | [Link](https://lu.ma/2e3aa6yj)                   |
 | Vibecoding Level 2 - Med Simon Souyris Strumse                        | Ås, Norway                 | 12 May 2026     |         | [Link](https://lu.ma/ui0kaxdp)                   |
@@ -57,7 +57,6 @@ _Showing last 20 events_
 | Hackathon Builder Challenge: AI on the Factory Floor                  | Lausanne, Switzerland      | 22 Apr 2026     |         | [Link](https://lu.ma/zzjbr53k)                   |
 | Context Engineering for Coding Agents: Hands-on Lab + Agent Build-Off | Amsterdam, Netherlands     | 21 Apr 2026     |         | [Link](https://lu.ma/i7o74wuo)                   |
 | Vibecoding s Macaly: postav si web/app s AI                           | Třinec 1, Czech Republic   | 21 Apr 2026     |         | [Link](https://lu.ma/kmokjh80)                   |
-| Watcha Global Hackathon LONDON                                        | London, UK                 | 18 Apr-19, 2026 |         | [Link](https://lu.ma/pp9vh9ig)                   |
 
 <!-- PAST_TABLE_END -->
 
